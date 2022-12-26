@@ -1,6 +1,5 @@
 import { useRouter } from "next/router";
 import { useState } from "react";
-// import "../styles/navbar.css";
 
 function Navbar() {
     const router = useRouter();
@@ -13,11 +12,15 @@ function Navbar() {
                 role="navigation"
                 aria-label="main navigation">
                 <div className="navbar-brand">
-                    <a className="navbar-item" href="https://hackduke.org">
+                    <a
+                        className="navbar-item"
+                        onClick={() => {
+                            router.push("/");
+                        }}>
                         <img
+                            id="hd-logo"
                             src="/images/hd-symbol.svg"
-                            width="112"
-                            // height="28"
+                            // width="112"
                         />
                     </a>
                     <a
@@ -25,7 +28,6 @@ function Navbar() {
                         className={
                             "navbar-burger" + (isExpanded ? " is-active" : "")
                         }
-                        // onclick toggle expanded
                         onClick={() => {
                             toggleExpansion(!isExpanded);
                         }}
@@ -63,7 +65,14 @@ function Navbar() {
                             }}>
                             Events
                         </div>
-                        <div className="navbar-item">
+                        <div
+                            className="navbar-item navbar-button"
+                            onClick={() => {
+                                router.push("/join");
+                            }}>
+                            Join Us!
+                        </div>
+                        {/* <div className="navbar-item">
                             <div className="buttons">
                                 <a
                                     className="button is-primary"
@@ -73,7 +82,7 @@ function Navbar() {
                                     <strong>Join Us!</strong>
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </nav>
