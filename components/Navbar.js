@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { useState } from "react";
 
-function Navbar() {
+function Navbar(props) {
     const router = useRouter();
     const [isExpanded, toggleExpansion] = useState(false);
 
@@ -40,9 +40,9 @@ function Navbar() {
                 </div>
 
                 <div
-                    className={
-                        "navbar-menu" + (isExpanded ? " is-active" : "")
-                    }>
+                    className={"navbar-menu" + (isExpanded ? " is-active" : "")}
+                    // style background color
+                    style={{ backgroundColor: props.color }}>
                     <div className="navbar-end">
                         <div
                             className="navbar-item navbar-button"

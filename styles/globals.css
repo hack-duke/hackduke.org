@@ -52,7 +52,7 @@
 
 .navbar-burger:hover {
     color: #fff;
-    background-color: #0042c6;
+    background-color: transparent;
 }
 
 .navbar-menu {
@@ -84,6 +84,11 @@
 .navbar-button:hover::before {
     transform-origin: left;
     transform: scaleX(1);
+}
+
+.is-active .navbar-item {
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 /* Components/HeroBackground */
@@ -144,5 +149,6 @@
     /* Pages/index.js */
     .logo {
         max-width: 60%;
+        margin-left: 3vw;
     }
 }

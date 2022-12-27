@@ -4,7 +4,7 @@ import HeroBackground from "../components/HeroBackground";
 export default function Home() {
     return (
         <>
-            <Navbar />
+            <Navbar color="#0042c6" />
             <div className="hero">
                 <HeroBackground />
                 <div className="logo">
