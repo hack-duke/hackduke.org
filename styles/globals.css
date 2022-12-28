@@ -1,5 +1,6 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Martel+Sans&family=Montserrat&family=Oxygen:wght@400&display=swap");
+/* @import url("../node_modules/font-awesome/css/font-awesome.min.css"); */
 
 @keyframes spin {
     from {
@@ -20,6 +21,44 @@
     100% {
         transform: scale(1) rotate(37deg);
     }
+}
+
+/* General Components */
+.button {
+    font-size: 1.5rem;
+    border-color: transparent;
+    background-color: transparent;
+    position: relative;
+    padding: 0 0;
+}
+
+.button:hover {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: black;
+    bottom: 4px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.button:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.faicon {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
 }
 
 /* Components/Navbar.js */
@@ -136,6 +175,74 @@
     align-items: center;
 }
 
+.container .subtitle {
+    font-family: "Oxygen";
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.container #index-s1-c1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container #index-s1-c2 {
+    text-align: center;
+}
+
+#index-s1-i1 {
+    width: 20rem;
+}
+
+#index-s1-b1 {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#index-s1-b1::before {
+    background-color: #0042c6;
+}
+
+.container {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#index-s2 .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin: 3vw;
+}
+
+#index-s2 .card-image {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+
+#index-s2 .card-title {
+    font-family: "Oxygen";
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+#index-s2 .card-text {
+    font-family: "Oxygen";
+    font-size: 1rem;
+    color: #202020;
+    text-align: center;
+}
+
 @media only screen and (max-width: 1026px) {
     /* Components/HeroBackground */
     .hero-bg-hidden {
@@ -150,5 +257,8 @@
     .logo {
         max-width: 60%;
         margin-left: 3vw;
+    }
+    #index-s2 .column {
+        margin-top: 2rem;
     }
 }
