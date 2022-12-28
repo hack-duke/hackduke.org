@@ -17,11 +17,7 @@ function Navbar(props) {
                         onClick={() => {
                             router.push("/");
                         }}>
-                        <img
-                            id="hd-logo"
-                            src="/images/hd-symbol.svg"
-                            // width="112"
-                        />
+                        <img id="hd-logo" src="/images/hd-symbol.svg" />
                     </a>
                     <a
                         role="button"
@@ -70,19 +66,15 @@ function Navbar(props) {
                             onClick={() => {
                                 router.push("/join");
                             }}>
-                            Join Us!
+                            Join Us
                         </div>
-                        {/* <div className="navbar-item">
-                            <div className="buttons">
-                                <a
-                                    className="button is-primary"
-                                    onClick={() => {
-                                        router.push("/join");
-                                    }}>
-                                    <strong>Join Us!</strong>
-                                </a>
-                            </div>
-                        </div> */}
+                        <div
+                            className="navbar-item navbar-button"
+                            onClick={() => {
+                                router.push("/join");
+                            }}>
+                            Login
+                        </div>
                     </div>
                 </div>
             </nav>

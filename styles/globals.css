@@ -1,6 +1,8 @@
+/* Imports */
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Martel+Sans&family=Montserrat&family=Oxygen:wght@400&display=swap");
-/* @import url("../node_modules/font-awesome/css/font-awesome.min.css"); */
+
+/* General */
 
 @keyframes spin {
     from {
@@ -21,6 +23,10 @@
     100% {
         transform: scale(1) rotate(37deg);
     }
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* General Components */
@@ -166,6 +172,87 @@
     animation: grow 5s ease-in-out infinite;
 }
 
+/* Components/Footer.js */
+.footer {
+    background-color: #0042c6;
+    color: white;
+    font-family: "Oxygen";
+    font-size: 1.2rem;
+    padding-bottom: 4rem;
+}
+
+.footer .logo {
+    width: 10rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.footer .footer-text {
+    margin-bottom: 1rem;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icons .faicon {
+    font-size: 2rem;
+    margin-left: 0rem;
+    margin-right: 1.5rem;
+    /* align middle */
+}
+
+.footer-icons .faicon:hover {
+    cursor: pointer;
+}
+
+.footer .column-title {
+    font-size: 1.5rem;
+    /* font-weight: 600; */
+    margin-bottom: 1rem;
+}
+
+.footer .column-text {
+    margin-bottom: 0.25rem;
+    font-size: 1.2rem;
+    position: relative;
+    /* width: fit-content; */
+}
+
+.footer .column-text:hover {
+    cursor: pointer;
+}
+
+.footer .column-text::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: white;
+    bottom: -2px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer .column-text:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+#footer-message {
+    margin-top: 2rem;
+    /* center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-align: center;
+}
+
 /* Pages/index.js */
 .hero {
     /* background-color: #0042c6; */
@@ -253,8 +340,58 @@
         left: -40vw;
     }
 
+    /* Components/Footer.js */
+
+    #footer-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* order: 2; */
+    }
+
+    #footer-bot {
+        /* order: 1; */
+        /* padding-left: 5vw;
+        padding-right: 5vw; */
+    }
+
+    .footer-icons {
+        margin-bottom: 1rem;
+    }
+
+    .footer-icons .faicon {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .footer .column-title {
+        position: relative;
+    }
+
+    #footer-bot .column {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #footer-bot .column-title::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-radius: 4px;
+        background-color: white;
+        bottom: -2px;
+        left: 0;
+    }
+
+    #footer-bot .column-text::before {
+        height: 1px;
+    }
+
     /* Pages/index.js */
-    .logo {
+    .hero .logo {
         max-width: 60%;
         margin-left: 3vw;
     }

@@ -26,7 +26,7 @@ function HeroBackground() {
         function updateMouse(e) {
             e.preventDefault();
             setMousePos({ x: e.clientX, y: e.clientY });
-            console.log(mousePos);
+            // console.log(mousePos);
         }
         // add event listener
         window.addEventListener("mousemove", updateMouse);

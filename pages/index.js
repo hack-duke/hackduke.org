@@ -1,9 +1,14 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import HeroBackground from "../components/HeroBackground";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
+    // const myRef = useRef(null);
+    // const executeScroll = () => myRef.current.scrollIntoView();
+
     return (
         <>
             <Navbar color="#0042c6" />
@@ -40,7 +45,7 @@ export default function Home() {
                         <div
                             className="column"
                             id="index-s2-c1"
-                            style={{ "border-color": "#36c69b" }}>
+                            style={{ borderColor: "#36c69b" }}>
                             <img
                                 className="card-image"
                                 src="/graphics/community.svg"
@@ -55,7 +60,7 @@ export default function Home() {
                         <div
                             className="column"
                             id="index-s2-c2"
-                            style={{ "border-color": "#f7af1d" }}>
+                            style={{ borderColor: "#f7af1d" }}>
                             <img
                                 className="card-image"
                                 src="/graphics/innovation.svg"
@@ -70,7 +75,7 @@ export default function Home() {
                         <div
                             className="column"
                             id="index-s3-c2"
-                            style={{ "border-color": "#e55511" }}>
+                            style={{ borderColor: "#e55511" }}>
                             <img
                                 className="card-image"
                                 src="/graphics/social.svg"
@@ -88,6 +93,7 @@ export default function Home() {
             {/* <section className="section is-small">
                 <div className="container"></div>
             </section> */}
+            <Footer />
         </>
     );
 }
