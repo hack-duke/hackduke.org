@@ -22,7 +22,7 @@ export default function Humans() {
                                     together to bring to life Code for Good and
                                     Ideate. Although we all have different
                                     interests and backgrounds, we value our
-                                    community and are united by our love of
+                                    community and are united by our passions in
                                     building something cool. We are split into 6
                                     teams (Tech, Design, Logistics, Outreach,
                                     Sponsorship, Marketing) and are lead by our

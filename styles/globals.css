@@ -358,7 +358,8 @@ html {
     background-image: url("/graphics/about.svg");
     background-position: 50% 90%;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
+    padding-top: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -508,6 +509,7 @@ html {
     }
 
     #humans-hero {
-        background-position: 40% 30%;
+        background-size: 70%;
+        background-position: 50% 35%;
     }
 }
