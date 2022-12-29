@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeroBackground from "../components/HeroBackground";
+import JoinUs from "../components/JoinUs";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -90,9 +91,88 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            {/* <section className="section is-small">
-                <div className="container"></div>
-            </section> */}
+            <section className="section is-medium">
+                <div className="container">
+                    <div className="columns is-desktop">
+                        <div className="column">
+                            <div className="title">Who are we?</div>
+                            <div className="subtitle">
+                                We are a diverse community of Duke students
+                                united by our love of building and using tech
+                                for social good. We are split into 6 teams:
+                                Tech, Design, Logistics, Outreach, Sponsorship,
+                                and Marketing.
+                            </div>
+                            <div
+                                className="button"
+                                id="index-s1-b1"
+                                style={{ color: "#0042c6" }}>
+                                Meet our people{" "}
+                                <FontAwesomeIcon
+                                    className="fa-md faicon"
+                                    icon={faArrowRight}></FontAwesomeIcon>
+                            </div>
+                        </div>
+                        <div className="column"></div>
+                    </div>
+                </div>
+            </section>
+            <section className="section is-medium">
+                <div className="container">
+                    <div className="columns is-desktop">
+                        <div className="column"></div>
+                        <div className="column">
+                            <div className="title">What do we do?</div>
+                            <div className="subtitle">
+                                We organize Code for Good, the nation’s premier
+                                hackathon for social good. Our teams work
+                                together year-round to invite speakers, design
+                                resources, build platforms, and more to ensure
+                                the success of the event.
+                            </div>
+                            <div
+                                className="button"
+                                id="index-s1-b1"
+                                style={{ color: "#0042c6" }}>
+                                See our work{" "}
+                                <FontAwesomeIcon
+                                    className="fa-md faicon"
+                                    icon={faArrowRight}></FontAwesomeIcon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="section is-medium">
+                <div className="container">
+                    <div className="columns is-desktop">
+                        <div className="column">
+                            <div className="title">Why HackDuke?</div>
+                            <div className="subtitle">
+                                Each year, our event brings in over 1000
+                                participants to craft solutions for social
+                                impact in the environment, inequality,
+                                education, and health fields. We provide the
+                                educational resources, inspirational speakers,
+                                mentorship, and nonprofit donation prizes to let
+                                others realize and unlock tech’s potential for
+                                social impact.
+                            </div>
+                            <div
+                                className="button"
+                                id="index-s1-b1"
+                                style={{ color: "#0042c6" }}>
+                                Join our team{" "}
+                                <FontAwesomeIcon
+                                    className="fa-md faicon"
+                                    icon={faArrowRight}></FontAwesomeIcon>
+                            </div>
+                        </div>
+                        <div className="column"></div>
+                    </div>
+                </div>
+            </section>
+            <JoinUs />
             <Footer />
         </>
     );

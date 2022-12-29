@@ -31,11 +31,12 @@ html {
 
 /* General Components */
 .button {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     border-color: transparent;
     background-color: transparent;
     position: relative;
     padding: 0 0;
+    /* margin-top: 0rem; */
 }
 
 .button:hover {
@@ -172,6 +173,27 @@ html {
     animation: grow 5s ease-in-out infinite;
 }
 
+/* Components/JoinUs.js */
+#join-us {
+    background-image: url("/graphics/join.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 30rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#join-us .container {
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+#join-us .title {
+    color: black;
+    font-weight: 600;
+}
+
 /* Components/Footer.js */
 .footer {
     background-color: #0042c6;
@@ -264,7 +286,7 @@ html {
 
 .container .subtitle {
     font-family: "Oxygen";
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: black;
     margin-bottom: 0.5rem;
 }
@@ -330,6 +352,14 @@ html {
     text-align: center;
 }
 
+.container .title {
+    font-family: "Oxygen";
+    font-weight: 400;
+    font-size: 2rem;
+    color: #0042c6;
+    margin-bottom: 2rem;
+}
+
 @media only screen and (max-width: 1026px) {
     /* Components/HeroBackground */
     .hero-bg-hidden {
@@ -338,6 +368,12 @@ html {
     #hero-bg-blob {
         top: 45vh;
         left: -40vw;
+    }
+
+    /* Components/JoinUs.js */
+    #join-us .container {
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
 
     /* Components/Footer.js */

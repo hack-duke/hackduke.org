@@ -21,13 +21,31 @@ function Footer(props) {
                             <div className="footer-icons">
                                 <FontAwesomeIcon
                                     className="fa-lg faicon"
-                                    icon={fab.faFacebook}></FontAwesomeIcon>
+                                    icon={fab.faFacebook}
+                                    onClick={() => {
+                                        window.open(
+                                            "https://www.facebook.com/hackduke",
+                                            "_blank"
+                                        );
+                                    }}></FontAwesomeIcon>
                                 <FontAwesomeIcon
                                     className="fa-lg faicon"
-                                    icon={fab.faInstagram}></FontAwesomeIcon>
+                                    icon={fab.faInstagram}
+                                    onClick={() => {
+                                        window.open(
+                                            "https://www.instagram.com/hackduke/",
+                                            "_blank"
+                                        );
+                                    }}></FontAwesomeIcon>
                                 <FontAwesomeIcon
                                     className="fa-lg faicon"
-                                    icon={fab.faTwitter}></FontAwesomeIcon>
+                                    icon={fab.faTwitter}
+                                    onClick={() => {
+                                        window.open(
+                                            "https://twitter.com/hackduke",
+                                            "_blank"
+                                        );
+                                    }}></FontAwesomeIcon>
                             </div>
                         </div>
                         <div
