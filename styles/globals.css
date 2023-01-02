@@ -598,6 +598,73 @@ html {
     border-radius: 1rem;
 }
 
+/* Pages/events.js */
+#events-hero {
+    background-color: #36c69b;
+    min-height: 100vh;
+    padding-top: 10rem;
+}
+
+#events-hero .container {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#events-hero .section-title {
+    font-family: "Oxygen";
+    font-weight: 600;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+#events-hero .subtitle {
+    color: black;
+}
+
+#events-hero-i1 {
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+#events-hero .scoreboard {
+    /* border white */
+    border: 4px dashed white;
+    /* background-color: white; */
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#events-hero .scoreboard .scoreboard-title {
+    font-family: "Oxygen";
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#events-hero .scoreboard .scoreboard-number {
+    font-family: "Oxygen";
+    font-weight: 600;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#events-hero .scoreboard .scoreboard-text {
+    font-family: "Oxygen";
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
 @media only screen and (max-width: 1026px) {
     /* Components/HeroBackground */
     .hero-bg-hidden {
@@ -729,5 +796,14 @@ html {
     #humans-hero {
         background-size: 70%;
         background-position: 50% 35%;
+    }
+
+    /* Pages/events.js */
+    #events-hero .scoreboard .scoreboard-number {
+        font-size: 2rem;
+    }
+
+    #events-hero .scoreboard .scoreboard-text {
+        font-size: 1rem;
     }
 }
