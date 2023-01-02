@@ -32,7 +32,10 @@ export default function Humans() {
                             <div
                                 className="column is-two-fifths-desktop"
                                 id="humans-hero-c2">
-                                <img src="/images/team-photo-2022.jpg" />
+                                <img
+                                    src="/images/team-2023.jpeg"
+                                    id="humans-hero-i1"
+                                />
                             </div>
                         </div>
                     </div>

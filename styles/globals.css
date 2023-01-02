@@ -593,6 +593,11 @@ html {
     /* padding-bottom: 2rem; */
 }
 
+#humans-hero-i1 {
+    width: 100%;
+    border-radius: 1rem;
+}
+
 @media only screen and (max-width: 1026px) {
     /* Components/HeroBackground */
     .hero-bg-hidden {
@@ -717,9 +722,9 @@ html {
         padding-right: 0;
     }
 
-    #humans-hero-c2 {
+    /* #humans-hero-c2 {
         padding-top: 5rem;
-    }
+    } */
 
     #humans-hero {
         background-size: 70%;
