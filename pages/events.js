@@ -8,7 +8,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 export default function Events() {
     return (
         <>
-            <Navbar color="" />
+            <Navbar color="#36c69b" />
             <section className="section is-small" id="events-hero">
                 <div className="container">
                     <div className="columns is-desktop is-vcentered">
