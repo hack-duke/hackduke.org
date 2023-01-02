@@ -122,7 +122,7 @@ export default function Home() {
                             <div className="column">
                                 <img
                                     className="index-image"
-                                    src="/images/team-photo-2022.jpg"
+                                    src="/images/team-2022.jpg"
                                 />
                             </div>
                         </div>

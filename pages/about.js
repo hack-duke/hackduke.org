@@ -8,7 +8,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 export default function About() {
     return (
         <>
-            <Navbar />
+            <Navbar color="#e55511" />
             <div className="about">
                 <section className="section is-medium" id="about-hero">
                     <div className="container">
@@ -221,6 +221,13 @@ export default function About() {
                             We can’t wait to see where we go! Come along for the
                             journey—you won’t regret it.
                         </div>
+                    </div>
+                    <div className="container" id="about-s4">
+                        <img
+                            src="/images/team-2023.jpeg"
+                            className="about-image"
+                            id="about-s4-i4"
+                        />
                     </div>
                 </section>
             </div>

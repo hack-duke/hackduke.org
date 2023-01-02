@@ -8,7 +8,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 export default function Humans() {
     return (
         <>
-            <Navbar />
+            <Navbar color="#242424" />
             <div className="humans">
                 <section className="section is-medium" id="humans-hero">
                     <div className="container">
