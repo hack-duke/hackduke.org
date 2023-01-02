@@ -431,8 +431,132 @@ html {
     font-family: "Oxygen";
     font-weight: 400;
     font-size: 2rem;
-    color: black;
+    color: #0042c6;
     margin-bottom: 0.75rem;
+}
+
+.about-story .quote {
+    font-family: "Oxygen";
+    font-weight: 400;
+    font-size: 1rem;
+    color: #0042c6;
+    margin-top: 1rem;
+}
+
+.about-story .quote::before {
+    content: "“";
+    font-size: 1rem;
+    color: #0042c6;
+    margin-right: 0.5rem;
+    font-weight: 600;
+}
+
+.about-story .quote::after {
+    content: "”";
+    font-size: 1rem;
+    color: #0042c6;
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+
+.about-story .quote-author {
+    font-family: "Oxygen";
+    font-weight: 400;
+    font-size: 1rem;
+    color: #0042c6;
+    text-align: right;
+    margin-top: 0.5rem;
+}
+
+.about-image {
+    /* round corner */
+    border-radius: 1rem;
+}
+
+#about-s2 {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+#about-s2-i2 {
+    width: 80%;
+}
+
+#about-s2-i3 {
+    margin-top: -20%;
+    width: 60%;
+    margin-left: 40%;
+}
+
+#about-s3 {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#about-s4 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+#about-s4-i4 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#about-s5 {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#about-s6 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#about-s6-i img {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+#about-s6-i5 {
+    width: 40%;
+}
+
+#about-s6-i6 {
+    width: 60%;
+    margin-left: 20%;
+}
+
+#about-s6-i7 {
+    width: 40%;
+    margin-left: 60%;
+}
+
+#about-s7 {
+    margin-bottom: 3rem;
+}
+
+#about-s7-i img {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+#about-s7-i8 {
+    width: 70%;
+}
+
+#about-s7-i9 {
+    width: 70%;
+    margin-left: 30%;
+}
+
+#about-s8 {
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
 
 /* Pages/humans,js */
@@ -546,6 +670,45 @@ html {
 
     /* Pages/about.js */
     #about-hero .container {
+        padding-right: 5vw;
+    }
+
+    #about-s2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    #about-s3 {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    #about-s4 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    #about-s4-i4 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #about-s5 {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    #about-s6 {
+        /* margin-top: 1rem; */
+        margin-bottom: 1rem;
+    }
+
+    #about-s8 {
+        padding-left: 5vw;
         padding-right: 5vw;
     }
 
