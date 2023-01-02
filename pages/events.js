@@ -30,7 +30,7 @@ export default function Events() {
                                 <div className="scoreboard-title">
                                     Code for Good 2020
                                 </div>
-                                <div className="columns is-mobile is-vcentered">
+                                <div className="columns is-desktop is-vcentered">
                                     <div className="column">
                                         <div className="scoreboard-number">
                                             1048
@@ -61,7 +61,7 @@ export default function Events() {
                                 <div className="scoreboard-title">
                                     Ideate 2020
                                 </div>
-                                <div className="columns is-mobile is-vcentered">
+                                <div className="columns is-desktop is-vcentered">
                                     <div className="column">
                                         <div className="scoreboard-number">
                                             651

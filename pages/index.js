@@ -7,9 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
-    // const myRef = useRef(null);
-    // const executeScroll = () => myRef.current.scrollIntoView();
-
     return (
         <>
             <Navbar color="#0042c6" />

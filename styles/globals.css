@@ -807,10 +807,6 @@ html {
         padding-right: 0;
     }
 
-    /* #humans-hero-c2 {
-        padding-top: 5rem;
-    } */
-
     #humans-hero {
         background-size: 70%;
         background-position: 50% 35%;
@@ -818,10 +814,11 @@ html {
 
     /* Pages/events.js */
     #events-hero .scoreboard .scoreboard-number {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     #events-hero .scoreboard .scoreboard-text {
         font-size: 1rem;
+        margin-bottom: 0;
     }
 }
