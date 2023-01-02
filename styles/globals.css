@@ -69,6 +69,26 @@ html {
     margin-left: 0.5rem;
 }
 
+.container {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.container .subtitle {
+    font-family: "Oxygen";
+    font-size: 1.25rem;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.container .title {
+    font-family: "Oxygen";
+    font-weight: 400;
+    font-size: 2rem;
+    color: #0042c6;
+    margin-bottom: 2rem;
+}
+
 /* Components/Navbar.js */
 .navbar {
     padding: 2rem 1rem;
@@ -285,13 +305,6 @@ html {
     align-items: center;
 }
 
-.container .subtitle {
-    font-family: "Oxygen";
-    font-size: 1.25rem;
-    color: black;
-    margin-bottom: 0.5rem;
-}
-
 .container #index-s1-c1 {
     display: flex;
     flex-direction: column;
@@ -305,11 +318,6 @@ html {
 
 #index-s1-i1 {
     width: 20rem;
-}
-
-.container {
-    padding-left: 5vw;
-    padding-right: 5vw;
 }
 
 #index-s2 .column {
@@ -342,14 +350,6 @@ html {
     font-size: 1rem;
     color: #202020;
     text-align: center;
-}
-
-.container .title {
-    font-family: "Oxygen";
-    font-weight: 400;
-    font-size: 2rem;
-    color: #0042c6;
-    margin-bottom: 2rem;
 }
 
 .index-image {
@@ -663,6 +663,24 @@ html {
     color: black;
     margin-bottom: 0.5rem;
     text-align: center;
+}
+
+.events-image {
+    border-radius: 1rem;
+}
+
+#events-s2 img {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+#events-s2-i2 {
+    width: 80%;
+}
+
+#events-s2-i3 {
+    width: 80%;
+    margin-left: 20%;
 }
 
 @media only screen and (max-width: 1026px) {
