@@ -100,7 +100,7 @@ export default function Home() {
                 </section>
                 <section className="section is-medium">
                     <div className="container">
-                        <div className="columns is-desktop">
+                        <div className="columns is-desktop is-vcentered">
                             <div className="column">
                                 <div className="title">Who are we?</div>
                                 <div className="subtitle">
@@ -119,14 +119,45 @@ export default function Home() {
                                         icon={faArrowRight}></FontAwesomeIcon>
                                 </div>
                             </div>
-                            <div className="column"></div>
+                            <div className="column">
+                                <img
+                                    className="index-image"
+                                    src="/images/team-photo-2022.jpg"
+                                />
+                            </div>
                         </div>
                     </div>
                 </section>
                 <section className="section is-medium">
                     <div className="container">
-                        <div className="columns is-desktop">
-                            <div className="column"></div>
+                        <div className="columns is-desktop is-vcentered">
+                            <div className="column">
+                                <div
+                                    className="columns is-multiline is-gapless"
+                                    id="index-s4-i">
+                                    <div className="column is-full">
+                                        <img
+                                            src="/images/cfg-2022-9.jpeg"
+                                            className="index-image"
+                                            id="index-s4-i1"
+                                        />
+                                    </div>
+                                    <div className="column is-full">
+                                        <img
+                                            src="/images/cfg-2022-7.jpeg"
+                                            className="index-image"
+                                            id="index-s4-i2"
+                                        />
+                                    </div>
+                                    <div className="column is-full">
+                                        <img
+                                            src="/images/cfg-2022-1.jpeg"
+                                            className="index-image"
+                                            id="index-s4-i3"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
                             <div className="column">
                                 <div className="title">What do we do?</div>
                                 <div className="subtitle">
@@ -150,7 +181,7 @@ export default function Home() {
                 </section>
                 <section className="section is-medium">
                     <div className="container">
-                        <div className="columns is-desktop">
+                        <div className="columns is-desktop is-vcentered">
                             <div className="column">
                                 <div className="title">Why HackDuke?</div>
                                 <div className="subtitle">
@@ -172,7 +203,26 @@ export default function Home() {
                                         icon={faArrowRight}></FontAwesomeIcon>
                                 </div>
                             </div>
-                            <div className="column"></div>
+                            <div className="column">
+                                <div
+                                    className="columns is-multiline is-gapless"
+                                    id="index-s5-i">
+                                    <div className="column is-full">
+                                        <img
+                                            src="/images/cfg-2022-13.jpeg"
+                                            className="index-image"
+                                            id="index-s5-i1"
+                                        />
+                                    </div>
+                                    <div className="column is-full">
+                                        <img
+                                            src="/images/cfg-2022-12.jpeg"
+                                            className="index-image"
+                                            id="index-s5-i2"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>

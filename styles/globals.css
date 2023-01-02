@@ -352,6 +352,44 @@ html {
     margin-bottom: 2rem;
 }
 
+.index-image {
+    /* round corner */
+    border-radius: 1rem;
+}
+
+#index-s4-i img {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+#index-s4-i1 {
+    width: 40%;
+}
+
+#index-s4-i2 {
+    width: 60%;
+    margin-left: 20%;
+}
+
+#index-s4-i3 {
+    width: 40%;
+    margin-left: 60%;
+}
+
+#index-s5-i img {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+#index-s5-i1 {
+    width: 70%;
+}
+
+#index-s5-i2 {
+    width: 70%;
+    margin-left: 30%;
+}
+
 /* Pages/about.js */
 #about-hero {
     background-color: #e55511;
@@ -383,6 +421,18 @@ html {
 
 #about-hero-button::before {
     background-color: white;
+}
+
+.about-story .subtitle {
+    margin-top: 0;
+}
+
+.about-story .section-title {
+    font-family: "Oxygen";
+    font-weight: 400;
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 0.75rem;
 }
 
 /* Pages/humans,js */
