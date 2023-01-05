@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 
 function Footer(props) {
+    const router = useRouter();
     return (
         <>
             <footer className="footer">
@@ -54,8 +55,13 @@ function Footer(props) {
                             <div className="columns is-mobile is-multiline">
                                 <div className="column is-half-mobile">
                                     <div className="column-title">About</div>
-                                    <div className="column-text">Main</div>
-                                    <div className="column-text">Our Story</div>
+                                    <div
+                                        className="column-text"
+                                        onClick={() => {
+                                            router.push("/about");
+                                        }}>
+                                        Our Story
+                                    </div>
                                 </div>
                                 <div className="column is-half-mobile">
                                     <div className="column-title">Humans</div>
@@ -71,17 +77,35 @@ function Footer(props) {
                                 </div>
                                 <div className="column is-half-mobile">
                                     <div className="column-title">Events</div>
-                                    <div className="column-text">
+                                    <div
+                                        className="column-text"
+                                        onClick={() => {
+                                            router.push(
+                                                "/events#code-for-good"
+                                            );
+                                        }}>
                                         Code For Good
                                     </div>
-                                    <div className="column-text">Ideate</div>
+                                    <div
+                                        className="column-text"
+                                        onClick={() => {
+                                            router.push("/events#ideate");
+                                        }}>
+                                        Ideate
+                                    </div>
                                     <div className="column-text">
                                         Sponsor Us
                                     </div>
                                 </div>
                                 <div className="column is-half-mobile">
                                     <div className="column-title">Join</div>
-                                    <div className="column-text">Process</div>
+                                    <div
+                                        className="column-text"
+                                        onClick={() => {
+                                            router.push("/join");
+                                        }}>
+                                        Process
+                                    </div>
                                 </div>
                             </div>
                         </div>

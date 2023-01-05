@@ -1,11 +1,14 @@
 import Navbar from "../components/Navbar";
-import JoinUs from "../components/JoinUs";
+import SponsorUs from "../components/SponsorUs";
 import Footer from "../components/Footer";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
+import { useRouter } from "next/router";
+
 export default function Events() {
+    const router = useRouter();
     return (
         <>
             <Navbar color="#36c69b" />
@@ -92,7 +95,7 @@ export default function Events() {
                     </div>
                 </div>
             </section>
-            <section className="section is-medium">
+            <section className="section is-medium" id="code-for-good">
                 <div className="container">
                     <div className="columns is-desktop is-vcentered">
                         <div className="column">
@@ -109,7 +112,10 @@ export default function Events() {
                             </div>
                             <div
                                 className="button"
-                                style={{ color: "#0042c6" }}>
+                                style={{ color: "#0042c6" }}
+                                onClick={() => {
+                                    router.push("https://2022.hackduke.org");
+                                }}>
                                 Code For Good 2022{" "}
                                 <FontAwesomeIcon
                                     className="fa-md faicon"
@@ -125,7 +131,7 @@ export default function Events() {
                     </div>
                 </div>
             </section>
-            <section className="section is-medium" id="events-s2">
+            <section className="section is-medium" id="ideate">
                 <div className="container">
                     <div className="columns is-desktop is-vcentered">
                         <div className="column">
@@ -153,8 +159,11 @@ export default function Events() {
                             </div>
                             <div
                                 className="button"
-                                style={{ color: "#0042c6" }}>
-                                Ideate 2021{" "}
+                                style={{ color: "#0042c6" }}
+                                onClick={() => {
+                                    router.push("https://ideate.hackduke.org");
+                                }}>
+                                Ideate 2022{" "}
                                 <FontAwesomeIcon
                                     className="fa-md faicon"
                                     icon={faArrowRight}></FontAwesomeIcon>
@@ -164,7 +173,7 @@ export default function Events() {
                 </div>
             </section>
 
-            <JoinUs />
+            <SponsorUs />
             <Footer />
         </>
     );

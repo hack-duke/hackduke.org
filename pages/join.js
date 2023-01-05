@@ -14,7 +14,7 @@ export default function Join() {
                     <HeroBackground />
                     <div id="join-hero">
                         <div className="container">
-                            <div className="section-title">Join Our Team!</div>
+                            <div className="section-title">Join HackDuke!</div>
                             <div className="subtitle">
                                 Thanks for your interest in joining HackDuke!
                                 Our next recruiting cycle starts Spring 2023.

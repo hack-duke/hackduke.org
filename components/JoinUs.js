@@ -1,7 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
+import { useRouter } from "next/router";
+
 function JoinUs(props) {
+    const router = useRouter();
     return (
         <>
             <section className="section is-small" id="join-us">
@@ -16,7 +19,10 @@ function JoinUs(props) {
                     <div
                         className="button"
                         id="index-s1-b1"
-                        style={{ color: "#0042c6" }}>
+                        style={{ color: "#0042c6" }}
+                        onClick={() => {
+                            router.push("/join");
+                        }}>
                         Join our team{" "}
                         <FontAwesomeIcon
                             className="fa-md faicon"

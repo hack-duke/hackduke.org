@@ -215,6 +215,27 @@ html {
     font-weight: 600;
 }
 
+/* Components/SponsorUs.js */
+#sponsor-us {
+    background-image: url("/graphics/join.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 30rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#sponsor-us .container {
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+#sponsor-us .title {
+    color: black;
+    font-weight: 600;
+}
+
 /* Components/Footer.js */
 .footer {
     background-color: #0042c6;
@@ -669,7 +690,7 @@ html {
     border-radius: 1rem;
 }
 
-#events-s2 img {
+#ideate img {
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
 }
@@ -719,6 +740,12 @@ html {
 
     /* Components/JoinUs.js */
     #join-us .container {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    /* Components/SponsorUs.js */
+    #sponsor-us .container {
         padding-left: 10vw;
         padding-right: 10vw;
     }

@@ -1,12 +1,15 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeroBackground from "../components/HeroBackground";
-import JoinUs from "../components/JoinUs";
+import SponsorUs from "../components/SponsorUs";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
+import { useRouter } from "next/router";
+
 export default function Home() {
+    const router = useRouter();
     return (
         <>
             <Navbar color="#0042c6" />
@@ -29,7 +32,10 @@ export default function Home() {
                                 </div>
                                 <div
                                     className="button"
-                                    style={{ color: "#0042c6" }}>
+                                    style={{ color: "#0042c6" }}
+                                    onClick={() => {
+                                        router.push("/about");
+                                    }}>
                                     Read our story{" "}
                                     <FontAwesomeIcon
                                         className="fa-md faicon"
@@ -109,7 +115,10 @@ export default function Home() {
                                 </div>
                                 <div
                                     className="button"
-                                    style={{ color: "#0042c6" }}>
+                                    style={{ color: "#0042c6" }}
+                                    onClick={() => {
+                                        router.push("/humans");
+                                    }}>
                                     Meet our people{" "}
                                     <FontAwesomeIcon
                                         className="fa-md faicon"
@@ -166,7 +175,10 @@ export default function Home() {
                                 </div>
                                 <div
                                     className="button"
-                                    style={{ color: "#0042c6" }}>
+                                    style={{ color: "#0042c6" }}
+                                    onClick={() => {
+                                        router.push("/events");
+                                    }}>
                                     See our work{" "}
                                     <FontAwesomeIcon
                                         className="fa-md faicon"
@@ -193,7 +205,10 @@ export default function Home() {
                                 </div>
                                 <div
                                     className="button"
-                                    style={{ color: "#0042c6" }}>
+                                    style={{ color: "#0042c6" }}
+                                    onClick={() => {
+                                        router.push("/join");
+                                    }}>
                                     Join our team{" "}
                                     <FontAwesomeIcon
                                         className="fa-md faicon"
@@ -225,7 +240,7 @@ export default function Home() {
                 </section>
             </div>
 
-            <JoinUs />
+            <SponsorUs />
             <Footer />
         </>
     );

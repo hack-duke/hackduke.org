@@ -71,7 +71,7 @@ function Navbar(props) {
                         <div
                             className="navbar-item navbar-button"
                             onClick={() => {
-                                router.push("/join");
+                                router.push("/");
                             }}>
                             Login
                         </div>

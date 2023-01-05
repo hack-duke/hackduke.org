@@ -5,7 +5,10 @@ import Footer from "../components/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
+import { useRouter } from "next/router";
+
 export default function About() {
+    const router = useRouter();
     return (
         <>
             <Navbar color="#e55511" />
@@ -30,7 +33,10 @@ export default function About() {
                         <div
                             className="button"
                             id="about-hero-button"
-                            style={{ color: "#ffffff" }}>
+                            style={{ color: "#ffffff" }}
+                            onClick={() => {
+                                router.push("/events");
+                            }}>
                             More about our events{" "}
                             <FontAwesomeIcon
                                 className="fa-md faicon"
@@ -38,7 +44,9 @@ export default function About() {
                         </div>
                     </div>
                 </section>
-                <section className="section is-medium about-story">
+                <section
+                    className="section is-medium about-story"
+                    id="about-us">
                     <div className="container" id="about-s1">
                         <div className="columns is-desktop is-vcentered">
                             <div className="column" id="about-story-1-c1">
