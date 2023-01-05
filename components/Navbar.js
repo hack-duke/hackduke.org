@@ -12,13 +12,14 @@ function Navbar(props) {
                 role="navigation"
                 aria-label="main navigation">
                 <div className="navbar-brand">
-                    <a
+                    <div
                         className="navbar-item"
+                        id="navbar-logo"
                         onClick={() => {
                             router.push("/");
                         }}>
                         <img id="hd-logo" src="/images/hd-symbol.svg" />
-                    </a>
+                    </div>
                     <a
                         role="button"
                         className={

@@ -101,6 +101,10 @@ html {
     margin-left: 2rem;
 }
 
+#navbar-logo:hover {
+    cursor: pointer;
+}
+
 #hd-logo {
     transform: scale(1.3);
 }
