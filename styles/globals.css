@@ -683,6 +683,30 @@ html {
     margin-left: 30%;
 }
 
+/* Pages/join.js */
+#join-hero {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#join-hero .container {
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+#join-hero .section-title {
+    font-family: "Oxygen";
+    font-weight: 600;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+#join-hero .subtitle {
+    color: white;
+}
+
 @media only screen and (max-width: 1026px) {
     /* Components/HeroBackground */
     .hero-bg-hidden {
