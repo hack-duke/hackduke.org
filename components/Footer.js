@@ -93,7 +93,11 @@ function Footer(props) {
                                         }}>
                                         Ideate
                                     </div>
-                                    <div className="column-text">
+                                    <div
+                                        className="column-text"
+                                        onClick={() => {
+                                            router.push("/events#sponsor-us");
+                                        }}>
                                         Sponsor Us
                                     </div>
                                 </div>
