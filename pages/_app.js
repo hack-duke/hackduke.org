@@ -18,6 +18,7 @@ function MyApp({ Component, pageProps }) {
                     name="description"
                     content="A student-led hackathon at Duke University that brings together talented programmers, designers, and entrepreneurs to develop innovative solutions to real-world problems. Join us for a weekend of coding, networking, and making a positive impact on the world. Learn more and apply now at HackDuke.org!"
                 />
+                <meta name="theme-color" content="#0042c6" />
 
                 {/* Facebook */}
                 <meta property="og:type" content="website" />
