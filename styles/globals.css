@@ -623,6 +623,80 @@ html {
     border-radius: 1rem;
 }
 
+#humans-cards .section-title {
+    font-family: "Oxygen";
+    font-weight: 600;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.member-card.card {
+    border-radius: 1rem;
+    box-shadow: none;
+    font-family: "Oxygen";
+    max-width: none;
+    width: 200px;
+    margin-right: 45px;
+}
+
+.member-card img {
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.member-card .card-content {
+    padding: 0;
+}
+
+.member-card .member-name {
+    margin: 0;
+    font-size: 24px;
+}
+
+.member-card .position {
+    color: #35C69B;
+    font-weight: 700;
+}
+
+.member-card .major {
+    font-size: 16px;
+    font-style: italic;
+    color: #242424;
+    margin: 5px 0;
+}
+
+#humans-cards .card-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#teams-bar {
+    margin: 30px 0;
+}
+
+ul.teams-navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.teams-navbar li{
+    margin-right: 20px;
+    font-size: 18px;
+    color: #242424;
+}
+
+.teams-navbar li:hover {
+    cursor: pointer;
+}
+
+.teams-navbar .team-active {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
 /* Pages/events.js */
 #events-hero {
     background-color: #36c69b;

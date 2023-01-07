@@ -1,0 +1,44 @@
+[
+    {
+      "First": "Evan",
+      "Last": "Glas",
+      "Team": "Tech",
+      "Title": "Co-Lead",
+      "Major": "CS"
+    },
+    {
+      "First": "Yihong",
+      "Last": "Song",
+      "Team": "Tech",
+      "Title": "Co-Lead",
+      "Major": "CS"
+    },
+    {
+      "First": "Naomie",
+      "Last": "Gao",
+      "Team": "Tech",
+      "Title": "Member",
+      "Major": "CS"
+    },
+    {
+      "First": "Chika",
+      "Last": "D",
+      "Team": "Tech",
+      "Title": "Member",
+      "Major": "CS"
+    },
+    {
+      "First": "James",
+      "Last": "Xu",
+      "Team": "Director",
+      "Title": "Co-Director",
+      "Major": "Econ"
+    },
+    {
+      "First": "N",
+      "Last": "Wang",
+      "Team": "Director",
+      "Title": "Co-Director",
+      "Major": "CS"
+    }
+  ]
