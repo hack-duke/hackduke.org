@@ -623,26 +623,62 @@ html {
     border-radius: 1rem;
 }
 
+#humans-cards {
+    padding: 0 100px 0 100px;
+}
+
 #humans-cards .section-title {
     font-family: "Oxygen";
     font-weight: 600;
     font-size: 3rem;
     color: black;
     margin-bottom: 2rem;
+    margin-top: 40px;
 }
 
-.member-card.card {
-    border-radius: 1rem;
+#next-chapters {
+    padding: 0 100px 0 100px;
+}
+
+#next-chapters .section-title {
+    font-family: "Oxygen";
+    font-weight: 600;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 2rem;
+    margin-top: 40px;
+}
+
+#next-chapters p {
+
+}
+
+.member-card {
     box-shadow: none;
     font-family: "Oxygen";
     max-width: none;
     width: 200px;
     margin-right: 45px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.member-card:hover{
+    /* box-shadow: 0 0 20px #36c69b; */
+    width: 205px;
+    cursor: pointer;
 }
 
 .member-card img {
-    border-radius: 5px;
+    height: 200px;
+    border-radius: 0.25rem;
     object-fit: cover;
+    transition: 0.3s;
+}
+
+.member-card:hover img{
+    width: 210px;
+    height: 210px;
 }
 
 .member-card .card-content {
@@ -682,19 +718,47 @@ ul.teams-navbar {
     width: 40%;
 }
 
-.teams-navbar li{
-    margin-right: 20px;
-    font-size: 18px;
+.teams-navbar p {
+    margin: 10px 0;
+    font-size: 24px;
     color: #242424;
 }
 
-.teams-navbar li:hover {
+.teams-navbar p:hover {
     cursor: pointer;
 }
 
 .teams-navbar .team-active {
     text-decoration: underline;
     font-weight: 700;
+}
+
+#humans-cards {
+    background-image: url("/graphics/director-bg.svg");
+    background-repeat: no-repeat;
+    background-position: 60% 10%;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    /* background-position-x: 700px;
+    background-position-y: center; */
+}
+#directors {
+    position: relative;
+}
+#directors:after {
+    content: url("/graphics/director-photo-bg.svg");
+    display: inline-block;
+    position: absolute;
+    width: 80px;
+    left: 450px;
+    top: -50px;
+}
+
+.director-bg {
+    z-index: 999;
+    position: absolute;
+    width: 80px;
+    left: 550px;
 }
 
 /* Pages/events.js */

@@ -1,11 +1,11 @@
 function MemberCard(props) {
     // console.log(props.src);
     return (
-        <>
+        <a href={props.linkedin}>
             <div className="member-card card">
                 <div className="card-image">
                     <figure className="image">
-                        <img src={props.src} style={{width: 200, height: 200}}></img>
+                        <img src={props.src}></img>
                     </figure>
                 </div>
                 <div className="card-content">
@@ -14,7 +14,7 @@ function MemberCard(props) {
                     <p className="major">{props.major}</p>
                 </div>
             </div>
-        </>
+        </a>
     );
 }
 

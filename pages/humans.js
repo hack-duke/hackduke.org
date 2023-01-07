@@ -11,7 +11,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const members = require("../public/team.json");
 
 export default function Humans() {
-    const [team, setTeam] = useState(window.location && window.location.hash.slice(1) || "Tech");
+    const [team, setTeam] = useState("Tech");
 
     const switchTeams = (teamName) => {
         // switch (team) {
@@ -37,6 +37,7 @@ export default function Humans() {
                         name={t.First + " " + t.Last}
                         title={t.Title}
                         major={t.Major}
+                        linkedin={t.LinkedIn}
                     />)
                 }
             </>
@@ -80,23 +81,28 @@ export default function Humans() {
                 <section className="section" id="humans-cards">
                     <div className="section-title">The humans behind it all</div>
                     <div className="level"></div>
-                    <div className="card-list" id="directors">
+                    <div id="directors" className="card-list">
                         {switchTeams("Director")}
                     </div>
-                    <div id="teams-bar">
-                        <div id={"tech"}></div><div id={"design"}></div><div id={"logistics"}></div><div id={"outreach"}></div><div id={"sponsorship"}></div>
-                        <ul className={"teams-navbar"}>
-                            <li className={team === "Tech"? "team-active" : ""} onClick={()=>setTeam("Tech")}>Tech</li>
-                            <li className={team === "Design"? "team-active" : ""} onClick={()=>setTeam("Design")}>Design</li>
-                            <li className={team === "Logistics"? "team-active" : ""} onClick={()=>setTeam("Logistics")}>Logistics</li>
-                            <li className={team === "Outreach"? "team-active" : ""} onClick={()=>setTeam("Outreach")}>Outreach</li>
-                            <li className={team === "Sponsorship"? "team-active" : ""} onClick={()=>setTeam("Sponsorship")}>Sponsorship</li>
-                        </ul>
+                    <div className="level is-mobile teams-navbar">
+                        <div className="level-left">
+                            <div className="level-item"><p className={team === "Tech" ? "team-active" : ""} onClick={()=>setTeam("Tech")}>Tech</p></div>
+                            <div className="level-item"><p className={team === "Design" ? "team-active" : ""} onClick={()=>setTeam("Design")}>Design</p></div>
+                            <div className="level-item"><p className={team === "Logistics" ? "team-active" : ""} onClick={()=>setTeam("Logistics")}>Logistics</p></div>
+                            <div className="level-item"><p className={team === "Outreach" ? "team-active" : ""} onClick={()=>setTeam("Outreach")}>Outreach</p></div>
+                            <div className="level-item"><p className={team === "Sponsorship" ? "team-active" : ""} onClick={()=>setTeam("Sponsorship")}>Sponsorship</p></div>
+                        </div>
                     </div>
                     {console.log(switchTeams(team))}
                     <div className="card-list">{switchTeams(team)}</div>
                 </section>
-                <MemberCard src="/images/aditya.jpg" />
+                <section className="section" id="next-chapters">
+                    <div className={"sponsors"}>
+                        <div className="section-title">The next chapters</div>
+                        <div className="subtitle">Part of our goal as an organization is to provide our members with mentorship, learning, and opportunities to make real impact. This desire to grow and help others doesn’t leave us after Hackduke. We are proud to have our family go on to do amazing things at great companies like the ones below! </div>
+                        <img className={"sponsor-icons"} src="/graphics/sponsor-icons.png" alt={"sponsors"} />
+                    </div>
+                </section>
             </div>
             <JoinUs />
             <Footer />
