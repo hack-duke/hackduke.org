@@ -1,49 +1,25 @@
 import Navbar from "../components/Navbar";
 import JoinUs from "../components/JoinUs";
 import Footer from "../components/Footer";
-import MemberCard from "../components/MemberCard";
-import React, {useState} from "react";
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import TeamCards from "../components/TeamCards";
+import React, { useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-const members = require("../public/team.json");
-
 export default function Humans() {
     const [team, setTeam] = useState("Tech");
+    const teams = {
+        Tech: "Magicians, Sorcerers, Wizards. Coding is like magic, no doubt, no doubt, no doubt.",
+        Design: "More than just making things look pretty! But we do enjoy a good deal of pixel-pushing...",
+        Logistics:
+            "We make everything run smoothly. Oh, you need something? Don’t worry, consider it done.",
+        Outreach:
+            "We get to talk to the celebrities (the speakers) and get them to campus/zoom.",
+        Sponsorship: "Making money moves. Need I say more?",
+        Marketing: "Marketing",
+    };
 
-    const switchTeams = (teamName) => {
-        // switch (team) {
-        //     case "design":
-        //         return <CSSTransition key={team} timeout={0} classNames={"fade"}><div key="1">Design</div></CSSTransition>
-        //     case "logistics":
-        //         return <CSSTransition key={team} timeout={0} classNames={"fade"}><div key="2">Logistics</div></CSSTransition>
-        //     case "outreach":
-        //         return <CSSTransition key={team} timeout={0} classNames={"fade"}><div key="3">Outreach</div></CSSTransition>
-        //     case "sponsorship":
-        //         return <CSSTransition key={team} timeout={0} classNames={"fade"}><div key="4">Sponsorship</div></CSSTransition>
-        //     default:
-        //         return <CSSTransition key={team} timeout={0} classNames={"fade"}><div key="5">Tech</div></CSSTransition>
-        // }
-        let teamMembers = members.filter(m => m.Team === teamName);
-        console.log(teamMembers);
-        return (
-            <>
-                {
-                    teamMembers.map(t => 
-                    <MemberCard 
-                        src={"/images/team-photos/"+t.First + t.Last+".jpg"}
-                        name={t.First + " " + t.Last}
-                        title={t.Title}
-                        major={t.Major}
-                        linkedin={t.LinkedIn}
-                    />)
-                }
-            </>
-        )
-
-    }
     return (
         <>
             <Navbar color="#242424" />
@@ -78,29 +54,49 @@ export default function Humans() {
                         </div>
                     </div>
                 </section>
-                <section className="section" id="humans-cards">
-                    <div className="section-title">The humans behind it all</div>
-                    <div className="level"></div>
-                    <div id="directors" className="card-list">
-                        {switchTeams("Director")}
-                    </div>
-                    <div className="level is-mobile teams-navbar">
-                        <div className="level-left">
-                            <div className="level-item"><p className={team === "Tech" ? "team-active" : ""} onClick={()=>setTeam("Tech")}>Tech</p></div>
-                            <div className="level-item"><p className={team === "Design" ? "team-active" : ""} onClick={()=>setTeam("Design")}>Design</p></div>
-                            <div className="level-item"><p className={team === "Logistics" ? "team-active" : ""} onClick={()=>setTeam("Logistics")}>Logistics</p></div>
-                            <div className="level-item"><p className={team === "Outreach" ? "team-active" : ""} onClick={()=>setTeam("Outreach")}>Outreach</p></div>
-                            <div className="level-item"><p className={team === "Sponsorship" ? "team-active" : ""} onClick={()=>setTeam("Sponsorship")}>Sponsorship</p></div>
+                <section className="section is-medium" id="humans-cards">
+                    <div className="container">
+                        <div className="title">The humans behind it all</div>
+                        <div className="humans-directors">
+                            <TeamCards team="Director" />
+                        </div>
+                        <div className="humans-teams">
+                            <div className="team-selector">
+                                {Object.keys(teams).map((t) => (
+                                    <div
+                                        className={
+                                            team === t
+                                                ? "button selected"
+                                                : "button"
+                                        }
+                                        onClick={() => setTeam(t)}
+                                        key={t}>
+                                        {t}
+                                    </div>
+                                ))}
+                            </div>
+                            <div className="team-message">"{teams[team]}"</div>
+                            <TeamCards team={team} />
                         </div>
                     </div>
-                    {console.log(switchTeams(team))}
-                    <div className="card-list">{switchTeams(team)}</div>
                 </section>
                 <section className="section" id="next-chapters">
-                    <div className={"sponsors"}>
-                        <div className="section-title">The next chapters</div>
-                        <div className="subtitle">Part of our goal as an organization is to provide our members with mentorship, learning, and opportunities to make real impact. This desire to grow and help others doesn’t leave us after Hackduke. We are proud to have our family go on to do amazing things at great companies like the ones below! </div>
-                        <img className={"sponsor-icons"} src="/graphics/sponsor-icons.png" alt={"sponsors"} />
+                    <div className="container">
+                        <div className="title">The next chapters</div>
+                        <div className="subtitle">
+                            Part of our goal as an organization is to provide
+                            our members with mentorship, learning, and
+                            opportunities to make real impact. This desire to
+                            grow and help others doesn’t leave us after
+                            Hackduke. We are proud to have our family go on to
+                            do amazing things at great companies like the ones
+                            below!{" "}
+                        </div>
+                        <img
+                            className={"sponsor-icons"}
+                            src="/graphics/sponsor-icons.png"
+                            alt={"sponsors"}
+                        />
                     </div>
                 </section>
             </div>

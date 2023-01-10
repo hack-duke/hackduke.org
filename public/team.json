@@ -1,50 +1,56 @@
 [
     {
-      "First": "Evan",
-      "Last": "Glas",
-      "Team": "Tech",
-      "Title": "Co-Lead",
-      "Major": "CS",
-      "LinkedIn": "https://www.linkedin.com/in/evan-glas-a26743189/"
+        "First": "Evan",
+        "Last": "Glas",
+        "Team": "Tech",
+        "Title": "Co-Lead",
+        "Major": "Computer Science",
+        "LinkedIn": "https://www.linkedin.com/in/evan-glas-a26743189/",
+        "Year": "2024"
     },
     {
-      "First": "Yihong",
-      "Last": "Song",
-      "Team": "Tech",
-      "Title": "Co-Lead",
-      "Major": "CS",
-      "LinkedIn": "https://www.linkedin.com/in/yihongs/"
+        "First": "Yihong",
+        "Last": "Song",
+        "Team": "Tech",
+        "Title": "Co-Lead",
+        "Major": "Computer Science & Mathematics",
+        "LinkedIn": "https://www.linkedin.com/in/yihongs/",
+        "Year": "2026"
     },
     {
-      "First": "Naomie",
-      "Last": "Gao",
-      "Team": "Tech",
-      "Title": "Member",
-      "Major": "CS",
-      "LinkedIn": "https://www.linkedin.com/in/naogao/"
+        "First": "Naomie",
+        "Last": "Gao",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "Computer Science",
+        "LinkedIn": "https://www.linkedin.com/in/naogao/",
+        "Year": "2024"
     },
     {
-      "First": "Chika",
-      "Last": "D",
-      "Team": "Tech",
-      "Title": "Member",
-      "Major": "CS",
-      "LinkedIn": "https://www.linkedin.com/in/chika-dueke-eze/"
+        "First": "Chika",
+        "Last": "D",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "Computer Science",
+        "LinkedIn": "https://www.linkedin.com/in/chika-dueke-eze/",
+        "Year": "2024"
     },
     {
-      "First": "James",
-      "Last": "Xu",
-      "Team": "Director",
-      "Title": "Co-Director",
-      "Major": "Econ",
-      "LinkedIn": "https://www.linkedin.com/in/james-x-7a5502182/"
+        "First": "James",
+        "Last": "Xu",
+        "Team": "Director",
+        "Title": "Co-Director",
+        "Major": "Economics",
+        "LinkedIn": "https://www.linkedin.com/in/james-x-7a5502182/",
+        "Year": "2024"
     },
     {
-      "First": "N",
-      "Last": "Wang",
-      "Team": "Director",
-      "Title": "Co-Director",
-      "Major": "CS",
-      "LinkedIn": "https://www.linkedin.com/in/nwang888/"
+        "First": "N",
+        "Last": "Wang",
+        "Team": "Director",
+        "Title": "Co-Director",
+        "Major": "Computer Science",
+        "LinkedIn": "https://www.linkedin.com/in/nwang888/",
+        "Year": "2025"
     }
-  ]
+]

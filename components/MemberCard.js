@@ -1,20 +1,22 @@
 function MemberCard(props) {
-    // console.log(props.src);
     return (
-        <a href={props.linkedin}>
-            <div className="member-card card">
-                <div className="card-image">
-                    <figure className="image">
-                        <img src={props.src}></img>
-                    </figure>
-                </div>
-                <div className="card-content">
-                    <p className="member-name">{props.name}</p>
-                    <p className="position">{props.title}</p>
-                    <p className="major">{props.major}</p>
-                </div>
+        <div className="column is-one-fifth-desktop is-one-third-tablet is-half-mobile member-card">
+            <div
+                className="card-image"
+                style={{ backgroundImage: "url('" + props.src + "')" }}>
+                {/* <img src={props.src}></img> */}
             </div>
-        </a>
+            <div className="card-content">
+                <div className="member-name">{props.name}</div>
+                <div className="member-major">{props.major}</div>
+                <div className="member-year">Class of {props.year}</div>
+                {props.title == "Member" ? (
+                    <></>
+                ) : (
+                    <div className="member-position">{props.title}</div>
+                )}
+            </div>
+        </div>
     );
 }
 
