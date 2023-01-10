@@ -624,7 +624,8 @@ html {
 }
 
 #humans-cards {
-    padding: 0 100px 0 100px;
+    padding-bottom: 0;
+    /* padding: 0 100px 0 100px; */
 }
 
 #humans-cards .section-title {
@@ -633,11 +634,12 @@ html {
     font-size: 3rem;
     color: black;
     margin-bottom: 2rem;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 #next-chapters {
-    padding: 0 100px 0 100px;
+    padding-bottom: 0;
+    /* padding: 0 100px 0 100px; */
 }
 
 #next-chapters .section-title {
@@ -645,8 +647,9 @@ html {
     font-weight: 600;
     font-size: 3rem;
     color: black;
-    margin-bottom: 2rem;
-    margin-top: 40px;
+    padding-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    /* margin-top: 40px; */
 }
 
 #next-chapters p {
@@ -658,7 +661,8 @@ html {
     font-family: "Oxygen";
     max-width: none;
     width: 200px;
-    margin-right: 45px;
+    margin-right: 20px;
+    margin-left: 20px;
     transition: 0.3s;
     margin-bottom: 10px;
 }
@@ -752,6 +756,12 @@ ul.teams-navbar {
     width: 80px;
     left: 450px;
     top: -50px;
+}
+
+@media screen and (max-width: 800px) {
+    #directors:after {
+        content: none;
+    }
 }
 
 .director-bg {

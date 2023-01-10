@@ -79,28 +79,32 @@ export default function Humans() {
                     </div>
                 </section>
                 <section className="section" id="humans-cards">
-                    <div className="section-title">The humans behind it all</div>
-                    <div className="level"></div>
-                    <div id="directors" className="card-list">
-                        {switchTeams("Director")}
-                    </div>
-                    <div className="level is-mobile teams-navbar">
-                        <div className="level-left">
-                            <div className="level-item"><p className={team === "Tech" ? "team-active" : ""} onClick={()=>setTeam("Tech")}>Tech</p></div>
-                            <div className="level-item"><p className={team === "Design" ? "team-active" : ""} onClick={()=>setTeam("Design")}>Design</p></div>
-                            <div className="level-item"><p className={team === "Logistics" ? "team-active" : ""} onClick={()=>setTeam("Logistics")}>Logistics</p></div>
-                            <div className="level-item"><p className={team === "Outreach" ? "team-active" : ""} onClick={()=>setTeam("Outreach")}>Outreach</p></div>
-                            <div className="level-item"><p className={team === "Sponsorship" ? "team-active" : ""} onClick={()=>setTeam("Sponsorship")}>Sponsorship</p></div>
+                    <div className="container">
+                        <div className="section-title">The humans behind it all</div>
+                        <div className="level"></div>
+                        <div id="directors" className="card-list">
+                            {switchTeams("Director")}
                         </div>
+                        <div className="level teams-navbar">
+                            <div className="level-left">
+                                <div className="level-item"><p className={team === "Tech" ? "team-active" : ""} onClick={()=>setTeam("Tech")}>Tech</p></div>
+                                <div className="level-item"><p className={team === "Design" ? "team-active" : ""} onClick={()=>setTeam("Design")}>Design</p></div>
+                                <div className="level-item"><p className={team === "Logistics" ? "team-active" : ""} onClick={()=>setTeam("Logistics")}>Logistics</p></div>
+                                <div className="level-item"><p className={team === "Outreach" ? "team-active" : ""} onClick={()=>setTeam("Outreach")}>Outreach</p></div>
+                                <div className="level-item"><p className={team === "Sponsorship" ? "team-active" : ""} onClick={()=>setTeam("Sponsorship")}>Sponsorship</p></div>
+                            </div>
+                        </div>
+                        {console.log(switchTeams(team))}
+                        <div className="card-list">{switchTeams(team)}</div>
                     </div>
-                    {console.log(switchTeams(team))}
-                    <div className="card-list">{switchTeams(team)}</div>
                 </section>
                 <section className="section" id="next-chapters">
-                    <div className={"sponsors"}>
-                        <div className="section-title">The next chapters</div>
-                        <div className="subtitle">Part of our goal as an organization is to provide our members with mentorship, learning, and opportunities to make real impact. This desire to grow and help others doesn’t leave us after Hackduke. We are proud to have our family go on to do amazing things at great companies like the ones below! </div>
-                        <img className={"sponsor-icons"} src="/graphics/sponsor-icons.png" alt={"sponsors"} />
+                    <div className="container">
+                        <div className={"sponsors"}>
+                            <div className="section-title">The next chapters</div>
+                            <div className="subtitle">Part of our goal as an organization is to provide our members with mentorship, learning, and opportunities to make real impact. This desire to grow and help others doesn’t leave us after Hackduke. We are proud to have our family go on to do amazing things at great companies like the ones below! </div>
+                            <img className={"sponsor-icons"} src="/graphics/sponsor-icons.png" alt={"sponsors"} />
+                        </div>
                     </div>
                 </section>
             </div>
