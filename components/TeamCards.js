@@ -1,14 +1,14 @@
 import MemberCard from "./MemberCard";
 
 function TeamCards(props) {
-    const members = require("../public/team.json");
+    const members = require("../public/members.json");
     let teamMembers = members.filter((m) => m.Team === props.team);
-    console.log(teamMembers);
+    // console.log(teamMembers);
     return (
         <div className="columns is-mobile is-multiline">
             {teamMembers.map((t) => (
                 <MemberCard
-                    src={"/images/team-photos/" + t.First + t.Last + ".jpg"}
+                    src={"/images/team-2023/" + t.First + t.Last + ".webp"}
                     name={t.First + " " + t.Last}
                     title={t.Title}
                     major={t.Major}
