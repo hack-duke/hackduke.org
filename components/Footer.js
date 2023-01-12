@@ -65,15 +65,55 @@ function Footer(props) {
                                 </div>
                                 <div className="column is-half-mobile">
                                     <div className="column-title">Humans</div>
-                                    <div className="column-text">Directors</div>
-                                    <div className="column-text">Tech</div>
-                                    <div className="column-text">Design</div>
-                                    <div className="column-text">Logistics</div>
-                                    <div className="column-text">Outreach</div>
-                                    <div className="column-text">
+                                    <div
+                                        className="column-text"
+                                        onClick={() => {
+                                            router.push("/humans#Directors");
+                                        }}>
+                                        Directors
+                                    </div>
+                                    <div
+                                        className="column-text"
+                                        onClick={() => {
+                                            router.push("/humans#Tech");
+                                        }}>
+                                        Tech
+                                    </div>
+                                    <div
+                                        className="column-text"
+                                        onClick={() => {
+                                            router.push("/humans#Tech");
+                                        }}>
+                                        Design
+                                    </div>
+                                    <div
+                                        className="column-text"
+                                        onClick={() => {
+                                            router.push("/humans#Tech");
+                                        }}>
+                                        Logistics
+                                    </div>
+                                    <div
+                                        className="column-text"
+                                        onClick={() => {
+                                            router.push("/humans#Tech");
+                                        }}>
+                                        Outreach
+                                    </div>
+                                    <div
+                                        className="column-text"
+                                        onClick={() => {
+                                            router.push("/humans#Tech");
+                                        }}>
                                         Sponsorship
                                     </div>
-                                    <div className="column-text">Marketing</div>
+                                    <div
+                                        className="column-text"
+                                        onClick={() => {
+                                            router.push("/humans#Tech");
+                                        }}>
+                                        Marketing
+                                    </div>
                                 </div>
                                 <div className="column is-half-mobile">
                                     <div className="column-title">Events</div>

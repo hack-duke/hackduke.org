@@ -57,10 +57,10 @@ export default function Humans() {
                 <section className="section is-medium" id="humans-cards">
                     <div className="container">
                         <div className="title">The humans behind it all</div>
-                        <div className="humans-directors">
+                        <div className="humans-directors" id="Directors">
                             <TeamCards team="Director" />
                         </div>
-                        <div className="humans-teams">
+                        <div className="humans-teams" id={team}>
                             <div className="team-selector">
                                 {Object.keys(teams).map((t) => (
                                     <div
