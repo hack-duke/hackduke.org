@@ -17,7 +17,8 @@ export default function Humans() {
         Outreach:
             "We get to talk to the celebrities (the speakers) and get them to campus/zoom.",
         Sponsorship: "Making money moves. Need I say more?",
-        Marketing: "Marketing",
+        Marketing: "Spreading innovation throughout the community.",
+        Treasury: "Treasury",
     };
 
     return (

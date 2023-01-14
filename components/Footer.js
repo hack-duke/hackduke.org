@@ -77,42 +77,7 @@ function Footer(props) {
                                         onClick={() => {
                                             router.push("/humans#Tech");
                                         }}>
-                                        Tech
-                                    </div>
-                                    <div
-                                        className="column-text"
-                                        onClick={() => {
-                                            router.push("/humans#Tech");
-                                        }}>
-                                        Design
-                                    </div>
-                                    <div
-                                        className="column-text"
-                                        onClick={() => {
-                                            router.push("/humans#Tech");
-                                        }}>
-                                        Logistics
-                                    </div>
-                                    <div
-                                        className="column-text"
-                                        onClick={() => {
-                                            router.push("/humans#Tech");
-                                        }}>
-                                        Outreach
-                                    </div>
-                                    <div
-                                        className="column-text"
-                                        onClick={() => {
-                                            router.push("/humans#Tech");
-                                        }}>
-                                        Sponsorship
-                                    </div>
-                                    <div
-                                        className="column-text"
-                                        onClick={() => {
-                                            router.push("/humans#Tech");
-                                        }}>
-                                        Marketing
+                                        Teams
                                     </div>
                                 </div>
                                 <div className="column is-half-mobile">
