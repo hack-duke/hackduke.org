@@ -69,13 +69,13 @@ function Navbar(props) {
                             }}>
                             Join Us
                         </div>
-                        <div
+                        {/* <div
                             className="navbar-item navbar-button"
                             onClick={() => {
                                 router.push("/");
                             }}>
                             Login
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </nav>
