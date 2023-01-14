@@ -328,7 +328,7 @@ html {
 
 .member-card .card-image {
     width: 100%;
-    filter: brightness(80%);
+    filter: brightness(100%);
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -337,7 +337,7 @@ html {
 }
 
 .member-card .card-image:hover {
-    filter: brightness(100%);
+    filter: brightness(80%);
     background-size: 110%;
     transition: all 0.5s;
 }
