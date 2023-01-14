@@ -18,7 +18,7 @@ export default function Humans() {
             "We get to talk to the celebrities (the speakers) and get them to campus/zoom.",
         Sponsorship: "Making money moves. Need I say more?",
         Marketing: "Spreading innovation throughout the community.",
-        Treasury: "Treasury",
+        Treasury: "Making the dollars make cents.",
     };
 
     return (
