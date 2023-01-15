@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+
 function MemberCard(props) {
     return (
         <div className="column is-one-fifth-desktop is-one-third-tablet is-half-mobile member-card">
@@ -6,7 +9,12 @@ function MemberCard(props) {
                 style={{ backgroundImage: "url('" + props.src + "')" }}
                 href={props.linkedin}
                 target="_blank"
-                rel="noopener noreferrer"></a>
+                rel="noopener noreferrer">
+                    <FontAwesomeIcon
+                        style={{position: "absolute", right: 10, bottom: 10}}
+                        className="faicon is-hidden-desktop has-text-white"
+                        icon={fab.faLinkedin}></FontAwesomeIcon>
+                </a>
             <div className="card-content">
                 <div className="member-name">{props.name}</div>
                 <div className="member-major">{props.major}</div>

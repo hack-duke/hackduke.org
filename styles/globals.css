@@ -367,6 +367,10 @@ html {
     font-weight: 600;
 }
 
+.member-card .faicon {
+    font-size: 1.75rem;
+}
+
 /* Components/TeamCards.js */
 
 /* Pages/index.js */
