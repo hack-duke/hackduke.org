@@ -18,8 +18,19 @@ export default function Join() {
                             <div className="subtitle">
                                 Thanks for your interest in joining HackDuke!
                                 Our next recruiting cycle starts Spring 2023.
-                                More information will be released soon.
+                                Please join our mailing list so you get the important details about the process.
                             </div>
+                        <a
+                        className="button"
+                        id="about-hero-button"
+                        style={{ color: "#ffffff" }}
+                        href="https://4cf755e0.sibforms.com/serve/MUIEAOybFH25Vpsrd1yTJY8Isep_0XVWnJ3nCkVDVbtlJPKJyIc6ZocylLiNDnnfNP8sOrw_QIs_o9SXsM6Qa2CLeXYKvg4bJNBh39rAN2LUkDRoZsUaqDsnGH_Ja9FFqD4cW1o0pseW_Jsuy1qT_PfWhWwR2zwicw5VXz1qku5Ui_BbQ4ffyT5wcAd_IhZcDVuWK__AawXEUaae">
+                        Subscribe to our mailing list{" "}
+                        <FontAwesomeIcon
+                            className="fa-md faicon"
+                            icon={faArrowRight}></FontAwesomeIcon>
+                        </a>
+
                         </div>
                     </div>
                 </div>
