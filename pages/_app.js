@@ -3,6 +3,7 @@ import Router from "next/router";
 import NProgress from "nprogress"; //nprogress module
 import "../node_modules/nprogress/nprogress.css"; //styles of nprogress
 import Head from "next/head";
+import { GoogleAnalytics } from "nextjs-google-analytics";
 
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());
@@ -46,6 +47,7 @@ function MyApp({ Component, pageProps }) {
                     content="//hackduke.org/preview.png"
                 />
             </Head>
+            <GoogleAnalytics trackPageViews gaMeasurementId="G-ZFDHWPBRG6"/>
             <Component {...pageProps} />
         </>
     );
