@@ -117,33 +117,6 @@
     "Year": 2026
   },
   {
-    "First": "Caroline",
-    "Last": "Cornett",
-    "Team": "Logistics",
-    "Title": "Member",
-    "Major": "Political Science, English, CS",
-    "LinkedIn": "https://www.linkedin.com/in/caroline-cornett-540a351b6/",
-    "Year": 2025
-  },
-  {
-    "First": "Evan",
-    "Last": "Kenyon",
-    "Team": "Logistics",
-    "Title": "Member",
-    "Major": "ECE & CS",
-    "LinkedIn": "https://www.linkedin.com/in/evan-kenyon-595982146/",
-    "Year": 2023
-  },
-  {
-    "First": "Carlos",
-    "Last": "Penzini",
-    "Team": "Logistics",
-    "Title": "Member",
-    "Major": "CS & Math",
-    "LinkedIn": "https://www.linkedin.com/in/carlos-penzini-b1bb841ba/",
-    "Year": 2026
-  },
-  {
     "First": "Johnny",
     "Last": "Pesavento",
     "Team": "Logistics",
@@ -189,19 +162,10 @@
     "Year": 2026
   },
   {
-    "First": "Jeff",
-    "Last": "Ulmasov",
-    "Team": "Outreach",
-    "Title": "Co-Lead",
-    "Major": "CS",
-    "LinkedIn": "https://www.linkedin.com/in/ulmasovjafarbek/",
-    "Year": 2024
-  },
-  {
     "First": "Alan",
     "Last": "Wang",
     "Team": "Outreach",
-    "Title": "Co-Lead",
+    "Title": "Lead",
     "Major": "CS & Stats",
     "LinkedIn": "https://www.linkedin.com/in/alan-wang-4100681bb/",
     "Year": 2025
@@ -223,15 +187,6 @@
     "Major": "CS",
     "LinkedIn": "https://www.linkedin.com/in/graham-gumbert/",
     "Year": 2025
-  },
-  {
-    "First": "Jas",
-    "Last": "Santos",
-    "Team": "Outreach",
-    "Title": "Member",
-    "Major": "Interdisciplinary Studies",
-    "LinkedIn": "https://www.linkedin.com/in/jasminemcsantos",
-    "Year": 2024
   },
   {
     "First": "Christian",
@@ -259,15 +214,6 @@
     "Major": "CS, Public Policy",
     "LinkedIn": "https://www.linkedin.com/in/damilola-awofisayo-96a4431a6/",
     "Year": 2026
-  },
-  {
-    "First": "Sudhir",
-    "Last": "Chowdhry",
-    "Team": "Sponsorship",
-    "Title": "Member",
-    "Major": "",
-    "LinkedIn": "",
-    "Year": 2025
   },
   {
     "First": "Tony",
@@ -335,19 +281,10 @@
   {
     "First": "Alyssa",
     "Last": "Gorbaneva",
-    "Team": "Tech",
+    "Team": "Logistics",
     "Title": "Member",
     "Major": "CS & Math",
     "LinkedIn": "https://www.linkedin.com/in/alyssa-gorbaneva-88a005171/",
-    "Year": 2026
-  },
-  {
-    "First": "Tommy",
-    "Last": "Jablonski",
-    "Team": "Tech",
-    "Title": "Member",
-    "Major": "CS & ECE",
-    "LinkedIn": "",
     "Year": 2026
   },
   {
@@ -362,7 +299,7 @@
   {
     "First": "Amelia",
     "Last": "Lane",
-    "Team": "Tech",
+    "Team": "Outreach",
     "Title": "Member",
     "Major": "CS",
     "LinkedIn": "https://www.linkedin.com/in/amelia-lane-998b79253/",
