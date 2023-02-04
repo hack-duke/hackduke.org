@@ -6,8 +6,7 @@ function SponsorUs(props) {
                     <div className="title">Sponsor Us!</div>
                     <div className="subtitle">
                         Interested in sponsoring? Email us
-                        at hackers@hackduke.org! We would love to hear from you
-                        :)
+                        at <a href="mailto:sponsorship@hackduke.org">sponsorship@hackduke.org</a>. We would love to hear from you!
                     </div>
                 </div>
             </section>
