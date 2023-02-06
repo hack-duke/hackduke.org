@@ -24,7 +24,8 @@ export default function Join() {
                         className="button"
                         id="about-hero-button"
                         style={{ color: "#ffffff" }}
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSdsAd61aROcqTUNOzixnZ78DpLYM1KgIWWqMTXOxa91Pm1yKg/viewform">
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdsAd61aROcqTUNOzixnZ78DpLYM1KgIWWqMTXOxa91Pm1yKg/viewform"
+                        onClick={() => gtag('event', 'apply_form_open')}>
                         Apply now{" "}
                         <FontAwesomeIcon
                             className="fa-md faicon"
