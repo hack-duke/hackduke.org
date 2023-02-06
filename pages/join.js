@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeroBackground from "../components/HeroBackground";
+import Head from "next/head"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -8,6 +9,9 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 export default function Join() {
     return (
         <>
+            <Head>
+                <title>Join | HackDuke</title>
+            </Head>
             <Navbar color="#0042c6" />
             <div className="join">
                 <div className="hero">

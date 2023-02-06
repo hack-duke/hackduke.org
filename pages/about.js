@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import JoinUs from "../components/JoinUs";
 import Footer from "../components/Footer";
+import Head from 'next/head'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -11,6 +12,9 @@ export default function About() {
     const router = useRouter();
     return (
         <>
+            <Head>
+                <title>About Us | HackDuke</title>
+            </Head>
             <Navbar color="#e55511" />
             <div className="about">
                 <section className="section is-medium" id="about-hero">

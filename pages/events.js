@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import SponsorUs from "../components/SponsorUs";
 import Footer from "../components/Footer";
+import Head from "next/head";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -11,6 +12,9 @@ export default function Events() {
     const router = useRouter();
     return (
         <>
+            <Head>
+                <title>Events | HackDuke</title>
+            </Head>
             <Navbar color="#36c69b" />
             <section className="section is-small" id="events-hero">
                 <div className="container">

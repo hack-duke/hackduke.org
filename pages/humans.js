@@ -3,6 +3,7 @@ import JoinUs from "../components/JoinUs";
 import Footer from "../components/Footer";
 import TeamCards from "../components/TeamCards";
 import React, { useState } from "react";
+import Head from "next/head";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -23,6 +24,9 @@ export default function Humans() {
 
     return (
         <>
+            <Head>
+                <title>Humans | HackDuke</title>
+            </Head>
             <Navbar color="#242424" />
             <div className="humans">
                 <section className="section is-medium" id="humans-hero">
