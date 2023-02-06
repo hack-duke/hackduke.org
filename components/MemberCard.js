@@ -6,7 +6,7 @@ function MemberCard(props) {
         <div className="column is-one-fifth-desktop is-one-third-tablet is-half-mobile member-card">
             <a
                 className="card-image"
-                style={{ backgroundImage: "url('" + props.src + "')" }}
+                style={{ backgroundImage: "url('" + props.src + "'), linear-gradient(to bottom, #6190e8, #a7bfe8)", backgroundSize: "cover" }}
                 href={props.linkedin}
                 target="_blank"
                 rel="noopener noreferrer">
