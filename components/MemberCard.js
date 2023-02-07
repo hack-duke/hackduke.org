@@ -6,16 +6,22 @@ function MemberCard(props) {
         <div className="column is-one-fifth-desktop is-one-third-tablet is-half-mobile member-card">
             <a
                 className="card-image"
-                style={{ backgroundImage: "url('" + props.src + "'), linear-gradient(to bottom, #6190e8, #a7bfe8)", backgroundSize: "cover" }}
+                style={{
+                    backgroundImage:
+                        "url('" +
+                        props.src +
+                        "'), linear-gradient(to bottom, #6190e8, #a7bfe8)",
+                    backgroundSize: "cover",
+                }}
                 href={props.linkedin}
                 target="_blank"
                 rel="noopener noreferrer">
                 {/* LinkedIn Icon for mobile/tablet screen sizes */}
-                    <FontAwesomeIcon
-                        style={{position: "absolute", right: 10, bottom: 10}}
-                        className="faicon is-hidden-desktop has-text-white"
-                        icon={fab.faLinkedin}></FontAwesomeIcon>
-                </a>
+                <FontAwesomeIcon
+                    style={{ position: "absolute", right: 10, bottom: 10 }}
+                    className="faicon  has-text-white"
+                    icon={fab.faLinkedin}></FontAwesomeIcon>
+            </a>
             <div className="card-content">
                 <div className="member-name">{props.name}</div>
                 <div className="member-major">{props.major}</div>
