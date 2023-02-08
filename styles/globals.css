@@ -2,6 +2,43 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Martel+Sans&family=Montserrat&family=Oxygen:wght@400&display=swap");
 
+
+/* Bg Animate */
+
+:root {
+    --shift: 0;
+    --x: 0;
+    --y: 0;
+}
+
+.hero-bg {
+    transition: transform .2s ease-out;
+}
+
+#hero-bg-1 {
+    transform: translate(calc(1px * var(--x)), calc(1px * var(--y)));
+}
+#hero-bg-2 {
+    transform: translate(calc(2px * var(--x)), calc(2px * var(--y)));
+}
+#hero-bg-3 {
+    transform: translate(calc(3px * var(--x)), calc(3px * var(--y)));
+}
+#hero-bg-4 {
+    transform: translate(calc(4px * var(--x)), calc(4px * var(--y)));
+}
+#hero-bg-5 {
+    transform: translate(calc(5px * var(--x)), calc(5px * var(--y)));
+}
+#hero-bg-6 {
+    transform: translate(calc(6px * var(--x)), calc(6px * var(--y)));
+}
+/* l2.style.transform = `translate3d(${2 * x}px, ${2 * y}px, 0)`;
+l3.style.transform = `translate3d(${3 * x}px, ${3 * y}px, 0)`;
+l4.style.transform = `translate3d(${4 * x}px, ${4 * y}px, 0)`;
+l5.style.transform = `translate3d(${5 * x}px, ${5 * y}px, 0)`;
+l6.style.transform = `translate3d(${6 * x}px, ${6 * y}px, 0)`; */
+
 /* General */
 
 @keyframes spin {

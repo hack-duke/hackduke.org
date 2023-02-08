@@ -2,35 +2,35 @@ import { useEffect, useState } from "react";
 
 function HeroBackground() {
     // state for mouse x and y position
-    const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+    // const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+    // let mousePos = {x: 0, y: 0}
+    let l1
 
     // calculate parallax effect for rectangle
-    const parallax = (e) => {
-        const l1 = document.getElementById("hero-bg-1");
-        const l2 = document.getElementById("hero-bg-2");
-        const l3 = document.getElementById("hero-bg-3");
-        const l4 = document.getElementById("hero-bg-4");
-        const l5 = document.getElementById("hero-bg-5");
-        const l6 = document.getElementById("hero-bg-6");
-        const x = (mousePos.x - l1.offsetLeft) / 100;
-        const y = (mousePos.y - l1.offsetTop) / 100;
-        l1.style.transform = `translate(${x}px, ${y}px)`;
-        l2.style.transform = `translate(${2 * x}px, ${2 * y}px)`;
-        l3.style.transform = `translate(${3 * x}px, ${3 * y}px)`;
-        l4.style.transform = `translate(${4 * x}px, ${4 * y}px)`;
-        l5.style.transform = `translate(${5 * x}px, ${5 * y}px)`;
-        l6.style.transform = `translate(${6 * x}px, ${6 * y}px)`;
+    const parallax = (clientX, clientY) => {
+        if (!l1) {
+            l1 = document.getElementById("hero-bg-1");
+        }
+        const x = (clientX - l1.offsetLeft) / 100;
+        const y = (clientY - l1.offsetTop) / 100;
+
+        const parent = document.querySelector(':root')
+        parent.style.setProperty("--x", x);
+        parent.style.setProperty("--y", y);
     };
 
     useEffect(() => {
         function updateMouse(e) {
             e.preventDefault();
-            setMousePos({ x: e.clientX, y: e.clientY });
+            // setMousePos({ x: e.clientX, y: e.clientY });
+            // mousePos = { x: e.clientX, y: e.clientY }
+            parallax(e.clientX, e.clientY)
             // console.log(mousePos);
         }
+        l1 = document.getElementById("hero-bg-1");
         // add event listener
         window.addEventListener("mousemove", updateMouse);
-        parallax();
+        // parallax();
         // remove event listener on cleanup
         return () => window.removeEventListener("mousemove", updateMouse);
     });
