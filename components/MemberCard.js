@@ -10,7 +10,7 @@ function MemberCard(props) {
                     backgroundImage:
                         "url('" +
                         props.src +
-                        "'), linear-gradient(to bottom, #6190e8, #a7bfe8)",
+                        "'), linear-gradient(45deg, #eef2f3, #8e9eab)",
                     backgroundSize: "cover",
                 }}
                 href={props.linkedin}
