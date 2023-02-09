@@ -23,7 +23,7 @@ export default function Events() {
                             <div className="section-title">Events</div>
                             <div className="subtitle">
                                 Each year, our teams organize two conferences
-                                that each attracts over 1000 participants: Code
+                                that attract participants all over the country: Code
                                 for Good and Ideate. You might have heard about
                                 them :)
                             </div>
@@ -35,20 +35,20 @@ export default function Events() {
                         <div className="column">
                             <div className="scoreboard">
                                 <div className="scoreboard-title">
-                                    Code for Good 2020
+                                    Code for Good 2022
                                 </div>
                                 <div className="columns is-desktop is-vcentered">
                                     <div className="column">
                                         <div className="scoreboard-number">
-                                            1048
+                                            264
                                         </div>
                                         <div className="scoreboard-text">
-                                            Registrants
+                                            Participants
                                         </div>
                                     </div>
                                     <div className="column">
                                         <div className="scoreboard-number">
-                                            115
+                                            35
                                         </div>
                                         <div className="scoreboard-text">
                                             Hacks
@@ -56,22 +56,22 @@ export default function Events() {
                                     </div>
                                     <div className="column">
                                         <div className="scoreboard-number">
-                                            $4000
+                                            $3300
                                         </div>
                                         <div className="scoreboard-text">
-                                            Donated
+                                            In Prizes
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="scoreboard">
                                 <div className="scoreboard-title">
-                                    Ideate 2020
+                                    Ideate 2022
                                 </div>
                                 <div className="columns is-desktop is-vcentered">
                                     <div className="column">
                                         <div className="scoreboard-number">
-                                            651
+                                            234
                                         </div>
                                         <div className="scoreboard-text">
                                             Registrants
@@ -79,18 +79,18 @@ export default function Events() {
                                     </div>
                                     <div className="column">
                                         <div className="scoreboard-number">
-                                            54
+                                            18
                                         </div>
                                         <div className="scoreboard-text">
-                                            Submissions
+                                            Pitches
                                         </div>
                                     </div>
                                     <div className="column">
                                         <div className="scoreboard-number">
-                                            $2400
+                                            $1500
                                         </div>
                                         <div className="scoreboard-text">
-                                            Donated
+                                            In Prizes
                                         </div>
                                     </div>
                                 </div>
