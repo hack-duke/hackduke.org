@@ -318,14 +318,14 @@ html {
     margin-bottom: 0.25rem;
     font-size: 1.2rem;
     position: relative;
-    /* width: fit-content; */
+    width: fit-content;
 }
 
-.footer .column-text:hover {
+.footer .column-text p:hover {
     cursor: pointer;
 }
 
-.footer .column-text::before {
+.footer .column-text p::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -339,7 +339,7 @@ html {
     transition: transform 0.3s ease-in-out;
 }
 
-.footer .column-text:hover::before {
+.footer .column-text p:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }

@@ -60,7 +60,7 @@ function Footer(props) {
                                         onClick={() => {
                                             router.push("/about");
                                         }}>
-                                        Our Story
+                                        <p>Our Story</p>
                                     </div>
                                 </div>
                                 <div className="column is-half-mobile">
@@ -70,14 +70,14 @@ function Footer(props) {
                                         onClick={() => {
                                             router.push("/humans#Directors");
                                         }}>
-                                        Directors
+                                        <p>Directors</p>
                                     </div>
                                     <div
                                         className="column-text"
                                         onClick={() => {
                                             router.push("/humans#Tech");
                                         }}>
-                                        Teams
+                                        <p>Teams</p>
                                     </div>
                                 </div>
                                 <div className="column is-half-mobile">
@@ -89,21 +89,21 @@ function Footer(props) {
                                                 "/events#code-for-good"
                                             );
                                         }}>
-                                        Code For Good
+                                        <p>Code For Good</p>
                                     </div>
                                     <div
                                         className="column-text"
                                         onClick={() => {
                                             router.push("/events#ideate");
                                         }}>
-                                        Ideate
+                                        <p>Ideate</p>
                                     </div>
                                     <div
                                         className="column-text"
                                         onClick={() => {
                                             router.push("/events#sponsor-us");
                                         }}>
-                                        Sponsor Us
+                                        <p>Sponsor Us</p>
                                     </div>
                                 </div>
                                 <div className="column is-half-mobile">
@@ -113,7 +113,7 @@ function Footer(props) {
                                         onClick={() => {
                                             router.push("/join");
                                         }}>
-                                        Process
+                                        <p>Process</p>
                                     </div>
                                 </div>
                             </div>
