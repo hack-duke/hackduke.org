@@ -36,7 +36,7 @@ export default function Feb18() {
                         style={{ color: "#ffffff" }}
                         href="https://forms.gle/BZgGppMWKMkz1r3r5"
                         onClick={() => gtag('event', 'event_form_open')}>
-                        Sign up now{" "}
+                        Register now{" "}
                         <FontAwesomeIcon
                             className="fa-md faicon"
                             icon={faArrowRight}></FontAwesomeIcon>
