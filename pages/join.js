@@ -21,16 +21,17 @@ export default function Join() {
                             <div className="section-title">Join HackDuke!</div>
                             <div className="subtitle">
                                 Thanks for your interest in joining HackDuke!
-                                Our applications are now open.
-                                Please fill out our application before <b>Feb 12, 2023 @ 11:59pm</b>.
+                                Our organizer team applications are now closed for this semester.
+                                If you have applied, we will reach out about interviews soon.
+                                However, if you would like to hear about our latest events, please subscribe to the newsletter.
                             </div>
                         <a
                         className="button"
                         id="about-hero-button"
                         style={{ color: "#ffffff" }}
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSdsAd61aROcqTUNOzixnZ78DpLYM1KgIWWqMTXOxa91Pm1yKg/viewform"
-                        onClick={() => gtag('event', 'apply_form_open')}>
-                        Apply now{" "}
+                        href="https://4cf755e0.sibforms.com/serve/MUIEAAcE4j7UohciQWxL1OD-ek-BsIe709PlDqlo2iJqTPxKsdDZcQMilgW4PLJlabuxJCYisXPeMUoU8-72KjY8Jp8HRdVc8vs5B6jCEdO-8R8wS-T0t6u5kDrdRQ8OGrA8019LVSP-8CKlETD2QIJ9tn1yBYpW_l3AFjfbq3FhhcFLnat77sRkg-aXnQKmAMNS_p-3-cQWYBfu"
+                        onClick={() => gtag('event', 'newsletter_open')}>
+                        Subscribe now{" "}
                         <FontAwesomeIcon
                             className="fa-md faicon"
                             icon={faArrowRight}></FontAwesomeIcon>

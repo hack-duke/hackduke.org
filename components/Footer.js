@@ -113,7 +113,7 @@ function Footer(props) {
                                         onClick={() => {
                                             router.push("/join");
                                         }}>
-                                        <p>Process</p>
+                                        <p>Newsletter</p>
                                     </div>
                                 </div>
                             </div>
