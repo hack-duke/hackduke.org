@@ -101,6 +101,13 @@ function Footer(props) {
                                     <div
                                         className="column-text"
                                         onClick={() => {
+                                            router.push("/events/feb18");
+                                        }}>
+                                        <p>Feb 18</p>
+                                    </div>
+                                    <div
+                                        className="column-text"
+                                        onClick={() => {
                                             router.push("/events#sponsor-us");
                                         }}>
                                         <p>Sponsor Us</p>
