@@ -17,7 +17,9 @@ function Footer(props) {
                                 <img src="/images/hd-logo.svg" />
                             </div>
                             <div className="footer-text">
-                                hackers@hackduke.org
+                                    <div className="column-text">
+                                        <p><a href="mailto:contact@hackduke.org" style={{color: "#ffffff"}}>contact@hackduke.org</a></p>
+                                    </div>
                             </div>
                             <div className="footer-icons">
                                 <FontAwesomeIcon
