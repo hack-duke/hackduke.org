@@ -103,6 +103,43 @@ export default function Events() {
                 <div className="container">
                     <div className="columns is-desktop is-vcentered">
                         <div className="column">
+                            <div className="title">Feb 18 Speaker Event</div>
+                            <div className="subtitle">
+                                <p>
+                                    We're excited to welcome Robert Vila, a Director @ IBM
+                                    to speak about his experience in the technical and business requirements for successful SaaS.
+                                    The event is <b>Feb 18, 2023 from 1-2pm in Wilkinson 136</b>.
+                                    <br />
+                                    <br />
+                                    Chick-fil-A catering will be served and we hope to see you there!
+                                </p>
+                            </div>
+                            <div
+                                className="button"
+                                style={{ color: "#0042c6" }}
+                                onClick={() => {
+                                    gtag('event', 'event_form_open')
+                                    router.push("https://forms.gle/BZgGppMWKMkz1r3r5");
+                                }}>
+                                Register now{" "}
+                                <FontAwesomeIcon
+                                    className="fa-md faicon"
+                                    icon={faArrowRight}></FontAwesomeIcon>
+                            </div>
+                        </div>
+                        <div className="column">
+                            <img
+                                className="events-image"
+                                src="/images/RobertVilaTalk.jpeg"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="section is-medium" id="code-for-good">
+                <div className="container">
+                    <div className="columns is-desktop is-vcentered">
+                        <div className="column">
                             <div className="title">Code For Good</div>
                             <div className="subtitle">
                                 Code for Good is the nation’s premier hackathon
