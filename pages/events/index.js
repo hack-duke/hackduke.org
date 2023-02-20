@@ -118,10 +118,10 @@ export default function Events() {
                                 className="button"
                                 style={{ color: "#0042c6" }}
                                 onClick={() => {
-                                    gtag('event', 'event_form_open')
-                                    router.push("https://forms.gle/BZgGppMWKMkz1r3r5");
+                                    // gtag('event', 'event_form_open')
+                                    router.push("https://www.linkedin.com/feed/update/urn:li:activity:7032811883829051392");
                                 }}>
-                                Register now{" "}
+                                See the event{" "}
                                 <FontAwesomeIcon
                                     className="fa-md faicon"
                                     icon={faArrowRight}></FontAwesomeIcon>
