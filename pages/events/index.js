@@ -22,12 +22,10 @@ export default function Events() {
                         <div className="column">
                             <div className="section-title">Events</div>
                             <div className="subtitle">
-                                <h1 className="text-3xl font-bold underline">
-                                    Each year, our teams organize two conferences
-                                    that attract participants all over the country: Code
-                                    for Good and Ideate. You might have heard about
-                                    them :)
-                                </h1>
+                                Each year, our teams organize two conferences
+                                that attract participants all over the country: Code
+                                for Good and Ideate. You might have heard about
+                                them :)
                             </div>
                             <img
                                 id="events-hero-i1"
