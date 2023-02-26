@@ -35,7 +35,7 @@ export default function Events() {
                             />
                         </div>
                         <div className="column">
-                            <div className="scoreboard">
+                            <div className="border-4 border-dashed border-white rounded-[1rem] p-[1rem] my-[2rem]">
                                 <div class="font-['Oxygen'] font-semibold text-[1.5rem] text-[#000000] mb-[1rem] text-center">
                                     Code for Good 2022
                                 </div>
@@ -66,7 +66,7 @@ export default function Events() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="scoreboard">
+                            <div className="border-4 border-dashed border-white rounded-[1rem] p-[1rem] my-[2rem]">
                                 <div class="font-['Oxygen'] font-semibold text-[1.5rem] text-[#000000] mb-[1rem] text-center">
                                     Ideate 2022
                                 </div>
