@@ -16,80 +16,82 @@ export default function Events() {
                 <title>Events | HackDuke</title>
             </Head>
             <Navbar color="#36c69b" />
-            <section className="section is-small" id="events-hero">
-                <div className="container">
+            <section className="section is-small" id="events-hero" class="bg-[#36c69b] min-h-screen pt-40">
+                <div class="px-[5vw]">
                     <div className="columns is-desktop is-vcentered">
                         <div className="column">
-                            <div className="section-title">Events</div>
-                            <div className="subtitle">
+                            <div class="font-['Oxygen'] font-semibold text-[3rem] text-black mb-8">
+                                Events
+                            </div>
+                            <div class="text-[#000000] font-['Oxygen] text-[1.25rem] mb-2 leading-tight">
                                 Each year, our teams organize two conferences
                                 that attract participants all over the country: Code
                                 for Good and Ideate. You might have heard about
                                 them :)
                             </div>
                             <img
-                                id="events-hero-i1"
+                                class="w-4/5 mt-[10%] ml-[10%]"
                                 src="/graphics/building.svg"
                             />
                         </div>
                         <div className="column">
                             <div className="scoreboard">
-                                <div className="scoreboard-title">
+                                <div class="font-['Oxygen'] font-semibold text-[1.5rem] text-[#000000] mb-[1rem] text-center">
                                     Code for Good 2022
                                 </div>
                                 <div className="columns is-desktop is-vcentered">
                                     <div className="column">
-                                        <div className="scoreboard-number">
+                                        <div class="font-['Oxygen'] font-semibold text-[3rem] text-[#000000] mb-[0.5rem] text-center">
                                             264
                                         </div>
-                                        <div className="scoreboard-text">
+                                        <div class="font-['Oxygen'] font-normal text-[1.5rem] text-[#000000] mb-[0.5rem] text-center">
                                             Participants
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="scoreboard-number">
+                                        <div class="font-['Oxygen'] font-semibold text-[3rem] text-[#000000] mb-[0.5rem] text-center">
                                             35
                                         </div>
-                                        <div className="scoreboard-text">
+                                        <div class="font-['Oxygen'] font-normal text-[1.5rem] text-[#000000] mb-[0.5rem] text-center">
                                             Hacks
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="scoreboard-number">
+                                        <div class="font-['Oxygen'] font-semibold text-[3rem] text-[#000000] mb-[0.5rem] text-center">
                                             $3300
                                         </div>
-                                        <div className="scoreboard-text">
+                                        <div class="font-['Oxygen'] font-normal text-[1.5rem] text-[#000000] mb-[0.5rem] text-center">
                                             In Prizes
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="scoreboard">
-                                <div className="scoreboard-title">
+                                <div class="font-['Oxygen'] font-semibold text-[1.5rem] text-[#000000] mb-[1rem] text-center">
                                     Ideate 2022
                                 </div>
                                 <div className="columns is-desktop is-vcentered">
                                     <div className="column">
-                                        <div className="scoreboard-number">
+                                        <div class="font-['Oxygen'] font-semibold text-[3rem] text-[#000000] mb-[0.5rem] text-center">
                                             234
                                         </div>
-                                        <div className="scoreboard-text">
+                                        <div className="font-['Oxygen'] font-normal text-[1.5rem] text-[#000000] mb-[0.5rem] text-center">
                                             Registrants
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="scoreboard-number">
+                                        <div className="font-['Oxygen'] font-semibold text-[3rem] text-[#000000] mb-[0.5rem] text-center">
                                             18
                                         </div>
-                                        <div className="scoreboard-text">
+                                        <div className="font-['Oxygen'] font-normal text-[1.5rem] text-[#000000] mb-[0.5rem] text-center">
                                             Pitches
                                         </div>
                                     </div>
                                     <div className="column">
-                                        <div className="scoreboard-number">
+                                        <div className="font-['Oxygen'] font-semibold text-[3rem] text-[#000000] mb-[0.5rem] text-center">
                                             $1500
                                         </div>
-                                        <div className="scoreboard-text">
+                                        <div className="font-['Oxygen'] font-normal text-[1.5rem] text-[#000000] mb-[0.5rem] text-center">
                                             In Prizes
                                         </div>
                                     </div>
