@@ -9,7 +9,11 @@ module.exports = {
         "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                'hackduke-orange': '#e55511',
+            },
+        },
         fontFamily: {
             sans: ["Oxygen", "sans-serif"],
         },

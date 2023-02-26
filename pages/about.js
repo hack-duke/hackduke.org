@@ -16,16 +16,20 @@ export default function About() {
                 <title>About Us | HackDuke</title>
             </Head>
             <Navbar color="#e55511" />
-            <div className="about">
-                <section className="section is-medium" id="about-hero">
-                    <div className="container">
-                        <div className="section-title">Our Story</div>
-                        <div className="subtitle">
+            <div>
+                {/* section-is-medium, about-hero */}
+                <section className="bg-hackduke-orange bg-[url('/graphics/about.svg')] 
+                bg-no-repeat bg-[left_calc(50%)_top_calc(90%)] pt-40 flex justify-center 
+                items-center min-h-screen">
+                    <div className="section-title">
+                        <div className="font-semibold text-5xl 
+                        text-white mb-8">Our Story</div>
+                        <div className="text-xl text-white mb-2">
                             HackDuke brings together Duke students with the goal
                             of improving meaningful student engagement with the
                             intersection of tech, design, and social good.
                         </div>
-                        <div className="subtitle">
+                        <div className="text-xl text-white mb-2">
                             Through our annual hackathon and designathon, we
                             unite students across the globe and encourage them
                             to think critically about the role of technology in
@@ -35,7 +39,7 @@ export default function About() {
                             back.
                         </div>
                         <div
-                            className="button"
+                            className="text-xl relative p-0 ml-0 mx-auto"
                             id="about-hero-button"
                             style={{ color: "#ffffff" }}
                             onClick={() => {
