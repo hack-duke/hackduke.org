@@ -106,7 +106,7 @@ export default function Events() {
                             <div className="title">Feb 18 Speaker Event</div>
                             <div className="subtitle">
                                 <p>
-                                    We're excited to welcome Robert Vila, a
+                                    We&apos;re excited to welcome Robert Vila, a
                                     Director @ IBM to speak about his experience
                                     in the technical and business requirements
                                     for successful SaaS. The event is{" "}
