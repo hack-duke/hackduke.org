@@ -101,7 +101,7 @@ export default function Events() {
                     </div>
                 </div>
             </section>
-            <section className="section is-medium" id="code-for-good">
+            <section className="section is-medium" id="feb18">
                 <div className="container">
                     <div className="columns is-desktop is-vcentered">
                         <div className="column">
