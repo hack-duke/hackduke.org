@@ -2,6 +2,8 @@
     "recommendations": [
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "bradlc.vscode-tailwindcss"
+        "bradlc.vscode-tailwindcss",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag"
     ]
 }
