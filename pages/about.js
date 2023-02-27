@@ -58,7 +58,7 @@ export default function About() {
                         <div className="columns is-desktop is-vcentered">
                             <div className="column" id="about-story-1-c1">
                                 <div className="section-title">
-                                    "Do Something New"
+                                    &quot;Do Something New&quot;
                                 </div>
                                 <div className="subtitle">
                                     It was 2013, and it started out as HackBlue.
@@ -114,9 +114,9 @@ export default function About() {
                             on problems that are related to social good. It has
                             also opened the eyes of more non-profits of the
                             potential of technology. HackDuke is not a solution
-                            to society's problems. It's the beginning of the
-                            journey in identifying them, and exploring the
-                            solutions to them.
+                            to society&apos;s problems. It&apos;s the beginning
+                            of the journey in identifying them, and exploring
+                            the solutions to them.
                         </div>
                         <div className="quote-author">
                             — Ashley Qian, 2014 HackDuke Co-director (DukeToday)

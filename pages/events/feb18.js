@@ -23,7 +23,7 @@ export default function Feb18() {
                             </div>
                             <div className="subtitle">
                                 <p>
-                                    We're excited to welcome Robert Vila, a
+                                    We&apos;re excited to welcome Robert Vila, a
                                     Director @ IBM to speak about his experience
                                     in the technical and business requirements
                                     for successful SaaS. The event is{" "}

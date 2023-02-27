@@ -83,7 +83,9 @@ export default function Humans() {
                                     </div>
                                 ))}
                             </div>
-                            <div className="team-message">"{teams[team]}"</div>
+                            <div className="team-message">
+                                &quot;{teams[team]}&quot;
+                            </div>
                             <TeamCards team={team} />
                         </div>
                     </div>

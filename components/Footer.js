@@ -150,8 +150,8 @@ function Footer(props) {
                     </div>
 
                     <div id="footer-message">
-                        Copyright © 2023 HackDuke — Designed by Maggie Wang '22,
-                        implemented with ♥
+                        Copyright © 2023 HackDuke — Designed by Maggie Wang
+                        &apos;22, implemented with ♥
                     </div>
                 </div>
             </footer>
