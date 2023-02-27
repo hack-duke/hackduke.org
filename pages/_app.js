@@ -47,7 +47,7 @@ function MyApp({ Component, pageProps }) {
                     content="//hackduke.org/preview.png"
                 />
             </Head>
-            <GoogleAnalytics trackPageViews gaMeasurementId="G-ZFDHWPBRG6"/>
+            <GoogleAnalytics trackPageViews gaMeasurementId="G-ZFDHWPBRG6" />
             <Component {...pageProps} />
         </>
     );

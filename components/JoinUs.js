@@ -22,11 +22,13 @@ function JoinUs(props) {
                         style={{ color: "#0042c6" }}
                         onClick={() => {
                             router.push("/join");
-                        }}>
+                        }}
+                    >
                         Join our team{" "}
                         <FontAwesomeIcon
                             className="fa-md faicon"
-                            icon={faArrowRight}></FontAwesomeIcon>
+                            icon={faArrowRight}
+                        ></FontAwesomeIcon>
                     </div>
                 </div>
             </section>

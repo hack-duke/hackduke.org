@@ -4,7 +4,7 @@ function HeroBackground() {
     // state for mouse x and y position
     // const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
     // let mousePos = {x: 0, y: 0}
-    let l1
+    let l1;
 
     // calculate parallax effect for rectangle
     const parallax = (clientX, clientY) => {
@@ -14,7 +14,7 @@ function HeroBackground() {
         const x = (clientX - l1.offsetLeft) / 100;
         const y = (clientY - l1.offsetTop) / 100;
 
-        const parent = document.querySelector(':root')
+        const parent = document.querySelector(":root");
         parent.style.setProperty("--x", x);
         parent.style.setProperty("--y", y);
     };
@@ -24,7 +24,7 @@ function HeroBackground() {
             e.preventDefault();
             // setMousePos({ x: e.clientX, y: e.clientY });
             // mousePos = { x: e.clientX, y: e.clientY }
-            parallax(e.clientX, e.clientY)
+            parallax(e.clientX, e.clientY);
             // console.log(mousePos);
         }
         l1 = document.getElementById("hero-bg-1");
