@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import JoinUs from "../components/JoinUs";
 import Footer from "../components/Footer";
-import Head from 'next/head'
+import Head from "next/head";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -40,22 +40,25 @@ export default function About() {
                             style={{ color: "#ffffff" }}
                             onClick={() => {
                                 router.push("/events");
-                            }}>
+                            }}
+                        >
                             More about our events{" "}
                             <FontAwesomeIcon
                                 className="fa-md faicon"
-                                icon={faArrowRight}></FontAwesomeIcon>
+                                icon={faArrowRight}
+                            ></FontAwesomeIcon>
                         </div>
                     </div>
                 </section>
                 <section
                     className="section is-medium about-story"
-                    id="about-us">
+                    id="about-us"
+                >
                     <div className="container" id="about-s1">
                         <div className="columns is-desktop is-vcentered">
                             <div className="column" id="about-story-1-c1">
                                 <div className="section-title">
-                                    "Do Something New"
+                                    &quot;Do Something New&quot;
                                 </div>
                                 <div className="subtitle">
                                     It was 2013, and it started out as HackBlue.
@@ -111,9 +114,9 @@ export default function About() {
                             on problems that are related to social good. It has
                             also opened the eyes of more non-profits of the
                             potential of technology. HackDuke is not a solution
-                            to society's problems. It's the beginning of the
-                            journey in identifying them, and exploring the
-                            solutions to them.
+                            to society&apos;s problems. It&apos;s the beginning
+                            of the journey in identifying them, and exploring
+                            the solutions to them.
                         </div>
                         <div className="quote-author">
                             — Ashley Qian, 2014 HackDuke Co-director (DukeToday)

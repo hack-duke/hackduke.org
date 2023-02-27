@@ -23,9 +23,9 @@ export default function Events() {
                             <div className="section-title">Events</div>
                             <div className="subtitle">
                                 Each year, our teams organize two conferences
-                                that attract participants all over the country: Code
-                                for Good and Ideate. You might have heard about
-                                them :)
+                                that attract participants all over the country:
+                                Code for Good and Ideate. You might have heard
+                                about them :)
                             </div>
                             <img
                                 id="events-hero-i1"
@@ -106,12 +106,18 @@ export default function Events() {
                             <div className="title">Feb 18 Speaker Event</div>
                             <div className="subtitle">
                                 <p>
-                                    We're excited to welcome Robert Vila, a Director @ IBM
-                                    to speak about his experience in the technical and business requirements for successful SaaS.
-                                    The event is <b>Feb 18, 2023 from 1-2pm in Wilkinson 136</b>.
+                                    We&apos;re excited to welcome Robert Vila, a
+                                    Director @ IBM to speak about his experience
+                                    in the technical and business requirements
+                                    for successful SaaS. The event is{" "}
+                                    <b>
+                                        Feb 18, 2023 from 1-2pm in Wilkinson 136
+                                    </b>
+                                    .
                                     <br />
                                     <br />
-                                    Chick-fil-A catering will be served and we hope to see you there!
+                                    Chick-fil-A catering will be served and we
+                                    hope to see you there!
                                 </p>
                             </div>
                             <div
@@ -119,12 +125,16 @@ export default function Events() {
                                 style={{ color: "#0042c6" }}
                                 onClick={() => {
                                     // gtag('event', 'event_form_open')
-                                    router.push("https://www.linkedin.com/feed/update/urn:li:activity:7032811883829051392");
-                                }}>
+                                    router.push(
+                                        "https://www.linkedin.com/feed/update/urn:li:activity:7032811883829051392"
+                                    );
+                                }}
+                            >
                                 See the event{" "}
                                 <FontAwesomeIcon
                                     className="fa-md faicon"
-                                    icon={faArrowRight}></FontAwesomeIcon>
+                                    icon={faArrowRight}
+                                ></FontAwesomeIcon>
                             </div>
                         </div>
                         <div className="column">
@@ -156,11 +166,13 @@ export default function Events() {
                                 style={{ color: "#0042c6" }}
                                 onClick={() => {
                                     router.push("https://2022.hackduke.org");
-                                }}>
+                                }}
+                            >
                                 Code For Good 2022{" "}
                                 <FontAwesomeIcon
                                     className="fa-md faicon"
-                                    icon={faArrowRight}></FontAwesomeIcon>
+                                    icon={faArrowRight}
+                                ></FontAwesomeIcon>
                             </div>
                         </div>
                         <div className="column">
@@ -203,11 +215,13 @@ export default function Events() {
                                 style={{ color: "#0042c6" }}
                                 onClick={() => {
                                     router.push("https://ideate.hackduke.org");
-                                }}>
+                                }}
+                            >
                                 Ideate 2022{" "}
                                 <FontAwesomeIcon
                                     className="fa-md faicon"
-                                    icon={faArrowRight}></FontAwesomeIcon>
+                                    icon={faArrowRight}
+                                ></FontAwesomeIcon>
                             </div>
                         </div>
                     </div>

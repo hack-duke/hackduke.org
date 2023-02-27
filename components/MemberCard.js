@@ -15,12 +15,14 @@ function MemberCard(props) {
                 }}
                 href={props.linkedin}
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+            >
                 {/* LinkedIn Icon for mobile/tablet screen sizes */}
                 <FontAwesomeIcon
                     style={{ position: "absolute", right: 10, bottom: 10 }}
                     className="faicon  has-text-white"
-                    icon={fab.faLinkedin}></FontAwesomeIcon>
+                    icon={fab.faLinkedin}
+                ></FontAwesomeIcon>
             </a>
             <div className="card-content">
                 <div className="member-name">{props.name}</div>
