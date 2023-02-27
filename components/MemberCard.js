@@ -20,7 +20,7 @@ function MemberCard(props) {
                 {/* LinkedIn Icon for mobile/tablet screen sizes */}
                 <FontAwesomeIcon
                     style={{ position: "absolute", right: 10, bottom: 10 }}
-                    className="faicon  has-text-white"
+                    className="faicon has-text-white"
                     icon={fab.faLinkedin}
                 ></FontAwesomeIcon>
             </a>
