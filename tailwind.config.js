@@ -13,6 +13,7 @@ module.exports = {
         fontFamily: {
             sans: ["Oxygen", "sans-serif"],
         },
+        
     },
     plugins: [],
 };
