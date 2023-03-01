@@ -151,17 +151,24 @@ function Footer(props) {
                     </div>
 
                     <div id="footer-message">
-                        Copyright © 2023 HackDuke — Designed by Maggie Wang
-                        &apos;22, implemented with ♥
+                        <div>
+                            Designed by Maggie Wang &apos;22, implemented with ♥
+                        </div>
+                        <div class="mt-2 inline-block">
+                            Copyright © 2023 HackDuke —{" "}
+                            <div class="inline-block">
+                                <div
+                                    className="column-small-text"
+                                    onClick={() => {
+                                        router.push("/privacy");
+                                    }}
+                                >
+                                    <p>Privacy</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="mt-8 flex justify-center text-base"> 
-                    <Link
-                    href="/privacy"
-                    class="hover:underline"
-                    >
-                    Privacy
-                    </Link>
-                    </div>
+                    {/* <div class="mt-8 flex justify-center text-base"></div> */}
                 </div>
             </footer>
         </>
