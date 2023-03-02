@@ -9,9 +9,13 @@ module.exports = {
         "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
+        screens: {
+            'lg': {'max': '1026px'},
+        },
         extend: {
             colors: {
-                'hackduke-orange': '#e55511',
+                'hd-orange': '#e55511',
+                'hd-dark-blue': '#0042c6',
             },
         },
         fontFamily: {
