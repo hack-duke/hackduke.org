@@ -10,14 +10,16 @@ function Navbar(props) {
             <nav
                 className={"navbar"}
                 role="navigation"
-                aria-label="main navigation">
+                aria-label="main navigation"
+            >
                 <div className="navbar-brand">
                     <div
                         className="navbar-item"
                         id="navbar-logo"
                         onClick={() => {
                             router.push("/");
-                        }}>
+                        }}
+                    >
                         <img id="hd-logo" src="/images/hd-symbol.svg" />
                     </div>
                     <a
@@ -29,7 +31,8 @@ function Navbar(props) {
                             toggleExpansion(!isExpanded);
                         }}
                         aria-label="menu"
-                        aria-expanded="false">
+                        aria-expanded="false"
+                    >
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
@@ -39,34 +42,39 @@ function Navbar(props) {
                 <div
                     className={"navbar-menu" + (isExpanded ? " is-active" : "")}
                     // style background color
-                    style={{ backgroundColor: props.color }}>
+                    style={{ backgroundColor: props.color }}
+                >
                     <div className="navbar-end">
                         <div
                             className="navbar-item navbar-button"
                             onClick={() => {
                                 router.push("/about");
-                            }}>
+                            }}
+                        >
                             About
                         </div>
                         <div
                             className="navbar-item navbar-button"
                             onClick={() => {
                                 router.push("/humans");
-                            }}>
+                            }}
+                        >
                             Humans
                         </div>
                         <div
                             className="navbar-item navbar-button"
                             onClick={() => {
                                 router.push("/events");
-                            }}>
+                            }}
+                        >
                             Events
                         </div>
                         <div
                             className="navbar-item navbar-button"
                             onClick={() => {
                                 router.push("/join");
-                            }}>
+                            }}
+                        >
                             Join Us
                         </div>
                         {/* <div
