@@ -302,54 +302,6 @@ html {
 
 /* Components/MemberCard.js */
 
-.member-card {
-}
-
-.member-card .card-image {
-  width: 100%;
-  filter: brightness(100%);
-  background-size: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  border-radius: 1rem;
-  transition: all 0.5s;
-}
-
-.member-card .card-image:hover {
-  filter: brightness(80%);
-  background-size: 110%;
-  transition: all 0.5s;
-}
-
-.member-card .card-image:after {
-  /* CSS trick to make the div a responsive square */
-  content: "";
-  display: block;
-  padding-bottom: 100%;
-}
-
-.member-card .card-content {
-  padding: 0;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.member-card .card-content .member-name {
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-
-.member-card .card-content .member-position {
-  color: #0042c6;
-  margin-top: 0.5rem;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-.member-card .faicon {
-  font-size: 1.75rem;
-}
-
 /* Components/TeamCards.js */
 
 /* Pages/index.js */
@@ -617,77 +569,13 @@ html {
 
 /* Pages/humans,js */
 #humans-hero {
-  background-color: #242424;
-  background-image: url("/graphics/humans.svg");
   background-position: 40% 75%;
-  background-repeat: no-repeat;
-  min-height: 100vh;
   padding-top: 10rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#humans-hero .section-title {
-  font-family: "Oxygen";
-  font-weight: 600;
-  font-size: 3rem;
-  color: white;
-  margin-bottom: 2rem;
-}
-
-#humans-hero .subtitle {
-  color: white;
-}
-
-#humans-hero-c1 {
-  padding-right: 5vw;
-}
-
-#humans-hero-c2 {
-  margin-top: 5rem;
-  /* padding-bottom: 2rem; */
-}
-
-#humans-hero-i1 {
-  width: 100%;
-  border-radius: 1rem;
-}
-
-.team-selector {
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-}
-
-.team-selector .button {
-  margin-right: 1rem;
-  font-size: 1.5rem;
-}
-
-.team-selector .selected {
-  color: #0042c6;
-}
-
-.team-selector .selected::before {
-  transform-origin: left;
-  transform: scaleX(1);
-}
-
-.team-selector .button:hover {
-  cursor: pointer;
-}
-
-.team-selector .button:last-child {
-  margin-right: 0;
 }
 
 .team-message {
   margin-bottom: 2rem;
   font-size: 1rem;
-}
-
-.sponsor-icons {
-  margin-top: 2rem;
 }
 
 /* Pages/events.js */
@@ -925,9 +813,6 @@ html {
   }
 
   /* Pages/humans.js */
-  #humans-hero-c1 {
-    padding-right: 0;
-  }
 
   #humans-hero {
     background-size: 70%;
