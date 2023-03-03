@@ -34,7 +34,8 @@ export default function Humans() {
                         <div className="columns is-desktop is-vcentered">
                             <div
                                 className="column is-three-fifths-desktop"
-                                id="humans-hero-c1">
+                                id="humans-hero-c1"
+                            >
                                 <div className="section-title">Hey!</div>
                                 <div className="subtitle">
                                     We are a group of Duke students who work
@@ -50,7 +51,8 @@ export default function Humans() {
                             </div>
                             <div
                                 className="column is-two-fifths-desktop"
-                                id="humans-hero-c2">
+                                id="humans-hero-c2"
+                            >
                                 <img
                                     src="/images/team-2023.jpeg"
                                     id="humans-hero-i1"
@@ -75,12 +77,15 @@ export default function Humans() {
                                                 : "button"
                                         }
                                         onClick={() => setTeam(t)}
-                                        key={t}>
+                                        key={t}
+                                    >
                                         {t}
                                     </div>
                                 ))}
                             </div>
-                            <div className="team-message">"{teams[team]}"</div>
+                            <div className="team-message">
+                                &quot;{teams[team]}&quot;
+                            </div>
                             <TeamCards team={team} />
                         </div>
                     </div>

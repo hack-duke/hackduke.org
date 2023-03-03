@@ -35,11 +35,13 @@ export default function Home() {
                                     style={{ color: "#0042c6" }}
                                     onClick={() => {
                                         router.push("/about");
-                                    }}>
+                                    }}
+                                >
                                     Read our story{" "}
                                     <FontAwesomeIcon
                                         className="fa-md faicon"
-                                        icon={faArrowRight}></FontAwesomeIcon>
+                                        icon={faArrowRight}
+                                    ></FontAwesomeIcon>
                                 </div>
                             </div>
                             <div className="column" id="index-s1-c2">
@@ -53,7 +55,8 @@ export default function Home() {
                             <div
                                 className="column"
                                 id="index-s2-c1"
-                                style={{ borderColor: "#36c69b" }}>
+                                style={{ borderColor: "#36c69b" }}
+                            >
                                 <img
                                     className="card-image"
                                     src="/graphics/community.svg"
@@ -69,7 +72,8 @@ export default function Home() {
                             <div
                                 className="column"
                                 id="index-s2-c2"
-                                style={{ borderColor: "#f7af1d" }}>
+                                style={{ borderColor: "#f7af1d" }}
+                            >
                                 <img
                                     className="card-image"
                                     src="/graphics/innovation.svg"
@@ -85,7 +89,8 @@ export default function Home() {
                             <div
                                 className="column"
                                 id="index-s3-c2"
-                                style={{ borderColor: "#e55511" }}>
+                                style={{ borderColor: "#e55511" }}
+                            >
                                 <img
                                     className="card-image"
                                     src="/graphics/social.svg"
@@ -118,11 +123,13 @@ export default function Home() {
                                     style={{ color: "#0042c6" }}
                                     onClick={() => {
                                         router.push("/humans");
-                                    }}>
+                                    }}
+                                >
                                     Meet our people{" "}
                                     <FontAwesomeIcon
                                         className="fa-md faicon"
-                                        icon={faArrowRight}></FontAwesomeIcon>
+                                        icon={faArrowRight}
+                                    ></FontAwesomeIcon>
                                 </div>
                             </div>
                             <div className="column">
@@ -140,7 +147,8 @@ export default function Home() {
                             <div className="column">
                                 <div
                                     className="columns is-multiline is-gapless"
-                                    id="index-s4-i">
+                                    id="index-s4-i"
+                                >
                                     <div className="column is-full">
                                         <img
                                             src="/images/cfg-2022-9.jpeg"
@@ -178,11 +186,13 @@ export default function Home() {
                                     style={{ color: "#0042c6" }}
                                     onClick={() => {
                                         router.push("/events");
-                                    }}>
+                                    }}
+                                >
                                     See our work{" "}
                                     <FontAwesomeIcon
                                         className="fa-md faicon"
-                                        icon={faArrowRight}></FontAwesomeIcon>
+                                        icon={faArrowRight}
+                                    ></FontAwesomeIcon>
                                 </div>
                             </div>
                         </div>
@@ -208,17 +218,20 @@ export default function Home() {
                                     style={{ color: "#0042c6" }}
                                     onClick={() => {
                                         router.push("/join");
-                                    }}>
+                                    }}
+                                >
                                     Join our team{" "}
                                     <FontAwesomeIcon
                                         className="fa-md faicon"
-                                        icon={faArrowRight}></FontAwesomeIcon>
+                                        icon={faArrowRight}
+                                    ></FontAwesomeIcon>
                                 </div>
                             </div>
                             <div className="column">
                                 <div
                                     className="columns is-multiline is-gapless"
-                                    id="index-s5-i">
+                                    id="index-s5-i"
+                                >
                                     <div className="column is-full">
                                         <img
                                             src="/images/cfg-2022-13.jpeg"

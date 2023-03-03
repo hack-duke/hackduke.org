@@ -25,9 +25,9 @@ export default function Events() {
                             </div>
                             <div className="text-[1.25rem] mb-2 leading-tight">
                                 Each year, our teams organize two conferences
-                                that attract participants all over the country: Code
-                                for Good and Ideate. You might have heard about
-                                them :)
+                                that attract participants all over the country:
+                                Code for Good and Ideate. You might have heard
+                                about them :)
                             </div>
                             <img
                                 className="w-4/5 mt-[10%] ml-[10%]"
@@ -108,12 +108,18 @@ export default function Events() {
                             <div className="font-normal text-[2rem] text-[#0042c6] mb-[0.5rem]">Feb 18 Speaker Event</div>
                             <div className="text-[1.25rem] text-black mb-2 leading-tight">
                                 <p>
-                                    We're excited to welcome Robert Vila, a Director @ IBM
-                                    to speak about his experience in the technical and business requirements for successful SaaS.
-                                    The event is <b>Feb 18, 2023 from 1-2pm in Wilkinson 136</b>.
+                                    We&apos;re excited to welcome Robert Vila, a
+                                    Director @ IBM to speak about his experience
+                                    in the technical and business requirements
+                                    for successful SaaS. The event is{" "}
+                                    <b>
+                                        Feb 18, 2023 from 1-2pm in Wilkinson 136
+                                    </b>
+                                    .
                                     <br />
                                     <br />
-                                    Chick-fil-A catering will be served and we hope to see you there!
+                                    Chick-fil-A catering will be served and we
+                                    hope to see you there!
                                 </p>
                             </div>
                             <div
@@ -121,12 +127,16 @@ export default function Events() {
                                 style={{ color: "#0042c6" }}
                                 onClick={() => {
                                     // gtag('event', 'event_form_open')
-                                    router.push("https://www.linkedin.com/feed/update/urn:li:activity:7032811883829051392");
-                                }}>
+                                    router.push(
+                                        "https://www.linkedin.com/feed/update/urn:li:activity:7032811883829051392"
+                                    );
+                                }}
+                            >
                                 See the event{" "}
                                 <FontAwesomeIcon
                                     className="fa-md text-[1.5rem] ml-[0.5rem]"
-                                    icon={faArrowRight}></FontAwesomeIcon>
+                                    icon={faArrowRight}
+                                ></FontAwesomeIcon>
                             </div>
                         </div>
                         <div className="column">
@@ -160,11 +170,13 @@ export default function Events() {
                                 style={{ color: "#0042c6" }}
                                 onClick={() => {
                                     router.push("https://2022.hackduke.org");
-                                }}>
+                                }}
+                            >
                                 Code For Good 2022{" "}
                                 <FontAwesomeIcon
                                     className="fa-md text-[1.5rem] ml-[0.5rem]"
-                                    icon={faArrowRight}></FontAwesomeIcon>
+                                    icon={faArrowRight}
+                                ></FontAwesomeIcon>
                             </div>
                         </div>
                         <div className="column">
@@ -205,11 +217,13 @@ export default function Events() {
                                 style={{ color: "#0042c6" }}
                                 onClick={() => {
                                     router.push("https://ideate.hackduke.org");
-                                }}>
+                                }}
+                            >
                                 Ideate 2022{" "}
                                 <FontAwesomeIcon
                                     className="fa-md text-[1.5rem] ml-[0.5rem]"
-                                    icon={faArrowRight}></FontAwesomeIcon>
+                                    icon={faArrowRight}
+                                ></FontAwesomeIcon>
                             </div>
                         </div>
                     </div>
