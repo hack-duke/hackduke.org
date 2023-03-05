@@ -65,7 +65,7 @@ export default function About() {
                                     className="mb-3 text-[2rem]
                         font-normal text-hd-dark-blue"
                                 >
-                                    "Do Something New"
+                                    &quot;Do Something New&quot;
                                 </div>
                                 <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
                                     It was 2013, and it started out as HackBlue.
@@ -128,7 +128,7 @@ export default function About() {
                             on problems that are related to social good. It has
                             also opened the eyes of more non-profits of the
                             potential of technology. HackDuke is not a solution
-                            to society's problems. It's the beginning of the
+                            to society&apos;s problems. It&apos;s the beginning of the
                             journey in identifying them, and exploring the
                             solutions to them.
                         </div>
@@ -153,7 +153,7 @@ export default function About() {
                             became an umbrella organization for multiple
                             projects: Code for Good (the OG hackathon), Catalyst
                             (social/pre-professional tech org), and more. We
-                            became the face of Duke’s tech community,
+                            became the face of Duke&apos;s tech community,
                             responsible for engaging, educating, and inspiring
                             students with both technical and non-technical
                             backgrounds.
@@ -209,7 +209,7 @@ export default function About() {
                                     Moving Virtual
                                 </div>
                                 <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
-                                    Of course, we can’t forget 2020. Despite
+                                    Of course, we can&apos;t forget 2020. Despite
                                     being scattered across the globe, our
                                     planning teams were able to successfully
                                     organize our annual events online. In July
@@ -241,19 +241,19 @@ export default function About() {
                             What Now?
                         </div>
                         <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
-                            So, that’s a brief history of HackDuke! We are so
+                            So, that&apos;s a brief history of HackDuke! We are so
                             proud of our organization and the growth that has
                             happened the past 8 years. From 100 participants
                             from RTP to over 1000 from across the globe,
-                            HackDuke’s impact has tremendously increased. As an
+                            HackDuke&apos;s impact has tremendously increased. As an
                             organization, we want to continue our growth, to
                             stay true to our core values of community through
                             education and innovation for social good, and, of
                             course, to have fun through it all.
                         </div>
                         <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
-                            We can’t wait to see where we go! Come along for the
-                            journey—you won’t regret it.
+                            We can&apos;t wait to see where we go! Come along for the
+                            journey—you won&apos;t regret it.
                         </div>
                     </div>
                     <div className="my-12 px-[20vw] lg:my-4 lg:px-[5vw]">
