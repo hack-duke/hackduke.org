@@ -56,16 +56,16 @@ function Navbar(props) {
                     // style background color
                     style={{ backgroundColor: props.color }}>
                     <div className="navbar-end mr-8">
-                        <NavbarItem text="About" url="/about" router={router}>
+                        <NavbarItem text="About" URL="/about" router={router}>
                             {" "}
                         </NavbarItem>
-                        <NavbarItem text="Humans" url="/humans" router={router}>
+                        <NavbarItem text="Humans" URL="/humans" router={router}>
                             {" "}
                         </NavbarItem>
-                        <NavbarItem text="Events" url="/events" router={router}>
+                        <NavbarItem text="Events" URL="/events" router={router}>
                             {" "}
                         </NavbarItem>
-                        <NavbarItem text="Join Us" url="/join" router={router}>
+                        <NavbarItem text="Join Us" URL="/join" router={router}>
                             {" "}
                         </NavbarItem>
 
