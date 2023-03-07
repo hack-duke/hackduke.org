@@ -28,16 +28,23 @@ export default function Humans() {
                 <title>Humans | HackDuke</title>
             </Head>
             <Navbar color="#242424" />
-            <div className="humans">
-                <section className="section is-medium" id="humans-hero">
-                    <div className="container">
+            <div>
+                <section
+                    className="section is-medium flex min-h-screen items-center justify-center bg-[#242424] bg-[url('/graphics/humans.svg')] bg-no-repeat"
+                    id="humans-hero">
+                    <div className="container pl-[5vw] pr-[5vw]">
                         <div className="columns is-desktop is-vcentered">
                             <div
-                                className="column is-three-fifths-desktop"
-                                id="humans-hero-c1"
+                                className="column is-three-fifths-desktop pr-[0vw] lg:pr-[5vw]"
+                                // id="humans-hero-c1"
                             >
-                                <div className="section-title">Hey!</div>
-                                <div className="subtitle">
+                                <div className="section-title mb-8 font-sans text-[3rem] font-semibold text-white">
+                                    Hey!
+                                </div>
+                                <div
+                                    className="subtitle mb-2 font-sans text-[1.25rem]"
+                                    style={{ color: "white" }}>
+                                    {/* the style is needed because .container.subtitle is more specific than any class I add */}
                                     We are a group of Duke students who work
                                     together to bring to life Code for Good and
                                     Ideate. Although we all have different
@@ -50,12 +57,13 @@ export default function Humans() {
                                 </div>
                             </div>
                             <div
-                                className="column is-two-fifths-desktop"
-                                id="humans-hero-c2"
+                                className="column is-two-fifths-desktop mt-20"
+                                // id="humans-hero-c2"
                             >
                                 <img
+                                    className="w-full rounded-2xl"
                                     src="/images/team-2023.jpeg"
-                                    id="humans-hero-i1"
+                                    // id="humans-hero-i1"
                                 />
                             </div>
                         </div>
@@ -63,37 +71,47 @@ export default function Humans() {
                 </section>
                 <section className="section is-medium" id="humans-cards">
                     <div className="container">
-                        <div className="title">The humans behind it all</div>
-                        <div className="humans-directors" id="Directors">
+                        <div className="title mb-8 font-sans text-[1.25rem] text-black">
+                            The humans behind it all
+                        </div>
+                        <div
+                        // className="humans-directors" id="Directors"
+                        >
                             <TeamCards team="Director" />
                         </div>
-                        <div className="humans-teams" id={team}>
-                            <div className="team-selector">
+                        <div
+                            // className="humans-teams"
+                            id={team}>
+                            <div className="team-selector mt-12 mb-4">
                                 {Object.keys(teams).map((t) => (
                                     <div
                                         className={
-                                            team === t
-                                                ? "button selected"
-                                                : "button"
+                                            "button mr-4 last:mr-0 hover:cursor-pointer" +
+                                            (team === t
+                                                ? "selected text-[#0042c6] before:origin-left before:scale-x-100"
+                                                : "")
                                         }
+                                        style={{ fontSize: "1.5rem" }}
+                                        // style is needed because globals.css still has the button css overriding
                                         onClick={() => setTeam(t)}
-                                        key={t}
-                                    >
+                                        key={t}>
                                         {t}
                                     </div>
                                 ))}
                             </div>
-                            <div className="team-message">
-                                &quot;{teams[team]}&quot;
+                            <div className="mb-8 text-[1rem]">
+                                "{teams[team]}"
                             </div>
                             <TeamCards team={team} />
                         </div>
                     </div>
                 </section>
                 <section className="section" id="next-chapters">
-                    <div className="container">
-                        <div className="title">The next chapters</div>
-                        <div className="subtitle">
+                    <div className="container pl-[5vw] pr-[5vw]">
+                        <div className="title mb-8 font-sans text-3xl font-normal text-[#0042c6]">
+                            The next chapters
+                        </div>
+                        <div className="subtitle mb-2 font-sans text-[1.25rem] text-black">
                             Part of our goal as an organization is to provide
                             our members with mentorship, learning, and
                             opportunities to make real impact. This desire to
@@ -103,7 +121,7 @@ export default function Humans() {
                             below!{" "}
                         </div>
                         <img
-                            className={"sponsor-icons"}
+                            className="mt-8"
                             src="/graphics/sponsor-icons.png"
                             alt={"sponsors"}
                         />
