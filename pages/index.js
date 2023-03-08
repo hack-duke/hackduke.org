@@ -3,8 +3,7 @@ import Footer from "../components/Footer";
 import HeroBackground from "../components/HeroBackground";
 import SponsorUs from "../components/SponsorUs";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 import { useRouter } from "next/router";
 
@@ -38,10 +37,7 @@ export default function Home() {
                                     }}
                                 >
                                     Read our story{" "}
-                                    <FontAwesomeIcon
-                                        className="fa-md faicon"
-                                        icon={faArrowRight}
-                                    ></FontAwesomeIcon>
+                                    <AiOutlineArrowRight size={28} className="pl-1" />
                                 </div>
                             </div>
                             <div className="column" id="index-s1-c2">
@@ -126,10 +122,7 @@ export default function Home() {
                                     }}
                                 >
                                     Meet our people{" "}
-                                    <FontAwesomeIcon
-                                        className="fa-md faicon"
-                                        icon={faArrowRight}
-                                    ></FontAwesomeIcon>
+                                    <AiOutlineArrowRight size={28} className="pl-1" />
                                 </div>
                             </div>
                             <div className="column">
@@ -189,10 +182,7 @@ export default function Home() {
                                     }}
                                 >
                                     See our work{" "}
-                                    <FontAwesomeIcon
-                                        className="fa-md faicon"
-                                        icon={faArrowRight}
-                                    ></FontAwesomeIcon>
+                                    <AiOutlineArrowRight size={28} className="pl-1" />
                                 </div>
                             </div>
                         </div>
@@ -221,10 +211,7 @@ export default function Home() {
                                     }}
                                 >
                                     Join our team{" "}
-                                    <FontAwesomeIcon
-                                        className="fa-md faicon"
-                                        icon={faArrowRight}
-                                    ></FontAwesomeIcon>
+                                    <AiOutlineArrowRight size={28} className="pl-1" />
                                 </div>
                             </div>
                             <div className="column">

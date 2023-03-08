@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fab } from "@fortawesome/free-brands-svg-icons";
+import { FaLinkedin } from "react-icons/fa";
 
 function MemberCard(props) {
     return (
@@ -17,11 +16,10 @@ function MemberCard(props) {
                 target="_blank"
                 rel="noopener noreferrer">
                 {/* LinkedIn Icon for mobile/tablet screen sizes */}
-                <FontAwesomeIcon
+                <FaLinkedin
                     className="faicon has-text-white absolute right-2.5 bottom-2.5"
                     style={{ fontSize: "1.75rem" }}
-                    // style necessary bc globals.css has faicon
-                    icon={fab.faLinkedin}></FontAwesomeIcon>
+                />
             </a>
             <div className="card-content mt-2 mb-4 p-0">
                 <div className="text-[1.5rem] font-normal">{props.name}</div>

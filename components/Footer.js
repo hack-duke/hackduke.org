@@ -1,8 +1,8 @@
 import { useRef } from "react";
 import { useRouter } from "next/router";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fab } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
+
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 function Footer(props) {
     const router = useRouter();
@@ -31,36 +31,26 @@ function Footer(props) {
                                 </div>
                             </div>
                             <div className="footer-icons">
-                                <FontAwesomeIcon
-                                    className="fa-lg faicon"
-                                    icon={fab.faFacebook}
-                                    onClick={() => {
-                                        window.open(
-                                            "https://www.facebook.com/hackduke",
-                                            "_blank"
-                                        );
-                                    }}
-                                ></FontAwesomeIcon>
-                                <FontAwesomeIcon
-                                    className="fa-lg faicon"
-                                    icon={fab.faInstagram}
-                                    onClick={() => {
-                                        window.open(
-                                            "https://www.instagram.com/hackduke/",
-                                            "_blank"
-                                        );
-                                    }}
-                                ></FontAwesomeIcon>
-                                <FontAwesomeIcon
-                                    className="fa-lg faicon"
-                                    icon={fab.faTwitter}
-                                    onClick={() => {
-                                        window.open(
-                                            "https://twitter.com/hackduke",
-                                            "_blank"
-                                        );
-                                    }}
-                                ></FontAwesomeIcon>
+                                <FaFacebook className="fa-lg faicon" onClick={() => {
+                                    window.open(
+                                        "https://www.facebook.com/hackduke",
+                                        "_blank"
+                                    );
+                                }} />
+
+                                <FaInstagram className="fa-lg faicon" onClick={() => {
+                                    window.open(
+                                        "https://www.instagram.com/hackduke/",
+                                        "_blank"
+                                    );
+                                }} />
+
+                                <FaTwitter className="fa-lg faicon" onClick={() => {
+                                    window.open(
+                                        "https://twitter.com/hackduke",
+                                        "_blank"
+                                    );
+                                }} />
                             </div>
                         </div>
                         <div

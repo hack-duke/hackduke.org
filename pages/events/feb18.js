@@ -3,8 +3,7 @@ import Footer from "../../components/Footer";
 import HeroBackground from "../../components/HeroBackground";
 import Head from "next/head";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 export default function Feb18() {
     return (
@@ -47,10 +46,7 @@ export default function Feb18() {
                                 onClick={() => gtag("event", "event_form_open")}
                             >
                                 Register now{" "}
-                                <FontAwesomeIcon
-                                    className="fa-md faicon"
-                                    icon={faArrowRight}
-                                ></FontAwesomeIcon>
+                                <AiOutlineArrowRight size={28} className="pl-1" />
                             </a>
                         </div>
                     </div>

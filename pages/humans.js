@@ -5,9 +5,6 @@ import TeamCards from "../components/TeamCards";
 import React, { useState } from "react";
 import Head from "next/head";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-
 export default function Humans() {
     const [team, setTeam] = useState("Tech");
     const teams = {
@@ -63,6 +60,7 @@ export default function Humans() {
                                 <img
                                     className="w-full rounded-2xl"
                                     src="/images/team-2023.jpeg"
+                                    alt="team-2023"
                                     // id="humans-hero-i1"
                                 />
                             </div>
@@ -100,7 +98,7 @@ export default function Humans() {
                                 ))}
                             </div>
                             <div className="mb-8 text-[1rem]">
-                                "{teams[team]}"
+                                &quot;{teams[team]}&quot;
                             </div>
                             <TeamCards team={team} />
                         </div>
