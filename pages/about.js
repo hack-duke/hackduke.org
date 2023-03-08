@@ -3,8 +3,7 @@ import JoinUs from "../components/JoinUs";
 import Footer from "../components/Footer";
 import Head from "next/head";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 import { useRouter } from "next/router";
 
@@ -50,10 +49,7 @@ export default function About() {
                             }}
                         >
                             More about our events{" "}
-                            <FontAwesomeIcon
-                                className="fa-md faicon"
-                                icon={faArrowRight}
-                            ></FontAwesomeIcon>
+                            <AiOutlineArrowRight size={28} className="pl-1" />
                         </div>
                     </div>
                 </section>
