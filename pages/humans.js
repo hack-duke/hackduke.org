@@ -5,9 +5,6 @@ import TeamCards from "../components/TeamCards";
 import React, { useState } from "react";
 import Head from "next/head";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-
 export default function Humans() {
     const [team, setTeam] = useState("Tech");
     const teams = {
