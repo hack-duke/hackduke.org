@@ -60,6 +60,7 @@ export default function Humans() {
                                 <img
                                     className="w-full rounded-2xl"
                                     src="/images/team-2023.jpeg"
+                                    alt="team-2023"
                                     // id="humans-hero-i1"
                                 />
                             </div>
@@ -97,7 +98,7 @@ export default function Humans() {
                                 ))}
                             </div>
                             <div className="mb-8 text-[1rem]">
-                                "{teams[team]}"
+                                {teams[team]}
                             </div>
                             <TeamCards team={team} />
                         </div>
