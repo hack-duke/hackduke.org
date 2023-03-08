@@ -98,7 +98,7 @@ export default function Humans() {
                                 ))}
                             </div>
                             <div className="mb-8 text-[1rem]">
-                                {teams[team]}
+                                &quot;{teams[team]}&quot;
                             </div>
                             <TeamCards team={team} />
                         </div>
