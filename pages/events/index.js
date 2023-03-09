@@ -3,8 +3,7 @@ import SponsorUs from "../../components/SponsorUs";
 import Footer from "../../components/Footer";
 import Head from "next/head";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 import { useRouter } from "next/router";
 
@@ -133,10 +132,7 @@ export default function Events() {
                                 }}
                             >
                                 See the event{" "}
-                                <FontAwesomeIcon
-                                    className="fa-md text-[1.5rem] ml-[0.5rem]"
-                                    icon={faArrowRight}
-                                ></FontAwesomeIcon>
+                                <AiOutlineArrowRight size={28} className="pl-1" />
                             </div>
                         </div>
                         <div className="column">
@@ -173,10 +169,7 @@ export default function Events() {
                                 }}
                             >
                                 Code For Good 2022{" "}
-                                <FontAwesomeIcon
-                                    className="fa-md text-[1.5rem] ml-[0.5rem]"
-                                    icon={faArrowRight}
-                                ></FontAwesomeIcon>
+                                <AiOutlineArrowRight size={28} className="pl-1" />
                             </div>
                         </div>
                         <div className="column">
@@ -220,10 +213,7 @@ export default function Events() {
                                 }}
                             >
                                 Ideate 2022{" "}
-                                <FontAwesomeIcon
-                                    className="fa-md text-[1.5rem] ml-[0.5rem]"
-                                    icon={faArrowRight}
-                                ></FontAwesomeIcon>
+                                <AiOutlineArrowRight size={28} className="pl-1" />
                             </div>
                         </div>
                     </div>
