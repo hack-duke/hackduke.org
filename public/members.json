@@ -211,7 +211,7 @@
         "Last": "Awofisayo",
         "Team": "Sponsorship",
         "Title": "Member",
-        "Major": "CS, Public Policy",
+        "Major": "CS & Public Policy",
         "LinkedIn": "https://www.linkedin.com/in/damilola-awofisayo-96a4431a6/",
         "Year": 2026
     },
@@ -221,7 +221,7 @@
         "Team": "Sponsorship",
         "Title": "Member",
         "Major": "CS",
-        "LinkedIn": "",
+        "LinkedIn": "http://linkedin.com/in/tonycui1",
         "Year": 2025
     },
     {
@@ -312,6 +312,141 @@
         "Title": "Treasurer",
         "Major": "CS",
         "LinkedIn": "https://www.linkedin.com/in/mariam-gvenetadze",
+        "Year": 2025
+    },
+    {
+        "First": "William",
+        "Last": "Huang",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/william-huang-481315195/",
+        "Year": 2025
+    },
+    {
+        "First": "Harry",
+        "Last": "Chen",
+        "Team": "Logistics",
+        "Title": "Member",
+        "Major": "CS & Math",
+        "LinkedIn": "https://www.linkedin.com/in/harry-chen",
+        "Year": 2025
+    },
+    {
+        "First": "Felix",
+        "Last": "Zhu",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS & Math",
+        "LinkedIn": "https://www.linkedin.com/in/felix-zhu-3401871b2/",
+        "Year": 2026
+    },
+    {
+        "First": "Akshar",
+        "Last": "Yeccherla",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS & Math",
+        "LinkedIn": "https://www.linkedin.com/in/akshar-yeccherla",
+        "Year": 2026
+    },
+    {
+        "First": "Ellen",
+        "Last": "Zeng",
+        "Team": "Outreach",
+        "Title": "Member",
+        "Major": "CS & Public Policy",
+        "LinkedIn": "https://www.linkedin.com/in/ellen-zeng-08458a1a1/",
+        "Year": 2026
+    },
+    {
+        "First": "Khushmeet",
+        "Last": "Chandi",
+        "Team": "Outreach",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/khushmeet-chandi/",
+        "Year": 2025
+    },
+    {
+        "First": "Audrey",
+        "Last": "Link",
+        "Team": "Logistics",
+        "Title": "Member",
+        "Major": "ECE & CS",
+        "LinkedIn": "https://www.linkedin.com/in/audreylink540",
+        "Year": 2026
+    },
+    {
+        "First": "Zoey",
+        "Last": "Chen",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS & International Comparative Studies",
+        "LinkedIn": "https://www.linkedin.com/in/zoey-chen/",
+        "Year": 2026
+    },
+    {
+        "First": "Arvindh",
+        "Last": "Manian",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS & Econ",
+        "LinkedIn": "https://www.linkedin.com/in/arvindh-manian/",
+        "Year": 2026
+    },
+    {
+        "First": "Emi",
+        "Last": "Yuan",
+        "Team": "Marketing",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "",
+        "Year": 2025
+    },
+    {
+        "First": "Judy",
+        "Last": "Chen",
+        "Team": "Outreach",
+        "Title": "Member",
+        "Major": "ECE & CS",
+        "LinkedIn": "https://www.linkedin.com/in/judy-chen-300348256",
+        "Year": 2026
+    },
+    {
+        "First": "Aaron",
+        "Last": "Hsu",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "ECE & CS",
+        "LinkedIn": "https://www.linkedin.com/in/aaron-hsu4606",
+        "Year": 2026
+    },
+    {
+        "First": "Eleanor",
+        "Last": "Taylor",
+        "Team": "Design",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "",
+        "Year": 2026
+    },
+    {
+        "First": "Dasol",
+        "Last": "Lee",
+        "Team": "Marketing",
+        "Title": "Member",
+        "Major": "CS & Psych",
+        "LinkedIn": "https://www.linkedin.com/in/dasollee25/",
+        "Year": 2025
+    },
+    {
+        "First": "Bea",
+        "Last": "Radtke",
+        "Team": "Marketing",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/bea-radtke-7a5494213",
         "Year": 2025
     }
 ]
