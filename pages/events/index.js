@@ -15,15 +15,15 @@ export default function Events() {
             <Head>
                 <title>Events | HackDuke</title>
             </Head>
-            <Navbar color="#36c69b" />
+            <Navbar color="#36c69b"/>
             <section className="section is-small bg-[#36c69b] min-h-screen pt-40">
-                <div className="px-[5vw]">
-                    <div className="columns is-desktop is-vcentered">
-                        <div className="column font-sans text-black">
-                            <div className="font-semibold text-[3rem] mb-8">
+                <div className="px-[5vw] bg-[url('/graphics/Polygon1.svg')] bg-no-repeat bg-top">
+                    <div className="columns is-desktop is-vcentered bg-[url('/graphics/Vector14.svg')] bg-no-repeat bg-[center_top_1rem]">
+                        <div className="column font-sans text-white">
+                            <div className="font-semibold text-[3rem] mt-10 z-2">
                                 Events
                             </div>
-                            <div className="text-[1.25rem] mb-2 leading-tight">
+                            <div className="text-[1.25rem] mb-2 leading-tight z-2">
                                 Each year, our teams organize two conferences
                                 that attract participants all over the country:
                                 Code for Good and Ideate. You might have heard
@@ -35,7 +35,7 @@ export default function Events() {
                             />
                         </div>
                         <div className="column">
-                            <div className="border-4 border-dashed border-white rounded-[1rem] p-[1rem] my-[2rem] font-sans text-black text-center">
+                            <div className="border-4 border-dashed border-white rounded-[1rem] p-[1rem] my-[2rem] font-sans text-white text-center">
                                 <div className="font-semibold text-[1.5rem] mb-[1rem]">
                                     Code for Good 2022
                                 </div>
@@ -45,7 +45,7 @@ export default function Events() {
                                             264
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
-                                            Participants
+                                            registrants
                                         </div>
                                     </div>
                                     <div className="column mb-[0.5rem]">
@@ -53,7 +53,7 @@ export default function Events() {
                                             35
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
-                                            Hacks
+                                            hacks
                                         </div>
                                     </div>
                                     <div className="column mb-[0.5rem]">
@@ -61,12 +61,12 @@ export default function Events() {
                                             $3300
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
-                                            In Prizes
+                                            USD donated
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="border-4 border-dashed border-white rounded-[1rem] p-[1rem] my-[2rem] font-sans text-black text-center">
+                            <div className="border-4 border-dashed border-white rounded-[1rem] p-[1rem] my-[2rem] font-sans text-white text-center">
                                 <div className="font-semibold text-[1.5rem] mb-[1rem]">
                                     Ideate 2022
                                 </div>
@@ -76,7 +76,7 @@ export default function Events() {
                                             234
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
-                                            Registrants
+                                            registrants
                                         </div>
                                     </div>
                                     <div className="column mb-[0.5rem]">
@@ -84,7 +84,7 @@ export default function Events() {
                                             18
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
-                                            Pitches
+                                            submissions
                                         </div>
                                     </div>
                                     <div className="column mb-[0.5rem]">
@@ -92,7 +92,7 @@ export default function Events() {
                                             $1500
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
-                                            In Prizes
+                                            USD donated
                                         </div>
                                     </div>
                                 </div>
@@ -101,6 +101,99 @@ export default function Events() {
                     </div>
                 </div>
             </section>
+            <section className="section">
+                <div className="column is-desktop is-vcentered ">
+                    <div className="font-sans text-[#0042c6] text-center">
+                        <div className="text-4xl font-bold mb-[2rem] mt-[2rem]">
+                            Calendar
+                        </div>
+                        <div className="text-xl font-medium">
+                            Description (something something here’s the stuff we’ve done and the stuff to come ;))
+                        </div>
+                    </div>
+                    <div className="mx-[10rem] mt-[2rem] grid grid-cols-3 gap-8 is-vcentered text-center content-center text-white font-semibold">
+                        <div className="relative">
+                            <div className=
+                                "w-[256px] h-[162px] mx-auto rounded-lg border-[#F7AF1C] border-4 bg-[url('/images/event1.png')] bg-cover"
+                            >   
+                            </div>
+                            <div className="absolute left-10 bottom-3">
+                                Keynote Speaker
+                            </div>
+                        </div>
+                        <div className="relative">
+                            <div className="w-[256px] h-[162px] mx-auto rounded-lg border-[#0042C6] border-4 bg-[url('/images/event2.png')] bg-cover">
+                            </div>
+                           
+                            <div className="absolute left-10 bottom-3">
+                                Code for Good 2022
+                            </div>
+                        </div>
+                        <div className="relative">
+                            <div className="w-[256px] h-[162px] mx-auto rounded-lg border-[#35C69B] border-4 bg-[url('/images/event3.png')] bg-cover">
+                            </div>
+                            <div className="absolute left-10 bottom-3">
+                                Ideate 2022
+                            </div>
+                        </div>
+                        <div className="relative">
+                            <div className="w-[256px] h-[162px] mx-auto rounded-lg border-[#0042C6] border-4 bg-[url('/images/event4.png')] bg-cover">
+                            </div>
+                            <div className="absolute left-10 bottom-3">
+                                Event 4
+                            </div>
+                        </div>
+                        <div className="relative">
+                            <div className=
+                                "w-[256px] h-[162px] mx-auto rounded-lg border-[#E55511] border-4 bg-[url('/images/event1.png')] bg-cover"
+                            >   
+                            </div>
+                            <div className="absolute left-10 bottom-3">
+                                Event 5
+                            </div>   
+                        </div>
+                        <div className="relative">
+                            <div className=
+                                "w-[256px] h-[162px] mx-auto rounded-lg border-[#0042C6] border-4 bg-[url('/images/event1.png')] bg-cover"
+                            >   
+                            </div>
+                            
+                            <div className="absolute left-10 bottom-3">
+                                Event 6
+                            </div>
+                        </div>
+                        <div className="relative">
+                            <div className=
+                                "w-[256px] h-[162px] mx-auto rounded-lg border-[#F7AF1C] border-4 bg-[url('/images/event1.png')] bg-cover"
+                            >   
+                            </div>
+                            <div className="absolute left-10 bottom-3">
+                                Event 7
+                            </div> 
+                        </div>
+                        <div className="relative">
+                            <div className=
+                                "w-[256px] h-[162px] mx-auto rounded-lg border-[#0042C6] border-4 bg-[url('/images/event1.png')] bg-cover"
+                            >   
+                            </div>
+                            
+                            <div className="absolute left-10 bottom-3">
+                                Event 8
+                            </div>
+                        </div>
+                        <div className="relative">
+                            <div className=
+                                "w-[256px] h-[162px] mx-auto rounded-lg border-[#35C69B] border-4 bg-[url('/images/event1.png')] bg-cover"
+                            >   
+                            </div>
+                            <div className="absolute left-10 bottom-3">
+                                Event 9
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="section is-medium">
                 <div className="px-[5vw]">
                     <div className="columns is-desktop is-vcentered">
