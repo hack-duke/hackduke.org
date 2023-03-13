@@ -58,45 +58,41 @@ export default function Events() {
                                     </div>
                                     <div className="column mb-[0.5rem]">
                                         <div className="font-semibold text-[3rem]">
-                                            <div className="column mb-[0.5rem]">
-                                                <div className="font-semibold text-[3rem]">
-                                                    $3300
-                                                </div>
-                                                <div className="font-normal text-[1.5rem] mt-[0.5rem]">
-                                                    USD donated
-                                                </div>
-                                            </div>
+                                            $3300
+                                        </div>
+                                        <div className="font-normal text-[1.5rem] mt-[0.5rem]">
+                                            USD donated
                                         </div>
                                     </div>
-                                    <div className="border-4 border-dashed border-white rounded-[1rem] p-[1rem] my-[2rem] font-sans text-white text-center">
-                                        <div className="font-semibold text-[1.5rem] mb-[1rem]">
-                                            Ideate 2022
+                                </div>
+                            </div>
+                            <div className="border-4 border-dashed border-white rounded-[1rem] p-[1rem] my-[2rem] font-sans text-white text-center">
+                                <div className="font-semibold text-[1.5rem] mb-[1rem]">
+                                    Ideate 2022
+                                </div>
+                                <div className="columns is-desktop is-vcentered">
+                                    <div className="column mb-[0.5rem]">
+                                        <div className="font-semibold text-[3rem]">
+                                            234
                                         </div>
-                                        <div className="columns is-desktop is-vcentered">
-                                            <div className="column mb-[0.5rem]">
-                                                <div className="font-semibold text-[3rem]">
-                                                    234
-                                                </div>
-                                                <div className="font-normal text-[1.5rem] mt-[0.5rem]">
-                                                    registrants
-                                                </div>
-                                            </div>
-                                            <div className="column mb-[0.5rem]">
-                                                <div className="font-semibold text-[3rem]">
-                                                    18
-                                                </div>
-                                                <div className="font-normal text-[1.5rem] mt-[0.5rem]">
-                                                    submissions
-                                                </div>
-                                            </div>
-                                            <div className="column mb-[0.5rem]">
-                                                <div className="font-semibold text-[3rem]">
-                                                    $1500
-                                                </div>
-                                                <div className="font-normal text-[1.5rem] mt-[0.5rem]">
-                                                    USD donated
-                                                </div>
-                                            </div>
+                                        <div className="font-normal text-[1.5rem] mt-[0.5rem]">
+                                            registrants
+                                        </div>
+                                    </div>
+                                    <div className="column mb-[0.5rem]">
+                                        <div className="font-semibold text-[3rem]">
+                                            18
+                                        </div>
+                                        <div className="font-normal text-[1.5rem] mt-[0.5rem]">
+                                            submissions
+                                        </div>
+                                    </div>
+                                    <div className="column mb-[0.5rem]">
+                                        <div className="font-semibold text-[3rem]">
+                                            $1500
+                                        </div>
+                                        <div className="font-normal text-[1.5rem] mt-[0.5rem]">
+                                            USD donated
                                         </div>
                                     </div>
                                 </div>
