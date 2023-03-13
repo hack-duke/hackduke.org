@@ -9,10 +9,19 @@ module.exports = {
         "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
-        extend: {},
+        screens: {
+            'lg': {'max': '1026px'},
+        },
+        extend: {
+            colors: {
+                'hd-orange': '#e55511',
+                'hd-dark-blue': '#0042c6',
+            },
+        },
         fontFamily: {
             sans: ["Oxygen", "sans-serif"],
         },
+        
     },
     plugins: [],
 };

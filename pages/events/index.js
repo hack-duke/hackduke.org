@@ -3,8 +3,7 @@ import SponsorUs from "../../components/SponsorUs";
 import Footer from "../../components/Footer";
 import Head from "next/head";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 import { useRouter } from "next/router";
 
@@ -15,7 +14,8 @@ export default function Events() {
             <Head>
                 <title>Events | HackDuke</title>
             </Head>
-            <Navbar color="#36c69b"/>
+            <Navbar color="#36c69b" />
+
             <section className="section is-small bg-[#36c69b] min-h-screen pt-40">
                 <div className="px-[5vw] bg-[url('/graphics/Polygon1.svg')] bg-no-repeat bg-top">
                     <div className="columns is-desktop is-vcentered bg-[url('/graphics/Vector14.svg')] bg-no-repeat bg-[center_top_1rem]">
@@ -58,41 +58,45 @@ export default function Events() {
                                     </div>
                                     <div className="column mb-[0.5rem]">
                                         <div className="font-semibold text-[3rem]">
-                                            $3300
-                                        </div>
-                                        <div className="font-normal text-[1.5rem] mt-[0.5rem]">
-                                            USD donated
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="border-4 border-dashed border-white rounded-[1rem] p-[1rem] my-[2rem] font-sans text-white text-center">
-                                <div className="font-semibold text-[1.5rem] mb-[1rem]">
-                                    Ideate 2022
-                                </div>
-                                <div className="columns is-desktop is-vcentered">
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="font-semibold text-[3rem]">
-                                            234
-                                        </div>
-                                        <div className="font-normal text-[1.5rem] mt-[0.5rem]">
-                                            registrants
+                                            <div className="column mb-[0.5rem]">
+                                                <div className="font-semibold text-[3rem]">
+                                                    $3300
+                                                </div>
+                                                <div className="font-normal text-[1.5rem] mt-[0.5rem]">
+                                                    USD donated
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="font-semibold text-[3rem]">
-                                            18
+                                    <div className="border-4 border-dashed border-white rounded-[1rem] p-[1rem] my-[2rem] font-sans text-white text-center">
+                                        <div className="font-semibold text-[1.5rem] mb-[1rem]">
+                                            Ideate 2022
                                         </div>
-                                        <div className="font-normal text-[1.5rem] mt-[0.5rem]">
-                                            submissions
-                                        </div>
-                                    </div>
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="font-semibold text-[3rem]">
-                                            $1500
-                                        </div>
-                                        <div className="font-normal text-[1.5rem] mt-[0.5rem]">
-                                            USD donated
+                                        <div className="columns is-desktop is-vcentered">
+                                            <div className="column mb-[0.5rem]">
+                                                <div className="font-semibold text-[3rem]">
+                                                    234
+                                                </div>
+                                                <div className="font-normal text-[1.5rem] mt-[0.5rem]">
+                                                    registrants
+                                                </div>
+                                            </div>
+                                            <div className="column mb-[0.5rem]">
+                                                <div className="font-semibold text-[3rem]">
+                                                    18
+                                                </div>
+                                                <div className="font-normal text-[1.5rem] mt-[0.5rem]">
+                                                    submissions
+                                                </div>
+                                            </div>
+                                            <div className="column mb-[0.5rem]">
+                                                <div className="font-semibold text-[3rem]">
+                                                    $1500
+                                                </div>
+                                                <div className="font-normal text-[1.5rem] mt-[0.5rem]">
+                                                    USD donated
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -115,7 +119,7 @@ export default function Events() {
                         <div className="relative">
                             <div className=
                                 "w-[256px] h-[162px] mx-auto rounded-lg border-[#F7AF1C] border-4 bg-[url('/images/event1.png')] bg-cover"
-                            >   
+                            >
                             </div>
                             <div className="absolute left-10 bottom-3">
                                 Keynote Speaker
@@ -124,7 +128,7 @@ export default function Events() {
                         <div className="relative">
                             <div className="w-[256px] h-[162px] mx-auto rounded-lg border-[#0042C6] border-4 bg-[url('/images/event2.png')] bg-cover">
                             </div>
-                           
+
                             <div className="absolute left-10 bottom-3">
                                 Code for Good 2022
                             </div>
@@ -146,18 +150,18 @@ export default function Events() {
                         <div className="relative">
                             <div className=
                                 "w-[256px] h-[162px] mx-auto rounded-lg border-[#E55511] border-4 bg-[url('/images/event1.png')] bg-cover"
-                            >   
+                            >
                             </div>
                             <div className="absolute left-10 bottom-3">
                                 Event 5
-                            </div>   
+                            </div>
                         </div>
                         <div className="relative">
                             <div className=
                                 "w-[256px] h-[162px] mx-auto rounded-lg border-[#0042C6] border-4 bg-[url('/images/event1.png')] bg-cover"
-                            >   
+                            >
                             </div>
-                            
+
                             <div className="absolute left-10 bottom-3">
                                 Event 6
                             </div>
@@ -165,18 +169,18 @@ export default function Events() {
                         <div className="relative">
                             <div className=
                                 "w-[256px] h-[162px] mx-auto rounded-lg border-[#F7AF1C] border-4 bg-[url('/images/event1.png')] bg-cover"
-                            >   
+                            >
                             </div>
                             <div className="absolute left-10 bottom-3">
                                 Event 7
-                            </div> 
+                            </div>
                         </div>
                         <div className="relative">
                             <div className=
                                 "w-[256px] h-[162px] mx-auto rounded-lg border-[#0042C6] border-4 bg-[url('/images/event1.png')] bg-cover"
-                            >   
+                            >
                             </div>
-                            
+
                             <div className="absolute left-10 bottom-3">
                                 Event 8
                             </div>
@@ -184,7 +188,7 @@ export default function Events() {
                         <div className="relative">
                             <div className=
                                 "w-[256px] h-[162px] mx-auto rounded-lg border-[#35C69B] border-4 bg-[url('/images/event1.png')] bg-cover"
-                            >   
+                            >
                             </div>
                             <div className="absolute left-10 bottom-3">
                                 Event 9
@@ -226,10 +230,7 @@ export default function Events() {
                                 }}
                             >
                                 See the event{" "}
-                                <FontAwesomeIcon
-                                    className="fa-md text-[1.5rem] ml-[0.5rem]"
-                                    icon={faArrowRight}
-                                ></FontAwesomeIcon>
+                                <AiOutlineArrowRight size={28} className="pl-1" />
                             </div>
                         </div>
                         <div className="column">
@@ -266,10 +267,7 @@ export default function Events() {
                                 }}
                             >
                                 Code For Good 2022{" "}
-                                <FontAwesomeIcon
-                                    className="fa-md text-[1.5rem] ml-[0.5rem]"
-                                    icon={faArrowRight}
-                                ></FontAwesomeIcon>
+                                <AiOutlineArrowRight size={28} className="pl-1" />
                             </div>
                         </div>
                         <div className="column">
@@ -313,10 +311,7 @@ export default function Events() {
                                 }}
                             >
                                 Ideate 2022{" "}
-                                <FontAwesomeIcon
-                                    className="fa-md text-[1.5rem] ml-[0.5rem]"
-                                    icon={faArrowRight}
-                                ></FontAwesomeIcon>
+                                <AiOutlineArrowRight size={28} className="pl-1" />
                             </div>
                         </div>
                     </div>

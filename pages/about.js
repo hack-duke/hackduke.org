@@ -3,8 +3,7 @@ import JoinUs from "../components/JoinUs";
 import Footer from "../components/Footer";
 import Head from "next/head";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 import { useRouter } from "next/router";
 
@@ -16,16 +15,23 @@ export default function About() {
                 <title>About Us | HackDuke</title>
             </Head>
             <Navbar color="#e55511" />
-            <div className="about">
-                <section className="section is-medium" id="about-hero">
-                    <div className="container">
-                        <div className="section-title">Our Story</div>
-                        <div className="subtitle">
+            <div>
+                {/* section-is-medium, about-hero */}
+                <section
+                    className="section is-medium flex min-h-screen items-center 
+                justify-center bg-hd-orange bg-[url('/graphics/about.svg')] bg-[left_calc(50%)_top_calc(90%)] bg-no-repeat 
+                pt-40 font-sans"
+                >
+                    <div className="pl-[5vw] pr-[40vw] lg:px-[5vw]">
+                        <div className="mb-8 text-5xl font-semibold text-white">
+                            Our Story
+                        </div>
+                        <div className="mb-2 text-xl font-normal leading-tight text-white">
                             HackDuke brings together Duke students with the goal
                             of improving meaningful student engagement with the
                             intersection of tech, design, and social good.
                         </div>
-                        <div className="subtitle">
+                        <div className="mb-2 text-xl font-normal leading-tight text-white">
                             Through our annual hackathon and designathon, we
                             unite students across the globe and encourage them
                             to think critically about the role of technology in
@@ -35,7 +41,7 @@ export default function About() {
                             back.
                         </div>
                         <div
-                            className="button"
+                            className="button relative mx-auto ml-0 bg-white p-0 text-xl"
                             id="about-hero-button"
                             style={{ color: "#ffffff" }}
                             onClick={() => {
@@ -43,24 +49,21 @@ export default function About() {
                             }}
                         >
                             More about our events{" "}
-                            <FontAwesomeIcon
-                                className="fa-md faicon"
-                                icon={faArrowRight}
-                            ></FontAwesomeIcon>
+                            <AiOutlineArrowRight size={28} className="pl-1" />
                         </div>
                     </div>
                 </section>
-                <section
-                    className="section is-medium about-story"
-                    id="about-us"
-                >
-                    <div className="container" id="about-s1">
+                <section className="section is-medium font-sans">
+                    <div className="px-[5vw]">
                         <div className="columns is-desktop is-vcentered">
-                            <div className="column" id="about-story-1-c1">
-                                <div className="section-title">
+                            <div className="column">
+                                <div
+                                    className="mb-3 text-[2rem]
+                        font-normal text-hd-dark-blue"
+                                >
                                     &quot;Do Something New&quot;
                                 </div>
-                                <div className="subtitle">
+                                <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
                                     It was 2013, and it started out as HackBlue.
                                     A group of 3 Duke and UNC students—Dennis
                                     Li, Yang Su, and Katie Hawthorne—organized
@@ -68,7 +71,7 @@ export default function About() {
                                     excited about learning and creating things
                                     outside the classroom.
                                 </div>
-                                <div className="subtitle">
+                                <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
                                     The vision? Create the first university
                                     hackathon experience in the RTP area in
                                     providing a unique learning experience where
@@ -79,29 +82,32 @@ export default function About() {
                                     renamed to HackDuke and continued to grow.
                                 </div>
                             </div>
-                            <div className="column" id="about-story-1-c2">
+                            <div className="column">
                                 <img
                                     src="/images/about-1.png"
-                                    className="about-image"
+                                    className="rounded-2xl"
                                 />
                             </div>
                         </div>
                     </div>
-                    <div className="container" id="about-s2">
+                    <div className="mt-12 mb-20 pl-[20vw] pr-[15vw] lg:my-4 lg:px-[5vw]">
                         <img
                             src="/images/about-2.png"
-                            className="about-image"
-                            id="about-s2-i2"
+                            className="w-4/5 rounded-2xl"
                         />
                         <img
                             src="/images/about-3.png"
-                            className="about-image"
-                            id="about-s2-i3"
+                            className="mt-[-20%] ml-[40%] w-3/5 rounded-2xl"
                         />
                     </div>
-                    <div className="container" id="about-s3">
-                        <div className="section-title">For Social Good</div>
-                        <div className="subtitle">
+                    <div className="px-[15vw] lg:px-[5vw]">
+                        <div
+                            className="mb-3 text-[2rem]
+                        font-normal text-hd-dark-blue"
+                        >
+                            For Social Good
+                        </div>
+                        <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
                             In 2014, we introduced the core concept of hacking
                             for social good. Local non-profits like the
                             Community Empowerment Fund and Durham Cares
@@ -109,28 +115,31 @@ export default function About() {
                             teams identify community problems and develop
                             meaningful solutions.
                         </div>
-                        <div className="quote">
+                        <div
+                            className="mt-4 text-base font-normal 
+            text-hd-dark-blue before:mr-2 before:font-semibold before:content-['“'] after:ml-2 
+            after:font-semibold after:content-['”'] "
+                        >
                             This [hackathon] has inspired more students to work
                             on problems that are related to social good. It has
                             also opened the eyes of more non-profits of the
                             potential of technology. HackDuke is not a solution
-                            to society&apos;s problems. It&apos;s the beginning
-                            of the journey in identifying them, and exploring
-                            the solutions to them.
+                            to society&apos;s problems. It&apos;s the beginning of the
+                            journey in identifying them, and exploring the
+                            solutions to them.
                         </div>
-                        <div className="quote-author">
+                        <div className="mt-2 text-right text-base font-normal text-hd-dark-blue">
                             — Ashley Qian, 2014 HackDuke Co-director (DukeToday)
                         </div>
                     </div>
-                    <div className="container" id="about-s4">
+                    <div className="my-12 px-[20vw] lg:my-4 lg:px-[5vw]">
                         <img
                             src="/images/about-4.png"
-                            className="about-image"
-                            id="about-s4-i4"
+                            className="ml-[10%] w-4/5 rounded-2xl lg:ml-0 lg:w-full lg:rounded-2xl"
                         />
                     </div>
-                    <div className="container" id="about-s5">
-                        <div className="subtitle">
+                    <div className="px-[15vw] lg:px-[5vw]">
+                        <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
                             As the hackathon expanded, we continued to engage
                             with the Duke community through new initiatives like
                             HackDuke Education, where we brought speakers in
@@ -140,36 +149,36 @@ export default function About() {
                             became an umbrella organization for multiple
                             projects: Code for Good (the OG hackathon), Catalyst
                             (social/pre-professional tech org), and more. We
-                            became the face of Duke’s tech community,
+                            became the face of Duke&apos;s tech community,
                             responsible for engaging, educating, and inspiring
                             students with both technical and non-technical
                             backgrounds.
                         </div>
                     </div>
-                    <div className="container" id="about-s6">
+                    <div className="my-12 px-[5vw] lg:mb-4 lg:px-[5vw]">
                         <div className="columns is-desktop is-vcentered">
-                            <div className="column" id="about-s6-i">
+                            <div className="column">
                                 <img
                                     src="/images/about-5.png"
-                                    className="about-image"
-                                    id="about-s6-i5"
+                                    className="my-1 w-2/5 rounded-2xl"
                                 />
                                 <img
                                     src="/images/about-6.png"
-                                    className="about-image"
-                                    id="about-s6-i6"
+                                    className="my-1 ml-[20%] w-3/5 rounded-2xl"
                                 />
                                 <img
                                     src="/images/about-7.png"
-                                    className="about-image"
-                                    id="about-s6-i7"
+                                    className="my-1 ml-[60%] w-2/5 rounded-2xl"
                                 />
                             </div>
                             <div className="column">
-                                <div className="section-title">
+                                <div
+                                    className="mb-3 text-[2rem]
+                        font-normal text-hd-dark-blue"
+                                >
                                     Hello, Ideate!
                                 </div>
-                                <div className="subtitle">
+                                <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
                                     From HackDuke Education, Ideate was founded
                                     by Dorothy Feng and Kiyoon Ko in Spring
                                     2016. The mission of the design thinking and
@@ -186,14 +195,17 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="container" id="about-s7">
+                    <div className="mb-12 px-[5vw]">
                         <div className="columns is-desktop is-vcentered">
                             <div className="column">
-                                <div className="section-title">
+                                <div
+                                    className="mb-3 text-[2rem]
+                        font-normal text-hd-dark-blue"
+                                >
                                     Moving Virtual
                                 </div>
-                                <div className="subtitle">
-                                    Of course, we can’t forget 2020. Despite
+                                <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
+                                    Of course, we can&apos;t forget 2020. Despite
                                     being scattered across the globe, our
                                     planning teams were able to successfully
                                     organize our annual events online. In July
@@ -205,43 +217,45 @@ export default function About() {
                                     Code for Good hackathon.
                                 </div>
                             </div>
-                            <div className="column" id="about-s7-i">
+                            <div className="column">
                                 <img
                                     src="/images/about-8.png"
-                                    className="about-image"
-                                    id="about-s7-i8"
+                                    className="my-1 w-[70%] rounded-2xl"
                                 />
                                 <img
                                     src="/images/about-9.png"
-                                    className="about-image"
-                                    id="about-s7-i9"
+                                    className="my-1 ml-[30%] w-[70%] rounded-2xl"
                                 />
                             </div>
                         </div>
                     </div>
-                    <div className="container" id="about-s8">
-                        <div className="section-title">What Now?</div>
-                        <div className="subtitle">
-                            So, that’s a brief history of HackDuke! We are so
+                    <div className="px-[15vw] lg:px-[5vw]">
+                        <div
+                            className="mb-3 text-[2rem]
+                        font-normal text-hd-dark-blue"
+                        >
+                            What Now?
+                        </div>
+                        <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
+                            So, that&apos;s a brief history of HackDuke! We are so
                             proud of our organization and the growth that has
                             happened the past 8 years. From 100 participants
                             from RTP to over 1000 from across the globe,
-                            HackDuke’s impact has tremendously increased. As an
+                            HackDuke&apos;s impact has tremendously increased. As an
                             organization, we want to continue our growth, to
                             stay true to our core values of community through
                             education and innovation for social good, and, of
                             course, to have fun through it all.
                         </div>
-                        <div className="subtitle">
-                            We can’t wait to see where we go! Come along for the
-                            journey—you won’t regret it.
+                        <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
+                            We can&apos;t wait to see where we go! Come along for the
+                            journey—you won&apos;t regret it.
                         </div>
                     </div>
-                    <div className="container" id="about-s4">
+                    <div className="my-12 px-[20vw] lg:my-4 lg:px-[5vw]">
                         <img
                             src="/images/team-2023.jpeg"
-                            className="about-image"
-                            id="about-s4-i4"
+                            className="ml-[10%] w-4/5 rounded-2xl lg:ml-0 lg:w-full"
                         />
                     </div>
                 </section>
