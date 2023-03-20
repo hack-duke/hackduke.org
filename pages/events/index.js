@@ -15,82 +15,82 @@ export default function Events() {
                 <title>Events | HackDuke</title>
             </Head>
             <Navbar color="#36c69b" />
-            <section className="section is-small bg-[#36c69b] min-h-screen pt-40">
+            <section className="section is-small min-h-screen bg-[#36c69b] pt-40">
                 <div className="px-[5vw]">
                     <div className="columns is-desktop is-vcentered">
                         <div className="column font-sans text-black">
-                            <div className="font-semibold text-[3rem] mb-8">
+                            <div className="mb-8 text-[3rem] font-semibold">
                                 Events
                             </div>
-                            <div className="text-[1.25rem] mb-2 leading-tight">
+                            <div className="mb-2 text-[1.25rem] leading-tight">
                                 Each year, our teams organize two conferences
                                 that attract participants all over the country:
                                 Code for Good and Ideate. You might have heard
                                 about them :)
                             </div>
                             <img
-                                className="w-4/5 mt-[10%] ml-[10%]"
+                                className="mt-[10%] ml-[10%] w-4/5"
                                 src="/graphics/building.svg"
                             />
                         </div>
                         <div className="column">
-                            <div className="border-4 border-dashed border-white rounded-[1rem] p-[1rem] my-[2rem] font-sans text-black text-center">
-                                <div className="font-semibold text-[1.5rem] mb-[1rem]">
+                            <div className="my-[2rem] rounded-[1rem] border-4 border-dashed border-white p-[1rem] text-center font-sans text-black">
+                                <div className="mb-[1rem] text-[1.5rem] font-semibold">
                                     Code for Good 2022
                                 </div>
                                 <div className="columns is-desktop is-vcentered">
                                     <div className="column mb-[0.5rem]">
-                                        <div className="font-semibold text-[3rem]">
+                                        <div className="text-[3rem] font-semibold">
                                             264
                                         </div>
-                                        <div className="font-normal text-[1.5rem] mt-[0.5rem]">
+                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
                                             Participants
                                         </div>
                                     </div>
                                     <div className="column mb-[0.5rem]">
-                                        <div className="font-semibold text-[3rem]">
+                                        <div className="text-[3rem] font-semibold">
                                             35
                                         </div>
-                                        <div className="font-normal text-[1.5rem] mt-[0.5rem]">
+                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
                                             Hacks
                                         </div>
                                     </div>
                                     <div className="column mb-[0.5rem]">
-                                        <div className="font-semibold text-[3rem]">
+                                        <div className="text-[3rem] font-semibold">
                                             $3300
                                         </div>
-                                        <div className="font-normal text-[1.5rem] mt-[0.5rem]">
+                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
                                             In Prizes
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="border-4 border-dashed border-white rounded-[1rem] p-[1rem] my-[2rem] font-sans text-black text-center">
-                                <div className="font-semibold text-[1.5rem] mb-[1rem]">
+                            <div className="my-[2rem] rounded-[1rem] border-4 border-dashed border-white p-[1rem] text-center font-sans text-black">
+                                <div className="mb-[1rem] text-[1.5rem] font-semibold">
                                     Ideate 2022
                                 </div>
                                 <div className="columns is-desktop is-vcentered">
                                     <div className="column mb-[0.5rem]">
-                                        <div className="font-semibold text-[3rem]">
+                                        <div className="text-[3rem] font-semibold">
                                             234
                                         </div>
-                                        <div className="font-normal text-[1.5rem] mt-[0.5rem]">
+                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
                                             Registrants
                                         </div>
                                     </div>
                                     <div className="column mb-[0.5rem]">
-                                        <div className="font-semibold text-[3rem]">
+                                        <div className="text-[3rem] font-semibold">
                                             18
                                         </div>
-                                        <div className="font-normal text-[1.5rem] mt-[0.5rem]">
+                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
                                             Pitches
                                         </div>
                                     </div>
                                     <div className="column mb-[0.5rem]">
-                                        <div className="font-semibold text-[3rem]">
+                                        <div className="text-[3rem] font-semibold">
                                             $1500
                                         </div>
-                                        <div className="font-normal text-[1.5rem] mt-[0.5rem]">
+                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
                                             In Prizes
                                         </div>
                                     </div>
@@ -104,8 +104,10 @@ export default function Events() {
                 <div className="px-[5vw]">
                     <div className="columns is-desktop is-vcentered">
                         <div className="column font-sans">
-                            <div className="font-normal text-[2rem] text-[#0042c6] mb-[0.5rem]">Feb 18 Speaker Event</div>
-                            <div className="text-[1.25rem] text-black mb-2 leading-tight">
+                            <div className="mb-[0.5rem] text-[2rem] font-normal text-[#0042c6]">
+                                Feb 18 Speaker Event
+                            </div>
+                            <div className="mb-2 text-[1.25rem] leading-tight text-black">
                                 <p>
                                     We&apos;re excited to welcome Robert Vila, a
                                     Director @ IBM to speak about his experience
@@ -122,7 +124,7 @@ export default function Events() {
                                 </p>
                             </div>
                             <div
-                                className="button text-[1.25rem] border-transparent bg-transparent relative p-0 ml-0 mr-auto hover:border-transparent hover:bg-transparent before:content-[''] before:absolute before:w-full before:h-[2px] before:rounded-[4px] before:bg-[#0042c6] before:bottom-[4px] before:left-0 before:origin-right	before:scale-x-0 before:ease-in-out before:duration-300 hover:before:origin-left hover:before:scale-x-100"
+                                className="button relative ml-0 mr-auto border-transparent bg-transparent p-0 text-[1.25rem] before:absolute before:bottom-[4px] before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:rounded-[4px] before:bg-[#0042c6] before:duration-300 before:ease-in-out	before:content-[''] hover:border-transparent hover:bg-transparent hover:before:origin-left hover:before:scale-x-100"
                                 style={{ color: "#0042c6" }}
                                 onClick={() => {
                                     // gtag('event', 'event_form_open')
@@ -132,7 +134,10 @@ export default function Events() {
                                 }}
                             >
                                 See the event{" "}
-                                <AiOutlineArrowRight size={28} className="pl-1" />
+                                <AiOutlineArrowRight
+                                    size={28}
+                                    className="pl-1"
+                                />
                             </div>
                         </div>
                         <div className="column">
@@ -148,10 +153,10 @@ export default function Events() {
                 <div className="px-[5vw]">
                     <div className="columns is-desktop is-vcentered">
                         <div className="column font-sans">
-                            <div className="font-normal text-[2rem] text-[#0042c6] mb-[0.5rem]">
+                            <div className="mb-[0.5rem] text-[2rem] font-normal text-[#0042c6]">
                                 Code For Good
                             </div>
-                            <div className="text-black text-[1.25rem] mb-2 leading-tight">
+                            <div className="mb-2 text-[1.25rem] leading-tight text-black">
                                 Code for Good is the nation’s premier hackathon
                                 for tech and social good. We unite students that
                                 are passionate about changing the intention and
@@ -162,14 +167,17 @@ export default function Events() {
                                 projects or learn the skills to get there.
                             </div>
                             <div
-                                className="button text-[1.25rem] border-transparent bg-transparent relative p-0 ml-0 mr-auto hover:border-transparent hover:bg-transparent before:content-[''] before:absolute before:w-full before:h-[2px] before:rounded-[4px] before:bg-[#0042c6] before:bottom-[4px] before:left-0 before:origin-right	before:scale-x-0 before:ease-in-out before:duration-300 hover:before:origin-left hover:before:scale-x-100"
+                                className="button relative ml-0 mr-auto border-transparent bg-transparent p-0 text-[1.25rem] before:absolute before:bottom-[4px] before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:rounded-[4px] before:bg-[#0042c6] before:duration-300 before:ease-in-out	before:content-[''] hover:border-transparent hover:bg-transparent hover:before:origin-left hover:before:scale-x-100"
                                 style={{ color: "#0042c6" }}
                                 onClick={() => {
                                     router.push("https://2022.hackduke.org");
                                 }}
                             >
                                 Code For Good 2022{" "}
-                                <AiOutlineArrowRight size={28} className="pl-1" />
+                                <AiOutlineArrowRight
+                                    size={28}
+                                    className="pl-1"
+                                />
                             </div>
                         </div>
                         <div className="column">
@@ -181,7 +189,7 @@ export default function Events() {
                     </div>
                 </div>
             </section>
-            <section className="section is-medium">
+            {/* <section className="section is-medium">
                 <div className="px-[5vw]">
                     <div className="columns is-desktop is-vcentered">
                         <div className="column">
@@ -194,7 +202,7 @@ export default function Events() {
                                 src="/images/ideate-2018-2.png"
                             />
                         </div>
-                        <div className="column font-sans">
+                        <div className="font-sans column">
                             <div className="font-normal text-[2rem] text-[#0042c6] mb-[0.5rem]">Ideate</div>
                             <div className="text-black text-[1.25rem] mb-2 leading-tight">
                                 Ideate is a two-day conference filled with
@@ -218,7 +226,7 @@ export default function Events() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <SponsorUs />
             <Footer />
