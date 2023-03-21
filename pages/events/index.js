@@ -1,4 +1,5 @@
 import Navbar from "../../components/Navbar";
+import Sponsors from "../../components/Sponsors";
 import SponsorUs from "../../components/SponsorUs";
 import Footer from "../../components/Footer";
 import Head from "next/head";
@@ -225,6 +226,12 @@ export default function Events() {
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section className="section is-medium">
+                <div className="container">
+                    <div className="title">Past Sponsors</div>
+                    <Sponsors />
                 </div>
             </section>
 

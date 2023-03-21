@@ -1,0 +1,57 @@
+[
+    {
+        "Name": "lineage",
+        "Image": "lineage.svg",
+        "Link": "https://www.lineagelogistics.com/"
+    },
+    {
+        "Name": "microsoft",
+        "Image": "microsoft.png",
+        "Link": "https://www.microsoft.com/en-us/"
+    },
+    {
+        "Name": "hrt",
+        "Image": "hrt.svg",
+        "Link": "https://www.hudsonrivertrading.com/"
+    },
+    {
+        "Name": "js",
+        "Image": "js.png",
+        "Link": "https://www.janestreet.com/"
+    },
+    {
+        "Name": "checkbook",
+        "Image": "checkbook.png",
+        "Link": "https://checkbook.io/"
+    },
+    {
+        "Name": "mems",
+        "Image": "mems.svg",
+        "Link": "https://mems.duke.edu/"
+    },
+    {
+        "Name": "imc",
+        "Image": "imc.svg",
+        "Link": "https://www.imc.com/us/"
+    },
+    {
+        "Name": "citadel",
+        "Image": "citadel.svg",
+        "Link": "https://www.citadel.com/"
+    },
+    {
+        "Name": "aspida",
+        "Image": "Aspida.png",
+        "Link": "https://www.aspida.com/"
+    },
+    {
+        "Name": "iid",
+        "Image": "iid.png",
+        "Link": "https://bigdata.duke.edu/"
+    },
+    {
+        "Name": "cs",
+        "Image": "cs.png",
+        "Link": "https://cs.duke.edu/"
+    }
+]
