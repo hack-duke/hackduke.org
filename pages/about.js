@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import JoinUs from "../components/JoinUs";
 import Footer from "../components/Footer";
 import Head from "next/head";
+import Image from "../components/Image";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 
@@ -83,21 +84,26 @@ export default function About() {
                                 </div>
                             </div>
                             <div className="column">
-                                <img
+
+                                <Image
                                     src="/images/about-1.png"
-                                    className="rounded-2xl"
+                                    alt="HackDuke Example"
+                                    extraClasses="rounded-2xl"
                                 />
                             </div>
                         </div>
                     </div>
                     <div className="mt-12 mb-20 pl-[20vw] pr-[15vw] lg:my-4 lg:px-[5vw]">
-                        <img
+                        <Image
                             src="/images/about-2.png"
-                            className="w-4/5 rounded-2xl"
+                            alt="HackDuke Example"
+                            extraClasses="w-[80%] rounded-2xl"
                         />
-                        <img
+
+                        <Image
                             src="/images/about-3.png"
-                            className="mt-[-20%] ml-[40%] w-3/5 rounded-2xl"
+                            alt="HackDuke Example"
+                            extraClasses="mt-[-20%] ml-[40%] w-[60%] rounded-2xl"
                         />
                     </div>
                     <div className="px-[15vw] lg:px-[5vw]">
@@ -133,9 +139,10 @@ export default function About() {
                         </div>
                     </div>
                     <div className="my-12 px-[20vw] lg:my-4 lg:px-[5vw]">
-                        <img
+                        <Image
                             src="/images/about-4.png"
-                            className="ml-[10%] w-4/5 rounded-2xl lg:ml-0 lg:w-full lg:rounded-2xl"
+                            alt="HackDuke Example"
+                            extraClasses="rounded-2xl lg:w-full"
                         />
                     </div>
                     <div className="px-[15vw] lg:px-[5vw]">
@@ -158,17 +165,20 @@ export default function About() {
                     <div className="my-12 px-[5vw] lg:mb-4 lg:px-[5vw]">
                         <div className="columns is-desktop is-vcentered">
                             <div className="column">
-                                <img
+                                <Image
                                     src="/images/about-5.png"
-                                    className="my-1 w-2/5 rounded-2xl"
+                                    alt=""
+                                    extraClasses="my-[0.25rem] w-[40%] rounded-2xl"
                                 />
-                                <img
+                                <Image
                                     src="/images/about-6.png"
-                                    className="my-1 ml-[20%] w-3/5 rounded-2xl"
+                                    alt=""
+                                    extraClasses="my-[0.25rem] ml-[20%] w-[60%] rounded-2xl"
                                 />
-                                <img
+                                <Image
                                     src="/images/about-7.png"
-                                    className="my-1 ml-[60%] w-2/5 rounded-2xl"
+                                    alt=""
+                                    extraClasses="my-[0.25rem] ml-[60%] w-[40%] rounded-2xl"
                                 />
                             </div>
                             <div className="column">
@@ -218,13 +228,15 @@ export default function About() {
                                 </div>
                             </div>
                             <div className="column">
-                                <img
+                                <Image
                                     src="/images/about-8.png"
-                                    className="my-1 w-[70%] rounded-2xl"
+                                    alt=""
+                                    extraClasses="my-[0.25rem] w-[70%] rounded-2xl"
                                 />
-                                <img
+                                <Image
                                     src="/images/about-9.png"
-                                    className="my-1 ml-[30%] w-[70%] rounded-2xl"
+                                    alt=""
+                                    extraClasses="my-[0.25rem] ml-[30%] w-[70%] rounded-2xl"
                                 />
                             </div>
                         </div>
@@ -253,9 +265,10 @@ export default function About() {
                         </div>
                     </div>
                     <div className="my-12 px-[20vw] lg:my-4 lg:px-[5vw]">
-                        <img
+                        <Image
                             src="/images/team-2023.jpeg"
-                            className="ml-[10%] w-4/5 rounded-2xl lg:ml-0 lg:w-full"
+                            alt="HackDuke Team"
+                            extraClasses="ml-[10%] w-[80%] rounded-2xl lg:ml-0 lg:w-full"
                         />
                     </div>
                 </section>

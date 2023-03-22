@@ -2,6 +2,7 @@ import Navbar from "../../components/Navbar";
 import SponsorUs from "../../components/SponsorUs";
 import Footer from "../../components/Footer";
 import Head from "next/head";
+import Image from "../../components/Image";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 
@@ -28,9 +29,11 @@ export default function Events() {
                                 Code for Good and Ideate. You might have heard
                                 about them :)
                             </div>
-                            <img
-                                className="w-4/5 mt-[10%] ml-[10%]"
+
+                            <Image
                                 src="/graphics/building.svg"
+                                alt="building"
+                                extraClasses="w-[80%] mt-[10%] ml-[10%]"
                             />
                         </div>
                         <div className="column">
@@ -136,10 +139,13 @@ export default function Events() {
                             </div>
                         </div>
                         <div className="column">
-                            <img
-                                className="rounded-2xl"
+
+                            <Image
                                 src="/images/RobertVilaTalk.jpeg"
+                                alt="Robert Vila"
+                                extraClasses="rounded-2xl"
                             />
+
                         </div>
                     </div>
                 </div>
@@ -173,9 +179,10 @@ export default function Events() {
                             </div>
                         </div>
                         <div className="column">
-                            <img
-                                className="rounded-2xl"
+                            <Image
                                 src="/images/cfg-2022-3.jpeg"
+                                alt="Code For Good 2022"
+                                extraClasses="rounded-2xl"
                             />
                         </div>
                     </div>
@@ -185,13 +192,15 @@ export default function Events() {
                 <div className="px-[5vw]">
                     <div className="columns is-desktop is-vcentered">
                         <div className="column">
-                            <img
-                                className="rounded-2xl w-[70%]"
+                            <Image
                                 src="/images/ideate-2018-1.png"
+                                alt="Ideate 2018"
+                                extraClasses="rounded-2xl w-[70%]"
                             />
-                            <img
-                                className="rounded-2xl w-[70%] ml-[30%]"
+                            <Image
                                 src="/images/ideate-2018-2.png"
+                                alt="Ideate 2018"
+                                extraClasses="rounded-2xl w-[70%] ml-[30%]"
                             />
                         </div>
                         <div className="column font-sans">
