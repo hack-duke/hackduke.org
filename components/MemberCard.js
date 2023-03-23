@@ -4,7 +4,7 @@ function MemberCard(props) {
     return (
         <div className="column is-one-fifth-desktop is-one-third-tablet is-half-mobile member-card">
             <a
-                className="card-image w-full rounded-2xl bg-[100%] bg-center bg-no-repeat brightness-100 transition-all duration-500 after:block after:pb-[100%] after:content-[''] hover:bg-[110%] hover:brightness-[80%] hover:transition-all hover:duration-500"
+                className="card-image w-full rounded-2xl bg-no-repeat brightness-100 transition-all duration-500 after:block after:pb-[100%] after:content-['']  hover:brightness-[80%] hover:transition-all hover:duration-500"
                 style={{
                     backgroundImage:
                         "url('" +
@@ -14,7 +14,8 @@ function MemberCard(props) {
                 }}
                 href={props.linkedin}
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+            >
                 {/* LinkedIn Icon for mobile/tablet screen sizes */}
                 <FaLinkedin
                     className="faicon has-text-white absolute right-2.5 bottom-2.5"
