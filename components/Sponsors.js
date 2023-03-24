@@ -7,21 +7,21 @@ function Sponsors() {
         <div className="flex flex-col">
             <div className="columns is-multiline is-centered is-vcentered is-mobile">
                 {sponsors.map((s) => (
-                    <div
+                    <a
                         key={s.Name}
-                        className="column is-3-tablet is-6-mobile transform 
-                transition duration-500 hover:scale-110"
+                        href={s.Link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="column is-3-tablet is-6-mobile transform transition duration-500 hover:scale-110"
                     >
                         <div className="m-2">
-                            <a href={s.Link}>
-                                <img
-                                    className="m-auto block max-h-16 w-fit md:max-h-12 lg:max-h-16"
-                                    src={`/sponsors/${s.Image}`}
-                                    alt={s.Image}
-                                />
-                            </a>
+                            <img
+                                className="md:max-h-12 m-auto block max-h-16 w-fit lg:max-h-16"
+                                src={`/sponsors/${s.Image}`}
+                                alt={s.Image}
+                            />
                         </div>
-                    </div>
+                    </a>
                 ))}
             </div>
         </div>
