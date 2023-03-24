@@ -1,9 +1,11 @@
 import Navbar from "../../components/Navbar";
+import Sponsors from "../../components/Sponsors";
 import SponsorUs from "../../components/SponsorUs";
 import Footer from "../../components/Footer";
 import Head from "next/head";
 
-import { AiOutlineArrowRight } from "react-icons/ai";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 import { useRouter } from "next/router";
 
@@ -15,82 +17,80 @@ export default function Events() {
                 <title>Events | HackDuke</title>
             </Head>
             <Navbar color="#36c69b" />
-            <section className="section is-small min-h-screen bg-[#36c69b] pt-40">
-                <div className="px-[5vw]">
+            <section className="section is-small" id="events-hero">
+                <div className="container">
                     <div className="columns is-desktop is-vcentered">
-                        <div className="column font-sans text-black">
-                            <div className="mb-8 text-[3rem] font-semibold">
-                                Events
-                            </div>
-                            <div className="mb-2 text-[1.25rem] leading-tight">
+                        <div className="column">
+                            <div className="section-title">Events</div>
+                            <div className="subtitle">
                                 Each year, our teams organize two conferences
                                 that attract participants all over the country:
                                 Code for Good and Ideate. You might have heard
                                 about them :)
                             </div>
                             <img
-                                className="mt-[10%] ml-[10%] w-4/5"
+                                id="events-hero-i1"
                                 src="/graphics/building.svg"
                             />
                         </div>
                         <div className="column">
-                            <div className="my-[2rem] rounded-[1rem] border-4 border-dashed border-white p-[1rem] text-center font-sans text-black">
-                                <div className="mb-[1rem] text-[1.5rem] font-semibold">
+                            <div className="scoreboard">
+                                <div className="scoreboard-title">
                                     Code for Good 2022
                                 </div>
                                 <div className="columns is-desktop is-vcentered">
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="text-[3rem] font-semibold">
+                                    <div className="column">
+                                        <div className="scoreboard-number">
                                             264
                                         </div>
-                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
+                                        <div className="scoreboard-text">
                                             Participants
                                         </div>
                                     </div>
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="text-[3rem] font-semibold">
+                                    <div className="column">
+                                        <div className="scoreboard-number">
                                             35
                                         </div>
-                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
+                                        <div className="scoreboard-text">
                                             Hacks
                                         </div>
                                     </div>
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="text-[3rem] font-semibold">
+                                    <div className="column">
+                                        <div className="scoreboard-number">
                                             $3300
                                         </div>
-                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
+                                        <div className="scoreboard-text">
                                             In Prizes
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="my-[2rem] rounded-[1rem] border-4 border-dashed border-white p-[1rem] text-center font-sans text-black">
-                                <div className="mb-[1rem] text-[1.5rem] font-semibold">
+                            <div className="scoreboard">
+                                <div className="scoreboard-title">
                                     Ideate 2022
                                 </div>
                                 <div className="columns is-desktop is-vcentered">
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="text-[3rem] font-semibold">
+                                    <div className="column">
+                                        <div className="scoreboard-number">
                                             234
                                         </div>
-                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
+                                        <div className="scoreboard-text">
                                             Registrants
                                         </div>
                                     </div>
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="text-[3rem] font-semibold">
+                                    <div className="column">
+                                        <div className="scoreboard-number">
                                             18
                                         </div>
-                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
+                                        <div className="scoreboard-text">
                                             Pitches
                                         </div>
                                     </div>
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="text-[3rem] font-semibold">
+                                    <div className="column">
+                                        <div className="scoreboard-number">
                                             $1500
                                         </div>
-                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
+                                        <div className="scoreboard-text">
                                             In Prizes
                                         </div>
                                     </div>
@@ -100,14 +100,12 @@ export default function Events() {
                     </div>
                 </div>
             </section>
-            <section className="section is-medium">
-                <div className="px-[5vw]">
+            <section className="section is-medium" id="feb18">
+                <div className="container">
                     <div className="columns is-desktop is-vcentered">
-                        <div className="column font-sans">
-                            <div className="mb-[0.5rem] text-[2rem] font-normal text-[#0042c6]">
-                                Feb 18 Speaker Event
-                            </div>
-                            <div className="mb-2 text-[1.25rem] leading-tight text-black">
+                        <div className="column">
+                            <div className="title">Feb 18 Speaker Event</div>
+                            <div className="subtitle">
                                 <p>
                                     We&apos;re excited to welcome Robert Vila, a
                                     Director @ IBM to speak about his experience
@@ -124,7 +122,7 @@ export default function Events() {
                                 </p>
                             </div>
                             <div
-                                className="button relative ml-0 mr-auto border-transparent bg-transparent p-0 text-[1.25rem] before:absolute before:bottom-[4px] before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:rounded-[4px] before:bg-[#0042c6] before:duration-300 before:ease-in-out	before:content-[''] hover:border-transparent hover:bg-transparent hover:before:origin-left hover:before:scale-x-100"
+                                className="button"
                                 style={{ color: "#0042c6" }}
                                 onClick={() => {
                                     // gtag('event', 'event_form_open')
@@ -134,29 +132,27 @@ export default function Events() {
                                 }}
                             >
                                 See the event{" "}
-                                <AiOutlineArrowRight
-                                    size={28}
-                                    className="pl-1"
-                                />
+                                <FontAwesomeIcon
+                                    className="fa-md faicon"
+                                    icon={faArrowRight}
+                                ></FontAwesomeIcon>
                             </div>
                         </div>
                         <div className="column">
                             <img
-                                className="rounded-2xl"
+                                className="events-image"
                                 src="/images/RobertVilaTalk.jpeg"
                             />
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="section is-medium">
-                <div className="px-[5vw]">
+            <section className="section is-medium" id="code-for-good">
+                <div className="container">
                     <div className="columns is-desktop is-vcentered">
-                        <div className="column font-sans">
-                            <div className="mb-[0.5rem] text-[2rem] font-normal text-[#0042c6]">
-                                Code For Good
-                            </div>
-                            <div className="mb-2 text-[1.25rem] leading-tight text-black">
+                        <div className="column">
+                            <div className="title">Code For Good</div>
+                            <div className="subtitle">
                                 Code for Good is the nation’s premier hackathon
                                 for tech and social good. We unite students that
                                 are passionate about changing the intention and
@@ -167,44 +163,46 @@ export default function Events() {
                                 projects or learn the skills to get there.
                             </div>
                             <div
-                                className="button relative ml-0 mr-auto border-transparent bg-transparent p-0 text-[1.25rem] before:absolute before:bottom-[4px] before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:rounded-[4px] before:bg-[#0042c6] before:duration-300 before:ease-in-out	before:content-[''] hover:border-transparent hover:bg-transparent hover:before:origin-left hover:before:scale-x-100"
+                                className="button"
                                 style={{ color: "#0042c6" }}
                                 onClick={() => {
                                     router.push("https://2022.hackduke.org");
                                 }}
                             >
                                 Code For Good 2022{" "}
-                                <AiOutlineArrowRight
-                                    size={28}
-                                    className="pl-1"
-                                />
+                                <FontAwesomeIcon
+                                    className="fa-md faicon"
+                                    icon={faArrowRight}
+                                ></FontAwesomeIcon>
                             </div>
                         </div>
                         <div className="column">
                             <img
-                                className="rounded-2xl"
+                                className="events-image"
                                 src="/images/cfg-2022-3.jpeg"
                             />
                         </div>
                     </div>
                 </div>
             </section>
-            {/* <section className="section is-medium">
-                <div className="px-[5vw]">
+            <section className="section is-medium" id="ideate">
+                <div className="container">
                     <div className="columns is-desktop is-vcentered">
                         <div className="column">
                             <img
-                                className="rounded-2xl w-[70%]"
+                                className="events-image"
+                                id="events-s2-i2"
                                 src="/images/ideate-2018-1.png"
                             />
                             <img
-                                className="rounded-2xl w-[70%] ml-[30%]"
+                                className="events-image"
+                                id="events-s2-i3"
                                 src="/images/ideate-2018-2.png"
                             />
                         </div>
-                        <div className="font-sans column">
-                            <div className="font-normal text-[2rem] text-[#0042c6] mb-[0.5rem]">Ideate</div>
-                            <div className="text-black text-[1.25rem] mb-2 leading-tight">
+                        <div className="column">
+                            <div className="title">Ideate</div>
+                            <div className="subtitle">
                                 Ideate is a two-day conference filled with
                                 awesome speakers and workshops to explore how
                                 design and innovation interact. The designathon
@@ -214,19 +212,28 @@ export default function Events() {
                                 between!
                             </div>
                             <div
-                                className="button text-[1.25rem] border-transparent bg-transparent relative p-0 ml-0 mr-auto hover:border-transparent hover:bg-transparent before:content-[''] before:absolute before:w-full before:h-[2px] before:rounded-[4px] before:bg-[#0042c6] before:bottom-[4px] before:left-0 before:origin-right	before:scale-x-0 before:ease-in-out before:duration-300 hover:before:origin-left hover:before:scale-x-100"
+                                className="button"
                                 style={{ color: "#0042c6" }}
                                 onClick={() => {
                                     router.push("https://ideate.hackduke.org");
                                 }}
                             >
                                 Ideate 2022{" "}
-                                <AiOutlineArrowRight size={28} className="pl-1" />
+                                <FontAwesomeIcon
+                                    className="fa-md faicon"
+                                    icon={faArrowRight}
+                                ></FontAwesomeIcon>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
+            <section className="section is-medium">
+                <div className="container">
+                    <div className="title">Past Sponsors</div>
+                    <Sponsors />
+                </div>
+            </section>
 
             <SponsorUs />
             <Footer />
