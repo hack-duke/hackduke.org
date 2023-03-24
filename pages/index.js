@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 import { useRouter } from "next/router";
+import IconTextButton from "../components/IconTextButton";
 
 export default function Home() {
     const router = useRouter();
@@ -30,19 +31,13 @@ export default function Home() {
                                     Duke to further social good. Sound
                                     interesting?
                                 </div>
-                                <div
-                                    className="button"
-                                    style={{ color: "#0042c6" }}
+                                <IconTextButton
+                                    text="Read our story"
+                                    icon={faArrowRight}
                                     onClick={() => {
                                         router.push("/about");
                                     }}
-                                >
-                                    Read our story{" "}
-                                    <FontAwesomeIcon
-                                        className="fa-md faicon"
-                                        icon={faArrowRight}
-                                    ></FontAwesomeIcon>
-                                </div>
+                                ></IconTextButton>
                             </div>
                             <div className="column" id="index-s1-c2">
                                 <img
@@ -118,19 +113,13 @@ export default function Home() {
                                     teams: Tech, Design, Logistics, Outreach,
                                     Sponsorship, and Marketing.
                                 </div>
-                                <div
-                                    className="button"
-                                    style={{ color: "#0042c6" }}
+                                <IconTextButton
+                                    text="Meet our people"
+                                    icon={faArrowRight}
                                     onClick={() => {
                                         router.push("/humans");
                                     }}
-                                >
-                                    Meet our people{" "}
-                                    <FontAwesomeIcon
-                                        className="fa-md faicon"
-                                        icon={faArrowRight}
-                                    ></FontAwesomeIcon>
-                                </div>
+                                ></IconTextButton>
                             </div>
                             <div className="column">
                                 <img
@@ -181,19 +170,13 @@ export default function Home() {
                                     design resources, build platforms, and more
                                     to ensure the success of the event.
                                 </div>
-                                <div
-                                    className="button"
-                                    style={{ color: "#0042c6" }}
+                                <IconTextButton
+                                    text="See our work"
+                                    icon={faArrowRight}
                                     onClick={() => {
                                         router.push("/events");
                                     }}
-                                >
-                                    See our work{" "}
-                                    <FontAwesomeIcon
-                                        className="fa-md faicon"
-                                        icon={faArrowRight}
-                                    ></FontAwesomeIcon>
-                                </div>
+                                ></IconTextButton>
                             </div>
                         </div>
                     </div>
@@ -213,19 +196,13 @@ export default function Home() {
                                     prizes to let others realize and unlock
                                     tech’s potential for social impact.
                                 </div>
-                                <div
-                                    className="button"
-                                    style={{ color: "#0042c6" }}
+                                <IconTextButton
+                                    text="Join our team"
+                                    icon={faArrowRight}
                                     onClick={() => {
                                         router.push("/join");
                                     }}
-                                >
-                                    Join our team{" "}
-                                    <FontAwesomeIcon
-                                        className="fa-md faicon"
-                                        icon={faArrowRight}
-                                    ></FontAwesomeIcon>
-                                </div>
+                                ></IconTextButton>
                             </div>
                             <div className="column">
                                 <div

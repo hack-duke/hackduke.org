@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import IconTextButton from "./IconTextButton";
 
 import { useRouter } from "next/router";
 
@@ -16,20 +17,14 @@ function JoinUs(props) {
                         Join our mailing list to get notified when applications
                         are released.
                     </div>
-                    <div
-                        className="button"
-                        id="index-s1-b1"
-                        style={{ color: "#0042c6" }}
+
+                    <IconTextButton
+                        text="Join our team"
+                        icon={faArrowRight}
                         onClick={() => {
                             router.push("/join");
                         }}
-                    >
-                        Join our team{" "}
-                        <FontAwesomeIcon
-                            className="fa-md faicon"
-                            icon={faArrowRight}
-                        ></FontAwesomeIcon>
-                    </div>
+                    ></IconTextButton>
                 </div>
             </section>
         </>

@@ -6,9 +6,7 @@
 @tailwind components;
 @tailwind utilities;
 
-Bg Animate
-
-:root {
+Bg Animate :root {
     --shift: 0;
     --x: 0;
     --y: 0;
@@ -561,10 +559,6 @@ html {
 
 #about-hero .subtitle {
     color: white;
-}
-
-#about-hero-button::before {
-    background-color: white;
 }
 
 .about-story .subtitle {

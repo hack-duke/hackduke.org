@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import JoinUs from "../components/JoinUs";
 import Footer from "../components/Footer";
 import Head from "next/head";
+import IconTextButton from "../components/IconTextButton";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -41,20 +42,19 @@ export default function About() {
                             partner with local nonprofits to connect and give
                             back.
                         </div>
-                        <div
-                            className="button relative mx-auto ml-0 bg-white p-0 text-xl"
-                            id="about-hero-button"
-                            style={{ color: "#ffffff" }}
+                        <IconTextButton
+                            text="More about our events"
+                            extraClasses={[
+                                "before:bg-white",
+                                "relative mx-auto",
+                                "ml-0",
+                            ]}
                             onClick={() => {
                                 router.push("/events");
                             }}
-                        >
-                            More about our events{" "}
-                            <FontAwesomeIcon
-                                className="fa-md faicon"
-                                icon={faArrowRight}
-                            ></FontAwesomeIcon>
-                        </div>
+                            icon={faArrowRight}
+                            textColorHex="#ffffff"
+                        ></IconTextButton>
                     </div>
                 </section>
                 <section className="section is-medium font-sans">
@@ -128,9 +128,9 @@ export default function About() {
                             on problems that are related to social good. It has
                             also opened the eyes of more non-profits of the
                             potential of technology. HackDuke is not a solution
-                            to society&apos;s problems. It&apos;s the beginning of the
-                            journey in identifying them, and exploring the
-                            solutions to them.
+                            to society&apos;s problems. It&apos;s the beginning
+                            of the journey in identifying them, and exploring
+                            the solutions to them.
                         </div>
                         <div className="mt-2 text-right text-base font-normal text-hd-dark-blue">
                             — Ashley Qian, 2014 HackDuke Co-director (DukeToday)
@@ -209,9 +209,9 @@ export default function About() {
                                     Moving Virtual
                                 </div>
                                 <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
-                                    Of course, we can&apos;t forget 2020. Despite
-                                    being scattered across the globe, our
-                                    planning teams were able to successfully
+                                    Of course, we can&apos;t forget 2020.
+                                    Despite being scattered across the globe,
+                                    our planning teams were able to successfully
                                     organize our annual events online. In July
                                     2020, we hosted our first virtual Ideate,
                                     welcoming students from India, South Korea,
@@ -241,19 +241,19 @@ export default function About() {
                             What Now?
                         </div>
                         <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
-                            So, that&apos;s a brief history of HackDuke! We are so
-                            proud of our organization and the growth that has
+                            So, that&apos;s a brief history of HackDuke! We are
+                            so proud of our organization and the growth that has
                             happened the past 8 years. From 100 participants
                             from RTP to over 1000 from across the globe,
-                            HackDuke&apos;s impact has tremendously increased. As an
-                            organization, we want to continue our growth, to
-                            stay true to our core values of community through
+                            HackDuke&apos;s impact has tremendously increased.
+                            As an organization, we want to continue our growth,
+                            to stay true to our core values of community through
                             education and innovation for social good, and, of
                             course, to have fun through it all.
                         </div>
                         <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
-                            We can&apos;t wait to see where we go! Come along for the
-                            journey—you won&apos;t regret it.
+                            We can&apos;t wait to see where we go! Come along
+                            for the journey—you won&apos;t regret it.
                         </div>
                     </div>
                     <div className="my-12 px-[20vw] lg:my-4 lg:px-[5vw]">

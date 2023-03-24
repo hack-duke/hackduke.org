@@ -154,9 +154,9 @@ function Footer(props) {
                         <div>
                             Designed by Maggie Wang &apos;22, implemented with ♥
                         </div>
-                        <div class="mt-2 inline-block">
+                        <div className="mt-2 inline-block">
                             Copyright © 2023 HackDuke —{" "}
-                            <div class="inline-block">
+                            <div className="inline-block">
                                 <div
                                     className="column-small-text"
                                     onClick={() => {
