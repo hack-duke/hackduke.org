@@ -23,6 +23,9 @@ function Gallery(props) {
             </div>
         </>
         :
+
+        props.imageNames.length == 3 ?
+
         <>
             <div className="column is-full">
                 <Image
@@ -46,6 +49,8 @@ function Gallery(props) {
                 />
             </div>
         </>
+        :
+        <></>
     );
 }
 
