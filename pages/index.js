@@ -158,8 +158,8 @@ export default function Home() {
                                 >
 
                                     <Gallery 
-                                        imageNames={["/images/cfg-2022-9.jpeg", "/images/cfg-2022-7.jpeg", "/images/cfg-2022-1.jpeg"]}
-                                        altTexts={["Top WDWD", "Middle WDWD", "Bottom WDWD"]}
+                                        src={["/images/cfg-2022-9.jpeg", "/images/cfg-2022-7.jpeg", "/images/cfg-2022-1.jpeg"]}
+                                        alt={["Top WDWD", "Middle WDWD", "Bottom WDWD"]}
                                     />
 
                                 </div>
@@ -219,8 +219,8 @@ export default function Home() {
                                     id="index-s5-i"
                                 >
                                     <Gallery
-                                        imageNames={["/images/cfg-2022-13.jpeg", "/images/cfg-2022-12.jpeg"]}
-                                        altTexts={["Top Why Hackduke", "Bottom Why Hackduke"]}
+                                        src={["/images/cfg-2022-13.jpeg", "/images/cfg-2022-12.jpeg"]}
+                                        alt={["Top Why Hackduke", "Bottom Why Hackduke"]}
                                     />
                                 </div>
                             </div>

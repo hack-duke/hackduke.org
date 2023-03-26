@@ -170,8 +170,8 @@ export default function About() {
 
                             <div className="column">
                                 <Gallery
-                                    imageNames={["/images/about-5.png", "/images/about-6.png", "/images/about-7.png"]}
-                                    altTexts={["HackDuke Example", "HackDuke Example", "HackDuke Example"]}
+                                    src={["/images/about-5.png", "/images/about-6.png", "/images/about-7.png"]}
+                                    alt={["HackDuke Example", "HackDuke Example", "HackDuke Example"]}
                                 />
                             </div>
                             <div className="column">
@@ -222,8 +222,8 @@ export default function About() {
                             </div>
                             <div className="column">
                                 <Gallery
-                                    imageNames={["/images/about-8.png", "/images/about-9.png"]}
-                                    altTexts={["HackDuke Example", "HackDuke Example"]}
+                                    src={["/images/about-8.png", "/images/about-9.png"]}
+                                    alt={["HackDuke Example", "HackDuke Example"]}
                                 />
                             </div>
                         </div>

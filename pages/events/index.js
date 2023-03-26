@@ -198,8 +198,8 @@ export default function Events() {
                     <div className="columns is-desktop is-vcentered">
                         <div className="column">
                             <Gallery
-                                imageNames={["/images/ideate-2018-1.png", "/images/ideate-2018-2.png"]}
-                                altTexts={["Ideate 2018", "Ideate 2018"]}
+                                src={["/images/ideate-2018-1.png", "/images/ideate-2018-2.png"]}
+                                alt={["Ideate 2018", "Ideate 2018"]}
                             />
                         </div>
                         <div className="column">
