@@ -3,6 +3,7 @@ import JoinUs from "../components/JoinUs";
 import Footer from "../components/Footer";
 import Head from "next/head";
 import Image from "../components/Image";
+import Gallery from "../components/Gallery";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 
@@ -164,21 +165,13 @@ export default function About() {
                     </div>
                     <div className="my-12 px-[5vw] lg:mb-4 lg:px-[5vw]">
                         <div className="columns is-desktop is-vcentered">
+
+                            
+
                             <div className="column">
-                                <Image
-                                    src="/images/about-5.png"
-                                    alt=""
-                                    extraClasses="my-[0.25rem] w-[40%] rounded-2xl"
-                                />
-                                <Image
-                                    src="/images/about-6.png"
-                                    alt=""
-                                    extraClasses="my-[0.25rem] ml-[20%] w-[60%] rounded-2xl"
-                                />
-                                <Image
-                                    src="/images/about-7.png"
-                                    alt=""
-                                    extraClasses="my-[0.25rem] ml-[60%] w-[40%] rounded-2xl"
+                                <Gallery
+                                    imageNames={["/images/about-5.png", "/images/about-6.png", "/images/about-7.png"]}
+                                    altTexts={["HackDuke Example", "HackDuke Example", "HackDuke Example"]}
                                 />
                             </div>
                             <div className="column">
@@ -228,15 +221,9 @@ export default function About() {
                                 </div>
                             </div>
                             <div className="column">
-                                <Image
-                                    src="/images/about-8.png"
-                                    alt=""
-                                    extraClasses="my-[0.25rem] w-[70%] rounded-2xl"
-                                />
-                                <Image
-                                    src="/images/about-9.png"
-                                    alt=""
-                                    extraClasses="my-[0.25rem] ml-[30%] w-[70%] rounded-2xl"
+                                <Gallery
+                                    imageNames={["/images/about-8.png", "/images/about-9.png"]}
+                                    altTexts={["HackDuke Example", "HackDuke Example"]}
                                 />
                             </div>
                         </div>

@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import HeroBackground from "../components/HeroBackground";
 import SponsorUs from "../components/SponsorUs";
 import Image from "../components/Image";
+import Gallery from "../components/Gallery";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 
@@ -155,27 +156,12 @@ export default function Home() {
                                     className="columns is-multiline is-gapless"
                                     id="index-s4-i"
                                 >
-                                    <div className="column is-full">
-                                        <Image
-                                            src="/images/cfg-2022-9.jpeg"
-                                            alt="Top WDWD"
-                                            extraClasses="rounded-2xl w-[40%]"
-                                        />
-                                    </div>
-                                    <div className="column is-full">
-                                        <Image
-                                            src="/images/cfg-2022-7.jpeg"
-                                            alt="Middle WDWD"
-                                            extraClasses="rounded-2xl w-[60%] ml-[20%]"
-                                        />
-                                    </div>
-                                    <div className="column is-full">
-                                        <Image
-                                            src="/images/cfg-2022-1.jpeg"
-                                            alt="Bottom WDWD"
-                                            extraClasses="rounded-2xl w-[40%] ml-[60%]"
-                                        />
-                                    </div>
+
+                                    <Gallery 
+                                        imageNames={["/images/cfg-2022-9.jpeg", "/images/cfg-2022-7.jpeg", "/images/cfg-2022-1.jpeg"]}
+                                        altTexts={["Top WDWD", "Middle WDWD", "Bottom WDWD"]}
+                                    />
+
                                 </div>
                             </div>
                             <div className="column">
@@ -232,20 +218,10 @@ export default function Home() {
                                     className="columns is-multiline is-gapless"
                                     id="index-s5-i"
                                 >
-                                    <div className="column is-full">
-                                        <Image
-                                            src="/images/cfg-2022-13.jpeg"
-                                            alt="Top Why Hackduke"
-                                            extraClasses="rounded-2xl w-[70%]"
-                                        />
-                                    </div>
-                                    <div className="column is-full">
-                                        <Image
-                                            src="/images/cfg-2022-12.jpeg"
-                                            alt="Bottom Why Hackduke"
-                                            extraClasses="rounded-2xl w-[70%] ml-[30%]"
-                                        />
-                                    </div>
+                                    <Gallery
+                                        imageNames={["/images/cfg-2022-13.jpeg", "/images/cfg-2022-12.jpeg"]}
+                                        altTexts={["Top Why Hackduke", "Bottom Why Hackduke"]}
+                                    />
                                 </div>
                             </div>
                         </div>

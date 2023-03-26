@@ -10,14 +10,14 @@ function Gallery(props) {
             <div className="column is-full">
                 <Image
                     src={props.imageNames[0]}
-                    alt=""
+                    alt={props.altTexts[0]}
                     extraClasses="rounded-2xl w-[70%]"
                 />
             </div>
             <div className="column is-full">
                 <Image
                     src={props.imageNames[1]}
-                    alt=""
+                    alt={props.altTexts[1]}
                     extraClasses="rounded-2xl w-[70%] ml-[30%]"
                 />
             </div>
@@ -30,21 +30,21 @@ function Gallery(props) {
             <div className="column is-full">
                 <Image
                     src={props.imageNames[0]}
-                    alt=""
+                    alt={props.altTexts[0]}
                     extraClasses="rounded-2xl w-[40%]"
                 />
             </div>
             <div className="column is-full">
                 <Image
                     src={props.imageNames[1]}
-                    alt=""
+                    alt={props.altTexts[1]}
                     extraClasses="rounded-2xl w-[60%] ml-[20%]"
                 />
             </div>
             <div className="column is-full">
                 <Image
                     src={props.imageNames[2]}
-                    alt=""
+                    alt={props.altTexts[2]}
                     extraClasses="rounded-2xl w-[40%] ml-[60%]"
                 />
             </div>

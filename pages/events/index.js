@@ -4,6 +4,7 @@ import SponsorUs from "../../components/SponsorUs";
 import Footer from "../../components/Footer";
 import Head from "next/head";
 import Image from "../../components/Image";
+import Gallery from "../../components/Gallery";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -196,15 +197,9 @@ export default function Events() {
                 <div className="container">
                     <div className="columns is-desktop is-vcentered">
                         <div className="column">
-                            <Image
-                                src="/images/ideate-2018-1.png"
-                                alt="Ideate 2018"
-                                extraClasses="rounded-2xl w-[70%]"
-                            />
-                            <Image
-                                src="/images/ideate-2018-2.png"
-                                alt="Ideate 2018"
-                                extraClasses="rounded-2xl w-[70%] ml-[30%]"
+                            <Gallery
+                                imageNames={["/images/ideate-2018-1.png", "/images/ideate-2018-2.png"]}
+                                altTexts={["Ideate 2018", "Ideate 2018"]}
                             />
                         </div>
                         <div className="column">
