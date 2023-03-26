@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { useState } from "react";
+import Image from "./Image";
 
 const NavbarItem = ({ text, URL, router }) => {
     return (
@@ -29,7 +30,12 @@ function Navbar(props) {
                         onClick={() => {
                             router.push("/");
                         }}>
-                        <img id="hd-logo" src="/images/hd-symbol.svg" />
+
+                        <Image
+                            src="/images/hd-symbol.svg"
+                            alt="HackDuke Logo"
+                        />
+                        
                     </div>
                     <a
                         role="button"

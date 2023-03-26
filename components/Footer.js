@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Image from "./Image";
 
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
@@ -16,7 +17,11 @@ function Footer(props) {
                             id="footer-top"
                         >
                             <div className="logo">
-                                <img src="/images/hd-logo.svg" />
+                                <Image
+                                    src="/images/hd-logo.svg"
+                                    alt="HackDuke Logo"
+                                    extraClasses="logo"
+                                />
                             </div>
                             <div className="footer-text">
                                 <div className="column-text">
