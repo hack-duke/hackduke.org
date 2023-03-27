@@ -119,6 +119,14 @@ export default function Home() {
                     <div className="container">
                         <div className="columns is-desktop is-vcentered">
                             <div className="column">
+                                <div className="title">Who are we?</div>
+                                <div className="subtitle">
+                                    We are a diverse community of Duke students
+                                    united by our love of building and using
+                                    tech for social good. We are split into 6
+                                    teams: Tech, Design, Logistics, Outreach,
+                                    Sponsorship, and Marketing.
+                                </div>
                                 <div
                                     className="button"
                                     style={{ color: "#0042c6" }}
@@ -157,7 +165,6 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="column">
-
                                 <div className="title">What do we do?</div>
                                 <div className="subtitle">
                                     We organize Code for Good, the nation’s
@@ -185,7 +192,7 @@ export default function Home() {
                         <div className="columns is-desktop is-vcentered">
                             <div className="column">
 
-
+                                
 
                                 <div className="title">Why HackDuke?</div>
                                 <div className="subtitle">
