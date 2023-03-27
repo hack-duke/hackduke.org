@@ -3,6 +3,8 @@ import Sponsors from "../../components/Sponsors";
 import SponsorUs from "../../components/SponsorUs";
 import Footer from "../../components/Footer";
 import Head from "next/head";
+import Image from "../../components/Image";
+import Gallery from "../../components/Gallery";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -28,9 +30,11 @@ export default function Events() {
                                 Code for Good and Ideate. You might have heard
                                 about them :)
                             </div>
-                            <img
-                                id="events-hero-i1"
+
+                            <Image
                                 src="/graphics/building.svg"
+                                alt="building"
+                                extraClasses="w-[80%] mt-[10%] ml-[10%]"
                             />
                         </div>
                         <div className="column">
@@ -139,10 +143,13 @@ export default function Events() {
                             </div>
                         </div>
                         <div className="column">
-                            <img
-                                className="events-image"
+                        
+                            <Image
                                 src="/images/RobertVilaTalk.jpeg"
+                                alt="Robert Vila"
+                                extraClasses="rounded-2xl"
                             />
+
                         </div>
                     </div>
                 </div>
@@ -177,9 +184,10 @@ export default function Events() {
                             </div>
                         </div>
                         <div className="column">
-                            <img
-                                className="events-image"
+                            <Image
                                 src="/images/cfg-2022-3.jpeg"
+                                alt="Code For Good 2022"
+                                extraClasses="rounded-2xl"
                             />
                         </div>
                     </div>
@@ -189,15 +197,9 @@ export default function Events() {
                 <div className="container">
                     <div className="columns is-desktop is-vcentered">
                         <div className="column">
-                            <img
-                                className="events-image"
-                                id="events-s2-i2"
-                                src="/images/ideate-2018-1.png"
-                            />
-                            <img
-                                className="events-image"
-                                id="events-s2-i3"
-                                src="/images/ideate-2018-2.png"
+                            <Gallery
+                                src={["/images/ideate-2018-1.png", "/images/ideate-2018-2.png"]}
+                                alt={["Ideate 2018", "Ideate 2018"]}
                             />
                         </div>
                         <div className="column">
