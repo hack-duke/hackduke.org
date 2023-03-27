@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "./Image";
+import FooterElement from "./FooterElement";
 
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
@@ -65,81 +66,54 @@ function Footer(props) {
                             <div className="columns is-mobile is-multiline">
                                 <div className="column is-half-mobile">
                                     <div className="column-title">About</div>
-                                    <div
-                                        className="column-text"
-                                        onClick={() => {
-                                            router.push("/about");
-                                        }}
-                                    >
-                                        <p>Our Story</p>
-                                    </div>
+
+                                    <FooterElement
+                                        link="/about"
+                                        text="Our Story"
+                                    />
+
                                 </div>
                                 <div className="column is-half-mobile">
                                     <div className="column-title">Humans</div>
-                                    <div
-                                        className="column-text"
-                                        onClick={() => {
-                                            router.push("/humans#Directors");
-                                        }}
-                                    >
-                                        <p>Directors</p>
-                                    </div>
-                                    <div
-                                        className="column-text"
-                                        onClick={() => {
-                                            router.push("/humans#Tech");
-                                        }}
-                                    >
-                                        <p>Teams</p>
-                                    </div>
+
+                                    <FooterElement
+                                        link="/humans#Directors"
+                                        text="Directors"
+                                    />
+
+                                    <FooterElement
+                                        link="/humans#Tech"
+                                        text="Teams"
+                                    />
+
                                 </div>
                                 <div className="column is-half-mobile">
                                     <div className="column-title">Events</div>
-                                    <div
-                                        className="column-text"
-                                        onClick={() => {
-                                            router.push(
-                                                "/events#code-for-good"
-                                            );
-                                        }}
-                                    >
-                                        <p>Code For Good</p>
-                                    </div>
-                                    <div
-                                        className="column-text"
-                                        onClick={() => {
-                                            router.push("/events#ideate");
-                                        }}
-                                    >
-                                        <p>Ideate</p>
-                                    </div>
-                                    <div
-                                        className="column-text"
-                                        onClick={() => {
-                                            router.push("/events/feb18");
-                                        }}
-                                    >
-                                        <p>Feb 18</p>
-                                    </div>
-                                    <div
-                                        className="column-text"
-                                        onClick={() => {
-                                            router.push("/events#sponsor-us");
-                                        }}
-                                    >
-                                        <p>Sponsor Us</p>
-                                    </div>
+
+                                    <FooterElement
+                                        link="/events#code-for-good"
+                                        text="Code For Good"
+                                    />
+
+                                    <FooterElement
+                                        link="/events#ideate"
+                                        text="Ideate"
+                                    />
+
+                                    <FooterElement
+                                        link="/events#sponsor-us"
+                                        text="Sponsor Us"
+                                    />
+                                    
                                 </div>
                                 <div className="column is-half-mobile">
                                     <div className="column-title">Join</div>
-                                    <div
-                                        className="column-text"
-                                        onClick={() => {
-                                            router.push("/join");
-                                        }}
-                                    >
-                                        <p>Newsletter</p>
-                                    </div>
+
+                                    <FooterElement
+                                        link="/join"
+                                        text="Newsletter"
+                                    />
+
                                 </div>
                             </div>
                         </div>
@@ -163,7 +137,6 @@ function Footer(props) {
                             </div>
                         </div>
                     </div>
-                    {/* <div class="mt-8 flex justify-center text-base"></div> */}
                 </div>
             </footer>
         </>
