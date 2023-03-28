@@ -19,10 +19,7 @@ export default function Home() {
                 <div className="hero">
                     <HeroBackground />
                     <div className="logo">
-                        <Image
-                            src="/images/hd-logo.svg"
-                            alt="Duke SVG"
-                        />
+                        <Image src="/images/hd-logo.svg" alt="Duke SVG" />
                     </div>
                 </div>
                 <section className="section is-small">
@@ -37,7 +34,12 @@ export default function Home() {
                                 </div>
                                 <IconTextButton
                                     text="Read our story"
-                                    icon={<AiOutlineArrowRight size={28} className="pl-1" />}
+                                    icon={
+                                        <AiOutlineArrowRight
+                                            size={28}
+                                            className="pl-1"
+                                        />
+                                    }
                                     onClick={() => {
                                         router.push("/about");
                                     }}
@@ -95,7 +97,6 @@ export default function Home() {
                                 id="index-s3-c2"
                                 style={{ borderColor: "#e55511" }}
                             >
-
                                 <Image
                                     src="/graphics/social.svg"
                                     alt="Social Good SVG"
@@ -127,12 +128,16 @@ export default function Home() {
                                 </div>
                                 <IconTextButton
                                     text="Meet our people"
-                                    icon={<AiOutlineArrowRight size={28} className="pl-1" />}
+                                    icon={
+                                        <AiOutlineArrowRight
+                                            size={28}
+                                            className="pl-1"
+                                        />
+                                    }
                                     onClick={() => {
                                         router.push("/humans");
                                     }}
                                 />
-                                    
                             </div>
                             <div className="column">
                                 <Image
@@ -152,12 +157,18 @@ export default function Home() {
                                     className="columns is-multiline is-gapless"
                                     id="index-s4-i"
                                 >
-
-                                    <Gallery 
-                                        src={["/images/cfg-2022-9.jpeg", "/images/cfg-2022-7.jpeg", "/images/cfg-2022-1.jpeg"]}
-                                        alt={["Top WDWD", "Middle WDWD", "Bottom WDWD"]}
+                                    <Gallery
+                                        src={[
+                                            "/images/cfg-2022-9.jpeg",
+                                            "/images/cfg-2022-7.jpeg",
+                                            "/images/cfg-2022-1.jpeg",
+                                        ]}
+                                        alt={[
+                                            "Top WDWD",
+                                            "Middle WDWD",
+                                            "Bottom WDWD",
+                                        ]}
                                     />
-
                                 </div>
                             </div>
                             <div className="column">
@@ -171,12 +182,16 @@ export default function Home() {
                                 </div>
                                 <IconTextButton
                                     text="See our work"
-                                    icon={<AiOutlineArrowRight size={28} className="pl-1" /}
+                                    icon={
+                                        <AiOutlineArrowRight
+                                            size={28}
+                                            className="pl-1"
+                                        />
+                                    }
                                     onClick={() => {
                                         router.push("/events");
                                     }}
                                 />
-                                    
                             </div>
                         </div>
                     </div>
@@ -185,9 +200,6 @@ export default function Home() {
                     <div className="container">
                         <div className="columns is-desktop is-vcentered">
                             <div className="column">
-
-                                
-
                                 <div className="title">Why HackDuke?</div>
                                 <div className="subtitle">
                                     Each year, our event brings in over 1000
@@ -201,12 +213,16 @@ export default function Home() {
                                 </div>
                                 <IconTextButton
                                     text="Join our team"
-                                    icon={<AiOutlineArrowRight size={28} className="pl-1" /}
+                                    icon={
+                                        <AiOutlineArrowRight
+                                            size={28}
+                                            className="pl-1"
+                                        />
+                                    }
                                     onClick={() => {
                                         router.push("/join");
                                     }}
                                 />
-                                    
                             </div>
                             <div className="column">
                                 <div
@@ -214,8 +230,14 @@ export default function Home() {
                                     id="index-s5-i"
                                 >
                                     <Gallery
-                                        src={["/images/cfg-2022-13.jpeg", "/images/cfg-2022-12.jpeg"]}
-                                        alt={["Top Why Hackduke", "Bottom Why Hackduke"]}
+                                        src={[
+                                            "/images/cfg-2022-13.jpeg",
+                                            "/images/cfg-2022-12.jpeg",
+                                        ]}
+                                        alt={[
+                                            "Top Why Hackduke",
+                                            "Bottom Why Hackduke",
+                                        ]}
                                     />
                                 </div>
                             </div>

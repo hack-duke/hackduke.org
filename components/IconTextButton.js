@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 const IconTextButton = ({
     text,
     icon,
@@ -7,7 +5,6 @@ const IconTextButton = ({
     bgColorHex,
     extraClasses,
     onClick,
-    iconSize,
 }) => {
     return (
         <div
@@ -23,15 +20,7 @@ const IconTextButton = ({
                     : {}
             }
         >
-            {text}{" "}
-            {icon ? (
-                <FontAwesomeIcon
-                    className={`fa-${iconSize ? iconSize : "md"} faicon`}
-                    icon={icon}
-                ></FontAwesomeIcon>
-            ) : (
-                <></>
-            )}
+            {text} {icon}
         </div>
     );
 };

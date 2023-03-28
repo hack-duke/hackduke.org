@@ -45,6 +45,8 @@ export default function About() {
                         </div>
                         <IconTextButton
                             text="More about our events"
+                            textColorHex={"#ffffff"}
+                            bgColorHex={"#ffffff"}
                             extraClasses={[
                                 "before:bg-white",
                                 "relative mx-auto",

@@ -42,7 +42,12 @@ export default function Join() {
                                         onClick={() =>
                                             gtag("event", "newsletter_open")
                                         }
-                                        icon={faArrowRight}
+                                        icon={
+                                            <AiOutlineArrowRight
+                                                size={28}
+                                                className="pl-1"
+                                            />
+                                        }
                                     ></IconTextButton>
                                 </a>
                             </div>
