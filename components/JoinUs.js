@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { AiOutlineArrowRight } from "react-icons/ai";
 import IconTextButton from "./IconTextButton";
 
 import { useRouter } from "next/router";
@@ -20,11 +19,13 @@ function JoinUs(props) {
 
                     <IconTextButton
                         text="Join our team"
-                        icon={faArrowRight}
                         onClick={() => {
                             router.push("/join");
                         }}
-                    ></IconTextButton>
+                        icon={
+                            <AiOutlineArrowRight size={28} className="pl-1" />
+                        }
+                    />
                 </div>
             </section>
         </>

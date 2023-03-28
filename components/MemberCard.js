@@ -1,11 +1,10 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fab } from "@fortawesome/free-brands-svg-icons";
+import { FaLinkedin } from "react-icons/fa";
 
 function MemberCard(props) {
     return (
         <div className="column is-one-fifth-desktop is-one-third-tablet is-half-mobile member-card">
             <a
-                className="card-image"
+                className="card-image w-full rounded-2xl bg-center bg-no-repeat brightness-100 transition-all duration-500 after:block after:pb-[100%] after:content-['']  hover:brightness-[80%] hover:transition-all hover:duration-500"
                 style={{
                     backgroundImage:
                         "url('" +
@@ -18,20 +17,21 @@ function MemberCard(props) {
                 rel="noopener noreferrer"
             >
                 {/* LinkedIn Icon for mobile/tablet screen sizes */}
-                <FontAwesomeIcon
-                    style={{ position: "absolute", right: 10, bottom: 10 }}
-                    className="faicon has-text-white"
-                    icon={fab.faLinkedin}
-                ></FontAwesomeIcon>
+                <FaLinkedin
+                    className="faicon has-text-white absolute right-2.5 bottom-2.5"
+                    style={{ fontSize: "1.75rem" }}
+                />
             </a>
-            <div className="card-content">
-                <div className="member-name">{props.name}</div>
-                <div className="member-major">{props.major}</div>
-                <div className="member-year">Class of {props.year}</div>
+            <div className="card-content mt-2 mb-4 p-0">
+                <div className="text-[1.5rem] font-normal">{props.name}</div>
+                <div>{props.major}</div>
+                <div>Class of {props.year}</div>
                 {props.title == "Member" ? (
                     <></>
                 ) : (
-                    <div className="member-position">{props.title}</div>
+                    <div className="member-position mt-2 text-[1rem] font-semibold text-[#0042c6]">
+                        {props.title}
+                    </div>
                 )}
             </div>
         </div>

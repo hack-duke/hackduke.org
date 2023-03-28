@@ -2,9 +2,10 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeroBackground from "../components/HeroBackground";
 import SponsorUs from "../components/SponsorUs";
+import Image from "../components/Image";
+import Gallery from "../components/Gallery";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 import { useRouter } from "next/router";
 import IconTextButton from "../components/IconTextButton";
@@ -18,7 +19,10 @@ export default function Home() {
                 <div className="hero">
                     <HeroBackground />
                     <div className="logo">
-                        <img src="/images/hd-logo.svg" />
+                        <Image
+                            src="/images/hd-logo.svg"
+                            alt="Duke SVG"
+                        />
                     </div>
                 </div>
                 <section className="section is-small">
@@ -33,16 +37,17 @@ export default function Home() {
                                 </div>
                                 <IconTextButton
                                     text="Read our story"
-                                    icon={faArrowRight}
+                                    icon={<AiOutlineArrowRight size={28} className="pl-1" />}
                                     onClick={() => {
                                         router.push("/about");
                                     }}
-                                ></IconTextButton>
+                                />
                             </div>
                             <div className="column" id="index-s1-c2">
-                                <img
-                                    id="index-s1-i1"
+                                <Image
                                     src="/graphics/group1.svg"
+                                    alt="Story SVG"
+                                    extraClasses="w-[20rem]"
                                 />
                             </div>
                         </div>
@@ -52,10 +57,12 @@ export default function Home() {
                                 id="index-s2-c1"
                                 style={{ borderColor: "#36c69b" }}
                             >
-                                <img
-                                    className="card-image"
+                                <Image
                                     src="/graphics/community.svg"
+                                    alt="Community SVG"
+                                    extraClasses="w-[10rem] h-[10rem] mt-[-1rem] mb-[1rem]"
                                 />
+
                                 <div className="card-title">Community</div>
                                 <div className="card-text">
                                     We believe in fostering an internal,
@@ -69,10 +76,12 @@ export default function Home() {
                                 id="index-s2-c2"
                                 style={{ borderColor: "#f7af1d" }}
                             >
-                                <img
-                                    className="card-image"
+                                <Image
                                     src="/graphics/innovation.svg"
+                                    alt="Innovation SVG"
+                                    extraClasses="w-[10rem] h-[10rem] mt-[-1rem] mb-[1rem]"
                                 />
+
                                 <div className="card-title">Innovation</div>
                                 <div className="card-text">
                                     With our diverse skillsets and interests, we
@@ -86,10 +95,13 @@ export default function Home() {
                                 id="index-s3-c2"
                                 style={{ borderColor: "#e55511" }}
                             >
-                                <img
-                                    className="card-image"
+
+                                <Image
                                     src="/graphics/social.svg"
+                                    alt="Social Good SVG"
+                                    extraClasses="w-[10rem] h-[10rem] mt-[-1rem] mb-[1rem]"
                                 />
+
                                 <div className="card-title">Social Good</div>
                                 <div className="card-text">
                                     It’s not just about meaningful projects. We
@@ -115,16 +127,18 @@ export default function Home() {
                                 </div>
                                 <IconTextButton
                                     text="Meet our people"
-                                    icon={faArrowRight}
+                                    icon={<AiOutlineArrowRight size={28} className="pl-1" />}
                                     onClick={() => {
                                         router.push("/humans");
                                     }}
-                                ></IconTextButton>
+                                />
+                                    
                             </div>
                             <div className="column">
-                                <img
-                                    className="index-image"
+                                <Image
                                     src="/images/team-2022.jpg"
+                                    alt="Team 2022"
+                                    extraClasses="rounded-2xl"
                                 />
                             </div>
                         </div>
@@ -138,27 +152,12 @@ export default function Home() {
                                     className="columns is-multiline is-gapless"
                                     id="index-s4-i"
                                 >
-                                    <div className="column is-full">
-                                        <img
-                                            src="/images/cfg-2022-9.jpeg"
-                                            className="index-image"
-                                            id="index-s4-i1"
-                                        />
-                                    </div>
-                                    <div className="column is-full">
-                                        <img
-                                            src="/images/cfg-2022-7.jpeg"
-                                            className="index-image"
-                                            id="index-s4-i2"
-                                        />
-                                    </div>
-                                    <div className="column is-full">
-                                        <img
-                                            src="/images/cfg-2022-1.jpeg"
-                                            className="index-image"
-                                            id="index-s4-i3"
-                                        />
-                                    </div>
+
+                                    <Gallery 
+                                        src={["/images/cfg-2022-9.jpeg", "/images/cfg-2022-7.jpeg", "/images/cfg-2022-1.jpeg"]}
+                                        alt={["Top WDWD", "Middle WDWD", "Bottom WDWD"]}
+                                    />
+
                                 </div>
                             </div>
                             <div className="column">
@@ -172,11 +171,12 @@ export default function Home() {
                                 </div>
                                 <IconTextButton
                                     text="See our work"
-                                    icon={faArrowRight}
+                                    icon={<AiOutlineArrowRight size={28} className="pl-1" /}
                                     onClick={() => {
                                         router.push("/events");
                                     }}
-                                ></IconTextButton>
+                                />
+                                    
                             </div>
                         </div>
                     </div>
@@ -185,6 +185,9 @@ export default function Home() {
                     <div className="container">
                         <div className="columns is-desktop is-vcentered">
                             <div className="column">
+
+                                
+
                                 <div className="title">Why HackDuke?</div>
                                 <div className="subtitle">
                                     Each year, our event brings in over 1000
@@ -198,31 +201,22 @@ export default function Home() {
                                 </div>
                                 <IconTextButton
                                     text="Join our team"
-                                    icon={faArrowRight}
+                                    icon={<AiOutlineArrowRight size={28} className="pl-1" /}
                                     onClick={() => {
                                         router.push("/join");
                                     }}
-                                ></IconTextButton>
+                                />
+                                    
                             </div>
                             <div className="column">
                                 <div
                                     className="columns is-multiline is-gapless"
                                     id="index-s5-i"
                                 >
-                                    <div className="column is-full">
-                                        <img
-                                            src="/images/cfg-2022-13.jpeg"
-                                            className="index-image"
-                                            id="index-s5-i1"
-                                        />
-                                    </div>
-                                    <div className="column is-full">
-                                        <img
-                                            src="/images/cfg-2022-12.jpeg"
-                                            className="index-image"
-                                            id="index-s5-i2"
-                                        />
-                                    </div>
+                                    <Gallery
+                                        src={["/images/cfg-2022-13.jpeg", "/images/cfg-2022-12.jpeg"]}
+                                        alt={["Top Why Hackduke", "Bottom Why Hackduke"]}
+                                    />
                                 </div>
                             </div>
                         </div>
