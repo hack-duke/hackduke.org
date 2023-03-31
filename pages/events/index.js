@@ -143,13 +143,11 @@ export default function Events() {
                             </div>
                         </div>
                         <div className="column">
-                        
                             <Image
                                 src="/images/RobertVilaTalk.jpeg"
                                 alt="Robert Vila"
                                 extraClasses="rounded-2xl"
                             />
-
                         </div>
                     </div>
                 </div>
@@ -198,7 +196,10 @@ export default function Events() {
                     <div className="columns is-desktop is-vcentered">
                         <div className="column">
                             <Gallery
-                                src={["/images/ideate-2018-1.png", "/images/ideate-2018-2.png"]}
+                                src={[
+                                    "/images/ideate-2018-1.png",
+                                    "/images/ideate-2018-2.png",
+                                ]}
                                 alt={["Ideate 2018", "Ideate 2018"]}
                             />
                         </div>
