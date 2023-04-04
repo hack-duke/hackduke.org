@@ -31,8 +31,7 @@ export default function Events() {
         0: "bg-transparent", 1: "bg-[#F7AF1C]", 2: "bg-[#0042C6]", 3: "bg-[#35C69B]", 
         4: "bg-[#0042C6]", 5: "bg-[#E55511]", 6: "bg-[#0042C6]", 
         7: "bg-[#F7AF1C]", 8: "bg-[#0042C6]", 9: "bg-[#35C69B]"
-    }
-    
+    }; 
     const modal_date_states = {
         0: "",
         1: "April 20, 2035",
@@ -44,7 +43,7 @@ export default function Events() {
         7: "January 1, 2001",
         8: "January 1, 2001",
         9: "January 1, 2001",
-    }
+    };
     const modal_body_states = {
         0: "", 
         1: "What a cool guy Robert Vila was, and look at the turnout! People sure love technical and business keys to success (and also chicken nuggets)", 
@@ -79,7 +78,8 @@ export default function Events() {
                                 about them :)
                             </div>
 
-                            <Image
+                            <img
+                                className="w-4/5 mt-[10%] ml-[10%]"
                                 src="/graphics/building.svg"
                                 alt=""
                             />
@@ -90,24 +90,24 @@ export default function Events() {
                                     Code for Good 2022
                                 </div>
                                 <div className="columns is-desktop is-vcentered">
-                                    <div className="column">
-                                        <div className="scoreboard-number">
+                                    <div className="column mb-[0.5rem]">
+                                        <div className="font-semibold text-[3rem]">
                                             264
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
                                             registrants
                                         </div>
                                     </div>
-                                    <div className="column">
-                                        <div className="scoreboard-number">
+                                    <div className="column mb-[0.5rem]">
+                                        <div className="font-semibold text-[3rem]">
                                             35
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
                                             hacks
                                         </div>
                                     </div>
-                                    <div className="column">
-                                        <div className="scoreboard-number">
+                                    <div className="column mb-[0.5rem]">
+                                        <div className="font-semibold text-[3rem]">
                                             $3300
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
@@ -121,24 +121,24 @@ export default function Events() {
                                     Ideate 2022
                                 </div>
                                 <div className="columns is-desktop is-vcentered">
-                                    <div className="column">
-                                        <div className="scoreboard-number">
+                                    <div className="column mb-[0.5rem]">
+                                        <div className="font-semibold text-[3rem]">
                                             234
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
                                             registrants
                                         </div>
                                     </div>
-                                    <div className="column">
-                                        <div className="scoreboard-number">
+                                    <div className="column mb-[0.5rem]">
+                                        <div className="font-semibold text-[3rem]">
                                             18
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
                                             submissions
                                         </div>
                                     </div>
-                                    <div className="column">
-                                        <div className="scoreboard-number">
+                                    <div className="column mb-[0.5rem]">
+                                        <div className="font-semibold text-[3rem]">
                                             $1500
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
