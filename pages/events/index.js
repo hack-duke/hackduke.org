@@ -157,14 +157,14 @@ export default function Events() {
                         <div className="container" id="event-modal">
                             <div className={"modal " + states[toggle]}>
                                 <div className="modal-background" onClick={() => setToggle(0)}></div>
-                                <div className="modal-card">
+                                <div className="modal-card w-2/3">
                                     <header className={"modal-card-head " + modal_color_states[toggle]} >
                                         <p className="modal-card-title text-left text-white font-sans font-semibold">{modal_title_states[toggle]}</p>
                                         <button className="delete" aria-label="close" onClick={() => setToggle(0)}></button>
                                     </header>
                                     <section className="columns modal-card-body text-[#242424]">
                                         <div className="column w-1/2">
-                                            <div className="divide-y divide-black">
+                                            <div className="divide-y divide-black mb-5">
                                                 <div className="text-left">
                                                     {modal_date_states[toggle]}
                                                 </div>
