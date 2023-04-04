@@ -162,23 +162,31 @@ export default function Events() {
                                         <p className="modal-card-title text-left text-white font-sans font-semibold">{modal_title_states[toggle]}</p>
                                         <button className="delete" aria-label="close" onClick={() => setToggle(0)}></button>
                                     </header>
-                                    <section className="modal-card-body text-[#242424]">
-                                        <div className="divide-y divide-black">
-                                            <div className="text-left">
-                                                {modal_date_states[toggle]}
+                                    <section className="columns modal-card-body text-[#242424]">
+                                        <div className="column w-1/2">
+                                            <div className="divide-y divide-black">
+                                                <div className="text-left">
+                                                    {modal_date_states[toggle]}
+                                                </div>
+                                                <div className="text-left font-normal text-lg">
+                                                    {modal_body_states[toggle]}
+                                                </div>
                                             </div>
-                                            <div className="text-left font-normal text-lg">
-                                                {modal_body_states[toggle]}
-                                            </div>
-                                        </div>
 
-                                        <div>
-                                            <button className="button">View the event slides here</button>
+                                            <div>
+                                                <button className="button">View the event slides here</button>
+                                            </div>
+                                            <div>
+                                                <button className="button">View the event recording here</button>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <button className="button">View the event recording here</button>
-                                        </div>
+                                        <img
+                                            className="column w-1/2"
+                                            src="/images/event1.png"
+                                            alt=""
+                                        />
                                     </section>
+                                    
                                     
                                 </div>
                             </div>
@@ -193,7 +201,7 @@ export default function Events() {
                     
                     <div className="mx-[10rem] mt-[2rem] grid grid-cols-3 gap-8 is-vcentered text-center content-center text-white font-medium text-xl">
                         <div 
-                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in"
+                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
                             onClick={() => setToggle(1)}>
                             <div className="relative w-[256px] h-[162px] mx-auto rounded-lg border-[#F7AF1C] border-4 bg-[url('/images/event1.png')] bg-cover">
                                 <div className="absolute w-full bottom-0 bg-gradient-to-t from-[#F7AF1C] from-90%">
@@ -202,7 +210,7 @@ export default function Events() {
                             </div>
                         </div>
                         <div 
-                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in"
+                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
                             onClick={() => setToggle(2)}>
                             <div 
                                 className="relative w-[256px] h-[162px] mx-auto rounded-lg border-[#0042C6] border-4 bg-[url('/images/event2.png')] bg-cover">
@@ -212,7 +220,7 @@ export default function Events() {
                             </div> 
                         </div>
                         <div 
-                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in"
+                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
                             onClick={() => setToggle(3)}>
                             <div className="relative w-[256px] h-[162px] mx-auto rounded-lg border-[#35C69B] border-4 bg-[url('/images/event3.png')] bg-cover">
                                 <div className="absolute w-full bottom-0 bg-gradient-to-t from-[#35C69B] from-90%">
@@ -222,7 +230,7 @@ export default function Events() {
                             
                         </div>
                         <div 
-                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in"
+                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
                             onClick={() => setToggle(4)}>
                             <div className="relative w-[256px] h-[162px] mx-auto rounded-lg border-[#0042C6] border-4 bg-[url('/images/event4.png')] bg-cover">
                                 <div className="absolute w-full bottom-0 bg-gradient-to-t from-[#0042C6] from-90%">
@@ -231,7 +239,7 @@ export default function Events() {
                             </div>
                         </div>
                         <div 
-                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in"
+                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
                             onClick={() => setToggle(5)}>
                             <div className=
                                 "relative w-[256px] h-[162px] mx-auto rounded-lg border-[#E55511] border-4 bg-[url('/images/event1.png')] bg-cover">
@@ -242,7 +250,7 @@ export default function Events() {
                             
                         </div>
                         <div 
-                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in"
+                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
                             onClick={() => setToggle(6)}>
                             <div className=
                                 "relative w-[256px] h-[162px] mx-auto rounded-lg border-[#0042C6] border-4 bg-[url('/images/event1.png')] bg-cover">
@@ -254,7 +262,7 @@ export default function Events() {
                             
                         </div>
                         <div 
-                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in"
+                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
                             onClick={() => setToggle(7)}>
                             <div className=
                                 "relative w-[256px] h-[162px] mx-auto rounded-lg border-[#F7AF1C] border-4 bg-[url('/images/event1.png')] bg-cover">
@@ -265,7 +273,7 @@ export default function Events() {
                             
                         </div>
                         <div 
-                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in"
+                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
                             onClick={() => setToggle(8)}>
                             <div className=
                                 "relative w-[256px] h-[162px] mx-auto rounded-lg border-[#0042C6] border-4 bg-[url('/images/event1.png')] bg-cover">
@@ -275,7 +283,7 @@ export default function Events() {
                             </div>
                         </div>
                         <div 
-                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in"
+                            className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
                             onClick={() => setToggle(9)}>
                             <div className=
                                 "relative w-[256px] h-[162px] mx-auto rounded-lg border-[#35C69B] border-4 bg-[url('/images/event1.png')] bg-cover">
