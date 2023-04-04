@@ -5,9 +5,9 @@ import Footer from "../../components/Footer";
 import Head from "next/head";
 import Image from "../../components/Image";
 import Gallery from "../../components/Gallery";
+import IconTextButton from "../../components/IconTextButton";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 import { useRouter } from "next/router";
 
@@ -125,22 +125,15 @@ export default function Events() {
                                     hope to see you there!
                                 </p>
                             </div>
-                            <div
-                                className="button"
-                                style={{ color: "#0042c6" }}
+                            <IconTextButton
+                                text="See the event "
                                 onClick={() => {
-                                    // gtag('event', 'event_form_open')
-                                    router.push(
-                                        "https://www.linkedin.com/feed/update/urn:li:activity:7032811883829051392"
-                                    );
+                                    router.push("https://www.linkedin.com/feed/update/urn:li:activity:7032811883829051392");
                                 }}
-                            >
-                                See the event{" "}
-                                <FontAwesomeIcon
-                                    className="fa-md faicon"
-                                    icon={faArrowRight}
-                                ></FontAwesomeIcon>
-                            </div>
+                                icon={
+                                    <AiOutlineArrowRight size={28} className="pl-1" />
+                                }
+                            />
                         </div>
                         <div className="column">
                             <Image
@@ -167,19 +160,16 @@ export default function Events() {
                                 students can create meaningful technical
                                 projects or learn the skills to get there.
                             </div>
-                            <div
-                                className="button"
-                                style={{ color: "#0042c6" }}
+
+                            <IconTextButton
+                                text="Code For Good 2022 "
                                 onClick={() => {
                                     router.push("https://2022.hackduke.org");
                                 }}
-                            >
-                                Code For Good 2022{" "}
-                                <FontAwesomeIcon
-                                    className="fa-md faicon"
-                                    icon={faArrowRight}
-                                ></FontAwesomeIcon>
-                            </div>
+                                icon={
+                                    <AiOutlineArrowRight size={28} className="pl-1" />
+                                }
+                            />
                         </div>
                         <div className="column">
                             <Image
@@ -214,19 +204,18 @@ export default function Events() {
                                 aficionados, curious newcomers, and everyone in
                                 between!
                             </div>
-                            <div
-                                className="button"
-                                style={{ color: "#0042c6" }}
+
+                            <IconTextButton
+                                text="Ideate 2022 "
                                 onClick={() => {
                                     router.push("https://ideate.hackduke.org");
                                 }}
-                            >
-                                Ideate 2022{" "}
-                                <FontAwesomeIcon
-                                    className="fa-md faicon"
-                                    icon={faArrowRight}
-                                ></FontAwesomeIcon>
-                            </div>
+                                icon={
+                                    <AiOutlineArrowRight size={28} className="pl-1" />
+                                }
+                            />
+
+                            
                         </div>
                     </div>
                 </div>
