@@ -1,7 +1,11 @@
 import Navbar from "../../components/Navbar";
+import Sponsors from "../../components/Sponsors";
 import SponsorUs from "../../components/SponsorUs";
 import Footer from "../../components/Footer";
 import Head from "next/head";
+import Image from "../../components/Image";
+import Gallery from "../../components/Gallery";
+import IconTextButton from "../../components/IconTextButton";
 import React, { useState } from "react";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
@@ -74,8 +78,8 @@ export default function Events() {
                                 Code for Good and Ideate. You might have heard
                                 about them :)
                             </div>
-                            <img
-                                className="w-4/5 mt-[10%] ml-[10%]"
+
+                            <Image
                                 src="/graphics/building.svg"
                                 alt=""
                             />
@@ -86,24 +90,24 @@ export default function Events() {
                                     Code for Good 2022
                                 </div>
                                 <div className="columns is-desktop is-vcentered">
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="font-semibold text-[3rem]">
+                                    <div className="column">
+                                        <div className="scoreboard-number">
                                             264
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
                                             registrants
                                         </div>
                                     </div>
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="font-semibold text-[3rem]">
+                                    <div className="column">
+                                        <div className="scoreboard-number">
                                             35
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
                                             hacks
                                         </div>
                                     </div>
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="font-semibold text-[3rem]">
+                                    <div className="column">
+                                        <div className="scoreboard-number">
                                             $3300
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
@@ -117,24 +121,24 @@ export default function Events() {
                                     Ideate 2022
                                 </div>
                                 <div className="columns is-desktop is-vcentered">
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="font-semibold text-[3rem]">
+                                    <div className="column">
+                                        <div className="scoreboard-number">
                                             234
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
                                             registrants
                                         </div>
                                     </div>
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="font-semibold text-[3rem]">
+                                    <div className="column">
+                                        <div className="scoreboard-number">
                                             18
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
                                             submissions
                                         </div>
                                     </div>
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="font-semibold text-[3rem]">
+                                    <div className="column">
+                                        <div className="scoreboard-number">
                                             $1500
                                         </div>
                                         <div className="font-normal text-[1.5rem] mt-[0.5rem]">
@@ -282,6 +286,12 @@ export default function Events() {
                             
                         </div>
                     </div>
+                </div>
+            </section>
+            <section className="section is-medium">
+                <div className="container">
+                    <div className="title">Past Sponsors</div>
+                    <Sponsors />
                 </div>
             </section>
 

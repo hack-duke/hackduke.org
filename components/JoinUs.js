@@ -1,4 +1,5 @@
 import { AiOutlineArrowRight } from "react-icons/ai";
+import IconTextButton from "./IconTextButton";
 
 import { useRouter } from "next/router";
 
@@ -15,17 +16,16 @@ function JoinUs(props) {
                         Join our mailing list to get notified when applications
                         are released.
                     </div>
-                    <div
-                        className="button"
-                        id="index-s1-b1"
-                        style={{ color: "#0042c6" }}
+
+                    <IconTextButton
+                        text="Join our team"
                         onClick={() => {
                             router.push("/join");
                         }}
-                    >
-                        Join our team{" "}
-                        <AiOutlineArrowRight size={28} className="pl-1" />
-                    </div>
+                        icon={
+                            <AiOutlineArrowRight size={28} className="pl-1" />
+                        }
+                    />
                 </div>
             </section>
         </>

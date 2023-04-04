@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 import HeroBackground from "../components/HeroBackground";
+import Image from "../components/Image";
 
 import { useRouter } from "next/router";
 
@@ -17,9 +18,11 @@ export default function Links() {
                     <HeroBackground />
                     <section className="section is-medium">
                         <div className="container flex flex-col items-center justify-center gap-3">
-                            <img
+
+                            <Image
                                 src="/images/hd-links-logo.svg"
-                                className=" h-[35vh] align-top"
+                                alt=""
+                                extraClasses="h-[35vh] align-top"
                             />
 
                             <div

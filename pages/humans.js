@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import TeamCards from "../components/TeamCards";
 import React, { useState } from "react";
 import Head from "next/head";
+import Image from "../components/Image";
 
 export default function Humans() {
     const [team, setTeam] = useState("Tech");
@@ -57,12 +58,13 @@ export default function Humans() {
                                 className="column is-two-fifths-desktop mt-20"
                                 // id="humans-hero-c2"
                             >
-                                <img
-                                    className="w-full rounded-2xl"
+
+                                <Image
                                     src="/images/team-2023.jpeg"
                                     alt="team-2023"
-                                    // id="humans-hero-i1"
+                                    extraClasses="w-full rounded-2xl"
                                 />
+
                             </div>
                         </div>
                     </div>
@@ -118,11 +120,13 @@ export default function Humans() {
                             do amazing things at great companies like the ones
                             below!{" "}
                         </div>
-                        <img
-                            className="mt-8"
+
+                        <Image
                             src="/graphics/sponsor-icons.png"
-                            alt={"sponsors"}
+                            alt="sponsors"
+                            extraClasses="mt-8"
                         />
+
                     </div>
                 </section>
             </div>
