@@ -56,6 +56,18 @@ export default function Events() {
         8: "Aw shucks, looks like you missed this really cool event of ours! Click the link to check out the amazing projects students made bing bong", 
         9: "Aw shucks, looks like you missed this really cool event of ours! Click the link to check out the amazing projects students made bing bong"
     };
+    const modal_img_states = {
+       0: "",
+       1: "/images/event1.png",
+       2: "/images/event2.png",
+       3: "/images/event3.png",
+       4: "/images/event4.png",
+       5: "/images/event5.png",
+       6: "/images/event6.png",
+       7: "/images/event7.png",
+       8: "/images/event8.png",
+       9: "/images/event9.png"
+    }
     
     return (
         <>
@@ -157,7 +169,7 @@ export default function Events() {
                         <div className="container" id="event-modal">
                             <div className={"modal " + states[toggle]}>
                                 <div className="modal-background" onClick={() => setToggle(0)}></div>
-                                <div className="modal-card w-2/3">
+                                <div className="modal-card w-4/5">
                                     <header className={"modal-card-head " + modal_color_states[toggle]} >
                                         <p className="modal-card-title text-left text-white font-sans font-semibold">{modal_title_states[toggle]}</p>
                                         <button className="delete" aria-label="close" onClick={() => setToggle(0)}></button>
@@ -182,7 +194,7 @@ export default function Events() {
                                         </div>
                                         <img
                                             className="column w-1/2"
-                                            src="/images/event1.png"
+                                            src={modal_img_states[toggle]}
                                             alt=""
                                         />
                                     </section>
@@ -191,15 +203,15 @@ export default function Events() {
                                 </div>
                             </div>
                         </div>
-                        <div className="text-4xl font-bold mb-[2rem] mt-[2rem]">
+                        <div className="text-4xl font-bold my-[2rem] text-center">
                             Calendar
                         </div>
-                        <div className="text-xl font-medium">
+                        <div className="text-xl font-medium text-center">
                             Description (something something here’s the stuff we’ve done and the stuff to come ;))
                         </div>
                     </div>
                     
-                    <div className="mx-[10rem] mt-[2rem] grid grid-cols-3 gap-8 is-vcentered text-center content-center text-white font-medium text-xl">
+                    <div className="mx-[10vw] mt-[2rem] grid grid-cols-3 lg:grid-cols-1 gap-6	is-vcentered text-center content-center text-white font-medium text-xl">
                         <div 
                             className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
                             onClick={() => setToggle(1)}>
