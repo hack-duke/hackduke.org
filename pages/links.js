@@ -18,7 +18,6 @@ export default function Links() {
                     <HeroBackground />
                     <section className="section is-medium">
                         <div className="container flex flex-col items-center justify-center gap-3">
-
                             <Image
                                 src="/images/hd-links-logo.svg"
                                 alt=""
@@ -29,6 +28,18 @@ export default function Links() {
                                 className="flex w-[40vw] min-w-[330px] max-w-[400px] flex-col
                                         items-center justify-center gap-5"
                             >
+                                <button
+                                    className="w-full rounded-[15px] bg-white px-5
+                                            py-3 font-sans text-xl font-black
+                                            text-[#0A2A66] ring-[3px] ring-inset ring-[#77037B] ring-offset-[3px] transition hover:bg-[#77037B]
+                                            hover:text-white hover:ring-white hover:ring-offset-[#77037B]"
+                                    onClick={() => {
+                                        window.location.href =
+                                            "https://forms.gle/UQH5P2YtikkKmQTT6";
+                                    }}
+                                >
+                                    Feb. 18 Speaker Event
+                                </button>
                                 <button
                                     className="w-full rounded-[15px] bg-white px-5
                                             py-3 font-sans text-xl font-black
