@@ -38,7 +38,7 @@ export default function Links() {
                                             "https://forms.gle/UQH5P2YtikkKmQTT6";
                                     }}
                                 >
-                                    Feb. 18 Speaker Event
+                                    Apr. 15 VC Event
                                 </button>
                                 <button
                                     className="w-full rounded-[15px] bg-white px-5
