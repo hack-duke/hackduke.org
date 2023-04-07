@@ -16,78 +16,6 @@ export default function Events() {
     const router = useRouter();
     const [toggle, setToggle] = useState(null);
     let events = require("/public/events.json");
-    // const states = {
-    //     0: "",
-    //     1: "is-active",
-    //     2: "is-active",
-    //     3: "is-active",
-    //     4: "is-active",
-    //     5: "is-active",
-    //     6: "is-active",
-    //     7: "is-active",
-    //     8: "is-active",
-    //     9: "is-active",
-    // };
-    // const modal_title_states = {
-    //     0: "",
-    //     1: "Keynote Speaker",
-    //     2: "Code for Good 2022",
-    //     3: "Ideate 2022",
-    //     4: "Event 4",
-    //     5: "Event 5",
-    //     6: "Event 6",
-    //     7: "Event 7",
-    //     8: "Event 8",
-    //     9: "Event 9",
-    // };
-    // const modal_color_states = {
-    //     0: "bg-transparent",
-    //     1: "bg-[#F7AF1C]",
-    //     2: "bg-[#0042C6]",
-    //     3: "bg-[#35C69B]",
-    //     4: "bg-[#0042C6]",
-    //     5: "bg-[#E55511]",
-    //     6: "bg-[#0042C6]",
-    //     7: "bg-[#F7AF1C]",
-    //     8: "bg-[#0042C6]",
-    //     9: "bg-[#35C69B]",
-    // };
-    // const modal_date_states = {
-    //     0: "",
-    //     1: "April 20, 2035",
-    //     2: "January 47, 2001",
-    //     3: "March 4, 2020",
-    //     4: "December 7, 2003",
-    //     5: "January 1, 2001",
-    //     6: "January 1, 2001",
-    //     7: "January 1, 2001",
-    //     8: "January 1, 2001",
-    //     9: "January 1, 2001",
-    // };
-    // const modal_body_states = {
-    //     0: "",
-    //     1: "What a cool guy Robert Vila was, and look at the turnout! People sure love technical and business keys to success (and also chicken nuggets)",
-    //     2: "Have you ever seen a cooler event? Our annual Code for Good something something you know how it is please attend and join we are really very cool",
-    //     3: "Not gonna lie, Ideate was kinda. Still a lot of cool designs from this event though! Check out the website and more ;)",
-    //     4: "Aw shucks, looks like you missed this really cool event of ours! Click the link to check out the amazing projects students made bing bong",
-    //     5: "Aw shucks, looks like you missed this really cool event of ours! Click the link to check out the amazing projects students made bing bong",
-    //     6: "Aw shucks, looks like you missed this really cool event of ours! Click the link to check out the amazing projects students made bing bong",
-    //     7: "Aw shucks, looks like you missed this really cool event of ours! Click the link to check out the amazing projects students made bing bong",
-    //     8: "Aw shucks, looks like you missed this really cool event of ours! Click the link to check out the amazing projects students made bing bong",
-    //     9: "Aw shucks, looks like you missed this really cool event of ours! Click the link to check out the amazing projects students made bing bong",
-    // };
-    // const modal_img_states = {
-    //     0: "",
-    //     1: "/images/event1.png",
-    //     2: "/images/event2.png",
-    //     3: "/images/event3.png",
-    //     4: "/images/event4.png",
-    //     5: "/images/event5.png",
-    //     6: "/images/event6.png",
-    //     7: "/images/event7.png",
-    //     8: "/images/event8.png",
-    //     9: "/images/event9.png",
-    // };
 
     return (
         <>
@@ -269,7 +197,7 @@ export default function Events() {
                         </div>
                     </div>
 
-                    <div className="is-vcentered mx-[10vw] mt-[2rem] grid grid-cols-3 content-center text-center text-xl font-medium text-white lg:grid-cols-1">
+                    <div className="is-vcentered mx-[10vw] mt-[2rem] grid grid-cols-3 content-center text-center text-xl font-medium text-white lg:mx-[0vw] lg:grid-cols-1">
                         {/* map each element in events */}
                         {events.map((event, i) => {
                             return (
