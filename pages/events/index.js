@@ -239,7 +239,7 @@ export default function Events() {
             <section className="section is-small">
                 <div className="container">
                     <div className="title">Past Sponsors</div>
-                    <Sponsors />
+                    <Sponsors url="sponsors" />
                 </div>
             </section>
 
