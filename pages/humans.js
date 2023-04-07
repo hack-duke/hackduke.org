@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import JoinUs from "../components/JoinUs";
 import Footer from "../components/Footer";
+import Sponsors from "../components/Sponsors";
 import TeamCards from "../components/TeamCards";
 import React, { useState } from "react";
 import Head from "next/head";
@@ -29,7 +30,8 @@ export default function Humans() {
             <div>
                 <section
                     className="section is-medium flex min-h-screen items-center justify-center bg-[#242424] bg-[url('/graphics/humans.svg')] bg-no-repeat"
-                    id="humans-hero">
+                    id="humans-hero"
+                >
                     <div className="container pl-[5vw] pr-[5vw]">
                         <div className="columns is-desktop is-vcentered">
                             <div
@@ -41,7 +43,8 @@ export default function Humans() {
                                 </div>
                                 <div
                                     className="subtitle mb-2 font-sans text-[1.25rem]"
-                                    style={{ color: "white" }}>
+                                    style={{ color: "white" }}
+                                >
                                     {/* the style is needed because .container.subtitle is more specific than any class I add */}
                                     We are a group of Duke students who work
                                     together to bring to life Code for Good and
@@ -58,13 +61,11 @@ export default function Humans() {
                                 className="column is-two-fifths-desktop mt-20"
                                 // id="humans-hero-c2"
                             >
-
                                 <Image
                                     src="/images/team-2023.jpeg"
                                     alt="team-2023"
                                     extraClasses="w-full rounded-2xl"
                                 />
-
                             </div>
                         </div>
                     </div>
@@ -81,7 +82,8 @@ export default function Humans() {
                         </div>
                         <div
                             // className="humans-teams"
-                            id={team}>
+                            id={team}
+                        >
                             <div className="team-selector mt-12 mb-4">
                                 {Object.keys(teams).map((t) => (
                                     <div
@@ -94,7 +96,8 @@ export default function Humans() {
                                         style={{ fontSize: "1.5rem" }}
                                         // style is needed because globals.css still has the button css overriding
                                         onClick={() => setTeam(t)}
-                                        key={t}>
+                                        key={t}
+                                    >
                                         {t}
                                     </div>
                                 ))}
@@ -116,17 +119,12 @@ export default function Humans() {
                             our members with mentorship, learning, and
                             opportunities to make real impact. This desire to
                             grow and help others doesn’t leave us after
-                            Hackduke. We are proud to have our family go on to
+                            HackDuke. We are proud to have our family go on to
                             do amazing things at great companies like the ones
                             below!{" "}
                         </div>
 
-                        <Image
-                            src="/graphics/sponsor-icons.png"
-                            alt="sponsors"
-                            extraClasses="mt-8"
-                        />
-
+                        <Sponsors url="companies" />
                     </div>
                 </section>
             </div>

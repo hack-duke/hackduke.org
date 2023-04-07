@@ -1,0 +1,82 @@
+[
+    {
+        "Name": "google",
+        "Image": "google.png",
+        "Link": "https://careers.google.com/"
+    },
+    {
+        "Name": "flatiron",
+        "Image": "flatiron.png",
+        "Link": "https://flatiron.com/"
+    },
+    {
+        "Name": "microsoft",
+        "Image": "microsoft.png",
+        "Link": "https://www.microsoft.com/en-us/"
+    },
+    {
+        "Name": "capitalone",
+        "Image": "capitalone.png",
+        "Link": "https://www.capitalone.com/"
+    },
+    {
+        "Name": "morganstanley",
+        "Image": "morganstanley.png",
+        "Link": "https://www.morganstanley.com/"
+    },
+    {
+        "Name": "tesla",
+        "Image": "tesla.png",
+        "Link": "https://www.tesla.com/"
+    },
+    {
+        "Name": "snapinc",
+        "Image": "snapinc.png",
+        "Link": "https://snap.com/en-US"
+    },
+    {
+        "Name": "ideo",
+        "Image": "ideo.png",
+        "Link": "https://www.ideocolab.com/"
+    },
+    {
+        "Name": "coursera",
+        "Image": "coursera.svg",
+        "Link": "https://www.coursera.org/"
+    },
+    {
+        "Name": "amazon",
+        "Image": "amazon.svg",
+        "Link": "https://www.amazon.com/"
+    },
+    {
+        "Name": "mckinsey",
+        "Image": "mckinsey.png",
+        "Link": "https://www.mckinsey.com/"
+    },
+    {
+        "Name": "linkedin",
+        "Image": "linkedin.png",
+        "Link": "https://www.linkedin.com/"
+    },
+    {
+        "Name": "alto",
+        "Image": "alto.jpeg",
+        "Link": "https://alto.com/"
+    },
+    {
+        "Name": "wayfair",
+        "Image": "wayfair.png",
+        "Link": "https://www.wayfair.com/"
+    },
+    {
+        "Name": "ey",
+        "Image": "ey.png",
+        "Link": "https://www.ey.com/en_us"
+    },
+    {
+        "Name": "facebook",
+        "Image": "facebook.png",
+        "Link": "https://www.facebook.com/"
+    }
+]
