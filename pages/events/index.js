@@ -123,11 +123,11 @@ export default function Events() {
                                     ></div>
                                     <div className="modal-card w-4/5">
                                         <header
-                                            className={
-                                                "modal-card-head bg-[" +
-                                                events[toggle].Color +
-                                                "]"
-                                            }
+                                            className={"modal-card-head"}
+                                            style={{
+                                                backgroundColor:
+                                                    events[toggle].Color,
+                                            }}
                                         >
                                             <p className="modal-card-title text-left font-sans font-semibold text-white">
                                                 {events[toggle].Title}
