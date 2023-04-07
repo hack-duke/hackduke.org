@@ -169,13 +169,13 @@ export default function Events() {
                         <div className="container" id="event-modal">
                             <div className={"modal " + states[toggle]}>
                                 <div className="modal-background" onClick={() => setToggle(0)}></div>
-                                <div className="modal-card w-4/5">
+                                <div className="modal-card w-4/5 lg:w-11/12">
                                     <header className={"modal-card-head " + modal_color_states[toggle]} >
                                         <p className="modal-card-title text-left text-white font-sans font-semibold">{modal_title_states[toggle]}</p>
                                         <button className="delete" aria-label="close" onClick={() => setToggle(0)}></button>
                                     </header>
                                     <section className="columns modal-card-body text-[#242424]">
-                                        <div className="column w-1/2">
+                                        <div className="column w-1/2 lg:w-full">
                                             <div className="divide-y divide-black mb-5">
                                                 <div className="text-left">
                                                     {modal_date_states[toggle]}
@@ -193,7 +193,7 @@ export default function Events() {
                                             </div>
                                         </div>
                                         <img
-                                            className="column w-1/2"
+                                            className="column w-fit lg:w-3/5 content-center mx-auto"
                                             src={modal_img_states[toggle]}
                                             alt=""
                                         />
@@ -211,7 +211,7 @@ export default function Events() {
                         </div>
                     </div>
                     
-                    <div className="mx-[10vw] mt-[2rem] grid grid-cols-3 lg:grid-cols-1 gap-6	is-vcentered text-center content-center text-white font-medium text-xl">
+                    <div className="mx-[10vw] mt-[2rem] grid grid-cols-3 lg:grid-cols-1 gap-6 is-vcentered text-center content-center text-white font-medium text-xl">
                         <div 
                             className="relative hover:scale-110 transition duration-150 ease-out hover:ease-in hover:cursor-pointer"
                             onClick={() => setToggle(1)}>
