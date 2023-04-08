@@ -71,7 +71,7 @@ export default function Events() {
                                             $3300
                                         </div>
                                         <div className="mt-[0.5rem] text-[1.5rem] font-normal">
-                                            USD donated
+                                            awarded
                                         </div>
                                     </div>
                                 </div>
