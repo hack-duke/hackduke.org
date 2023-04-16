@@ -7,6 +7,7 @@ import Image from "../../components/Image";
 import Gallery from "../../components/Gallery";
 import IconTextButton from "../../components/IconTextButton";
 import React, { useState } from "react";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 
@@ -16,6 +17,19 @@ export default function Events() {
     const router = useRouter();
     const [toggle, setToggle] = useState(null);
     let events = require("/public/events.json");
+    const currentDate = new Date();
+    const previousEvents = [];
+    const upcomingEvents = [];
+
+    for (const event of events) {
+        const jsonDate = new Date(event.iso);
+
+        if (jsonDate.getTime() < currentDate.getTime()) {
+            previousEvents.push(event);
+        } else {
+            upcomingEvents.push(event);
+        }
+    }
 
     return (
         <>
@@ -174,6 +188,76 @@ export default function Events() {
                                                             }
                                                         )}
                                                     </div>
+
+                                                    <div className="text-left">
+                                                        {events[
+                                                            toggle
+                                                        ].hasOwnProperty(
+                                                            "Link"
+                                                        ) && (
+                                                            <IconTextButton
+                                                                style="display: none;"
+                                                                text={
+                                                                    events[
+                                                                        toggle
+                                                                    ].LinkTitle
+                                                                }
+                                                                onClick={() => {
+                                                                    router.push(
+                                                                        events[
+                                                                            toggle
+                                                                        ].Link
+                                                                    );
+                                                                }}
+                                                                icon={
+                                                                    <AiOutlineArrowRight
+                                                                        size={
+                                                                            28
+                                                                        }
+                                                                        className="pl-1"
+                                                                    />
+                                                                }
+                                                            />
+                                                        )}
+                                                    </div>
+                                                    <br />
+                                                    <div className="footer-icons">
+                                                        {events[
+                                                            toggle
+                                                        ].hasOwnProperty(
+                                                            "Linkedin"
+                                                        ) && (
+                                                            <FaLinkedin
+                                                                className="fa-lg faicon"
+                                                                onClick={() => {
+                                                                    window.open(
+                                                                        events[
+                                                                            toggle
+                                                                        ]
+                                                                            .Linkedin
+                                                                    );
+                                                                }}
+                                                            />
+                                                        )}
+
+                                                        {events[
+                                                            toggle
+                                                        ].hasOwnProperty(
+                                                            "Instagram"
+                                                        ) && (
+                                                            <FaInstagram
+                                                                className="fa-lg faicon"
+                                                                onClick={() => {
+                                                                    window.open(
+                                                                        events[
+                                                                            toggle
+                                                                        ]
+                                                                            .Instagram
+                                                                    );
+                                                                }}
+                                                            />
+                                                        )}
+                                                    </div>
                                                 </div>
                                                 <div className="mb-"></div>
                                             </div>
@@ -190,20 +274,72 @@ export default function Events() {
                             <></>
                         )}
                         <div className="mt-[0rem] text-center text-[2rem] font-normal">
-                            Calendar
+                            Upcoming Events
                         </div>
-                        <div className="mb-[3rem] text-center text-[1.25rem] font-medium">
+                        {/* <div className="mb-[3rem] text-center text-[1.25rem] font-medium">
                             The stuff we’ve done and the stuff to come!
-                        </div>
+                        </div> */}
                     </div>
 
-                    <div className="is-vcentered mx-[10vw] mt-[2rem] grid grid-cols-3 content-center text-center text-xl font-medium text-white lg:mx-[0vw] lg:grid-cols-1">
+                    <div className="is-vcentered align-items-center mx-[10vw] mt-[2rem] grid grid-cols-3 content-center text-center text-xl font-medium text-white lg:mx-[0vw] lg:grid-cols-1">
                         {/* map each element in events */}
-                        {events.map((event, i) => {
+                        {upcomingEvents.map((event, i) => {
                             return (
                                 <div
                                     className="relative mb-[3rem] lg:mb-[2rem]"
-                                    onClick={() => setToggle(i)}
+                                    onClick={() =>
+                                        setToggle(
+                                            events.findIndex(
+                                                (e) => e.Title === event.Title
+                                            )
+                                        )
+                                    }
+                                    key={event.Title}
+                                >
+                                    <div
+                                        className={
+                                            "duration-250 relative mx-auto h-[12rem] w-[20vw] rounded-lg border-4 bg-cover transition ease-out hover:scale-110 hover:cursor-pointer hover:ease-in lg:w-[20rem]"
+                                        }
+                                        style={{
+                                            borderColor: event.Color,
+                                            backgroundImage: `url(${event.Picture})`,
+                                        }}
+                                    >
+                                        <div
+                                            className={
+                                                "from-[" +
+                                                event.Color +
+                                                "] from-90%  absolute bottom-0 w-full bg-gradient-to-t"
+                                            }
+                                            style={{
+                                                backgroundImage:
+                                                    "linear-gradient(180deg,transparent," +
+                                                    event.Color,
+                                            }}
+                                        >
+                                            {event.Title}
+                                        </div>
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                    <div className="mt-[0rem] text-center text-[2rem] font-normal  text-[#0042c6]">
+                        Previous Events
+                    </div>
+                    <div className="is-vcentered align-items-center mx-[10vw] mt-[2rem] grid grid-cols-3 content-center text-center text-xl font-medium text-white lg:mx-[0vw] lg:grid-cols-1">
+                        {/* map each element in events */}
+                        {previousEvents.map((event, i) => {
+                            return (
+                                <div
+                                    className="relative mb-[3rem] lg:mb-[2rem]"
+                                    onClick={() =>
+                                        setToggle(
+                                            events.findIndex(
+                                                (e) => e.Title === event.Title
+                                            )
+                                        )
+                                    }
                                     key={event.Title}
                                 >
                                     <div
