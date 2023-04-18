@@ -1,0 +1,89 @@
+[
+    {
+        "Title": "Apr. 15 VC Panel",
+        "Color": "#F7AF1C",
+        "Date": "April 15, 2023",
+        "Time": "2:00 PM - 4:00 PM",
+        "iso": "2023-04-15T16:00:00.000Z",
+        "Location": "Reynolds Auditorium - Fuqua School of Business",
+        "Picture": "/images/events/feb18.jpg",
+        "Text": [
+            "HackDuke is hosting a speaker panel and networking event, featuring venture capitalists from firms in the region, including Cofounders Capital, IDEA Fund Partners, Bull City Venture Partners, and others.",
+            "The panel discussion aims to provide attendees with insights into the daily workings of VCs, offer valuable advice to aspiring founders, and what characteristics they look for in a potential portfolio company. ",
+            "Following the panel discussion, attendees will have the opportunity to network with our speakers.",
+            "Refreshments will be provided."
+        ],
+        "Link": "https://docs.google.com/forms/d/e/1FAIpQLSdXSU_Jdh0egTcxMTQu0_1F2OwT9TLNvAzVcHQuwfCoKGuOgg/viewform",
+        "LinkTitle": "Sign Up",
+        "Linkedin": "https://www.linkedin.com/posts/hackduke_happy-thursday-from-the-hackduke-team-activity-7049787587284127744-e785?utm_source=share&utm_medium=member_desktop",
+        "Instagram": "https://www.instagram.com/p/CqtdesfLurm/?utm_source=ig_web_copy_link"
+    },
+    {
+        "Title": "Feb. 18 Speaker Event",
+        "Color": "#0042C6",
+        "Date": "February 18, 2023",
+        "iso": "2023-02-18T16:00:00.000Z",
+        "Picture": "/images/events/feb18.jpg",
+        "Text": [
+            "Robert Vila, a Director at IBM Automation SaaS Development & Product Management came to speak about his experience in evaluating and fulfilling technical and business requirements for successful SaaS."
+        ],
+        "Linkedin": "https://www.linkedin.com/posts/hackduke_hackdukepresents-dukeinnovation-saas-activity-7032811883829051392-HHqO?utm_source=share&utm_medium=member_desktop",
+        "Instagram": "https://www.instagram.com/p/ConCwNsLERQ/?utm_source=ig_web_copy_link"
+    },
+    {
+        "Title": "Code for Good 2022",
+        "Color": "#35C69B",
+        "Date": "October 22-23, 2022",
+        "iso": "2022-10-23T00:00:00.000Z",
+        "Picture": "/images/events/cfg2022.jpg",
+        "Text": [
+            "Code for Good is the nation’s premier hackathon for tech and social good. We unite students that are passionate about changing the intention and narrative behind how technology is used today to create meaningful hacks in a 24-hour sprint. Our goal is to facilitate an environment where students can create meaningful technical projects or learn the skills to get there.",
+            "Participants pitched their product in 4 tracks: health, inequality, education, and energy & environment. Additionally, 250+ participants competed for 15+ prize categories worth over $3300."
+        ],
+        "Link": "https://2022.hackduke.org/",
+        "LinkTitle": "Website",
+        "Instagram": "https://www.instagram.com/p/CkOPOUErowz/?utm_source=ig_web_copy_link"
+    },
+    {
+        "Title": "Ideate 2022",
+        "Color": "#0042C6",
+        "Date": "April 9-10, 2022",
+        "iso": "2022-04-10T00:00:00.000Z",
+        "Picture": "/images/events/ideate2022.jpg",
+        "Text": [
+            "Ideate 2022 was a two-day conference filled with awesome speakers and workshops to explore how design and innovation interact. The designathon aimed to observe how design thinking can be applied across fields, and is open to design aficionados, curious newcomers, and everyone in between!",
+            "Participants pitched their ideas in 4 tracks: health, inequality, education, and environment."
+        ],
+        "Link": "https://ideate.hackduke.org/",
+        "LinkTitle": "Website",
+        "Instagram": "https://www.instagram.com/p/CbqlkRugF8o/?utm_source=ig_web_copy_link"
+    },
+    {
+        "Title": "Code for Good 2021",
+        "Color": "#35C69B",
+        "Date": "October 23-24, 2021",
+        "iso": "2021-10-24T00:00:00.000Z",
+        "Picture": "/images/events/cfg2021.jpg",
+        "Text": [
+            "Code for Good is the nation’s premier hackathon for tech and social good. We unite students that are passionate about changing the intention and narrative behind how technology is used today to create meaningful hacks in a 24-hour sprint. Our goal is to facilitate an environment where students can create meaningful technical projects or learn the skills to get there.",
+            "Participants pitched their product in 4 tracks: health, inequality, education, and energy & environment. Additionally, 500+ participants competed for 15+ prize categories worth over $5300."
+        ],
+        "Link": "https://2021.hackduke.org/",
+        "LinkTitle": "Website",
+        "Instagram": "https://www.instagram.com/p/CVd-f-xlHAe/?utm_source=ig_web_copy_link"
+    },
+    {
+        "Title": "Ideate 2021",
+        "Color": "#F7AF1C",
+        "Date": "April 10-11, 2021",
+        "iso": "2021-04-11T00:00:00.000Z",
+        "Picture": "/images/events/ideate2022.jpg",
+        "Text": [
+            "Ideate 2021 was a two-day conference filled with awesome speakers and workshops to explore how design and innovation interact. The designathon aimed to observe how design thinking can be applied across fields, and is open to design aficionados, curious newcomers, and everyone in between!",
+            "Participants pitched their ideas in 4 tracks: health, inequality, education, and environment."
+        ],
+        "Link": "https://ideate-2021.devpost.com/",
+        "LinkTitle": "Website",
+        "Instagram": "https://www.instagram.com/p/CMnLgfhlNXN/?utm_source=ig_web_copy_link"
+    }
+]

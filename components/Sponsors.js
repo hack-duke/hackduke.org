@@ -1,7 +1,7 @@
 import React from "react";
 
-function Sponsors() {
-    let sponsors = require("../public/sponsors.json");
+function Sponsors(props) {
+    let sponsors = require(`../public/${props.url}.json`);
 
     return (
         <div className="flex flex-col">
@@ -16,7 +16,7 @@ function Sponsors() {
                     >
                         <div className="m-2">
                             <img
-                                className="md:max-h-12 m-auto block max-h-16 w-fit lg:max-h-16"
+                                className="md:max-h-12 m-auto table max-h-16 lg:max-h-16"
                                 src={`/sponsors/${s.Image}`}
                                 alt={s.Image}
                             />
