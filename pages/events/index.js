@@ -6,7 +6,7 @@ import Head from "next/head";
 import Image from "../../components/Image";
 import Gallery from "../../components/Gallery";
 import IconTextButton from "../../components/IconTextButton";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
@@ -22,6 +22,18 @@ export default function Events() {
     const currentDate = new Date();
     const previousEvents = [];
     const upcomingEvents = [];
+
+    useEffect(() => {
+        const handleKeyDown = (event) => {
+            if (event.key === "Escape") {
+                setToggle(null);
+            }
+        };
+        window.addEventListener("keydown", handleKeyDown);
+        return () => {
+            window.removeEventListener("keydown", handleKeyDown);
+        };
+    }, [setToggle]);
 
     for (const event of events) {
         const jsonDate = new Date(event.iso);
@@ -247,12 +259,11 @@ export default function Events() {
                         ) : (
                             <></>
                         )}
-                        <div className="mt-[0rem] text-center text-[2rem] font-normal">
-                            Upcoming Events
-                        </div>
-                        {/* <div className="mb-[3rem] text-center text-[1.25rem] font-medium">
-                            The stuff we’ve done and the stuff to come!
-                        </div> */}
+                        {upcomingEvents.length > 0 && (
+                            <div className="mt-[0rem] text-center text-[2rem] font-normal">
+                                Upcoming Events
+                            </div>
+                        )}
                     </div>
 
                     <div className="is-vcentered align-items-center mx-[10vw] mt-[2rem] grid grid-cols-3 content-center text-center text-xl font-medium text-white lg:mx-[0vw] lg:grid-cols-1">
@@ -261,14 +272,21 @@ export default function Events() {
                             return (
                                 <div
                                     className="relative mb-[3rem] lg:mb-[2rem]"
-                                    onClick={() =>
-                                        setToggle(
-                                            events.findIndex(
-                                                (e) => e.Title === event.Title
-                                            )
-                                        )
-                                    }
                                     key={event.Title}
+                                    onClick={(e) => {
+                                        if (
+                                            e.target.classList.contains(
+                                                "duration-250"
+                                            )
+                                        ) {
+                                            setToggle(
+                                                events.findIndex(
+                                                    (e) =>
+                                                        e.Title === event.Title
+                                                )
+                                            );
+                                        }
+                                    }}
                                 >
                                     <div
                                         className={
@@ -291,7 +309,9 @@ export default function Events() {
                                                     event.Color,
                                             }}
                                         >
-                                            {event.Title}
+                                            <div className="h-full w-full">
+                                                {event.Title}
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -307,14 +327,21 @@ export default function Events() {
                             return (
                                 <div
                                     className="relative mb-[3rem] lg:mb-[2rem]"
-                                    onClick={() =>
-                                        setToggle(
-                                            events.findIndex(
-                                                (e) => e.Title === event.Title
-                                            )
-                                        )
-                                    }
                                     key={event.Title}
+                                    onClick={(e) => {
+                                        if (
+                                            e.target.classList.contains(
+                                                "duration-250"
+                                            )
+                                        ) {
+                                            setToggle(
+                                                events.findIndex(
+                                                    (e) =>
+                                                        e.Title === event.Title
+                                                )
+                                            );
+                                        }
+                                    }}
                                 >
                                     <div
                                         className={
@@ -337,7 +364,9 @@ export default function Events() {
                                                     event.Color,
                                             }}
                                         >
-                                            {event.Title}
+                                            <div className="h-full w-full">
+                                                {event.Title}
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
