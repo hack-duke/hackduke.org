@@ -177,11 +177,7 @@ export default function Events() {
                                                             (text, i) => {
                                                                 return (
                                                                     <div
-                                                                        key={
-                                                                            text +
-                                                                            i
-                                                                        }
-                                                                    >
+                                                                        key={text + i}>
                                                                         {text}
                                                                         <br />
                                                                         <br />
@@ -264,7 +260,7 @@ export default function Events() {
                                                 <div className="mb-"></div>
                                             </div>
                                             <img
-                                                className="column is-half-desktop rounded-2xl"
+                                                className="column is-half-desktop rounded-2xl h-fit"
                                                 src={events[toggle].Picture}
                                                 alt=""
                                             />
