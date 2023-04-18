@@ -164,20 +164,14 @@ export default function Events() {
                                                         {events[toggle].Time}
                                                     </div>
                                                     <div className="text-left">
-                                                        {
-                                                            events[toggle]
-                                                                .Location
-                                                        }
+                                                        {events[toggle].Location}
                                                     </div>
                                                     <div className="mb-[0.5rem] mt-[0.25rem] h-[2px] bg-black"></div>
                                                     <div className="text-md text-left font-normal">
-                                                        {events[
-                                                            toggle
-                                                        ].Text.map(
+                                                        {events[toggle].Text.map(
                                                             (text, i) => {
                                                                 return (
-                                                                    <div
-                                                                        key={text + i}>
+                                                                    <div key={text + i}>
                                                                         {text}
                                                                         <br />
                                                                         <br />
@@ -188,30 +182,22 @@ export default function Events() {
                                                     </div>
 
                                                     <div className="text-left">
-                                                        {events[
-                                                            toggle
-                                                        ].hasOwnProperty(
+                                                        {events[toggle].hasOwnProperty(
                                                             "Link"
-                                                        ) && (
+                                                            ) && (
                                                             <IconTextButton
                                                                 style="display: none;"
                                                                 text={
-                                                                    events[
-                                                                        toggle
-                                                                    ].LinkTitle
+                                                                    events[toggle].LinkTitle
                                                                 }
                                                                 onClick={() => {
                                                                     router.push(
-                                                                        events[
-                                                                            toggle
-                                                                        ].Link
+                                                                        events[toggle].Link
                                                                     );
                                                                 }}
                                                                 icon={
                                                                     <AiOutlineArrowRight
-                                                                        size={
-                                                                            28
-                                                                        }
+                                                                        size={28}
                                                                         className="pl-1"
                                                                     />
                                                                 }
@@ -220,37 +206,27 @@ export default function Events() {
                                                     </div>
                                                     <br />
                                                     <div className="footer-icons">
-                                                        {events[
-                                                            toggle
-                                                        ].hasOwnProperty(
+                                                        {events[toggle].hasOwnProperty(
                                                             "Linkedin"
                                                         ) && (
                                                             <FaLinkedin
                                                                 className="fa-lg faicon"
                                                                 onClick={() => {
                                                                     window.open(
-                                                                        events[
-                                                                            toggle
-                                                                        ]
-                                                                            .Linkedin
+                                                                        events[toggle].Linkedin
                                                                     );
                                                                 }}
                                                             />
                                                         )}
 
-                                                        {events[
-                                                            toggle
-                                                        ].hasOwnProperty(
+                                                        {events[toggle].hasOwnProperty(
                                                             "Instagram"
                                                         ) && (
                                                             <FaInstagram
                                                                 className="fa-lg faicon"
                                                                 onClick={() => {
                                                                     window.open(
-                                                                        events[
-                                                                            toggle
-                                                                        ]
-                                                                            .Instagram
+                                                                        events[toggle].Instagram
                                                                     );
                                                                 }}
                                                             />
