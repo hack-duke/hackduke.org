@@ -27,15 +27,6 @@
         "Year": 2025
     },
     {
-        "First": "Nikita",
-        "Last": "Rao",
-        "Team": "Design",
-        "Title": "Member",
-        "Major": "CS",
-        "LinkedIn": "https://www.linkedin.com/in/nikita-rao-1884ba204/",
-        "Year": 2026
-    },
-    {
         "First": "Arely",
         "Last": "Sun",
         "Team": "Design",
@@ -144,15 +135,6 @@
         "Year": 2025
     },
     {
-        "First": "Debi",
-        "Last": "Ahitov",
-        "Team": "Marketing",
-        "Title": "Member",
-        "Major": "Bio & CS",
-        "LinkedIn": "https://www.linkedin.com/in/debi-ahitov",
-        "Year": 2026
-    },
-    {
         "First": "Eric",
         "Last": "Han",
         "Team": "Marketing",
@@ -243,15 +225,6 @@
         "Year": 2025
     },
     {
-        "First": "Isabelle",
-        "Last": "Xiong",
-        "Team": "Sponsorship",
-        "Title": "Member",
-        "Major": "CS",
-        "LinkedIn": "https://www.linkedin.com/in/isabelle-xiong-368257204",
-        "Year": 2025
-    },
-    {
         "First": "Emily",
         "Last": "Yang",
         "Team": "Sponsorship",
@@ -297,15 +270,6 @@
         "Year": 2025
     },
     {
-        "First": "Amelia",
-        "Last": "Lane",
-        "Team": "Outreach",
-        "Title": "Member",
-        "Major": "CS",
-        "LinkedIn": "https://www.linkedin.com/in/amelia-lane-998b79253/",
-        "Year": 2026
-    },
-    {
         "First": "Mariam",
         "Last": "Gvenetadze",
         "Team": "Treasury",
@@ -339,24 +303,6 @@
         "Title": "Member",
         "Major": "CS & Math",
         "LinkedIn": "https://www.linkedin.com/in/felix-zhu-3401871b2/",
-        "Year": 2026
-    },
-    {
-        "First": "Akshar",
-        "Last": "Yeccherla",
-        "Team": "Tech",
-        "Title": "Member",
-        "Major": "CS & Math",
-        "LinkedIn": "https://www.linkedin.com/in/akshar-yeccherla",
-        "Year": 2026
-    },
-    {
-        "First": "Ellen",
-        "Last": "Zeng",
-        "Team": "Outreach",
-        "Title": "Member",
-        "Major": "CS & Public Policy",
-        "LinkedIn": "https://www.linkedin.com/in/ellen-zeng-08458a1a1/",
         "Year": 2026
     },
     {
