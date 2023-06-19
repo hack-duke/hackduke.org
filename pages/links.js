@@ -28,7 +28,7 @@ export default function Links() {
                                 className="flex w-[40vw] min-w-[330px] max-w-[400px] flex-col
                                         items-center justify-center gap-5"
                             >
-                                <button
+                                {/* <button
                                     className="w-full rounded-[15px] bg-white px-5
                                             py-3 font-sans text-xl font-black
                                             text-[#0A2A66] ring-[3px] ring-inset ring-[#77037B] ring-offset-[3px] transition hover:bg-[#77037B]
@@ -39,7 +39,7 @@ export default function Links() {
                                     }}
                                 >
                                     Apr. 15 VC Event
-                                </button>
+                                </button> */}
                                 <button
                                     className="w-full rounded-[15px] bg-white px-5
                                             py-3 font-sans text-xl font-black
