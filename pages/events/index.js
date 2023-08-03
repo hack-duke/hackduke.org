@@ -273,11 +273,16 @@ export default function Events() {
                                                 </div>
                                                 <div className="mb-"></div>
                                             </div>
-                                            <img
-                                                className="column is-half-desktop rounded-2xl"
-                                                src={events[toggle].Picture}
-                                                alt=""
-                                            />
+                                            <div
+                                                className="column is-vcentered is-half-desktop h-fit my-auto"
+                                            >
+                                                <img
+                                                    className="rounded-2xl"
+                                                    src={events[toggle].Picture}
+                                                    alt=""
+                                                />
+                                            </div>
+                                            
                                         </section>
                                     </div>
                                 </div>
