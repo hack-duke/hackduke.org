@@ -73,20 +73,20 @@ export default function Events() {
                         <div className="column">
                             <div className="my-[2rem] rounded-[1rem] border-4 border-dashed border-white p-[1rem] text-center font-sans text-white">
                                 <div className="mb-[1rem] text-[1.5rem] font-semibold">
-                                    Code for Good 2022
+                                    Code for Good 2023
                                 </div>
                                 <div className="columns is-desktop is-vcentered">
                                     <div className="column mb-[0.5rem]">
                                         <div className="text-[3rem] font-semibold">
-                                            264
+                                            183
                                         </div>
                                         <div className="mt-[0.5rem] text-[1.5rem] font-normal">
-                                            registrants
+                                            participants
                                         </div>
                                     </div>
                                     <div className="column mb-[0.5rem]">
                                         <div className="text-[3rem] font-semibold">
-                                            35
+                                            37
                                         </div>
                                         <div className="mt-[0.5rem] text-[1.5rem] font-normal">
                                             hacks
@@ -94,7 +94,7 @@ export default function Events() {
                                     </div>
                                     <div className="column mb-[0.5rem]">
                                         <div className="text-[3rem] font-semibold">
-                                            $3300
+                                            $4350
                                         </div>
                                         <div className="mt-[0.5rem] text-[1.5rem] font-normal">
                                             awarded
