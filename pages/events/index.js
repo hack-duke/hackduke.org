@@ -276,6 +276,7 @@ export default function Events() {
                                             <img
                                                 className="column is-half-desktop rounded-2xl"
                                                 src={events[toggle].Picture}
+                                                style={{objectFit: "cover"}}
                                                 alt=""
                                             />
                                         </section>
