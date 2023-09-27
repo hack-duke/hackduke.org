@@ -108,24 +108,6 @@
         "Year": 2026
     },
     {
-        "First": "Johnny",
-        "Last": "Pesavento",
-        "Team": "Logistics",
-        "Title": "Member",
-        "Major": "CS & Econ",
-        "LinkedIn": "https://www.linkedin.com/in/john-pesavento/",
-        "Year": 2024
-    },
-    {
-        "First": "Andrew",
-        "Last": "Cao",
-        "Team": "Marketing",
-        "Title": "Co-Lead",
-        "Major": "ECE & CS",
-        "LinkedIn": "https://www.linkedin.com/in/caoandrew/",
-        "Year": 2025
-    },
-    {
         "First": "Amy",
         "Last": "Yin",
         "Team": "Marketing",
@@ -133,15 +115,6 @@
         "Major": "Math & CS",
         "LinkedIn": "https://www.linkedin.com/in/amy-yin-b20a73251/",
         "Year": 2025
-    },
-    {
-        "First": "Eric",
-        "Last": "Han",
-        "Team": "Marketing",
-        "Title": "Member",
-        "Major": "",
-        "LinkedIn": "",
-        "Year": 2026
     },
     {
         "First": "Alan",
@@ -153,24 +126,6 @@
         "Year": 2025
     },
     {
-        "First": "Naomie",
-        "Last": "Gao",
-        "Team": "Outreach",
-        "Title": "Member",
-        "Major": "CS & Stats",
-        "LinkedIn": "https://www.linkedin.com/in/naogao/",
-        "Year": 2024
-    },
-    {
-        "First": "Graham",
-        "Last": "Gumbert",
-        "Team": "Outreach",
-        "Title": "Member",
-        "Major": "CS",
-        "LinkedIn": "https://www.linkedin.com/in/graham-gumbert/",
-        "Year": 2025
-    },
-    {
         "First": "Christian",
         "Last": "Okokhere",
         "Team": "Sponsorship",
@@ -178,24 +133,6 @@
         "Major": "CS",
         "LinkedIn": "https://www.linkedin.com/in/christianokokhere/",
         "Year": 2025
-    },
-    {
-        "First": "Eric",
-        "Last": "Song",
-        "Team": "Sponsorship",
-        "Title": "Co-Lead",
-        "Major": "ECE",
-        "LinkedIn": "https://www.linkedin.com/in/eric-song-56523a1a9/",
-        "Year": 2025
-    },
-    {
-        "First": "Dami",
-        "Last": "Awofisayo",
-        "Team": "Sponsorship",
-        "Title": "Member",
-        "Major": "CS & Public Policy",
-        "LinkedIn": "https://www.linkedin.com/in/damilola-awofisayo-96a4431a6/",
-        "Year": 2026
     },
     {
         "First": "Tony",
@@ -225,49 +162,13 @@
         "Year": 2025
     },
     {
-        "First": "Emily",
-        "Last": "Yang",
-        "Team": "Sponsorship",
-        "Title": "Member",
-        "Major": "Stats & CS",
-        "LinkedIn": "https://www.linkedin.com/in/emily-yang-007b881a4/",
-        "Year": 2025
-    },
-    {
-        "First": "Evan",
-        "Last": "Glas",
-        "Team": "Tech",
-        "Title": "Co-Lead",
-        "Major": "ECE & CS",
-        "LinkedIn": "https://www.linkedin.com/in/evan-glas-a26743189/",
-        "Year": 2024
-    },
-    {
         "First": "Yihong",
         "Last": "Song",
         "Team": "Tech",
-        "Title": "Co-Lead",
+        "Title": "Lead",
         "Major": "CS & Math",
         "LinkedIn": "https://www.linkedin.com/in/yihongs/",
         "Year": 2026
-    },
-    {
-        "First": "Alyssa",
-        "Last": "Gorbaneva",
-        "Team": "Logistics",
-        "Title": "Member",
-        "Major": "CS & Math",
-        "LinkedIn": "https://www.linkedin.com/in/alyssa-gorbaneva-88a005171/",
-        "Year": 2026
-    },
-    {
-        "First": "Kevin",
-        "Last": "Kong",
-        "Team": "Tech",
-        "Title": "Member",
-        "Major": "CS",
-        "LinkedIn": "https://www.linkedin.com/in/kevinskong/",
-        "Year": 2025
     },
     {
         "First": "Mariam",
@@ -306,15 +207,6 @@
         "Year": 2026
     },
     {
-        "First": "Khushmeet",
-        "Last": "Chandi",
-        "Team": "Outreach",
-        "Title": "Member",
-        "Major": "CS",
-        "LinkedIn": "https://www.linkedin.com/in/khushmeet-chandi/",
-        "Year": 2025
-    },
-    {
         "First": "Audrey",
         "Last": "Link",
         "Team": "Logistics",
@@ -345,19 +237,10 @@
         "First": "Emi",
         "Last": "Yuan",
         "Team": "Marketing",
-        "Title": "Member",
+        "Title": "Co-Lead",
         "Major": "CS",
         "LinkedIn": "",
         "Year": 2025
-    },
-    {
-        "First": "Judy",
-        "Last": "Chen",
-        "Team": "Outreach",
-        "Title": "Member",
-        "Major": "ECE & CS",
-        "LinkedIn": "https://www.linkedin.com/in/judy-chen-300348256",
-        "Year": 2026
     },
     {
         "First": "Aaron",
