@@ -141,7 +141,7 @@ export default function Home() {
                             </div>
                             <div className="column">
                                 <Image
-                                    src="/images/team-2022.jpg"
+                                    src="/images/team-2023.jpg"
                                     alt="Team 2022"
                                     extraClasses="rounded-2xl"
                                 />
@@ -159,9 +159,9 @@ export default function Home() {
                                 >
                                     <Gallery
                                         src={[
-                                            "/images/cfg-2022-9.jpeg",
-                                            "/images/cfg-2022-7.jpeg",
-                                            "/images/cfg-2022-1.jpeg",
+                                            "/images/cfg-2023-1.jpg",
+                                            "/images/cfg-2023-2.jpg",
+                                            "/images/cfg-2023-3.jpg",
                                         ]}
                                         alt={[
                                             "Top WDWD",
@@ -202,7 +202,7 @@ export default function Home() {
                             <div className="column">
                                 <div className="title">Why HackDuke?</div>
                                 <div className="subtitle">
-                                    Each year, our event brings in over 1000
+                                    Each year, our event brings in 
                                     participants to craft solutions for social
                                     impact in the environment, inequality,
                                     education, and health fields. We provide the
@@ -231,8 +231,8 @@ export default function Home() {
                                 >
                                     <Gallery
                                         src={[
-                                            "/images/cfg-2022-13.jpeg",
-                                            "/images/cfg-2022-12.jpeg",
+                                            "/images/cfg-2023-5.jpg",
+                                            "/images/cfg-2023-4.jpg",
                                         ]}
                                         alt={[
                                             "Top Why Hackduke",
