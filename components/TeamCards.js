@@ -30,7 +30,7 @@ function TeamCards(props) {
         <div className="columns is-mobile is-multiline">
             {teamMembers.map((t) => (
                 <MemberCard
-                    src={"/images/team-2023/" + t.First + t.Last + ".webp"}
+                    src={"/images/team-2023/" + t.First + t.Last}
                     name={t.First + " " + t.Last}
                     title={t.Title}
                     major={t.Major}

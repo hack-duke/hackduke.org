@@ -18,15 +18,6 @@
         "Year": 2025
     },
     {
-        "First": "Yasha",
-        "Last": "Doddabele",
-        "Team": "Design",
-        "Title": "Member",
-        "Major": "Computational Media",
-        "LinkedIn": "https://www.linkedin.com/in/yasha-doddabele-642848216/",
-        "Year": 2025
-    },
-    {
         "First": "Arely",
         "Last": "Sun",
         "Team": "Design",
@@ -34,24 +25,6 @@
         "Major": "CS",
         "LinkedIn": "https://www.linkedin.com/in/arely-s-2a7428203/",
         "Year": 2026
-    },
-    {
-        "First": "Emily",
-        "Last": "Sun",
-        "Team": "Design",
-        "Title": "Member",
-        "Major": "CS & Stats",
-        "LinkedIn": "https://www.linkedin.com/in/emily-sun-550b83219/",
-        "Year": 2025
-    },
-    {
-        "First": "Karen",
-        "Last": "Wang",
-        "Team": "Design",
-        "Title": "Member",
-        "Major": "Applied Math & CS",
-        "LinkedIn": "https://www.linkedin.com/in/karen-kailun-wang",
-        "Year": 2024
     },
     {
         "First": "Caroline",
@@ -106,15 +79,6 @@
         "Major": "CS",
         "LinkedIn": "https://www.linkedin.com/in/sophie-mansoor-910",
         "Year": 2026
-    },
-    {
-        "First": "Amy",
-        "Last": "Yin",
-        "Team": "Marketing",
-        "Title": "Co-Lead",
-        "Major": "Math & CS",
-        "LinkedIn": "https://www.linkedin.com/in/amy-yin-b20a73251/",
-        "Year": 2025
     },
     {
         "First": "Alan",
@@ -207,15 +171,6 @@
         "Year": 2026
     },
     {
-        "First": "Zoey",
-        "Last": "Chen",
-        "Team": "Tech",
-        "Title": "Member",
-        "Major": "CS & ICS",
-        "LinkedIn": "https://www.linkedin.com/in/zoey-chen/",
-        "Year": 2026
-    },
-    {
         "First": "Arvindh",
         "Last": "Manian",
         "Team": "Tech",
@@ -225,13 +180,13 @@
         "Year": 2026
     },
     {
-        "First": "Emi",
-        "Last": "Yuan",
-        "Team": "Marketing",
-        "Title": "Co-Lead",
-        "Major": "CS",
-        "LinkedIn": "",
-        "Year": 2025
+        "First": "Arnav",
+        "Last": "Jindal",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS & Econ",
+        "LinkedIn": "https://www.linkedin.com/in/arnavjindal/",
+        "Year": 2026
     },
     {
         "First": "Aaron",
@@ -255,18 +210,18 @@
         "First": "Dasol",
         "Last": "Lee",
         "Team": "Marketing",
-        "Title": "Member",
+        "Title": "Lead",
         "Major": "CS & Psych",
         "LinkedIn": "https://www.linkedin.com/in/dasollee25/",
         "Year": 2025
     },
     {
-        "First": "Bea",
-        "Last": "Radtke",
+        "First": "Angel",
+        "Last": "Huang",
         "Team": "Marketing",
         "Title": "Member",
         "Major": "CS",
-        "LinkedIn": "https://www.linkedin.com/in/bea-radtke-7a5494213",
+        "LinkedIn": "https://www.linkedin.com/in/angel-huang-88505028a/",
         "Year": 2025
     },
     {
