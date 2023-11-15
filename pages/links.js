@@ -46,6 +46,7 @@ export default function Links() {
                                             text-[#0A2A66] ring-[3px] ring-inset ring-[#35C69B] ring-offset-[3px] transition hover:bg-[#35C69B]
                                             hover:text-white hover:ring-white hover:ring-offset-[#35C69B]"
                                     onClick={() => {
+                                        gtag("event", "short_links_open")
                                         router.push("/");
                                     }}
                                 >
@@ -58,6 +59,7 @@ export default function Links() {
                                             text-[#0A2A66] ring-[3px] ring-inset ring-[#E55511] ring-offset-[3px] transition hover:bg-[#E55511]
                                             hover:text-white hover:ring-white hover:ring-offset-[#E55511]"
                                     onClick={() => {
+                                        gtag("event", "short_links_open")
                                         window.location.href =
                                             "https://2023.hackduke.org/";
                                     }}
@@ -71,6 +73,7 @@ export default function Links() {
                                             text-[#0A2A66] ring-[3px] ring-inset ring-[#F7AF1C] ring-offset-[3px] transition hover:bg-[#F7AF1C]
                                             hover:text-white hover:ring-white hover:ring-offset-[#F7AF1C]"
                                     onClick={() => {
+                                        gtag("event", "short_links_open")
                                         window.location.href =
                                             "https://4cf755e0.sibforms.com/serve/MUIEAAcE4j7UohciQWxL1OD-ek-BsIe709PlDqlo2iJqTPxKsdDZcQMilgW4PLJlabuxJCYisXPeMUoU8-72KjY8Jp8HRdVc8vs5B6jCEdO-8R8wS-T0t6u5kDrdRQ8OGrA8019LVSP-8CKlETD2QIJ9tn1yBYpW_l3AFjfbq3FhhcFLnat77sRkg-aXnQKmAMNS_p-3-cQWYBfu";
                                     }}
@@ -84,11 +87,12 @@ export default function Links() {
                                              text-[#0A2A66] ring-[3px] ring-inset ring-[#5890FF] ring-offset-[3px] transition hover:bg-[#5890FF]
                                             hover:text-white hover:ring-white hover:ring-offset-[#5890FF]"
                                     onClick={() => {
+                                        gtag("event", "short_links_open")
                                         window.location.href =
-                                            "https://tinyurl.com/hdsp23";
+                                            "https://forms.gle/u6igHqGcVrpcchkG6";
                                     }}
                                 >
-                                    Recruitment Form
+                                    BlueRide Interest Form
                                 </button>
                             </div>
                         </div>
