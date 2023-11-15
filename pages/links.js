@@ -94,6 +94,20 @@ export default function Links() {
                                 >
                                     BlueRide Interest Form
                                 </button>
+
+                                <button
+                                    className="w-full rounded-[15px] bg-white
+                                             py-3 font-sans text-xl font-black
+                                             text-[#0A2A66] ring-[3px] ring-inset ring-[#5890FF] ring-offset-[3px] transition hover:bg-[#5890FF]
+                                            hover:text-white hover:ring-white hover:ring-offset-[#5890FF]"
+                                    onClick={() => {
+                                        gtag("event", "short_links_open")
+                                        window.location.href =
+                                            "https://dev.hackduke.org";
+                                    }}
+                                >
+                                    HackDuke Dev
+                                </button>
                             </div>
                         </div>
                     </section>
