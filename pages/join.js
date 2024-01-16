@@ -29,7 +29,7 @@ export default function Join() {
                                 an info session.
                                 <ul class="mt-4 max-w-prose list-inside list-disc">
                                     <li>
-                                        Jan 18th @ 7:00pm in Wilkinson 126
+                                        Jan 18th @ 7:00pm in Wilkinson 136
                                         (West)
                                     </li>
                                     <li>
