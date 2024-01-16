@@ -20,18 +20,29 @@ export default function Join() {
                         <div className="container">
                             <div className="section-title">Join HackDuke!</div>
                             <div className="subtitle">
-                                Thanks for your interest in joining HackDuke!
-                                Our organizer team applications are now closed
-                                for this semester. If you have applied, we will
-                                reach out about interviews soon. However, if you
-                                would like to hear about our latest events,
-                                please subscribe to the newsletter.
+                                HackDuke is recruiting for the Spring 2024
+                                semester. We are looking for students who are
+                                excited about building and maintaining impactful
+                                operations and organizing engaging events.
+                                HackDuke will host two information sessions this
+                                semester. It is strongly recommended to attend
+                                an info session.
+                                <ul class="mt-4 max-w-prose list-inside list-disc">
+                                    <li>
+                                        Jan 18th @ 7:00pm in Wilkinson 126
+                                        (West)
+                                    </li>
+                                    <li>
+                                        Jan 20th @ 2:00pm in Classroom 103
+                                        (East)
+                                    </li>
+                                </ul>
                             </div>
 
                             <div>
-                                <a href="https://4cf755e0.sibforms.com/serve/MUIEAAcE4j7UohciQWxL1OD-ek-BsIe709PlDqlo2iJqTPxKsdDZcQMilgW4PLJlabuxJCYisXPeMUoU8-72KjY8Jp8HRdVc8vs5B6jCEdO-8R8wS-T0t6u5kDrdRQ8OGrA8019LVSP-8CKlETD2QIJ9tn1yBYpW_l3AFjfbq3FhhcFLnat77sRkg-aXnQKmAMNS_p-3-cQWYBfu">
+                                <a href="https://forms.gle/DLKvUJpn46FcWHwc8">
                                     <IconTextButton
-                                        text="Subscribe now"
+                                        text="Apply now"
                                         bgColorHex="#ffffff"
                                         extraClasses={[
                                             "before:bg-white",
@@ -40,7 +51,7 @@ export default function Join() {
                                         ]}
                                         textColorHex="#ffffff"
                                         onClick={() =>
-                                            gtag("event", "newsletter_open")
+                                            gtag("event", "apply_open")
                                         }
                                         icon={
                                             <AiOutlineArrowRight
