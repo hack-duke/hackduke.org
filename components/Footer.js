@@ -28,10 +28,10 @@ function Footer(props) {
                                 <div className="column-text">
                                     <p>
                                         <a
-                                            href="mailto:contact@hackduke.org"
+                                            href="mailto:hackers@hackduke.org"
                                             style={{ color: "#ffffff" }}
                                         >
-                                            contact@hackduke.org
+                                            hackers@hackduke.org
                                         </a>
                                     </p>
                                 </div>
