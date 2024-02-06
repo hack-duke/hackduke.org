@@ -4,6 +4,7 @@ import HeroBackground from "../components/HeroBackground";
 import SponsorUs from "../components/SponsorUs";
 import Image from "../components/Image";
 import Gallery from "../components/Gallery";
+import Sponsors from "../components/Sponsors";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 
@@ -174,14 +175,16 @@ export default function Home() {
                             <div className="column">
                                 <div className="title">What do we do?</div>
                                 <div className="subtitle">
-                                    We organize Code for Good, the nation’s
-                                    premier hackathon for social good. Our teams
-                                    work together year-round to invite speakers,
-                                    design resources, build platforms, and more
-                                    to ensure the success of the event.
+                                    We work to promote technology and computer
+                                    science engagement on campus. The HackDuke
+                                    team organizes events, including our
+                                    flagship hackathon Code for Good. Our
+                                    HackDuke Dev initiative focuses on
+                                    developing apps and services to make campus
+                                    life better.
                                 </div>
                                 <IconTextButton
-                                    text="See our work"
+                                    text="See our events"
                                     icon={
                                         <AiOutlineArrowRight
                                             size={28}
@@ -190,6 +193,19 @@ export default function Home() {
                                     }
                                     onClick={() => {
                                         router.push("/events");
+                                    }}
+                                />
+                                <br></br>
+                                <IconTextButton
+                                    text="HackDuke Dev"
+                                    icon={
+                                        <AiOutlineArrowRight
+                                            size={28}
+                                            className="pl-1"
+                                        />
+                                    }
+                                    onClick={() => {
+                                        router.push("https://dev.hackduke.org");
                                     }}
                                 />
                             </div>
@@ -202,14 +218,19 @@ export default function Home() {
                             <div className="column">
                                 <div className="title">Why HackDuke?</div>
                                 <div className="subtitle">
-                                    Each year, our event brings in 
-                                    participants to craft solutions for social
-                                    impact in the environment, inequality,
-                                    education, and health fields. We provide the
-                                    educational resources, inspirational
-                                    speakers, mentorship, and nonprofit donation
-                                    prizes to let others realize and unlock
-                                    tech’s potential for social impact.
+                                    <p>
+                                        Each year, our events brings in
+                                        participants to craft solutions for
+                                        social impact. We provide the
+                                        educational resources, inspirational
+                                        speakers, and mentorship to let others
+                                        explore and innovate. Our
+                                        multidisciplinary team also works on our{" "}
+                                        <a href="https://dev.hackduke.org">
+                                            HackDuke Dev
+                                        </a>{" "}
+                                        project development initiatives.
+                                    </p>
                                 </div>
                                 <IconTextButton
                                     text="Join our team"
@@ -245,7 +266,12 @@ export default function Home() {
                     </div>
                 </section>
             </div>
-
+            <section className="section is-small">
+                <div className="container">
+                    <div className="title">Current Sponsors and Partners</div>
+                    <Sponsors url="current_sponsors" />
+                </div>
+            </section>
             <SponsorUs />
             <Footer />
         </>

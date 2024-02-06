@@ -1,5 +1,29 @@
 [
     {
+        "Title": "Optiver Info Session",
+        "Color": "#90ADC8",
+        "Date": "September 28, 2023",
+        "Time": "5:00 PM",
+        "iso": "2023-09-28T17:00:00.000Z",
+        "Location": "Wilkinson 021",
+        "Picture": "/images/events/optiver23.jpg",
+        "Text": [
+            "We are excited to host an info session with Optiver! Come out to hear more about their opportunities"
+        ]
+    },
+    {
+        "Title": "Roblox Info Session",
+        "Color": "#90ADC8",
+        "Date": "October 9, 2023",
+        "Time": "5:00 PM",
+        "iso": "2023-10-09T17:00:00.000Z",
+        "Location": "Schiciano Auditorium",
+        "Picture": "/images/events/roblox23.jpg",
+        "Text": [
+            "We are excited to host an info session with Roblox! Come out to hear more about their opportunities"
+        ]
+    },
+    {
         "Title": "Code for Good 2023",
         "Color": "#90ADC8",
         "Date": "September 8, 2023",

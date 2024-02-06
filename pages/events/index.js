@@ -78,7 +78,7 @@ export default function Events() {
                                 <div className="columns is-desktop is-vcentered">
                                     <div className="column mb-[0.5rem]">
                                         <div className="text-[3rem] font-semibold">
-                                            183
+                                            236
                                         </div>
                                         <div className="mt-[0.5rem] text-[1.5rem] font-normal">
                                             participants
@@ -276,7 +276,7 @@ export default function Events() {
                                             <img
                                                 className="column is-half-desktop rounded-2xl"
                                                 src={events[toggle].Picture}
-                                                style={{objectFit: "cover"}}
+                                                style={{ objectFit: "cover" }}
                                                 alt=""
                                             />
                                         </section>
@@ -400,6 +400,12 @@ export default function Events() {
                             );
                         })}
                     </div>
+                </div>
+            </section>
+            <section className="section is-small">
+                <div className="container">
+                    <div className="title">Current Sponsors and Partners</div>
+                    <Sponsors url="current_sponsors" />
                 </div>
             </section>
             <section className="section is-small">
