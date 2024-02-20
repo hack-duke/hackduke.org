@@ -18,5 +18,15 @@
         "Name": "roblox",
         "Image": "roblox.png",
         "Link": "https://corp.roblox.com"
+    },
+    {
+        "Name": "DRW",
+        "Image": "drw.svg",
+        "Link": "https://drw.com"
+    },
+    {
+        "Name": "Duke I&E",
+        "Image": "i&e.png",
+        "Link": "https://entrepreneurship.duke.edu"
     }
 ]
