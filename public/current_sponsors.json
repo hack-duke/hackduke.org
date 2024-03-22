@@ -25,6 +25,11 @@
         "Link": "https://drw.com"
     },
     {
+        "Name": "Pinecone",
+        "Image": "pinecone.svg",
+        "Link": "https://pinecone.io"
+    },
+    {
         "Name": "Duke I&E",
         "Image": "i&e.png",
         "Link": "https://entrepreneurship.duke.edu"
