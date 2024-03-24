@@ -1,5 +1,57 @@
 [
     {
+        "Title": "HackDuke App Challenge",
+        "Color": "#90ADC8",
+        "Date": "March 24, 2024",
+        "Time": "6:30 PM",
+        "iso": "2024-03-24T18:30:00.000Z",
+        "Location": "Wilkinson 126",
+        "Picture": "/images/events/app24.png",
+        "Text": [
+            "We are delighted to present the Duke App Challenge, a week-long hackathon. This exciting challenge provides a unique opportunity to showcase your skills and creativity using Duke's public APIs and a few datasets specially curated by the HackDuke team."
+        ],
+        "Link": "https://docs.google.com/document/d/1SvnSuwb84aOI5yKrU1nVJfojjUO4tFFi8JCFar0ZBgw/edit",
+        "LinkTitle": "Details"
+    },
+    {
+        "Title": "IMC Info Session",
+        "Color": "#90ADC8",
+        "Date": "April 18, 2024",
+        "Time": "6:30 PM",
+        "iso": "2024-04-18T18:30:00.000Z",
+        "Location": "Wilkinson 021",
+        "Picture": "/images/events/imc24.jpg",
+        "Text": [
+            "Please join us for an interactive information session and Q&A panel with an IMC Software Developer and Quant Trader where you’ll get to learn about life at IMC and the unique opportunities we offer within Tech and Trading. We can’t wait to meet you!"
+        ],
+        "Link": "https://imc.recsolu.com/app/collect/event/E-FCAWFiFmGcpEIQnbMyUg",
+        "LinkTitle": "RSVP"
+    },
+    {
+        "Title": "Optiver Spring 2024 Info Session",
+        "Color": "#90ADC8",
+        "Date": "April 16, 2024",
+        "Time": "6:00 PM",
+        "iso": "2024-04-16T18:00:00.000Z",
+        "Location": "Wilkinson 021",
+        "Picture": "/sponsors/optiver.svg",
+        "Text": [
+            "We are excited to host another info session with Optiver! Come out to hear more about their opportunities. RSVP and location TBA."
+        ]
+    },
+    {
+        "Title": "DRW Info Session",
+        "Color": "#90ADC8",
+        "Date": "March 18, 2024",
+        "Time": "5:00 PM",
+        "iso": "2024-03-18T17:00:00.000Z",
+        "Location": "Schiciano Auditorium",
+        "Picture": "/images/events/drw24.jpg",
+        "Text": [
+            "We are excited to host an info session with DRW! Come out to hear more about their opportunities"
+        ]
+    },
+    {
         "Title": "Optiver Info Session",
         "Color": "#90ADC8",
         "Date": "September 28, 2023",

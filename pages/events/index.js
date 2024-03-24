@@ -321,6 +321,8 @@ export default function Events() {
                                         }
                                         style={{
                                             borderColor: event.Color,
+                                            // backgroundSize: "contain",
+                                            // backgroundRepeat: "no-repeat",
                                             backgroundImage: `url(${event.Picture})`,
                                         }}
                                     >
