@@ -1,11 +1,15 @@
 import { useRouter } from "next/router";
 import { useState } from "react";
 import Image from "./Image";
+import classNames from 'classnames';
 
-const NavbarItem = ({ text, URL, router }) => {
+const NavbarItem = ({ text, URL, router, className }) => {
     return (
         <div
-            className="navbar-item navbar-button mr-4 transform font-sans text-[1.2rem] text-white before:absolute before:bottom-1 before:left-0 before:h-0.5 before:w-full before:origin-right before:scale-x-0 before:rounded before:bg-white before:transition-transform before:duration-300 before:ease-in-out before:content-[''] hover:cursor-pointer"
+            className={classNames(
+                "navbar-item navbar-button mr-4 transform font-sans text-[1.2rem] text-white before:absolute before:bottom-1 before:left-0 before:h-0.5 before:w-full before:origin-right before:scale-x-0 before:rounded before:bg-white before:transition-transform before:duration-300 before:ease-in-out before:content-[''] hover:cursor-pointer",
+                className
+            )}
             onClick={() => {
                 router.push(URL);
             }}
@@ -68,20 +72,20 @@ function Navbar(props) {
                         <NavbarItem text="About" URL="/about" router={router}>
                             {" "}
                         </NavbarItem>
-                        <NavbarItem
-                            text="HackDuke Dev"
-                            URL="https://dev.hackduke.org"
-                            router={router}
-                        >
-                            {" "}
-                        </NavbarItem>
                         <NavbarItem text="Humans" URL="/humans" router={router}>
                             {" "}
                         </NavbarItem>
                         <NavbarItem text="Events" URL="/events" router={router}>
                             {" "}
                         </NavbarItem>
-                        <NavbarItem text="Join Us" URL="/join" router={router}>
+                        <NavbarItem
+                            text="2023"
+                            URL="https://2023.hackduke.org/"
+                            router={router}
+                        >
+                            {" "}
+                        </NavbarItem>
+                        <NavbarItem text="Join Us" URL="/join" router={router} className="font-bold">
                             {" "}
                         </NavbarItem>
 
