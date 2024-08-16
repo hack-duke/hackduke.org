@@ -178,10 +178,7 @@ export default function Home() {
                                     We work to promote technology and computer
                                     science engagement on campus. The HackDuke
                                     team organizes events, including our
-                                    flagship hackathon Code for Good. Our
-                                    HackDuke Dev initiative focuses on
-                                    developing apps and services to make campus
-                                    life better.
+                                    flagship hackathon Code for Good.
                                 </div>
                                 <IconTextButton
                                     text="See our events"
@@ -196,18 +193,6 @@ export default function Home() {
                                     }}
                                 />
                                 <br></br>
-                                <IconTextButton
-                                    text="HackDuke Dev"
-                                    icon={
-                                        <AiOutlineArrowRight
-                                            size={28}
-                                            className="pl-1"
-                                        />
-                                    }
-                                    onClick={() => {
-                                        router.push("https://dev.hackduke.org");
-                                    }}
-                                />
                             </div>
                         </div>
                     </div>
@@ -224,12 +209,7 @@ export default function Home() {
                                         social impact. We provide the
                                         educational resources, inspirational
                                         speakers, and mentorship to let others
-                                        explore and innovate. Our
-                                        multidisciplinary team also works on our{" "}
-                                        <a href="https://dev.hackduke.org">
-                                            HackDuke Dev
-                                        </a>{" "}
-                                        project development initiatives.
+                                        explore and innovate.
                                     </p>
                                 </div>
                                 <IconTextButton

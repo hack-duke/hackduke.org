@@ -20,29 +20,28 @@ export default function Join() {
                         <div className="container">
                             <div className="section-title">Join HackDuke!</div>
                             <div className="subtitle">
-                                HackDuke is recruiting for the Spring 2024
+                                HackDuke is recruiting for the Fall 2024
                                 semester. We are looking for students who are
                                 excited about building and maintaining impactful
                                 operations and organizing engaging events.
                                 HackDuke will host two information sessions this
                                 semester. It is strongly recommended to attend
                                 an info session.
-                                <ul class="mt-4 max-w-prose list-inside list-disc">
+                                <ul class="mt-4 mb-4 max-w-prose list-inside list-disc">
                                     <li>
-                                        Jan 18th @ 7:00pm in Wilkinson 136
-                                        (West)
+                                        Sep 1st @ 7:00pm in White Lecture Hall
                                     </li>
                                     <li>
-                                        Jan 20th @ 2:00pm in Classroom 103
-                                        (East)
+                                        Sep 4th @ 7:00pm in White Lecture Hall
                                     </li>
                                 </ul>
+                                Our applications will open shortly. If you&apos;re interested in learning more, consider subscribing to <a className="underline underline-offset-4" href="https://4cf755e0.sibforms.com/serve/MUIFALiSxUb-UbEAKTWwxl4r6uzEgJkMYBwPeGArqz6Dc78q4bVLiOoWuzWJNYVaOYgJ6NTbHItNhNJmU4BsKSxu5qAg0rXe1w11tNN8UQ-TFR_O90kWXAa4qCXMKlmc4SYJkRxB_803SU1pRjkql3hSxx_9hhOgqDpzFKY89NGHtjRghT1VgopJQZKmDxMX2ML9En7SEGQrCmOQ">our newsletter</a>.
                             </div>
 
-                            <div>
-                                <a href="https://forms.gle/DLKvUJpn46FcWHwc8">
+                            {/*<div>
+                                <a href="">
                                     <IconTextButton
-                                        text="Apply now"
+                                        text="Join us"
                                         bgColorHex="#ffffff"
                                         extraClasses={[
                                             "before:bg-white",
@@ -61,7 +60,7 @@ export default function Join() {
                                         }
                                     ></IconTextButton>
                                 </a>
-                            </div>
+                            </div>*/}
                         </div>
                     </div>
                 </div>
