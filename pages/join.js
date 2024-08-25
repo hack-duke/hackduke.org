@@ -35,23 +35,20 @@ export default function Join() {
                                         Sep 4th @ 7:00pm in White Lecture Hall
                                     </li>
                                 </ul>
-                                Our applications will open shortly. If you&apos;re interested in learning more, consider subscribing to <a className="underline underline-offset-4" href="https://4cf755e0.sibforms.com/serve/MUIFALiSxUb-UbEAKTWwxl4r6uzEgJkMYBwPeGArqz6Dc78q4bVLiOoWuzWJNYVaOYgJ6NTbHItNhNJmU4BsKSxu5qAg0rXe1w11tNN8UQ-TFR_O90kWXAa4qCXMKlmc4SYJkRxB_803SU1pRjkql3hSxx_9hhOgqDpzFKY89NGHtjRghT1VgopJQZKmDxMX2ML9En7SEGQrCmOQ">our newsletter</a>.
                             </div>
 
-                            {/*<div>
-                                <a href="">
+                            <div>
+                                <a href="https://forms.gle/3Tpqhsody4fLacax9">
                                     <IconTextButton
-                                        text="Join us"
+                                        text="Apply Now"
                                         bgColorHex="#ffffff"
                                         extraClasses={[
                                             "before:bg-white",
                                             "relative mx-auto",
                                             "ml-0",
+                                            "font-extrabold"
                                         ]}
                                         textColorHex="#ffffff"
-                                        onClick={() =>
-                                            gtag("event", "apply_open")
-                                        }
                                         icon={
                                             <AiOutlineArrowRight
                                                 size={28}
@@ -60,7 +57,11 @@ export default function Join() {
                                         }
                                     ></IconTextButton>
                                 </a>
-                            </div>*/}
+                            </div>
+
+                            <p className="text-white font-sans text-xl mt-5">
+                                If you&apos;re interested in keeping in touch, consider subscribing to <a className="underline underline-offset-4" href="https://4cf755e0.sibforms.com/serve/MUIFALiSxUb-UbEAKTWwxl4r6uzEgJkMYBwPeGArqz6Dc78q4bVLiOoWuzWJNYVaOYgJ6NTbHItNhNJmU4BsKSxu5qAg0rXe1w11tNN8UQ-TFR_O90kWXAa4qCXMKlmc4SYJkRxB_803SU1pRjkql3hSxx_9hhOgqDpzFKY89NGHtjRghT1VgopJQZKmDxMX2ML9En7SEGQrCmOQ">our newsletter</a>.
+                            </p>
                         </div>
                     </div>
                 </div>
