@@ -80,6 +80,20 @@ export default function Links() {
                                 >
                                     Newsletter
                                 </button>
+
+                                <button
+                                    className="w-full rounded-[15px] bg-white
+                                            py-3 font-sans text-xl font-black
+                                            text-[#0A2A66] ring-[3px] ring-inset ring-[#000000] ring-offset-[3px] transition hover:bg-[#000000]
+                                            hover:text-white hover:ring-white hover:ring-offset-[#000000]"
+                                    onClick={() => {
+                                        gtag("event", "short_links_open")
+                                        window.location.href =
+                                            "https://forms.gle/3Tpqhsody4fLacax9";
+                                    }}
+                                >
+                                    Fall 2024 Application
+                                </button>
                             </div>
                         </div>
                     </section>
