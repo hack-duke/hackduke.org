@@ -29,10 +29,10 @@ export default function Join() {
                                 an info session.
                                 <ul class="mt-4 mb-4 max-w-prose list-inside list-disc">
                                     <li>
-                                        Sep 1st @ 7:00pm in White Lecture Hall
+                                        Sep 1st @ 7:30pm in White Lecture Hall
                                     </li>
                                     <li>
-                                        Sep 4th @ 7:00pm in White Lecture Hall
+                                        Sep 4th @ 7:30pm in White Lecture Hall
                                     </li>
                                 </ul>
                             </div>
