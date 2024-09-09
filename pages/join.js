@@ -20,7 +20,7 @@ export default function Join() {
                         <div className="container">
                             <div className="section-title">Join HackDuke!</div>
                             <div className="subtitle">
-                                HackDuke's recruiting for the Fall 2024 semester is in progress, and applications are now closed. Thanks for your interest!
+                                HackDuke&apos;s recruiting for the Fall 2024 semester is in progress, and applications are now closed. Thanks for your interest!
                             </div>
 
                             {/* <div>
