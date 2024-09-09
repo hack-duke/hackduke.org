@@ -81,7 +81,7 @@ export default function Links() {
                                     Newsletter
                                 </button>
 
-                                <button
+                                {/* <button
                                     className="w-full rounded-[15px] bg-white
                                             py-3 font-sans text-xl font-black
                                             text-[#0A2A66] ring-[3px] ring-inset ring-[#000000] ring-offset-[3px] transition hover:bg-[#000000]
@@ -93,7 +93,7 @@ export default function Links() {
                                     }}
                                 >
                                     Fall 2024 Application
-                                </button>
+                                </button> */}
                             </div>
                         </div>
                     </section>

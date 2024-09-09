@@ -20,24 +20,10 @@ export default function Join() {
                         <div className="container">
                             <div className="section-title">Join HackDuke!</div>
                             <div className="subtitle">
-                                HackDuke is recruiting for the Fall 2024
-                                semester. We are looking for students who are
-                                excited about building and maintaining impactful
-                                operations and organizing engaging events.
-                                HackDuke will host two information sessions this
-                                semester. It is strongly recommended to attend
-                                an info session.
-                                <ul class="mt-4 mb-4 max-w-prose list-inside list-disc">
-                                    <li>
-                                        Sep 1st @ 7:30pm in White Lecture Hall
-                                    </li>
-                                    <li>
-                                        Sep 4th @ 7:30pm in White Lecture Hall
-                                    </li>
-                                </ul>
+                                HackDuke's recruiting for the Fall 2024 semester is in progress, and applications are now closed. Thanks for your interest!
                             </div>
 
-                            <div>
+                            {/* <div>
                                 <a href="https://forms.gle/3Tpqhsody4fLacax9">
                                     <IconTextButton
                                         text="Apply Now"
@@ -57,7 +43,7 @@ export default function Join() {
                                         }
                                     ></IconTextButton>
                                 </a>
-                            </div>
+                            </div> */}
 
                             <p className="text-white font-sans text-xl mt-5">
                                 If you&apos;re interested in keeping in touch, consider subscribing to <a className="underline underline-offset-4" href="https://4cf755e0.sibforms.com/serve/MUIFALiSxUb-UbEAKTWwxl4r6uzEgJkMYBwPeGArqz6Dc78q4bVLiOoWuzWJNYVaOYgJ6NTbHItNhNJmU4BsKSxu5qAg0rXe1w11tNN8UQ-TFR_O90kWXAa4qCXMKlmc4SYJkRxB_803SU1pRjkql3hSxx_9hhOgqDpzFKY89NGHtjRghT1VgopJQZKmDxMX2ML9En7SEGQrCmOQ">our newsletter</a>.
