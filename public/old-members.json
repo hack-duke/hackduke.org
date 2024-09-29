@@ -1,0 +1,245 @@
+[
+    {
+        "First": "May",
+        "Last": "Fu",
+        "Team": "Design",
+        "Title": "Co-Lead",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/may-fu/",
+        "Year": 2025
+    },
+    {
+        "First": "Grace",
+        "Last": "Liu",
+        "Team": "Design",
+        "Title": "Co-Lead",
+        "Major": "CS",
+        "LinkedIn": "",
+        "Year": 2025
+    },
+    {
+        "First": "Arely",
+        "Last": "Sun",
+        "Team": "Design",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/arely-s-2a7428203/",
+        "Year": 2026
+    },
+    {
+        "First": "Caroline",
+        "Last": "Winakur",
+        "Team": "Design",
+        "Title": "Member",
+        "Major": "ECE & Physics",
+        "LinkedIn": "https://www.linkedin.com/in/caroline-winakur/",
+        "Year": 2025
+    },
+    {
+        "First": "Stephanie",
+        "Last": "You",
+        "Team": "Design",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/stephaanieyouu/",
+        "Year": 2026
+    },
+    {
+        "First": "N",
+        "Last": "Wang",
+        "Team": "Director",
+        "Title": "Co-Director",
+        "Major": "CS & Econ",
+        "LinkedIn": "https://www.linkedin.com/in/nwang888/",
+        "Year": 2025
+    },
+    {
+        "First": "James",
+        "Last": "Xu",
+        "Team": "Director",
+        "Title": "Co-Director",
+        "Major": "CS & Econ",
+        "LinkedIn": "https://www.linkedin.com/in/james-x-7a5502182/",
+        "Year": 2024
+    },
+    {
+        "First": "Ellie",
+        "Last": "Kang",
+        "Team": "Logistics",
+        "Title": "Co-Lead",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/ellie-kang-b82481213",
+        "Year": 2025
+    },
+    {
+        "First": "Sophie",
+        "Last": "Mansoor",
+        "Team": "Logistics",
+        "Title": "Co-Lead",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/sophie-mansoor-910",
+        "Year": 2026
+    },
+    {
+        "First": "Alan",
+        "Last": "Wang",
+        "Team": "Outreach",
+        "Title": "Lead",
+        "Major": "CS & Stats",
+        "LinkedIn": "https://www.linkedin.com/in/alan-wang-4100681bb/",
+        "Year": 2025
+    },
+    {
+        "First": "Christian",
+        "Last": "Okokhere",
+        "Team": "Sponsorship",
+        "Title": "Co-Lead",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/christianokokhere/",
+        "Year": 2025
+    },
+    {
+        "First": "Tony",
+        "Last": "Cui",
+        "Team": "Sponsorship",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "http://linkedin.com/in/tonycui1",
+        "Year": 2025
+    },
+    {
+        "First": "Raymond",
+        "Last": "Lin",
+        "Team": "Sponsorship",
+        "Title": "Member",
+        "Major": "ECE",
+        "LinkedIn": "https://www.linkedin.com/in/rlin264/",
+        "Year": 2024
+    },
+    {
+        "First": "Vivek",
+        "Last": "Tarapara",
+        "Team": "Sponsorship",
+        "Title": "Member",
+        "Major": "ECE & CS",
+        "LinkedIn": "",
+        "Year": 2025
+    },
+    {
+        "First": "Yihong",
+        "Last": "Song",
+        "Team": "Tech",
+        "Title": "Lead",
+        "Major": "CS & Math",
+        "LinkedIn": "https://www.linkedin.com/in/yihongs/",
+        "Year": 2026
+    },
+    {
+        "First": "Mariam",
+        "Last": "Gvenetadze",
+        "Team": "Treasury",
+        "Title": "Treasurer",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/mariam-gvenetadze",
+        "Year": 2025
+    },
+    {
+        "First": "Harry",
+        "Last": "Chen",
+        "Team": "Logistics",
+        "Title": "Member",
+        "Major": "CS & Math",
+        "LinkedIn": "https://www.linkedin.com/in/harry-chen",
+        "Year": 2025
+    },
+    {
+        "First": "Felix",
+        "Last": "Zhu",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS & Math",
+        "LinkedIn": "https://www.linkedin.com/in/felix-zhu-3401871b2/",
+        "Year": 2026
+    },
+    {
+        "First": "Audrey",
+        "Last": "Link",
+        "Team": "Logistics",
+        "Title": "Member",
+        "Major": "ECE & CS",
+        "LinkedIn": "https://www.linkedin.com/in/audreylink540",
+        "Year": 2026
+    },
+    {
+        "First": "Arvindh",
+        "Last": "Manian",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS & Econ",
+        "LinkedIn": "https://www.linkedin.com/in/arvindh-manian/",
+        "Year": 2026
+    },
+    {
+        "First": "Arnav",
+        "Last": "Jindal",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS & Econ",
+        "LinkedIn": "https://www.linkedin.com/in/arnavjindal/",
+        "Year": 2026
+    },
+    {
+        "First": "Amelia",
+        "Last": "Lane",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/amelia-lane-998b79253/",
+        "Year": 2026
+    },
+    {
+        "First": "Aaron",
+        "Last": "Hsu",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "ECE & CS",
+        "LinkedIn": "https://www.linkedin.com/in/aaron-hsu4606",
+        "Year": 2026
+    },
+    {
+        "First": "Eleanor",
+        "Last": "Taylor",
+        "Team": "Design",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "",
+        "Year": 2026
+    },
+    {
+        "First": "Dasol",
+        "Last": "Lee",
+        "Team": "Marketing",
+        "Title": "Lead",
+        "Major": "CS & Psych",
+        "LinkedIn": "https://www.linkedin.com/in/dasollee25/",
+        "Year": 2025
+    },
+    {
+        "First": "Angel",
+        "Last": "Huang",
+        "Team": "Marketing",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/angel-huang-88505028a/",
+        "Year": 2025
+    },
+    {
+        "First": "David",
+        "Last": "Yao",
+        "Team": "Logistics",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/david-yao-31b9a724a/",
+        "Year": 2025
+    }
+]
