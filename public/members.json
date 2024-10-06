@@ -18,9 +18,27 @@
         "Year": 2025
     },
     {
+        "First": "Kevin",
+        "Last": "Mao",
+        "Team": "Director",
+        "Title": "Co-Director",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/kevin-mao-56bbb320b/",
+        "Year": 2027
+    },
+    {
+        "First": "Rally",
+        "Last": "Lin",
+        "Team": "Operations",
+        "Title": "Lead",
+        "Major": "ECE & CS",
+        "LinkedIn": "https://www.linkedin.com/in/rally-lin/",
+        "Year": 2027
+    },
+    {
         "First": "Alan",
         "Last": "Wang",
-        "Team": "Outreach",
+        "Team": "Operations",
         "Title": "Lead",
         "Major": "CS & Stats",
         "LinkedIn": "https://www.linkedin.com/in/alan-wang-4100681bb/",
@@ -29,7 +47,7 @@
     {
         "First": "Mariam",
         "Last": "Gvenetadze",
-        "Team": "Treasury",
+        "Team": "Operations",
         "Title": "Treasurer",
         "Major": "CS",
         "LinkedIn": "https://www.linkedin.com/in/mariam-gvenetadze",
@@ -38,7 +56,7 @@
     {
         "First": "Harry",
         "Last": "Chen",
-        "Team": "Logistics",
+        "Team": "Operations",
         "Title": "Member",
         "Major": "CS & Math",
         "LinkedIn": "https://www.linkedin.com/in/harry-chen",
@@ -54,6 +72,69 @@
         "Year": 2026
     },
     {
+        "First": "Joanne",
+        "Last": "Chae",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/joannechae/",
+        "Year": 2026
+    },
+    {
+        "First": "Allison",
+        "Last": "Yang",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "Undecided",
+        "LinkedIn": "https://www.linkedin.com/in/allison-yu-yang//",
+        "Year": 2027
+    },
+    {
+        "First": "Rishi",
+        "Last": "Rao",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/rishirao22/",
+        "Year": 2026
+    },
+    {
+        "First": "Ashley",
+        "Last": "Padilla-Vences",
+        "Team": "Design",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "www.linkedin.com/in/ashleypadillavences",
+        "Year": 2025
+    },
+    {
+        "First": "Mohammad",
+        "Last": "Zoraiz",
+        "Team": "Operations",
+        "Title": "Member",
+        "Major": "ECE & Physics",
+        "LinkedIn": "https://www.linkedin.com/in/mohammad-zoraiz/",
+        "Year": 2027
+    },
+    {
+        "First": "Leo",
+        "Last": "Xu",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS & Math",
+        "LinkedIn": "https://www.linkedin.com/in/leo-xu8/",
+        "Year": 2027
+    },
+    {
+        "First": "Suhas",
+        "Last": "Kurapati",
+        "Team": "Operations",
+        "Title": "Member",
+        "Major": "CS & Stats",
+        "LinkedIn": "https://www.linkedin.com/in/hemasai-suhas-k-4a94a7208/",
+        "Year": 2027
+    },
+    {
         "First": "Soojin",
         "Last": "Lee",
         "Team": "Design",
@@ -65,7 +146,7 @@
     {
         "First": "Vivek",
         "Last": "Chandy",
-        "Team": "Logistics",
+        "Team": "Operations",
         "Title": "Member",
         "Major": "Electrical Engineering/Computer Science",
         "LinkedIn": "https://www.linkedin.com/in/vivek-chandy-8982b1233/",
@@ -101,7 +182,7 @@
     {
         "First": "Amy",
         "Last": "Zhou",
-        "Team": "Logistics",
+        "Team": "Operations",
         "Title": "Member",
         "Major": "ECE & CMAC (maybe)",
         "LinkedIn": "https://www.linkedin.com/in/-amyyzhou/",
@@ -110,7 +191,7 @@
     {
         "First": "Catherine",
         "Last": "Shaw",
-        "Team": "Logistics",
+        "Team": "Operations",
         "Title": "Member",
         "Major": "International Comparative Studies",
         "LinkedIn": "www.linkedin.com/in/catherine-shaw-256826280",
@@ -119,7 +200,7 @@
     {
         "First": "Lisa",
         "Last": "Zhao",
-        "Team": "Logistics",
+        "Team": "Operations",
         "Title": "Member",
         "Major": "Computer Science",
         "LinkedIn": "https://www.linkedin.com/in/lisa-zhao-t24/",
@@ -137,7 +218,7 @@
     {
         "First": "Andy",
         "Last": "Ko",
-        "Team": "Logistics",
+        "Team": "Operations",
         "Title": "Member",
         "Major": "Electrical and Computer Engineering",
         "LinkedIn": "https://www.linkedin.com/in/andyhyunko/",
@@ -146,7 +227,7 @@
     {
         "First": "Deokhaeng",
         "Last": "Lee",
-        "Team": "Logistics",
+        "Team": "Operations",
         "Title": "Member",
         "Major": "Computer Science ",
         "LinkedIn": "https://www.linkedin.com/in/dklee0127/",
@@ -164,7 +245,7 @@
     {
         "First": "Kevin",
         "Last": "Liu",
-        "Team": "Logistics",
+        "Team": "Operations",
         "Title": "Member",
         "Major": "Computer Science + Statistics",
         "LinkedIn": "linkedin.com/in/liukevin",
@@ -191,7 +272,7 @@
     {
         "First": "Jonathan",
         "Last": "Feng",
-        "Team": "Logistics",
+        "Team": "Operations",
         "Title": "Member",
         "Major": "CS & Econ (also considering ECE CS)",
         "LinkedIn": "https://www.linkedin.com/in/jonathan-feng-27578425b/",
