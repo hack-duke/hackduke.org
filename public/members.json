@@ -3,7 +3,7 @@
         "First": "Arely",
         "Last": "Sun",
         "Team": "Design",
-        "Title": "Member",
+        "Title": "Lead",
         "Major": "CS",
         "LinkedIn": "https://www.linkedin.com/in/arely-s-2a7428203/",
         "Year": 2026
@@ -29,8 +29,8 @@
     {
         "First": "Rally",
         "Last": "Lin",
-        "Team": "Operations",
-        "Title": "Lead",
+        "Team": "Director",
+        "Title": "Co-Director",
         "Major": "ECE & CS",
         "LinkedIn": "https://www.linkedin.com/in/rally-lin/",
         "Year": 2027
@@ -74,8 +74,8 @@
     {
         "First": "Joanne",
         "Last": "Chae",
-        "Team": "Tech",
-        "Title": "Member",
+        "Team": "Design",
+        "Title": "Lead",
         "Major": "CS",
         "LinkedIn": "https://www.linkedin.com/in/joannechae/",
         "Year": 2026
@@ -114,24 +114,6 @@
         "Title": "Member",
         "Major": "ECE & Physics",
         "LinkedIn": "https://www.linkedin.com/in/mohammad-zoraiz/",
-        "Year": 2027
-    },
-    {
-        "First": "Leo",
-        "Last": "Xu",
-        "Team": "Tech",
-        "Title": "Member",
-        "Major": "CS & Math",
-        "LinkedIn": "https://www.linkedin.com/in/leo-xu8/",
-        "Year": 2027
-    },
-    {
-        "First": "Suhas",
-        "Last": "Kurapati",
-        "Team": "Operations",
-        "Title": "Member",
-        "Major": "CS & Stats",
-        "LinkedIn": "https://www.linkedin.com/in/hemasai-suhas-k-4a94a7208/",
         "Year": 2027
     },
     {
