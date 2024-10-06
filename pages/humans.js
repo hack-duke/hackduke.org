@@ -12,13 +12,8 @@ export default function Humans() {
     const teams = {
         Tech: "Magicians, Sorcerers, Wizards. Coding is like magic, no doubt, no doubt, no doubt.",
         Design: "More than just making things look pretty! But we do enjoy a good deal of pixel-pushing...",
-        Logistics:
+        Operations:
             "We make everything run smoothly. Oh, you need something? Don’t worry, consider it done.",
-        Outreach:
-            "We get to talk to the celebrities (the speakers) and get them to campus/zoom.",
-        Sponsorship: "Making money moves. Need I say more?",
-        Marketing: "Spreading innovation throughout the community.",
-        Treasury: "Making the dollars make cents.",
     };
 
     return (
@@ -52,9 +47,8 @@ export default function Humans() {
                                     interests and backgrounds, we value our
                                     community and are united by our passions in
                                     building something cool. We are split into 6
-                                    teams (Tech, Design, Logistics, Outreach,
-                                    Sponsorship, Marketing) and are lead by our
-                                    two amazing co-directors!
+                                    teams (Tech, Design, Operations) and are
+                                    lead by our two amazing co-directors!
                                 </div>
                             </div>
                             <div

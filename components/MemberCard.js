@@ -10,14 +10,14 @@ function MemberCard(props) {
                 rel="noopener noreferrer"
             >
                 <picture>
-                    <source
+                    {/* <source
                         srcset={props.src + ".jxl"}
                         type="image/jxl"
                     ></source>
                     <source
                         srcset={props.src + ".avif"}
                         type="image/avif"
-                    ></source>
+                    ></source> */}
                     <img
                         src={props.src + ".jpeg"}
                         className="hover:brightness-80"
