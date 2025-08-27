@@ -85,12 +85,17 @@ function Navbar(props) {
                         >
                             {" "}
                         </NavbarItem>
-                        {/*<NavbarItem text="Join Us" URL="/join" router={router}>
-                            {" "}
-                        </NavbarItem>*/}
-                        <NavbarItem text="Apply Now" URL="https://portal.hackduke.org/" router={router} className="font-bold">
+                        <NavbarItem
+                            text="Join Us"
+                            URL="/join"
+                            router={router}
+                            className="font-bold border-2 border-white rounded px-3 py-2"
+                        >
                             {" "}
                         </NavbarItem>
+                        {/* <NavbarItem text="Apply Now" URL="https://portal.hackduke.org/" router={router} className="font-bold">
+                            {" "}
+                        </NavbarItem> */}
 
                         {/* <div
                             className="navbar-item navbar-button"

@@ -20,7 +20,15 @@ export default function Join() {
                         <div className="container">
                             <div className="section-title">Join HackDuke!</div>
                             <div className="subtitle">
-                                HackDuke&apos;s recruiting for the Fall 2024 semester is in progress, and applications are now closed. Thanks for your interest!
+                                Check out HackDuke&apos;s Fall 2025 info sessions:
+                                <div className="flex justify-center w-full mt-2">
+                                    <div className="text-left">
+                                        <ul className="list-disc pl-5">
+                                            <li>September 7th from 3-4:30 PM</li>
+                                            <li>September 8th from 8 PM - 9:30 PM.</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
 
                             {/* <div>
@@ -34,6 +42,7 @@ export default function Join() {
                                             "ml-0",
                                             "font-extrabold"
                                         ]}
+
                                         textColorHex="#ffffff"
                                         icon={
                                             <AiOutlineArrowRight
@@ -45,8 +54,8 @@ export default function Join() {
                                 </a>
                             </div> */}
 
-                            <p className="text-white font-sans text-xl mt-5">
-                                If you&apos;re interested in keeping in touch, consider subscribing to <a className="underline underline-offset-4" href="https://4cf755e0.sibforms.com/serve/MUIFALiSxUb-UbEAKTWwxl4r6uzEgJkMYBwPeGArqz6Dc78q4bVLiOoWuzWJNYVaOYgJ6NTbHItNhNJmU4BsKSxu5qAg0rXe1w11tNN8UQ-TFR_O90kWXAa4qCXMKlmc4SYJkRxB_803SU1pRjkql3hSxx_9hhOgqDpzFKY89NGHtjRghT1VgopJQZKmDxMX2ML9En7SEGQrCmOQ">our newsletter</a>.
+                            <p className="text-white font-sans text-xl mt-5 max-w-2xl">
+                                Also consider subscribing to <a className="underline underline-offset-4" href="https://4cf755e0.sibforms.com/serve/MUIFALiSxUb-UbEAKTWwxl4r6uzEgJkMYBwPeGArqz6Dc78q4bVLiOoWuzWJNYVaOYgJ6NTbHItNhNJmU4BsKSxu5qAg0rXe1w11tNN8UQ-TFR_O90kWXAa4qCXMKlmc4SYJkRxB_803SU1pRjkql3hSxx_9hhOgqDpzFKY89NGHtjRghT1VgopJQZKmDxMX2ML9En7SEGQrCmOQ">our newsletter</a>!
                             </p>
                         </div>
                     </div>
