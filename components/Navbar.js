@@ -89,7 +89,7 @@ function Navbar(props) {
                             text="Join Us"
                             URL="/join"
                             router={router}
-                            className="font-bold border-2 border-white rounded px-3 py-2"
+                            className="font-bold"
                         >
                             {" "}
                         </NavbarItem>
