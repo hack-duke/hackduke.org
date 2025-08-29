@@ -24,8 +24,8 @@ export default function Join() {
                                 <div className="flex justify-center w-full mt-2">
                                     <div className="text-left">
                                         <ul className="list-disc pl-5">
-                                            <li>September 7th from 3-4:30 PM</li>
-                                            <li>September 8th from 8 PM - 9:30 PM.</li>
+                                            <li>September 7th from <strong className="!text-white">3:00 - 4:30 PM</strong> in Friedl 107</li>
+                                            <li>September 8th from <strong className="!text-white">8:00 - 9:30 PM </strong>in White Lecture Hall</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -55,12 +55,14 @@ export default function Join() {
                             </div> */}
 
                             <p className="text-white font-sans text-xl mt-5 max-w-2xl">
+                                For recruiting communication, fill out our <a className="!font-bold underline underline-offset-4" href="https://forms.gle/eatxc7riNxGGeqxd6">interest form</a>.
+                                <br className="mb-4" />
                                 Also consider subscribing to <a className="underline underline-offset-4" href="https://4cf755e0.sibforms.com/serve/MUIFALiSxUb-UbEAKTWwxl4r6uzEgJkMYBwPeGArqz6Dc78q4bVLiOoWuzWJNYVaOYgJ6NTbHItNhNJmU4BsKSxu5qAg0rXe1w11tNN8UQ-TFR_O90kWXAa4qCXMKlmc4SYJkRxB_803SU1pRjkql3hSxx_9hhOgqDpzFKY89NGHtjRghT1VgopJQZKmDxMX2ML9En7SEGQrCmOQ">our newsletter</a>!
                             </p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
             <Footer />
         </>
     );
