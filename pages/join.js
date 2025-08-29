@@ -62,7 +62,7 @@ export default function Join() {
                         </div>
                     </div>
                 </div>
-            </div >
+            </div>
             <Footer />
         </>
     );
