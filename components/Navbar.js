@@ -79,23 +79,23 @@ function Navbar(props) {
                             {" "}
                         </NavbarItem>
                         <NavbarItem
-                            text="2025"
-                            URL="https://2025.hackduke.org/"
+                            text="2026"
+                            URL="https://2026.hackduke.org/"
                             router={router}
                         >
                             {" "}
                         </NavbarItem>
-                        <NavbarItem
+                        {/* <NavbarItem
                             text="Join Us"
                             URL="/join"
                             router={router}
                             className="font-bold"
                         >
                             {" "}
-                        </NavbarItem>
-                        {/* <NavbarItem text="Apply Now" URL="https://portal.hackduke.org/" router={router} className="font-bold">
-                            {" "}
                         </NavbarItem> */}
+                        {<NavbarItem text="Apply Now" URL="https://portal.hackduke.org/" router={router} className="font-bold">
+                            {" "}
+                        </NavbarItem>}
 
                         {/* <div
                             className="navbar-item navbar-button"

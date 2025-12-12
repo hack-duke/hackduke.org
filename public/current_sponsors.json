@@ -1,8 +1,8 @@
 [
     {
-        "Name": "Optiver",
-        "Image": "optiver.svg",
-        "Link": "https://www.optiver.com/"
+        "Name": "Jane Street",
+        "Image": "janestreet.jpg",
+        "Link": "https://www.janestreet.com/"
     },
     {
         "Name": "hrt",
@@ -20,18 +20,23 @@
         "Link": "https://corp.roblox.com"
     },
     {
-        "Name": "DRW",
-        "Image": "drw.svg",
-        "Link": "https://drw.com"
-    },
-    {
-        "Name": "Pinecone",
-        "Image": "pinecone.svg",
-        "Link": "https://pinecone.io"
+        "Name": "citadel",
+        "Image": "citadel.png",
+        "Link": "https://www.citadelsecurities.com/"
     },
     {
         "Name": "Duke I&E",
         "Image": "i&e.png",
         "Link": "https://entrepreneurship.duke.edu"
+    },
+    {
+        "Name": "Duke Rhodes IID",
+        "Image": "iid.png",
+        "Link": "https://bigdata.duke.edu/"
+    },
+    {
+        "Name": "TurboAI",
+        "Image": "turboai.svg",
+        "Link": "https://www.turbo.ai/"
     }
 ]
