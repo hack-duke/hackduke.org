@@ -52,7 +52,7 @@ function MemberCard(props) {
             </a>
 
             <div className="card-content mt-2 mb-4 p-0">
-                <div className="text-[1.5rem] font-normal">{props.name}</div>
+                <div className="text-[1.4rem] font-normal">{props.name}</div>
                 <div>{props.major}</div>
                 <div>Class of {props.year}</div>
                 {props.title == "Member" ? (
