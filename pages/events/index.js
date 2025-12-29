@@ -58,7 +58,7 @@ export default function Events() {
                                 Events
                             </div>
                             <div className="z-2 mb-2 text-[1.25rem] leading-tight">
-                                Each year, our team organizes Duke's flagship
+                                Each year, our team organizes Duke&apos;s flagship
                                 hackathon, Code for Good, which attracts
                                 participants from all over the country.
                                 You may have heard about it before!

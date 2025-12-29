@@ -111,7 +111,7 @@ export default function Humans() {
                             Part of our goal as an organization is to provide
                             our members with mentorship, learning, and
                             opportunities to make real impact. This desire to
-                            grow and help others doesn’t leave us after
+                            grow and help others doesn&apos;t leave us after
                             HackDuke. We are proud to have our family go on to
                             do amazing things at great companies like the ones
                             below!{" "}

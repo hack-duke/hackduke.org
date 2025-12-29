@@ -89,7 +89,7 @@ export default function Home() {
                                 <div className="card-text">
                                     With our diverse skillsets and interests, we
                                     create extraordinary things that inspire
-                                    others to create something cool. Let’s
+                                    others to create something cool. Let&apos;s
                                     build!
                                 </div>
                             </div>
@@ -106,7 +106,7 @@ export default function Home() {
 
                                 <div className="card-title">Social Good</div>
                                 <div className="card-text">
-                                    It’s not just about meaningful projects. We
+                                    It&apos;s not just about meaningful projects. We
                                     love to discuss, share, and bring to life
                                     ideas that aim to make a positive impact on
                                     social issues.
