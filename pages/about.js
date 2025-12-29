@@ -257,7 +257,7 @@ export default function About() {
                         <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
                             So, that&apos;s a brief history of HackDuke! We are
                             so proud of our organization and the growth that has
-                            happened the past 8 years. From 100 participants
+                            happened the past 12 years. From 100 participants
                             from RTP to over 1000 from across the globe,
                             HackDuke&apos;s impact has tremendously increased.
                             As an organization, we want to continue our growth,
@@ -266,13 +266,12 @@ export default function About() {
                             course, to have fun through it all.
                         </div>
                         <div className="mt-0 mb-2 text-xl font-normal leading-tight text-black">
-                            We can&apos;t wait to see where we go! Come along
-                            for the journey—you won&apos;t regret it.
+                            We can&apos;t wait to see where we go! Join us for the journey—you won&apos;t regret it.
                         </div>
                     </div>
                     <div className="my-12 px-[20vw] lg:my-4 lg:px-[5vw]">
                         <Image
-                            src="/images/team-2023.jpeg"
+                            src="/images/team-2025.jpeg"
                             alt="HackDuke Team"
                             extraClasses="ml-[10%] w-[80%] rounded-2xl lg:ml-0 lg:w-full"
                         />
