@@ -31,7 +31,7 @@ export default function Humans() {
                         <div className="columns is-desktop is-vcentered">
                             <div
                                 className="column is-three-fifths-desktop pr-[0vw] lg:pr-[5vw]"
-                                // id="humans-hero-c1"
+                            // id="humans-hero-c1"
                             >
                                 <div className="section-title mb-8 font-sans text-[3rem] font-semibold text-white">
                                     Hey!
@@ -41,22 +41,21 @@ export default function Humans() {
                                     style={{ color: "white" }}
                                 >
                                     {/* the style is needed because .container.subtitle is more specific than any class I add */}
-                                    We are a group of Duke students who work
-                                    together to bring to life Code for Good and
-                                    Ideate. Although we all have different
+                                    We are a group of Duke undergrads who work
+                                    together to bring our Code for Good hackathon to life! Although we all have different
                                     interests and backgrounds, we value our
-                                    community and are united by our passions in
-                                    building something cool. We are split into 6
+                                    community and are united by our passion to
+                                    build cool things. We are split into 3
                                     teams (Tech, Design, Operations) and are
-                                    lead by our two amazing co-directors!
+                                    lead by our 4 amazing co-directors!
                                 </div>
                             </div>
                             <div
                                 className="column is-two-fifths-desktop mt-20"
-                                // id="humans-hero-c2"
+                            // id="humans-hero-c2"
                             >
                                 <Image
-                                    src="/images/team-2023.jpeg"
+                                    src="/images/team-2026.jpeg"
                                     alt="team-2023"
                                     extraClasses="w-full rounded-2xl"
                                 />
@@ -112,7 +111,7 @@ export default function Humans() {
                             Part of our goal as an organization is to provide
                             our members with mentorship, learning, and
                             opportunities to make real impact. This desire to
-                            grow and help others doesn’t leave us after
+                            grow and help others doesn&apos;t leave us after
                             HackDuke. We are proud to have our family go on to
                             do amazing things at great companies like the ones
                             below!{" "}

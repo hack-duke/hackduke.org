@@ -58,10 +58,11 @@ export default function Events() {
                                 Events
                             </div>
                             <div className="z-2 mb-2 text-[1.25rem] leading-tight">
-                                Each year, our teams organize two conferences
-                                that attract participants all over the country:
-                                Code for Good and Ideate. You might have heard
-                                about them :)
+                                Each year, our team organizes Duke&apos;s flagship
+                                hackathon, Code for Good, which attracts
+                                participants from all over the country.
+                                You may have heard about it before!
+                                We have also hosted the Ideate conference in the past.
                             </div>
 
                             <img
@@ -73,20 +74,20 @@ export default function Events() {
                         <div className="column">
                             <div className="my-[2rem] rounded-[1rem] border-4 border-dashed border-white p-[1rem] text-center font-sans text-white">
                                 <div className="mb-[1rem] text-[1.5rem] font-semibold">
-                                    Code for Good 2023
+                                    Code for Good 2025
                                 </div>
                                 <div className="columns is-desktop is-vcentered">
                                     <div className="column mb-[0.5rem]">
                                         <div className="text-[3rem] font-semibold">
-                                            236
+                                            250+
                                         </div>
                                         <div className="mt-[0.5rem] text-[1.5rem] font-normal">
-                                            participants
+                                            hackers
                                         </div>
                                     </div>
                                     <div className="column mb-[0.5rem]">
                                         <div className="text-[3rem] font-semibold">
-                                            37
+                                            55
                                         </div>
                                         <div className="mt-[0.5rem] text-[1.5rem] font-normal">
                                             hacks
@@ -94,7 +95,7 @@ export default function Events() {
                                     </div>
                                     <div className="column mb-[0.5rem]">
                                         <div className="text-[3rem] font-semibold">
-                                            $4350
+                                            $4000+
                                         </div>
                                         <div className="mt-[0.5rem] text-[1.5rem] font-normal">
                                             awarded
@@ -207,30 +208,30 @@ export default function Events() {
                                                         ].hasOwnProperty(
                                                             "Link"
                                                         ) && (
-                                                            <IconTextButton
-                                                                style="display: none;"
-                                                                text={
-                                                                    events[
-                                                                        toggle
-                                                                    ].LinkTitle
-                                                                }
-                                                                onClick={() => {
-                                                                    router.push(
+                                                                <IconTextButton
+                                                                    style="display: none;"
+                                                                    text={
                                                                         events[
                                                                             toggle
-                                                                        ].Link
-                                                                    );
-                                                                }}
-                                                                icon={
-                                                                    <AiOutlineArrowRight
-                                                                        size={
-                                                                            28
-                                                                        }
-                                                                        className="pl-1"
-                                                                    />
-                                                                }
-                                                            />
-                                                        )}
+                                                                        ].LinkTitle
+                                                                    }
+                                                                    onClick={() => {
+                                                                        router.push(
+                                                                            events[
+                                                                                toggle
+                                                                            ].Link
+                                                                        );
+                                                                    }}
+                                                                    icon={
+                                                                        <AiOutlineArrowRight
+                                                                            size={
+                                                                                28
+                                                                            }
+                                                                            className="pl-1"
+                                                                        />
+                                                                    }
+                                                                />
+                                                            )}
                                                     </div>
                                                     <br />
                                                     <div className="footer-icons">
@@ -239,36 +240,36 @@ export default function Events() {
                                                         ].hasOwnProperty(
                                                             "Linkedin"
                                                         ) && (
-                                                            <FaLinkedin
-                                                                className="fa-lg faicon"
-                                                                onClick={() => {
-                                                                    window.open(
-                                                                        events[
-                                                                            toggle
-                                                                        ]
-                                                                            .Linkedin
-                                                                    );
-                                                                }}
-                                                            />
-                                                        )}
+                                                                <FaLinkedin
+                                                                    className="fa-lg faicon"
+                                                                    onClick={() => {
+                                                                        window.open(
+                                                                            events[
+                                                                                toggle
+                                                                            ]
+                                                                                .Linkedin
+                                                                        );
+                                                                    }}
+                                                                />
+                                                            )}
 
                                                         {events[
                                                             toggle
                                                         ].hasOwnProperty(
                                                             "Instagram"
                                                         ) && (
-                                                            <FaInstagram
-                                                                className="fa-lg faicon"
-                                                                onClick={() => {
-                                                                    window.open(
-                                                                        events[
-                                                                            toggle
-                                                                        ]
-                                                                            .Instagram
-                                                                    );
-                                                                }}
-                                                            />
-                                                        )}
+                                                                <FaInstagram
+                                                                    className="fa-lg faicon"
+                                                                    onClick={() => {
+                                                                        window.open(
+                                                                            events[
+                                                                                toggle
+                                                                            ]
+                                                                                .Instagram
+                                                                        );
+                                                                    }}
+                                                                />
+                                                            )}
                                                     </div>
                                                 </div>
                                                 <div className="mb-"></div>

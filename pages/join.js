@@ -20,7 +20,7 @@ export default function Join() {
                         <div className="container">
                             <div className="section-title">Join HackDuke!</div>
                             <div className="subtitle">
-                                Check out HackDuke&apos;s Fall 2025 info sessions:
+                                {/* Check out HackDuke&apos;s Fall 2025 info sessions:
                                 <div className="flex justify-center w-full mt-2">
                                     <div className="text-left">
                                         <ul className="list-disc pl-5">
@@ -28,7 +28,9 @@ export default function Join() {
                                             <li><strong className="!text-white">September 8th</strong> from <strong className="!text-white">8:00 - 9:30 PM</strong> in White Lecture Hall</li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> */}
+                                The HackDuke team recruits annually in the Fall semester. We host multiple info sessions and table at multiple
+                                student organization fairs. Feel free to speak to team members at our <a className="!font-bold underline underline-offset-4" href="https://2026.hackduke.org/">2026 Code for Good</a> hackathon as well!
                             </div>
 
                             {/* <div>
@@ -55,9 +57,8 @@ export default function Join() {
                             </div> */}
 
                             <p className="text-white font-sans text-xl mt-5 max-w-2xl">
-                                For recruiting communication, fill out our <a className="!font-bold underline underline-offset-4" href="https://forms.gle/eatxc7riNxGGeqxd6">interest form</a>.
-                                <br className="mb-4" />
-                                Also consider subscribing to <a className="!font-bold underline underline-offset-4" href="https://4cf755e0.sibforms.com/serve/MUIFALiSxUb-UbEAKTWwxl4r6uzEgJkMYBwPeGArqz6Dc78q4bVLiOoWuzWJNYVaOYgJ6NTbHItNhNJmU4BsKSxu5qAg0rXe1w11tNN8UQ-TFR_O90kWXAa4qCXMKlmc4SYJkRxB_803SU1pRjkql3hSxx_9hhOgqDpzFKY89NGHtjRghT1VgopJQZKmDxMX2ML9En7SEGQrCmOQ">our newsletter</a>!
+                                Subscribe to <a className="!font-bold underline underline-offset-4" href="https://4cf755e0.sibforms.com/serve/MUIFALiSxUb-UbEAKTWwxl4r6uzEgJkMYBwPeGArqz6Dc78q4bVLiOoWuzWJNYVaOYgJ6NTbHItNhNJmU4BsKSxu5qAg0rXe1w11tNN8UQ-TFR_O90kWXAa4qCXMKlmc4SYJkRxB_803SU1pRjkql3hSxx_9hhOgqDpzFKY89NGHtjRghT1VgopJQZKmDxMX2ML9En7SEGQrCmOQ">our newsletter</a> and
+                                follow us on Instagram @hackduke for updates throughout the year!
                             </p>
                         </div>
                     </div>
