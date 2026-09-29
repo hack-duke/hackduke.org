@@ -241,5 +241,104 @@
         "Major": "CS",
         "LinkedIn": "https://www.linkedin.com/in/david-yao-31b9a724a/",
         "Year": 2025
+    },
+    {
+        "First": "Rishi",
+        "Last": "Rao",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/rishirao22/",
+        "Year": 2026
+    },
+    {
+        "First": "Max",
+        "Last": "Xiong",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS & Math",
+        "LinkedIn": "https://www.linkedin.com/in/mx6/",
+        "Year": 2028
+    },
+    {
+        "First": "Arnav",
+        "Last": "Jindal",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS & Econ",
+        "LinkedIn": "https://www.linkedin.com/in/arnavjindal/",
+        "Year": 2026
+    },
+    {
+        "First": "Lisa",
+        "Last": "Zhao",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/lisa-zhao-t24/",
+        "Year": 2027
+    },
+    {
+        "First": "Amy",
+        "Last": "Zhou",
+        "Team": "Director",
+        "Title": "Co-Director",
+        "Major": "ECE & CS",
+        "LinkedIn": "https://www.linkedin.com/in/amy-zhou-57b685219/",
+        "Year": 2028
+    },
+    {
+        "First": "Humam",
+        "Last": "Al-Shami",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/humam-al-shami/",
+        "Year": 2029
+    },
+    {
+        "First": "Kelly",
+        "Last": "Xu",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/kelly-h-xu/",
+        "Year": 2026
+    },
+    {
+        "First": "Arvindh",
+        "Last": "Manian",
+        "Team": "Operations",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/arvindh-manian/",
+        "Year": 2026
+    },
+    {
+        "First": "Priyanka",
+        "Last": "Rathnam",
+        "Team": "Operations",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/priyanka-rathnam-0a1b5037a/",
+        "Year": 2029
+    },
+    {
+        "First": "Joanne",
+        "Last": "Chae",
+        "Team": "Design",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/joannechae/",
+        "Year": 2026
+    },
+    {
+        "First": "Tristan",
+        "Last": "Darnell",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS & Math",
+        "LinkedIn": "https://www.linkedin.com/in/tristan-darnell-229412354/",
+        "Year": 2029
     }
 ]

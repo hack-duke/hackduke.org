@@ -1,9 +1,45 @@
 [
     {
-        "First": "Vivek",
-        "Last": "Chandy",
+        "First": "Shaine",
+        "Last": "Wei",
         "Team": "Director",
         "Title": "Co-Director",
+        "Major": "MechE & BME",
+        "LinkedIn": "https://www.linkedin.com/in/shaine-wei/",
+        "Year": 2029
+    },
+    {
+        "First": "Nicole",
+        "Last": "Li",
+        "Team": "Director",
+        "Title": "Co-Director",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/nicole-li-7666932a1/",
+        "Year": 2029
+    },
+    {
+        "First": "Elaine",
+        "Last": "Yu",
+        "Team": "Director",
+        "Title": "Co-Director",
+        "Major": "CS & Visual Media Studies",
+        "LinkedIn": "https://www.linkedin.com/in/elaine-yu1/",
+        "Year": 2029
+    },
+    {
+        "First": "Jerry",
+        "Last": "Xu",
+        "Team": "Director",
+        "Title": "Co-Director",
+        "Major": "ECE & CS",
+        "LinkedIn": "https://www.linkedin.com/in/jerrylxu/",
+        "Year": 2029
+    },
+    {
+        "First": "Vivek",
+        "Last": "Chandy",
+        "Team": "Operations",
+        "Title": "Member",
         "Major": "ECE & CS",
         "LinkedIn": "https://www.linkedin.com/in/chandyv05/",
         "Year": 2028
@@ -11,26 +47,17 @@
     {
         "First": "Derek",
         "Last": "Wang",
-        "Team": "Director",
-        "Title": "Co-Director",
+        "Team": "Design",
+        "Title": "Member",
         "Major": "Phyiscs & Math",
         "LinkedIn": "https://www.linkedin.com/in/xiran-derek-wang/",
         "Year": 2028
     },
     {
-        "First": "Amy",
-        "Last": "Zhou",
-        "Team": "Director",
-        "Title": "Co-Director",
-        "Major": "ECE & CS",
-        "LinkedIn": "https://www.linkedin.com/in/amy-zhou-57b685219/",
-        "Year": 2028
-    },
-    {
         "First": "Sarah",
         "Last": "Tran",
-        "Team": "Director",
-        "Title": "Co-Director",
+        "Team": "Tech",
+        "Title": "Member",
         "Major": "CS & Econ",
         "LinkedIn": "https://www.linkedin.com/in/sarah-m-tran/",
         "Year": 2027
@@ -45,66 +72,12 @@
         "Year": 2027
     },
     {
-        "First": "Rishi",
-        "Last": "Rao",
-        "Team": "Tech",
-        "Title": "Member",
-        "Major": "CS",
-        "LinkedIn": "https://www.linkedin.com/in/rishirao22/",
-        "Year": 2026
-    },
-    {
-        "First": "Max",
-        "Last": "Xiong",
-        "Team": "Tech",
-        "Title": "Member",
-        "Major": "CS & Math",
-        "LinkedIn": "https://www.linkedin.com/in/mx6/",
-        "Year": 2028
-    },
-    {
-        "First": "Arnav",
-        "Last": "Jindal",
-        "Team": "Tech",
-        "Title": "Member",
-        "Major": "CS & Econ",
-        "LinkedIn": "https://www.linkedin.com/in/arnavjindal/",
-        "Year": 2026
-    },
-    {
-        "First": "Lisa",
-        "Last": "Zhao",
-        "Team": "Tech",
-        "Title": "Member",
-        "Major": "CS",
-        "LinkedIn": "https://www.linkedin.com/in/lisa-zhao-t24/",
-        "Year": 2027
-    },
-    {
-        "First": "Amelia",
-        "Last": "Lane",
-        "Team": "Tech",
-        "Title": "Member",
-        "Major": "CS",
-        "LinkedIn": "https://www.linkedin.com/in/amelialane/",
-        "Year": 2026
-    },
-    {
         "First": "Shaine",
         "Last": "Wei",
         "Team": "Tech",
         "Title": "Member",
         "Major": "MechE & BME",
-        "LinkedIn": "",
-        "Year": 2029
-    },
-    {
-        "First": "Tristan",
-        "Last": "Darnell",
-        "Team": "Tech",
-        "Title": "Member",
-        "Major": "CS & Math",
-        "LinkedIn": "https://www.linkedin.com/in/tristan-darnell-229412354/",
+        "LinkedIn": "https://www.linkedin.com/in/shaine-wei/",
         "Year": 2029
     },
     {
@@ -113,25 +86,7 @@
         "Team": "Tech",
         "Title": "Member",
         "Major": "ECE",
-        "LinkedIn": "https://www.linkedin.com/in/tristan-darnell-229412354/",
-        "Year": 2029
-    },
-    {
-        "First": "Kelly",
-        "Last": "Xu",
-        "Team": "Tech",
-        "Title": "Member",
-        "Major": "CS",
-        "LinkedIn": "https://www.linkedin.com/in/kelly-h-xu/",
-        "Year": 2026
-    },
-    {
-        "First": "Humam",
-        "Last": "Al-Shami",
-        "Team": "Tech",
-        "Title": "Member",
-        "Major": "CS",
-        "LinkedIn": "https://www.linkedin.com/in/humam-al-shami/",
+        "LinkedIn": "https://www.linkedin.com/in/bryan-chan-b93ba4211/",
         "Year": 2029
     },
     {
@@ -153,18 +108,9 @@
         "Year": 2027
     },
     {
-        "First": "Arvindh",
-        "Last": "Manian",
-        "Team": "Operations",
-        "Title": "Member",
-        "Major": "CS",
-        "LinkedIn": "https://www.linkedin.com/in/arvindh-manian/",
-        "Year": 2026
-    },
-    {
         "First": "Sophia",
         "Last": "Lee",
-        "Team": "Operations",
+        "Team": "Tech",
         "Title": "Member",
         "Major": "CS",
         "LinkedIn": "https://www.linkedin.com/in/sophial25/",
@@ -186,15 +132,6 @@
         "Title": "Member",
         "Major": "ECE & CS",
         "LinkedIn": "https://www.linkedin.com/in/jerrylxu/",
-        "Year": 2029
-    },
-    {
-        "First": "Priyanka",
-        "Last": "Rathnam",
-        "Team": "Operations",
-        "Title": "Member",
-        "Major": "CS",
-        "LinkedIn": "https://www.linkedin.com/in/priyanka-rathnam-0a1b5037a/",
         "Year": 2029
     },
     {
@@ -241,15 +178,6 @@
         "Major": "CS & Visual Media Studies",
         "LinkedIn": "https://www.linkedin.com/in/elaine-yu1/",
         "Year": 2029
-    },
-    {
-        "First": "Joanne",
-        "Last": "Chae",
-        "Team": "Design",
-        "Title": "Member",
-        "Major": "CS",
-        "LinkedIn": "https://www.linkedin.com/in/joannechae/",
-        "Year": 2026
     },
     {
         "First": "Makenna",
