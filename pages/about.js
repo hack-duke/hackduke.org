@@ -372,11 +372,7 @@ export default function About() {
                             with the Duke community through new initiatives like
                             HackDuke Education, where we brought speakers in
                             tech and social justice, educational workshops,
-                            career panels, and more to the Duke community. By
-                            2016, we no longer just hosted hackathons. HackDuke
-                            became an umbrella organization for multiple
-                            projects: Code for Good (the OG hackathon), Catalyst
-                            (social/pre-professional tech org), and more. We
+                            career panels, and more to the Duke community. We
                             became the face of Duke&apos;s tech community,
                             responsible for engaging, educating, and inspiring
                             students with both technical and non-technical
