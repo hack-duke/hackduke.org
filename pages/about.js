@@ -251,6 +251,16 @@ export default function About() {
                     </div>
                 </section>
                 <section className="section is-medium font-sans">
+                    <div className="mb-10 px-[5vw] lg:mb-6">
+                        <FadeIn>
+                            <div className="text-sm font-semibold uppercase tracking-[0.2em] text-hd-orange">
+                                Since 2013
+                            </div>
+                            <h2 className="mt-2 text-5xl font-semibold text-hd-dark-blue lg:text-4xl">
+                                Where We Came From
+                            </h2>
+                        </FadeIn>
+                    </div>
                     <div className="px-[5vw]">
                         <div className="columns is-desktop is-vcentered">
                             <div className="column">
