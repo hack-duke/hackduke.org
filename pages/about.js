@@ -227,8 +227,7 @@ export default function About() {
                                     organize our annual events online. In July
                                     2020, we hosted our first virtual Ideate,
                                     welcoming students from India, South Korea,
-                                    Philippines, and Puerto Rico. (Durham who?
-                                    jk we love our city). In December of the
+                                    Philippines, and Puerto Rico. In December of the
                                     same year, we hosted yet another successful
                                     Code for Good hackathon.
                                 </div>
