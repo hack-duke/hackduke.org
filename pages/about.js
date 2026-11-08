@@ -472,7 +472,9 @@ export default function About() {
                             so proud of our organization and the growth that has
                             happened the past 13 years. From 100 participants
                             from RTP to over 1000 from across the globe,
-                            HackDuke&apos;s impact has tremendously increased.
+                            HackDuke&apos;s impact has tremendously increased. HackDuke continues to organize its annual Code for Good hackathon, 
+                            welcoming over 400 participants from more than 50 universities.
+                            
                             As an organization, we want to continue our growth,
                             to stay true to our core values of community through
                             education and innovation for social good, and, of
