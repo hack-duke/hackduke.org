@@ -5,6 +5,11 @@
         "Link": "https://www.janestreet.com/"
     },
     {
+        "Name": "citadel",
+        "Image": "citadel.png",
+        "Link": "https://www.citadelsecurities.com/"
+    },
+    {
         "Name": "hrt",
         "Image": "hrt_new.png",
         "Link": "https://www.hudsonrivertrading.com/"
@@ -20,9 +25,9 @@
         "Link": "https://corp.roblox.com"
     },
     {
-        "Name": "citadel",
-        "Image": "citadel.png",
-        "Link": "https://www.citadelsecurities.com/"
+        "Name": "TurboAI",
+        "Image": "turboai.svg",
+        "Link": "https://www.turbo.ai/"
     },
     {
         "Name": "Duke I&E",
@@ -33,10 +38,5 @@
         "Name": "Duke Rhodes IID",
         "Image": "iid.png",
         "Link": "https://bigdata.duke.edu/"
-    },
-    {
-        "Name": "TurboAI",
-        "Image": "turboai.svg",
-        "Link": "https://www.turbo.ai/"
     }
 ]
