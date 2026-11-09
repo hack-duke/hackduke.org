@@ -18,7 +18,7 @@ function Sponsors(props) {
                             <img
                                 className="md:max-h-12 m-auto table max-h-16 lg:max-h-16"
                                 src={`/sponsors/${s.Image}`}
-                                alt={s.Image}
+                                alt={s.Name}
                             />
                         </div>
                     </a>

@@ -1,38 +1,8 @@
 [
     {
-        "Name": "lineage",
-        "Image": "lineage.svg",
-        "Link": "https://www.lineagelogistics.com/"
-    },
-    {
-        "Name": "microsoft",
-        "Image": "microsoft.png",
-        "Link": "https://www.microsoft.com/en-us/"
-    },
-    {
-        "Name": "hrt",
-        "Image": "hrt.svg",
-        "Link": "https://www.hudsonrivertrading.com/"
-    },
-    {
         "Name": "js",
         "Image": "js.png",
         "Link": "https://www.janestreet.com/"
-    },
-    {
-        "Name": "checkbook",
-        "Image": "checkbook.png",
-        "Link": "https://checkbook.io/"
-    },
-    {
-        "Name": "mems",
-        "Image": "mems.svg",
-        "Link": "https://mems.duke.edu/"
-    },
-    {
-        "Name": "imc",
-        "Image": "imc.svg",
-        "Link": "https://www.imc.com/us/"
     },
     {
         "Name": "citadel",
@@ -40,18 +10,133 @@
         "Link": "https://www.citadel.com/"
     },
     {
+        "Name": "hrt",
+        "Image": "hrt.svg",
+        "Link": "https://www.hudsonrivertrading.com/"
+    },
+    {
+        "Name": "imc",
+        "Image": "imc.svg",
+        "Link": "https://www.imc.com/us/"
+    },
+    {
+        "Name": "Optiver",
+        "Image": "optiver-logo.svg",
+        "Link": "https://optiver.com/"
+    },
+    {
+        "Name": "DRW",
+        "Image": "drw.svg",
+        "Link": "https://drw.com/"
+    },
+    {
+        "Name": "SIG",
+        "Image": "sig.svg",
+        "Link": "https://sig.com/"
+    },
+    {
+        "Name": "microsoft",
+        "Image": "microsoft.png",
+        "Link": "https://www.microsoft.com/en-us/"
+    },
+    {
+        "Name": "Capital One",
+        "Image": "capitalone.svg",
+        "Link": "https://www.capitalone.com/"
+    },
+    {
+        "Name": "Deutsche Bank",
+        "Image": "deutschebank.svg",
+        "Link": "https://www.db.com/"
+    },
+    {
+        "Name": "v0",
+        "Image": "v0.svg",
+        "Link": "https://v0.app/"
+    },
+    {
+        "Name": "Figma",
+        "Image": "figma.svg",
+        "Link": "https://www.figma.com/"
+    },
+    {
+        "Name": "Accenture",
+        "Image": "accenture.svg",
+        "Link": "https://www.accenture.com/"
+    },
+    {
+        "Name": "Nokia",
+        "Image": "nokia.svg",
+        "Link": "https://www.nokia.com/"
+    },
+    {
+        "Name": "Garmin",
+        "Image": "garmin.svg",
+        "Link": "https://www.garmin.com/"
+    },
+    {
+        "Name": "Optum",
+        "Image": "optum.svg",
+        "Link": "https://www.optum.com/"
+    },
+    {
+        "Name": "lineage",
+        "Image": "lineage.svg",
+        "Link": "https://www.onelineage.com/"
+    },
+    {
+        "Name": "Pinecone",
+        "Image": "pinecone-logo.svg",
+        "Link": "https://www.pinecone.io/"
+    },
+    {
+        "Name": "Bright Data",
+        "Image": "brightdata.svg",
+        "Link": "https://brightdata.com/"
+    },
+    {
+        "Name": "SCM",
+        "Image": "scm.svg",
+        "Link": "https://www.scm-lp.com/"
+    },
+    {
         "Name": "aspida",
         "Image": "Aspida.png",
         "Link": "https://www.aspida.com/"
     },
     {
-        "Name": "iid",
-        "Image": "iid.png",
-        "Link": "https://bigdata.duke.edu/"
+        "Name": "checkbook",
+        "Image": "checkbook.png",
+        "Link": "https://checkbook.io/"
+    },
+    {
+        "Name": "Lava",
+        "Image": "lava.svg",
+        "Link": "https://www.lava.so/"
+    },
+    {
+        "Name": "Viplay Inc.",
+        "Image": "vipplay.svg",
+        "Link": "https://vipplayinc.com/"
+    },
+    {
+        "Name": "Patient Safety Technology Challenge",
+        "Image": "patientsafety.svg",
+        "Link": "https://jhf.org/projects/patient-safety-technology-challenge"
     },
     {
         "Name": "cs",
         "Image": "cs.png",
         "Link": "https://cs.duke.edu/"
+    },
+    {
+        "Name": "mems",
+        "Image": "mems.svg",
+        "Link": "https://mems.duke.edu/"
+    },
+    {
+        "Name": "iid",
+        "Image": "iid.png",
+        "Link": "https://iid.duke.edu/"
     }
 ]
