@@ -22,7 +22,7 @@
     {
         "Name": "roblox",
         "Image": "roblox.png",
-        "Link": "https://corp.roblox.com"
+        "Link": "https://about.roblox.com/"
     },
     {
         "Name": "TurboAI",
@@ -37,6 +37,6 @@
     {
         "Name": "Duke Rhodes IID",
         "Image": "iid.png",
-        "Link": "https://bigdata.duke.edu/"
+        "Link": "https://iid.duke.edu/"
     }
 ]

@@ -77,7 +77,7 @@
     {
         "Name": "lineage",
         "Image": "lineage.svg",
-        "Link": "https://www.lineagelogistics.com/"
+        "Link": "https://www.onelineage.com/"
     },
     {
         "Name": "Pinecone",
@@ -112,12 +112,12 @@
     {
         "Name": "Viplay Inc.",
         "Image": "vipplay.svg",
-        "Link": "https://vipplay.co/"
+        "Link": "https://vipplayinc.com/"
     },
     {
         "Name": "Patient Safety Technology Challenge",
         "Image": "patientsafety.svg",
-        "Link": "https://www.patientsafetytech.com/"
+        "Link": "https://jhf.org/projects/patient-safety-technology-challenge"
     },
     {
         "Name": "cs",
@@ -132,6 +132,6 @@
     {
         "Name": "iid",
         "Image": "iid.png",
-        "Link": "https://bigdata.duke.edu/"
+        "Link": "https://iid.duke.edu/"
     }
 ]
