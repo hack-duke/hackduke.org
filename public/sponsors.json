@@ -50,9 +50,9 @@
         "Link": "https://www.db.com/"
     },
     {
-        "Name": "Accenture",
-        "Image": "accenture.svg",
-        "Link": "https://www.accenture.com/"
+        "Name": "v0",
+        "Image": "v0.svg",
+        "Link": "https://v0.app/"
     },
     {
         "Name": "Figma",
@@ -60,9 +60,9 @@
         "Link": "https://www.figma.com/"
     },
     {
-        "Name": "v0",
-        "Image": "v0.svg",
-        "Link": "https://v0.app/"
+        "Name": "Accenture",
+        "Image": "accenture.svg",
+        "Link": "https://www.accenture.com/"
     },
     {
         "Name": "Nokia",
