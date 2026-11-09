@@ -35,11 +35,6 @@
         "Link": "https://sig.com/"
     },
     {
-        "Name": "SCM",
-        "Image": "scm.svg",
-        "Link": "https://www.scm-lp.com/"
-    },
-    {
         "Name": "microsoft",
         "Image": "microsoft.png",
         "Link": "https://www.microsoft.com/en-us/"
@@ -55,14 +50,14 @@
         "Link": "https://www.db.com/"
     },
     {
-        "Name": "Figma",
-        "Image": "figma.svg",
-        "Link": "https://www.figma.com/"
-    },
-    {
         "Name": "Accenture",
         "Image": "accenture.svg",
         "Link": "https://www.accenture.com/"
+    },
+    {
+        "Name": "Figma",
+        "Image": "figma.svg",
+        "Link": "https://www.figma.com/"
     },
     {
         "Name": "Nokia",
@@ -80,6 +75,11 @@
         "Link": "https://www.optum.com/"
     },
     {
+        "Name": "lineage",
+        "Image": "lineage.svg",
+        "Link": "https://www.lineagelogistics.com/"
+    },
+    {
         "Name": "Pinecone",
         "Image": "pinecone-logo.svg",
         "Link": "https://www.pinecone.io/"
@@ -90,9 +90,9 @@
         "Link": "https://brightdata.com/"
     },
     {
-        "Name": "lineage",
-        "Image": "lineage.svg",
-        "Link": "https://www.lineagelogistics.com/"
+        "Name": "SCM",
+        "Image": "scm.svg",
+        "Link": "https://www.scm-lp.com/"
     },
     {
         "Name": "aspida",
