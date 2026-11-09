@@ -49,7 +49,7 @@
         "Last": "Wang",
         "Team": "Design",
         "Title": "Member",
-        "Major": "Phyiscs & Math",
+        "Major": "Physics & Math",
         "LinkedIn": "https://www.linkedin.com/in/xiran-derek-wang/",
         "Year": 2028
     },
@@ -187,5 +187,158 @@
         "Major": "CS",
         "LinkedIn": "https://www.linkedin.com/in/makenna-linsky-a4bb84361/",
         "Year": 2029
+    },
+    {
+        "First": "Vikhram",
+        "Last": "Baranidharan",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "ECE & CS",
+        "LinkedIn": "https://www.linkedin.com/in/vikhram-baranidharan-671a80267/",
+        "Year": 2030
+    },
+    {
+        "First": "Ryan",
+        "Last": "Kawas",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/ryan-kawas/",
+        "Year": 2030
+    },
+    {
+        "First": "Cody",
+        "Last": "Zhou",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "CS & Math",
+        "LinkedIn": "https://www.linkedin.com/in/codyzhou64/",
+        "Year": 2030
+    },
+    {
+        "First": "Grant",
+        "Last": "Andrews",
+        "Team": "Operations",
+        "Title": "Member",
+        "Major": "ECE & CS",
+        "LinkedIn": "https://www.linkedin.com/in/grant-andrews-71554b396/",
+        "Year": 2030
+    },
+    {
+        "First": "Jason",
+        "Last": "Chen",
+        "Team": "Operations",
+        "Title": "Member",
+        "Major": "ECE & CS",
+        "LinkedIn": "https://www.linkedin.com/in/jasonjchen4/",
+        "Year": 2030
+    },
+    {
+        "First": "Aanya",
+        "Last": "Gupta",
+        "Team": "Operations",
+        "Title": "Member",
+        "Major": "BME",
+        "LinkedIn": "https://www.linkedin.com/in/aanyagupta1/",
+        "Year": 2030
+    },
+    {
+        "First": "Arav",
+        "Last": "Kaul",
+        "Team": "Operations",
+        "Title": "Member",
+        "Major": "ECE & CS",
+        "LinkedIn": "https://www.linkedin.com/in/arav-kaul/",
+        "Year": 2030
+    },
+    {
+        "First": "Kevin",
+        "Last": "Liu",
+        "Team": "Operations",
+        "Title": "Member",
+        "Major": "CS & Statistics",
+        "LinkedIn": "https://www.linkedin.com/in/liukevin/",
+        "Year": 2027
+    },
+    {
+        "First": "Mohid",
+        "Last": "Moneeb",
+        "Team": "Operations",
+        "Title": "Member",
+        "Major": "ECE & CS",
+        "LinkedIn": "https://www.linkedin.com/in/mohidmoneeb/",
+        "Year": 2029
+    },
+    {
+        "First": "Amy",
+        "Last": "Zhou",
+        "Team": "Operations",
+        "Title": "Member",
+        "Major": "ECE & CS",
+        "LinkedIn": "https://www.linkedin.com/in/amy-zhou-57b685219/",
+        "Year": 2028
+    },
+    {
+        "First": "Michelle",
+        "Last": "Zuo",
+        "Team": "Operations",
+        "Title": "Member",
+        "Major": "Math & CS",
+        "LinkedIn": "https://www.linkedin.com/in/michellezuo/",
+        "Year": 2030
+    },
+    {
+        "First": "Charles",
+        "Last": "Jiang",
+        "Team": "Design",
+        "Title": "Member",
+        "Major": "Math & CS",
+        "LinkedIn": "https://www.linkedin.com/in/charles-jiang-b1229636a/",
+        "Year": 2030
+    },
+    {
+        "First": "Geonhyeong",
+        "Last": "Lee",
+        "Team": "Design",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "https://www.linkedin.com/in/geonhyeong-lee-8761472b5/",
+        "Year": 2030
+    },
+    {
+        "First": "Rimmal",
+        "Last": "Sheikh",
+        "Team": "Design",
+        "Title": "Member",
+        "Major": "ECE",
+        "LinkedIn": "https://www.linkedin.com/in/rimmal-sheikh-22610a266/",
+        "Year": 2030
+    },
+    {
+        "First": "Jason",
+        "Last": "Tao",
+        "Team": "Design",
+        "Title": "Member",
+        "Major": "CS",
+        "LinkedIn": "",
+        "Year": 2030
+    },
+    {
+        "First": "James",
+        "Last": "Wright",
+        "Team": "Tech",
+        "Title": "Member",
+        "Major": "Math & CS",
+        "LinkedIn": "https://www.linkedin.com/in/james-wright-a45495b1/",
+        "Year": 2028
+    },
+    {
+        "First": "Hanqi",
+        "Last": "Zhu",
+        "Team": "Design",
+        "Title": "Member",
+        "Major": "Statistics",
+        "LinkedIn": "https://www.linkedin.com/in/hanqi-zhu/",
+        "Year": 2028
     }
 ]
