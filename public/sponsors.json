@@ -15,26 +15,6 @@
         "Link": "https://www.hudsonrivertrading.com/"
     },
     {
-        "Name": "microsoft",
-        "Image": "microsoft.png",
-        "Link": "https://www.microsoft.com/en-us/"
-    },
-    {
-        "Name": "Capital One",
-        "Image": "capitalone.svg",
-        "Link": "https://www.capitalone.com/"
-    },
-    {
-        "Name": "Deutsche Bank",
-        "Image": "deutschebank.svg",
-        "Link": "https://www.db.com/"
-    },
-    {
-        "Name": "Figma",
-        "Image": "figma.svg",
-        "Link": "https://www.figma.com/"
-    },
-    {
         "Name": "imc",
         "Image": "imc.svg",
         "Link": "https://www.imc.com/us/"
@@ -53,6 +33,31 @@
         "Name": "SIG",
         "Image": "sig.svg",
         "Link": "https://sig.com/"
+    },
+    {
+        "Name": "SCM",
+        "Image": "scm.svg",
+        "Link": "https://www.scm-lp.com/"
+    },
+    {
+        "Name": "microsoft",
+        "Image": "microsoft.png",
+        "Link": "https://www.microsoft.com/en-us/"
+    },
+    {
+        "Name": "Capital One",
+        "Image": "capitalone.svg",
+        "Link": "https://www.capitalone.com/"
+    },
+    {
+        "Name": "Deutsche Bank",
+        "Image": "deutschebank.svg",
+        "Link": "https://www.db.com/"
+    },
+    {
+        "Name": "Figma",
+        "Image": "figma.svg",
+        "Link": "https://www.figma.com/"
     },
     {
         "Name": "Accenture",
@@ -83,11 +88,6 @@
         "Name": "Bright Data",
         "Image": "brightdata.svg",
         "Link": "https://brightdata.com/"
-    },
-    {
-        "Name": "SCM",
-        "Image": "scm.svg",
-        "Link": "https://www.scm-lp.com/"
     },
     {
         "Name": "lineage",
