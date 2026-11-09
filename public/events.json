@@ -1,5 +1,19 @@
 [
     {
+        "Title": "Code for Good 2025",
+        "Color": "#35C69B",
+        "Date": "February 8-9, 2025",
+        "iso": "2025-02-09T00:00:00.000Z",
+        "Location": "Duke University",
+        "Picture": "/images/events/cfg2025.png",
+        "Text": [
+            "HackDuke hosted the annual Code for Good, the nation’s premier hackathon for social good, on February 8-9, 2025 at Duke University. The 36-hour hackathon awarded 1st and 2nd place prizes in four primary tracks. Non-track prizes included best overall hack, best accessibility hack, best beginner hack, and best hardware hack.",
+            "250+ hackers built 55 hacks and competed for over $4000 in prizes."
+        ],
+        "Link": "https://2025.hackduke.org/",
+        "LinkTitle": "Website"
+    },
+    {
         "Title": "HackDuke App Challenge",
         "Color": "#90ADC8",
         "Date": "March 24, 2024",

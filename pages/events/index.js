@@ -61,8 +61,7 @@ export default function Events() {
                                 Each year, our team organizes Duke&apos;s flagship
                                 hackathon, Code for Good, which attracts
                                 participants from all over the country.
-                                You may have heard about it before!
-                                We have also hosted the Ideate conference in the past.
+                                View our most recent events, or scroll to see more!
                             </div>
 
                             <img
@@ -74,12 +73,12 @@ export default function Events() {
                         <div className="column">
                             <div className="my-[2rem] rounded-[1rem] border-4 border-dashed border-white p-[1rem] text-center font-sans text-white">
                                 <div className="mb-[1rem] text-[1.5rem] font-semibold">
-                                    Code for Good 2025
+                                    Code for Good 2026
                                 </div>
                                 <div className="columns is-desktop is-vcentered">
                                     <div className="column mb-[0.5rem]">
                                         <div className="text-[3rem] font-semibold">
-                                            250+
+                                            300+
                                         </div>
                                         <div className="mt-[0.5rem] text-[1.5rem] font-normal">
                                             hackers
@@ -87,38 +86,7 @@ export default function Events() {
                                     </div>
                                     <div className="column mb-[0.5rem]">
                                         <div className="text-[3rem] font-semibold">
-                                            55
-                                        </div>
-                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
-                                            hacks
-                                        </div>
-                                    </div>
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="text-[3rem] font-semibold">
-                                            $4000+
-                                        </div>
-                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
-                                            awarded
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="my-[2rem] rounded-[1rem] border-4 border-dashed border-white p-[1rem] text-center font-sans text-white">
-                                <div className="mb-[1rem] text-[1.5rem] font-semibold">
-                                    Ideate 2022
-                                </div>
-                                <div className="columns is-desktop is-vcentered">
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="text-[3rem] font-semibold">
-                                            234
-                                        </div>
-                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
-                                            registrants
-                                        </div>
-                                    </div>
-                                    <div className="column mb-[0.5rem]">
-                                        <div className="text-[3rem] font-semibold">
-                                            18
+                                            54
                                         </div>
                                         <div className="mt-[0.5rem] text-[1.5rem] font-normal">
                                             submissions
@@ -126,10 +94,41 @@ export default function Events() {
                                     </div>
                                     <div className="column mb-[0.5rem]">
                                         <div className="text-[3rem] font-semibold">
-                                            $1500
+                                            50+
                                         </div>
                                         <div className="mt-[0.5rem] text-[1.5rem] font-normal">
-                                            USD donated
+                                            universities
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="my-[2rem] rounded-[1rem] border-4 border-dashed border-white p-[1rem] text-center font-sans text-white">
+                                <div className="mb-[1rem] text-[1.5rem] font-semibold">
+                                    DuQuantum 2026
+                                </div>
+                                <div className="columns is-desktop is-vcentered">
+                                    <div className="column mb-[0.5rem]">
+                                        <div className="text-[3rem] font-semibold">
+                                            200+
+                                        </div>
+                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
+                                            hackers
+                                        </div>
+                                    </div>
+                                    <div className="column mb-[0.5rem]">
+                                        <div className="text-[3rem] font-semibold">
+                                            61
+                                        </div>
+                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
+                                            submissions
+                                        </div>
+                                    </div>
+                                    <div className="column mb-[0.5rem]">
+                                        <div className="text-[3rem] font-semibold">
+                                            30+
+                                        </div>
+                                        <div className="mt-[0.5rem] text-[1.5rem] font-normal">
+                                            universities
                                         </div>
                                     </div>
                                 </div>
