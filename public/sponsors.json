@@ -1,5 +1,85 @@
 [
     {
+        "Name": "Patient Safety Technology Challenge",
+        "Image": "patientsafety.svg",
+        "Link": "https://www.patientsafetytech.com/"
+    },
+    {
+        "Name": "SIG",
+        "Image": "sig.svg",
+        "Link": "https://sig.com/"
+    },
+    {
+        "Name": "Accenture",
+        "Image": "accenture.svg",
+        "Link": "https://www.accenture.com/"
+    },
+    {
+        "Name": "Figma",
+        "Image": "figma.svg",
+        "Link": "https://www.figma.com/"
+    },
+    {
+        "Name": "DRW",
+        "Image": "drw.svg",
+        "Link": "https://drw.com/"
+    },
+    {
+        "Name": "Nokia",
+        "Image": "nokia.svg",
+        "Link": "https://www.nokia.com/"
+    },
+    {
+        "Name": "Optiver",
+        "Image": "optiver-logo.svg",
+        "Link": "https://optiver.com/"
+    },
+    {
+        "Name": "Garmin",
+        "Image": "garmin.svg",
+        "Link": "https://www.garmin.com/"
+    },
+    {
+        "Name": "Pinecone",
+        "Image": "pinecone-logo.svg",
+        "Link": "https://www.pinecone.io/"
+    },
+    {
+        "Name": "Deutsche Bank",
+        "Image": "deutschebank.svg",
+        "Link": "https://www.db.com/"
+    },
+    {
+        "Name": "Capital One",
+        "Image": "capitalone.svg",
+        "Link": "https://www.capitalone.com/"
+    },
+    {
+        "Name": "SCM",
+        "Image": "scm.svg",
+        "Link": "https://www.scm-lp.com/"
+    },
+    {
+        "Name": "Optum",
+        "Image": "optum.svg",
+        "Link": "https://www.optum.com/"
+    },
+    {
+        "Name": "Bright Data",
+        "Image": "brightdata.svg",
+        "Link": "https://brightdata.com/"
+    },
+    {
+        "Name": "Viplay Inc.",
+        "Image": "vipplay.svg",
+        "Link": "https://vipplay.co/"
+    },
+    {
+        "Name": "Lava",
+        "Image": "lava.svg",
+        "Link": "https://www.lava.so/"
+    },
+    {
         "Name": "lineage",
         "Image": "lineage.svg",
         "Link": "https://www.lineagelogistics.com/"
