@@ -60,6 +60,11 @@
         "Link": "https://www.figma.com/"
     },
     {
+        "Name": "v0",
+        "Image": "v0.svg",
+        "Link": "https://v0.app/"
+    },
+    {
         "Name": "Nokia",
         "Image": "nokia.svg",
         "Link": "https://www.nokia.com/"
