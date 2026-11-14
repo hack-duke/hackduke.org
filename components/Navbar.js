@@ -79,8 +79,8 @@ function Navbar(props) {
                             {" "}
                         </NavbarItem>
                         <NavbarItem
-                            text="2026"
-                            URL="https://2026.hackduke.org/"
+                            text="2027"
+                            URL="https://2027.hackduke.org/"
                             router={router}
                         >
                             {" "}
