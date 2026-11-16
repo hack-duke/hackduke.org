@@ -1,5 +1,33 @@
 [
     {
+        "Title": "DuQuantum 2026",
+        "Color": "#7C4DDB",
+        "Date": "October 24-25, 2026",
+        "iso": "2026-10-25T00:00:00.000Z",
+        "Location": "Duke University",
+        "Picture": "/images/events/duquantum2026.jpg",
+        "Text": [
+            "HackDuke hosted DuQuantum, a quantum computing hackathon, on October 24-25, 2026 at Duke University.",
+            "200+ hackers from 30+ universities built 61 submissions."
+        ],
+        "Link": "https://duquantum.org/",
+        "LinkTitle": "Website"
+    },
+    {
+        "Title": "Code for Good 2026",
+        "Color": "#35C69B",
+        "Date": "March 21-22, 2026",
+        "iso": "2026-03-22T00:00:00.000Z",
+        "Location": "Duke University",
+        "Picture": "/images/events/cfg2026.jpg",
+        "Text": [
+            "HackDuke hosted the annual Code for Good, the nation’s premier hackathon for social good, on March 21-22, 2026 at Duke University.",
+            "300+ hackers from 50+ universities built 54 submissions."
+        ],
+        "Link": "https://2026.hackduke.org/",
+        "LinkTitle": "Website"
+    },
+    {
         "Title": "Code for Good 2025",
         "Color": "#35C69B",
         "Date": "February 8-9, 2025",
